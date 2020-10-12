@@ -7,7 +7,7 @@ screenshot: /assets/img/projects/code/code.jpg
 
 ---
 
-## 分类题目 Try my best| 
+## 分类题目 Try my best lalalla
 ### 字符串
 - 基础
   - [28-Implement strStr](/collection/leetcodes/28_ImplementstrStr/) 
