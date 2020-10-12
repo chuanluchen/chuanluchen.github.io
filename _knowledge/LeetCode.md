@@ -29,6 +29,7 @@ screenshot: /assets/img/projects/code/code.jpg
   - [13-Roman To Integer](/collection/leetcodes/13_RomanToInteger/) 
   - [38-Count And Say](/collection/leetcodes/38_CountAndSay/) 
   - [151-Reverse Words in a String](/collection/leetcodes/151_ReverseWordsinaString/) 
+  - [157-Read N Characters Given Read4 I](/collection/leetcodes/157_ReadNCharactersGivenRead4I/) 
   - [179-Largest Number](/collection/leetcodes/179_LargestNumber/) 
   - [186-Reverse Words In A String II](/collection/leetcodes/186_ReverseWordsInAStringII/) 
   
@@ -53,6 +54,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [76-Minimum Window Substring](/collection/leetcodes/76_MinimumWindowSubstring/)  | Hard | 字符串 + substring  + sliding window |
 | [125-Valid Palindrome](/collection/leetcodes/125_ValidPalindrome/)  | Easy | 字符串 + Palindrome|
 | [151-Reverse Words in a String](/collection/leetcodes/151_ReverseWordsinaString/) | Easy | 字符串 + 实现题 |
+| [157-Read N Characters Given Read4 I](/collection/leetcodes/157_ReadNCharactersGivenRead4I/)  | Easy | 字符串 + 实现题 + 空间思路|
 | [159-Longest Substring With At Most Two Distinct Characters](/collection/leetcodes/159_LongestSubstringWithAtMostTwoDistinctCharacters/) | Medium | 字符串 + substring + sliding window |
 | [179-Largest Number](/collection/leetcodes/179_LargestNumber/) | Medium | 字符串 + 实现题 + 自定义排序 |
 | [187-Repeated DNA Sequences](/collection/leetcodes/187-RepeatedDNASequences/) | Medium | 字符串 + substring + hashset |
