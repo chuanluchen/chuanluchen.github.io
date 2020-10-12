@@ -25,6 +25,7 @@ screenshot: /assets/img/projects/code/code.jpg
   - [242-Valid Anagram](/collection/leetcodes/242_ValidAnagram/) 
 - 实现题
   - [6-ZigZag Conversion](/collection/leetcodes/6_ZigZag_Conversion/) 
+  - [12-Integer To Roman](/collection/leetcodes/12_IntegerToRoman/) 
   - [13-Roman To Integer](/collection/leetcodes/13_RomanToInteger/) 
   - [38-Count And Say](/collection/leetcodes/38_CountAndSay/) 
   - [151-Reverse Words in a String](/collection/leetcodes/151_ReverseWordsinaString/) 
@@ -43,6 +44,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [5-Longest Palindromic Substring](/collection/leetcodes/5_LongestPalindromicSubstring/) | Medium | 字符串 + Palindrome + 中心扩散法 |
 | [6-ZigZag Conversion](/collection/leetcodes/6_ZigZag_Conversion/)  | Medium | 字符串 + 实现题 + 暴力找规律 |
 | [9-Palindrome Number](/collection/leetcodes/9_PalindromeNumber/) | Easy | 字符串 + Palindrome + 数位反转 |
+| [12-Integer To Roman](/collection/leetcodes/12_IntegerToRoman/)  | Medium | 字符串 + 实现题 + 预先定义 |
 | [13-Roman To Integer](/collection/leetcodes/13_RomanToInteger/)  | Easy | 字符串 + 实现题 + 预先定义 + 找定义 |
 | [22-Generate Parentheses](/collection/leetcodes/22_GenerateParentheses/) | Medium | 回溯法 + 剪枝 |
 | [28-Implement strStr](/collection/leetcodes/28_ImplementstrStr/)  | Easy | 字符串 |
