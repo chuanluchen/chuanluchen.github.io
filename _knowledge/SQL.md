@@ -5,6 +5,7 @@ date: 01 June 2020
 screenshot: /assets/img/projects/code/SQL.jpg
 ---
 
+## 目录
 - [Easy](#Easy)
 - [Medium](#Medium)
 
@@ -630,4 +631,73 @@ order by seller_name
 ~~~
 
 ## Medium
+### 177. Nth Highest Salary
+**传入的参数要更改必须要事先SET...;**
+**limit xx, offset xx**
+~~~sql
+CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
+BEGIN
+    SET N=N-1;
+  RETURN (
+      # Write your MySQL query statement below.
+      select distinct Salary
+      from Employee
+      order by Salary desc
+      limit 1 offset N
+  );
+END
+~~~
+
+### 178. Rank Scores
+**一个分数的名次：就是表中>=这个分数的数量**
+**对自己的表：找>=当前分数的分数，count之**
+~~~sql
+select s.Score,
+    (select count(distinct t.Score) 
+     from Scores t 
+     where s.Score <= t.Score
+    ) as `Rank`
+from Scores as s
+order by s.Score desc
+~~~
+
+### 180. Consecutive Numbers
+**自连接3遍：找数字一致，id连续的**
+~~~sql
+select distinct a.Num as ConsecutiveNums
+from Logs a 
+join Logs b on (a.Num = b.Num and a.Id = b.Id - 1)
+join Logs c on (b.Num = c.Num and b.Id = c.Id - 1)
+~~~
+
+### 184. Department Highest Salary
+**自连接：先找本人所在部门最高的工资，再筛选工资=部门最高工资的人**
+~~~sql
+select d.Name as Department, e.Name as Employee, e.Salary
+from Department d join Employee e on d.Id = e.DepartmentId
+where e.Salary = (
+    select Max(salary) from Employee e2 where e2.DepartmentId = e.DepartmentId
+)
+~~~
+
+### 534. Game Play Analysis III
+~~~sql
+select a.player_id, a.event_date, sum(b.games_played) as games_played_so_far
+from Activity a join Activity b
+on a.player_id = b.player_id and b.event_date <= a.event_date
+GROUP By a.player_id, a.event_date
+~~~
+
+### 550. Game Play Analysis IV
+**自连接：找同一个人的后一天【注意left join方便查人数】**
+**where确保a是第一天**
+~~~sql
+select round(count(b.event_date)/count(a.player_id),2) as fraction 
+from Activity a left join Activity b
+on a.player_id = b.player_id and DATEDIFF(b.event_date, a.event_date) = 1
+where (a.player_id, a.event_date) in ( # 保证a是first date
+     select player_id, min(event_date) 
+     from Activity 
+     group by player_id
+ )
 ~~~
