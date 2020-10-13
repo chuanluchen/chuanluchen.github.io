@@ -5,7 +5,7 @@ date: 01 June 2020
 screenshot: /assets/img/projects/code/SQL.jpg
 ---
 
-{:toc}
+[TOC]
 
 
 ## Easy
