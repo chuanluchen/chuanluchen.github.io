@@ -43,7 +43,7 @@ screenshot: /assets/img/projects/code/code.jpg
 ### 回溯法
 - 全排列
   - [46_Permutations](/collection/leetcodes/46_Permutations/)
-  
+  - [47_PermutationsII](/collection/leetcodes/47_PermutationsII/)
 - [22-Generate Parentheses](/collection/leetcodes/22_GenerateParentheses/)
 <br><br>
 
@@ -62,6 +62,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [28-Implement strStr](/collection/leetcodes/28_ImplementstrStr/)  | Easy | 字符串 |
 | [38-Count And Say](/collection/leetcodes/38_CountAndSay/)  | Easy | 字符串 + 实现题 + 递归|
 | [46_Permutations](/collection/leetcodes/46_Permutations/)  | Medium | 回溯法 + 全排列|
+| [47_PermutationsII](/collection/leetcodes/47_PermutationsII/)  | Medium | 回溯法 + 全排列 + 有重复元素used|
 | [49-Group Anagrams](/collection/leetcodes/49_GroupAnagrams/)  | Medium | 字符串 + anagram  + HashMap |
 | [56-Merge Intervals](/collection/leetcodes/56_MergeIntervals/)   | Medium | 全排序 + 扫描线思想 |
 | [57-Insert Interval](/collection/leetcodes/57_InsertInterval/)    | Medium | 全排序 + 扫描线思想 |
