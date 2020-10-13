@@ -34,9 +34,10 @@ screenshot: /assets/img/projects/code/code.jpg
   - [179-Largest Number](/collection/leetcodes/179_LargestNumber/) 
   - [186-Reverse Words In A String II](/collection/leetcodes/186_ReverseWordsInAStringII/) 
   
-### Priority Queue排序
-- 排序
-  - [56-Merge Intervals](/collection/leetcodes/56_MergeIntervals/) 
+### 全排序
+- [56-Merge Intervals](/collection/leetcodes/56_MergeIntervals/) 
+- [57-Insert Interval](/collection/leetcodes/57_InsertInterval/) 
+
   
 
 ### 回溯法
@@ -58,7 +59,8 @@ screenshot: /assets/img/projects/code/code.jpg
 | [28-Implement strStr](/collection/leetcodes/28_ImplementstrStr/)  | Easy | 字符串 |
 | [38-Count And Say](/collection/leetcodes/38_CountAndSay/)  | Easy | 字符串 + 实现题 + 递归|
 | [49-Group Anagrams](/collection/leetcodes/49_GroupAnagrams/)  | Medium | 字符串 + anagram  + HashMap |
-| [56-Merge Intervals](/collection/leetcodes/56_MergeIntervals/)   | Medium | priority Queue排序 + 扫描线思想 |
+| [56-Merge Intervals](/collection/leetcodes/56_MergeIntervals/)   | Medium | 全排序 + 扫描线思想 |
+| [57-Insert Interval](/collection/leetcodes/57_InsertInterval/)    | Medium | 全排序 + 扫描线思想 |
 | [49-Group Anagrams](/collection/leetcodes/49_GroupAnagrams/)  | Medium | 字符串 + anagram  + HashMap |
 | [76-Minimum Window Substring](/collection/leetcodes/76_MinimumWindowSubstring/)  | Hard | 字符串 + substring  + sliding window |
 | [125-Valid Palindrome](/collection/leetcodes/125_ValidPalindrome/)  | Easy | 字符串 + Palindrome|
