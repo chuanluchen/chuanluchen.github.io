@@ -3,10 +3,11 @@ layout: project
 title: '数据库与MySQL'
 date: 01 June 2020
 screenshot: /assets/img/projects/code/SQL.jpg
+---
 
 {:toc}
 
----
+
 ## Easy
 ### 175 Combine Two Tables 
 **LEFT JOIN**
