@@ -4,6 +4,7 @@ title: '数据库与MySQL'
 date: 01 June 2020
 screenshot: /assets/img/projects/code/SQL.jpg
 
+{:toc}
 
 ---
 ## Easy
@@ -517,20 +518,6 @@ where Year(t.program_date) = 2020 and month(t.program_date) = 6
 and c.Kids_content = 'Y' and c.content_type = 'Movies'
 ~~~
 
-
-### 1607. Sellers With No Sales
-**子查询找到2020年卖过货的，再用not in筛选**
-~~~sql
-select seller_name
-from Seller 
-where seller_name not in
-(select seller_name 
- from Seller s join Orders o on s.seller_id = o.seller_id
- where Year(o.sale_date)  = 2020
-)
-order by seller_name
-~~~
-
 ### 1511. Customer Order Frequency
 **多个having条件，用if构成**
 ~~~sql
@@ -545,4 +532,100 @@ having
     and
     sum(if(month(o.order_date) = 7, o.quantity*p.price, 0)) >= 100
 )
+~~~
+
+
+### 1517. Find Users With Valid E-Mails
+**正则表达式**
+~~~sql
+select * from Users
+where mail regexp '^[a-zA-Z]+[a-zA-Z0-9\\_\\.\\-]*@leetcode\\.com$'
+~~~
+**解释**
+- ^ 以什么开头
+- [] 可选集合
+- + 匹配一次或多次
+- * 匹配0次或多次
+- \\ 转义
+- a{m,n} 匹配前面
+- $ 结尾
+
+
+### 1527. Patients With a Condition
+**%字符串模糊匹配**
+~~~sql
+select * from Patients
+where conditions like '%DIAB1%'
+~~~
+
+### 1543. Fix Product Name Format
+**字符串处理:trim(), lower()**
+**日期处理:DATE_FORMAT(xx, '%Y-%m')  Y4位年代，m数字月份，M英文月份**
+~~~sql
+select product_name, sale_date, count(*) as total
+from
+(select lower(trim(product_name)) as product_name, DATE_FORMAT(sale_date, "%Y-%m") as
+ sale_date
+from Sales) t
+group by product_name, sale_date
+order by product_name, sale_date
+~~~
+
+
+### 1543. Fix Product Name Format
+**日期处理:DATE_FORMAT(xx, '%Y-%m')  Y4位年代，m数字月份，M英文月份**
+~~~sql
+select month, count(distinct order_id) as order_count, count(distinct customer_id) as customer_count 
+from
+(select DATE_FORMAT(order_date, '%Y-%m') as month, order_id, customer_id
+ from Orders
+ where invoice > 20) t
+group by month
+~~~
+
+### 1571. Warehouse Manager
+~~~sql
+select w.name as warehouse_name, sum(p.Width * p.Length * p.Height * w.units)  as volume
+from Warehouse w join Products p on w.product_id = p.product_id
+group by w.name
+~~~
+
+### 1571. Warehouse Manager
+**先找交易过的id,再用not in排除**
+~~~sql
+select customer_id, count(visit_id) as count_no_trans
+from Visits
+where visit_id not in (
+    select distinct visit_id 
+    from Transactions
+    where amount > 0
+)
+group by customer_id
+~~~
+
+### 1587. Bank Account Summary II
+~~~sql
+select name, balance
+from 
+(select u.name as name, sum(t.amount) as balance
+ from Users u join Transactions t on u.account = t.account
+ group by u.account) t
+where balance > 10000
+~~~
+
+
+### 1607. Sellers With No Sales
+**子查询找到2020年卖过货的，再用not in筛选**
+~~~sql
+select seller_name
+from Seller 
+where seller_name not in
+(select seller_name 
+ from Seller s join Orders o on s.seller_id = o.seller_id
+ where Year(o.sale_date)  = 2020
+)
+order by seller_name
+~~~
+
+## Medium
 ~~~
