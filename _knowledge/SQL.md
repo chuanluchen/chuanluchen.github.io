@@ -5,7 +5,8 @@ date: 01 June 2020
 screenshot: /assets/img/projects/code/SQL.jpg
 ---
 
-[TOC]
+- [Easy](#Easy)
+- [Medium](#Medium)
 
 
 ## Easy
