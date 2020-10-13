@@ -19,7 +19,7 @@ date: 01 July 2020
 
 
 ## 思路
-- 扫描思想
+- 扫描线思想
 - 先把intervals按照interval.start从小到大的顺序排好序，
 - start, end 作为当前的左端点和右端点，
 - 每扫描到一个新元素item，如果item.s比end小，interval可以合并 ->新的合并区间的右端点应该为item.end和end的最大值，
