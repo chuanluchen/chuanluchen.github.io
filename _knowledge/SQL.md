@@ -700,3 +700,69 @@ where (a.player_id, a.event_date) in ( # 保证a是first date
      group by player_id
  )
 ~~~
+
+### 570. Managers with at Least 5 Direct Reports
+**两组关联：非目标组做子查询，目标组用where...in 筛选**
+~~~sql
+select Name 
+from Employee 
+where Id in (
+    select ManagerId from Employee
+    group by ManagerId
+    having count(Id) >= 5
+)
+~~~
+
+### 574. Winning Candidate
+**两组关联：非目标组做子查询，目标组用where...筛选**
+~~~sql
+select Name 
+from Candidate 
+where id = (
+    select CandidateId
+    from Vote
+    group by CandidateId
+    order by count(id) desc
+    limit 1
+)
+~~~
+
+### 578. Get Highest Answer Rate Question
+**组内找最大：直接order by... limit**
+**用sum(if(condition, 1, 0))做标记**
+~~~sql
+select question_id as survey_log
+from survey_log
+group by question_id
+order by sum(if(action = 'answer', 1, 0)) / sum(if(action = 'show', 1, 0)) desc
+limit 1
+~~~
+
+
+### 580. Count Student Number in Departments
+**保留null 用left join**
+**null参与计数用ifnull(xxx, 0)**
+~~~sql
+select d.dept_name, ifnull(count(s.student_id), 0) as student_number
+from department d left join student s
+on d.dept_id = s.dept_id
+group by d.dept_name
+order by student_number desc, d.dept_name
+~~~
+
+### 585. Investments in 2016
+**组内找相同特征/不同特征：where + 自连接 a.特征 = b.特征**
+**分别用in和not in**
+~~~sql
+select sum(TIV_2016) as TIV_2016
+from insurance
+where PID in 
+( select a.PID from insurance a, insurance b
+ where a.PID <> b. PID and a.TIV_2015 = b.TIV_2015
+)
+and PID not in
+( select a.PID from insurance a, insurance b
+  where a.PID <> b. PID
+  and a.LAT = b.LAT and a.LON = b.LON
+)
+~~~
