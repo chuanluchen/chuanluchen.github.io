@@ -2,7 +2,12 @@
 layout: project
 title: '90-Subsets II'
 date: 01 July 2020
-
+kramdown:
+    math_engine: mathjax 
+    math_engine_opts:
+        preview:true
+        preview_as_code:true 
+       
 ---
 ## 题意: 
 **找比当前组合大的那个最小的组合**
