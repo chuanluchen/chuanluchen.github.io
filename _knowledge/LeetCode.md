@@ -41,11 +41,14 @@ screenshot: /assets/img/projects/code/code.jpg
   
 
 ### 回溯法
-- 全排列
+- 排列
   - [46-Permutations](/collection/leetcodes/46_Permutations/)
   - [47-PermutationsII](/collection/leetcodes/47_PermutationsII/)
 - 子集
   - [78-Subsets](/collection/leetcodes/78_Subsets/)
+- 组合
+  - [77-Combinations](/collection/leetcodes/77_Combinations/)
+  
   
 - [22-Generate Parentheses](/collection/leetcodes/22_GenerateParentheses/)
 <br><br>
@@ -71,6 +74,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [57-Insert Interval](/collection/leetcodes/57_InsertInterval/)    | Medium | 全排序 + 扫描线思想 |
 | [49-Group Anagrams](/collection/leetcodes/49_GroupAnagrams/)  | Medium | 字符串 + anagram  + HashMap |
 | [76-Minimum Window Substring](/collection/leetcodes/76_MinimumWindowSubstring/)  | Hard | 字符串 + substring  + sliding window |
+| [77-Combinations](/collection/leetcodes/77_Combinations/) | Medium | 回溯法 + 组合  + index控制 + k|
 | [78-Subsets](/collection/leetcodes/78_Subsets/) | Medium | 回溯法 + 子集  + index控制 |
 | [125-Valid Palindrome](/collection/leetcodes/125_ValidPalindrome/)  | Easy | 字符串 + Palindrome|
 | [151-Reverse Words in a String](/collection/leetcodes/151_ReverseWordsinaString/) | Easy | 字符串 + 实现题 |
