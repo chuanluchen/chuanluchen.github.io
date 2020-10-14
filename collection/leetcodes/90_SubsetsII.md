@@ -59,5 +59,5 @@ class Solution(object):
 ~~~
 
 ## 分析
-- Time: O（$2^n$）
+- Time: O（$$ 2^n $$）
 - Space：O(n)
