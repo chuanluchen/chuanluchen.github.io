@@ -889,3 +889,92 @@ from
 where DATEDIFF('2019-06-30', login_date) <=90
 group by login_date
 ~~~
+
+### 1112. Highest Grade For Each Student
+**子查询找到每个人的最高分**
+**再用(id, grade)联合做筛选**
+~~~sql
+select student_id, min(course_id) as course_id, grade
+from Enrollments
+where (student_id, grade) in
+(select student_id, max(grade)
+ from Enrollments
+ group by student_id
+)
+group by student_id
+order by student_id
+~~~
+
+### 1126. Active Businesses
+**复杂聚合问题：将聚合指标作为一个表与主表join -> 相当于多出一列**
+~~~sql
+select e.business_id 
+from Events e join 
+    (select event_type, avg(occurences) as avg_occ
+     from Events
+     group by event_type
+    ) t
+    on e.event_type = t.event_type and e.occurences > t.avg_occ
+group by e.business_id
+having count(*)>1
+~~~
+
+### 1132. Reported Posts II
+**复杂聚合问题：from + 单独算每一天的proprorion作为一个表**
+**主表对proportion求平均**
+~~~sql
+select round(avg(proportion) * 100, 2) as average_daily_percent
+from
+    (select a.action_date, count(distinct r.post_id)/ count(distinct a.post_id) as proportion
+    from Actions a left join Removals r
+    on a.post_id = r.post_id
+    where a.extra = 'spam'
+    group by a.action_date
+     ) t
+~~~
+
+### 1149. Article Views II
+**注意article，viewer取distinct**
+~~~sql
+select distinct viewer_id as id
+from Views
+group by viewer_id, view_date
+having count(distinct article_id) > 1
+~~~
+
+### 1158. Market Analysis I
+**保留null值，left join**
+~~~sql
+select u.user_id as buyer_id, u.join_date as join_date, ifnull(count(o.order_id),0)  as orders_in_2019
+from Users u left join Orders o # 保留Null值
+on u.user_id = o.buyer_id and year(o.order_date) = '2019' # 双重join条件
+group by u.user_id
+~~~
+
+### 1164. Product Price at a Given Date
+**两种情况union起来**
+ - 2019-08-16之前改过价格，使用最大日期的价格
+ - 2019-08-16之前没有改过价格，价格为10
+~~~sql
+select product_id, price 
+from (
+    select product_id,new_price as price
+    from Products
+    where (product_id, change_date) in (
+        select product_id, max(change_date)
+        from Products
+        where change_date <= date('2019-08-16')
+        group by product_id
+        ) 
+ 
+    union
+    select product_id, 10 as price
+     from Products 
+     where product_id not in (
+         select product_id 
+         from Products
+         where change_date <= date('2019-08-16')
+     )
+ ) t
+order by price desc
+~~~
