@@ -46,7 +46,7 @@ kramdown:
 ## 思路
 - 回溯法
 - 结果需要满足sum条件：用target
-- 结果中不能有重复子集：用index控制，但可以有重复元素，index不增加
+- 结果中不能有重复组合：用index控制，但可以有重复元素，index不增加
 
 ~~~python
 class Solution(object):
