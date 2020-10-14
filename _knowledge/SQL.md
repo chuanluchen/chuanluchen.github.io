@@ -766,3 +766,127 @@ and PID not in
   and a.LAT = b.LAT and a.LON = b.LON
 )
 ~~~
+
+### 602. Friend Requests II: Who Has the Most Friends
+**需要union两组数据：他申请的朋友 + 接受他的朋友**
+**注意使用Union all: 允许重复数据**
+~~~sql
+select id, count(*) as num
+from 
+( select requester_id as id from request_accepted
+ UNION ALL
+ select accepter_id  as id from request_accepted
+) t
+group by id
+order by num desc
+limit 1
+~~~
+
+### 608. Tree Node
+**定义组别，case when**
+~~~sql
+select id, 
+case 
+    when p_id is null then 'Root'
+    when id in (select distinct p_id from tree) then 'Inner'
+    else 'Leaf'
+    end
+    as Type
+from tree
+order by id
+~~~
+
+### 612. Shortest Distance in a Plane
+**所有可能性：找所有点之间距离 cross join**
+**排除同一点**
+**sqrt((x1-x2)^2 + (y1-y2)^2)**
+~~~sql
+select round( sqrt(min(pow(a.x-b.x,2) + pow(
+a.y - b.y,2))), 2) as shortest
+from point_2d a cross join point_2d b
+where a.x != b.x or a.y != b.y
+~~~
+
+### 614. Second Degree Follower
+**两组join,注意列名比较疑惑**
+**必须用distinct**
+~~~sql
+select a.followee as follower, count(distinct a.follower) as num
+from follow a join follow b
+on a.followee = b.follower
+group by a.followee
+order by a.followee
+~~~
+
+### 626. Exchange Seats
+**直接改id:偶数-1，奇数加1 -> if**
+**奇数且最后一行：不动 -> 需要计算总数**
+~~~sql
+select if(a.id % 2=1 and a.id = total, a.id, if(a.id%2 =1, a.id + 1, a.id - 1)) as id, 
+          student
+from seat a, (select count(*) as total from seat) b
+order by id
+~~~
+
+
+### 1045. Customers Who Bought All Products
+**group by之后，保证产品数量相等**
+~~~sql
+select customer_id
+from Customer
+group by customer_id
+having count(distinct product_key) = (select count(distinct product_key) from Product)
+~~~
+
+
+### 1070. Product Sales Analysis III
+**把product_id, year联合起来找符合条件的**
+~~~sql
+select product_id, year as first_year, quantity, price
+from Sales
+where (product_id, year) in 
+    (select product_id, min(year)
+    from Sales 
+    group by product_id
+    )
+~~~
+
+### 1077. Project Employees III
+**project_id, experience_years联合起来找符合条件的**
+~~~sql
+select p.project_id, p.employee_id
+from Project p join Employee e 
+on p.employee_id = e.employee_id
+where (p.project_id,e.experience_years) in
+    (select p.project_id, max(e.experience_years)
+    from Project p join Employee e 
+    on p.employee_id = e.employee_id 
+    group by project_id
+    )
+~~~
+
+### 1098. Unpopular Books
+**注意left join，没有销量的书也算**
+**基于（多个条件）join**
+~~~sql
+SELECT b.book_id, b.name 
+from books b left JOIN orders o 
+ON (b.book_id = o.book_id AND o.dispatch_date BETWEEN DATE('2018-06-23') AND DATE('2019-06-23'))
+WHERE b.available_from <= DATE('2019-05-23')
+GROUP BY b.book_id
+HAVING ifnull(sum(o.quantity),0) < 10
+~~~
+
+### 1107. New Users Daily Count
+**子查询先找到符合条件的user_id, login_date，再做筛选**
+~~~sql
+select login_date, count(user_id) as user_count 
+from 
+    (select user_id, min(activity_date) as login_date
+     from Traffic
+     where activity = 'login'
+     group by user_id
+    ) t
+where DATEDIFF('2019-06-30', login_date) <=90
+group by login_date
+~~~
