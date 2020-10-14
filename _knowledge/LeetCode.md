@@ -50,6 +50,7 @@ screenshot: /assets/img/projects/code/code.jpg
   - [90-Subsets II](/collection/leetcodes/90_SubsetsII/)
 - 组合
   - [77-Combinations](/collection/leetcodes/77_Combinations/) 
+  - [39-CombinationSum](/collection/leetcodes/39_CombinationSum/) 
 - 实现题
   - [17-LetterCombinationsOfAPhoneNumber](/collection/leetcodes/17_LetterCombinationsOfAPhoneNumber/)
   
@@ -72,6 +73,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [28-Implement strStr](/collection/leetcodes/28_ImplementstrStr/)  | Easy | 字符串 |
 | [31-NextPermutation](/collection/leetcodes/31_NextPermutation/) | Medium | 排序排列 + 找重点位置|
 | [38-Count And Say](/collection/leetcodes/38_CountAndSay/)  | Easy | 字符串 + 实现题 + 递归|
+| [39-CombinationSum](/collection/leetcodes/39_CombinationSum/)  | Medium | 回溯法 + 组合 + index + sum|
 | [46_Permutations](/collection/leetcodes/46_Permutations/)  | Medium | 回溯法 + 全排列|
 | [47_PermutationsII](/collection/leetcodes/47_PermutationsII/)  | Medium | 回溯法 + 全排列 + 有重复元素used|
 | [49-Group Anagrams](/collection/leetcodes/49_GroupAnagrams/)  | Medium | 字符串 + anagram  + HashMap |
