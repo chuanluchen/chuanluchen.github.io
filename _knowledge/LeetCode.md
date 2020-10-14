@@ -74,8 +74,8 @@ screenshot: /assets/img/projects/code/code.jpg
 | [31-NextPermutation](/collection/leetcodes/31_NextPermutation/) | Medium | 排序排列 + 找重点位置|
 | [38-Count And Say](/collection/leetcodes/38_CountAndSay/)  | Easy | 字符串 + 实现题 + 递归|
 | [39-CombinationSum](/collection/leetcodes/39_CombinationSum/)  | Medium | 回溯法 + 组合 + index + sum|
-| [46_Permutations](/collection/leetcodes/46_Permutations/)  | Medium | 回溯法 + 全排列|
-| [47_PermutationsII](/collection/leetcodes/47_PermutationsII/)  | Medium | 回溯法 + 全排列 + 有重复元素used|
+| [46-Permutations](/collection/leetcodes/46_Permutations/)  | Medium | 回溯法 + 全排列|
+| [47-PermutationsII](/collection/leetcodes/47_PermutationsII/)  | Medium | 回溯法 + 全排列 + 有重复元素used|
 | [49-Group Anagrams](/collection/leetcodes/49_GroupAnagrams/)  | Medium | 字符串 + anagram  + HashMap |
 | [56-Merge Intervals](/collection/leetcodes/56_MergeIntervals/)   | Medium | 排序排列 + 扫描线思想 |
 | [57-Insert Interval](/collection/leetcodes/57_InsertInterval/)    | Medium | 排序排列 + 扫描线思想 |
