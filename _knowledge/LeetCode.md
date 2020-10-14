@@ -34,9 +34,10 @@ screenshot: /assets/img/projects/code/code.jpg
   - [179-Largest Number](/collection/leetcodes/179_LargestNumber/) 
   - [186-Reverse Words In A String II](/collection/leetcodes/186_ReverseWordsInAStringII/) 
   
-### 全排序
+### 排序排列
 - [56-Merge Intervals](/collection/leetcodes/56_MergeIntervals/) 
 - [57-Insert Interval](/collection/leetcodes/57_InsertInterval/) 
+- [31-NextPermutation](/collection/leetcodes/31_NextPermutation/) 
 
   
 
@@ -68,12 +69,13 @@ screenshot: /assets/img/projects/code/code.jpg
 | [17-LetterCombinationsOfAPhoneNumber](/collection/leetcodes/17_LetterCombinationsOfAPhoneNumber/) | Medium | 回溯法 + 实现题 + index |
 | [22-Generate Parentheses](/collection/leetcodes/22_GenerateParentheses/) | Medium | 回溯法 + 剪枝 |
 | [28-Implement strStr](/collection/leetcodes/28_ImplementstrStr/)  | Easy | 字符串 |
+| [31-NextPermutation](/collection/leetcodes/31_NextPermutation/) | Medium | 排序排列 + 找重点位置|
 | [38-Count And Say](/collection/leetcodes/38_CountAndSay/)  | Easy | 字符串 + 实现题 + 递归|
 | [46_Permutations](/collection/leetcodes/46_Permutations/)  | Medium | 回溯法 + 全排列|
 | [47_PermutationsII](/collection/leetcodes/47_PermutationsII/)  | Medium | 回溯法 + 全排列 + 有重复元素used|
 | [49-Group Anagrams](/collection/leetcodes/49_GroupAnagrams/)  | Medium | 字符串 + anagram  + HashMap |
-| [56-Merge Intervals](/collection/leetcodes/56_MergeIntervals/)   | Medium | 全排序 + 扫描线思想 |
-| [57-Insert Interval](/collection/leetcodes/57_InsertInterval/)    | Medium | 全排序 + 扫描线思想 |
+| [56-Merge Intervals](/collection/leetcodes/56_MergeIntervals/)   | Medium | 排序排列 + 扫描线思想 |
+| [57-Insert Interval](/collection/leetcodes/57_InsertInterval/)    | Medium | 排序排列 + 扫描线思想 |
 | [49-Group Anagrams](/collection/leetcodes/49_GroupAnagrams/)  | Medium | 字符串 + anagram  + HashMap |
 | [76-Minimum Window Substring](/collection/leetcodes/76_MinimumWindowSubstring/)  | Hard | 字符串 + substring  + sliding window |
 | [77-Combinations](/collection/leetcodes/77_Combinations/) | Medium | 回溯法 + 组合  + index控制 + k|
