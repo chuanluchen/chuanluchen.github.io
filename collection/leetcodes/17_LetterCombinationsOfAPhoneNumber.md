@@ -26,6 +26,7 @@ date: 01 July 2020
 ## 思路
 - 回溯法: 不能有重复元素，加index
 - 预先定义数字和字符串的mapping
+- 注意模板写法temp改字符串
 
 ~~~python
 class Solution(object):
