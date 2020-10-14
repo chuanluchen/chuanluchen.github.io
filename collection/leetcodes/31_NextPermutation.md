@@ -1,5 +1,5 @@
 ---
-layout: project'
+layout: project
 title: '31-Next Permutation'
 date: 01 July 2020
 
