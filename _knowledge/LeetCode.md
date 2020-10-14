@@ -47,8 +47,9 @@ screenshot: /assets/img/projects/code/code.jpg
   - [47-PermutationsII](/collection/leetcodes/47_PermutationsII/)
 - 子集
   - [78-Subsets](/collection/leetcodes/78_Subsets/)
+  - [90-Subsets II](/collection/leetcodes/90_SubsetsII/)
 - 组合
-  - [77-Combinations](/collection/leetcodes/77_Combinations/)
+  - [77-Combinations](/collection/leetcodes/77_Combinations/) 
 - 实现题
   - [17-LetterCombinationsOfAPhoneNumber](/collection/leetcodes/17_LetterCombinationsOfAPhoneNumber/)
   
@@ -80,6 +81,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [76-Minimum Window Substring](/collection/leetcodes/76_MinimumWindowSubstring/)  | Hard | 字符串 + substring  + sliding window |
 | [77-Combinations](/collection/leetcodes/77_Combinations/) | Medium | 回溯法 + 组合  + index控制 + k|
 | [78-Subsets](/collection/leetcodes/78_Subsets/) | Medium | 回溯法 + 子集  + index控制 |
+| [90-Subsets II](/collection/leetcodes/90_SubsetsII/) | Medium | 回溯法 + 子集  + index控制 + used |
 | [125-Valid Palindrome](/collection/leetcodes/125_ValidPalindrome/)  | Easy | 字符串 + Palindrome|
 | [151-Reverse Words in a String](/collection/leetcodes/151_ReverseWordsinaString/) | Easy | 字符串 + 实现题 |
 | [157-Read N Characters Given Read4 I](/collection/leetcodes/157_ReadNCharactersGivenRead4I/)  | Easy | 字符串 + 实现题 + 空间思路|
