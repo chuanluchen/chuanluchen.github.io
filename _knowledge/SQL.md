@@ -6,8 +6,8 @@ screenshot: /assets/img/projects/code/SQL.jpg
 ---
 
 ## 目录
-- [Easy](##Easy)
-- [Medium](##Medium)
+- [Easy](#Easy)
+- [Medium](#Medium)
 {:toc}
 
 ## Easy
