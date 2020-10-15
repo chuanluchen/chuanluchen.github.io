@@ -1,14 +1,14 @@
 ---
 layout: project
-title: '你的电影能赚多少钱？'
+title: '下一个赚钱的电影项目在哪里？'
 date: 12 Jul 2020
 image:  
   path: /assets/img/projects/movie_profitability/cinema2.jpg
 links:
-  - title: Movie Profitability Predictor APP
+  - title: 访问电影利润率预测网站
     url: https://movie-profitability-predictor.herokuapp.com/
 
-caption: 机器学习+网站部署：电影利润率预测模型
+caption: 机器学习+预测网站：电影利润率预测模型
 hide_image: false
 featured: true
 ---
@@ -31,7 +31,7 @@ featured: true
 - 最终呈现90%置信区间的利润率分布
 - 使用Plotly Dash绘制互动图表，并使用Dash + Dash Bootstrap Components在线部署APP
 
-欢迎试用本项目在线部署的APP: [Will The Movie Make Money?](https://movie-profitability-predictor.herokuapp.com/) [页面需要30秒加载]
+欢迎使用本项目的在线预测网站: [Will The Movie Make Money?](https://movie-profitability-predictor.herokuapp.com/) [页面需要30秒加载]
 
 APP使用截屏 
 <br><br>
