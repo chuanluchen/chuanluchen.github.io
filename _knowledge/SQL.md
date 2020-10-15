@@ -1030,3 +1030,69 @@ from
     join Chargebacks c on t.id = c.trans_id) temp
 group by date_format(trans_date, '%Y-%m'), country
 ~~~
+
+### 1212. Team Scores in Football Tournament
+**先找主场得分 Union ALL 客场得分， right join 队名**
+~~~sql
+select t.team_id as team_id, t.team_name, ifnull(sum(a.points),0) as num_points
+from 
+(select host_team as team, 
+sum(case
+    when host_goals > guest_goals then 3
+    when host_goals = guest_goals then 1
+    else 0 end) as points
+from Matches
+group by host_team
+union all
+select guest_team as team, 
+sum(case
+    when host_goals > guest_goals then 0
+    when host_goals = guest_goals then 1
+    else 3 end) as points
+from Matches
+group by guest_team ) a
+right join Teams t 
+on a.team = t.team_id
+group by t.team_id
+order by num_points desc, team_id
+~~~
+
+
+### 1264. Page Recommendations
+**某人的朋友-> 朋友喜欢的 -> not in自己喜欢的**
+~~~sql
+select distinct l.page_id as recommended_page
+from
+(select user2_id as friend from Friendship
+where user1_id = 1
+union
+select user1_id as friend from Friendship
+where user2_id = 1) a join Likes l
+on a.friend = l.user_id
+where l.page_id not in
+(select page_id from Likes
+ where user_id = 1
+)
+~~~
+
+### 1270. All People Report to the Given Manager
+**用left join找上一层经理**
+**第三层manage_id = 1**
+~~~sql
+select a.employee_id from Employees a
+left join Employees b on a.manager_id = b.employee_id
+left join Employees c on b.manager_id = c.employee_id
+where c.manager_id = 1 and a.employee_id != 1
+~~~
+
+### 1285. Find the Start and End Number of Continuous Ranges
+**一串连续数字，跟row number的差值是一致的**
+**用window function计算与row_number()的差值，作为依据分组，找min, max**
+~~~sql
+select min(log_id) as start_id, max(log_id) as end_id
+from 
+(select log_id, (log_id - row_number() over (order by log_id)) as diff
+ from Logs
+) t
+group by t.diff
+~~~
