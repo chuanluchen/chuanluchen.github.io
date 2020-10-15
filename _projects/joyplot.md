@@ -1,4 +1,3 @@
-
 ---
 layout: project
 title: 'Joy Division's style Ridgeline Plot'
