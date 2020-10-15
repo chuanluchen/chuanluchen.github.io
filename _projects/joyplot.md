@@ -4,7 +4,7 @@ title: 'Joy Division's Style Ridgeline Plot'
 date: 01 August 2020
 image:  
   path: /assets/img/projects/dataviz/joyplot_screenshot.jpg
-caption: 可视化：戏仿一下，just for fun!
+caption: 可视化：戏仿一下
 description: >
   模仿乐队Joy Division的著名专辑Unknown Pleasures的封面构图。
 hide_image: true
