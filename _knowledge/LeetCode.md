@@ -34,6 +34,7 @@ screenshot: /assets/img/projects/code/code.jpg
   - [179-Largest Number](/collection/leetcodes/179_LargestNumber/) 
   - [186-Reverse Words In A String II](/collection/leetcodes/186_ReverseWordsInAStringII/) 
   
+ 
 ### 排序排列
 - [56-Merge Intervals](/collection/leetcodes/56_MergeIntervals/) 
 - [57-Insert Interval](/collection/leetcodes/57_InsertInterval/) 
@@ -51,9 +52,10 @@ screenshot: /assets/img/projects/code/code.jpg
 - 组合
   - [77-Combinations](/collection/leetcodes/77_Combinations/) 
   - [39-CombinationSum](/collection/leetcodes/39_CombinationSum/) 
+  - [40-CombinationSumII](/collection/leetcodes/40_CombinationSumII/) 
 - 实现题
   - [17-LetterCombinationsOfAPhoneNumber](/collection/leetcodes/17_LetterCombinationsOfAPhoneNumber/)
-  
+  - [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) 
 - [22-Generate Parentheses](/collection/leetcodes/22_GenerateParentheses/)
 <br><br>
 
@@ -74,6 +76,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [31-NextPermutation](/collection/leetcodes/31_NextPermutation/) | Medium | 排序排列 + 找重点位置|
 | [38-Count And Say](/collection/leetcodes/38_CountAndSay/)  | Easy | 字符串 + 实现题 + 递归|
 | [39-CombinationSum](/collection/leetcodes/39_CombinationSum/)  | Medium | 回溯法 + 组合 + index + sum|
+| [40-CombinationSumII](/collection/leetcodes/40_CombinationSumII/)  | Medium | 回溯法 + 组合 + index + sum + 跳重复元素|
 | [46-Permutations](/collection/leetcodes/46_Permutations/)  | Medium | 回溯法 + 全排列|
 | [47-PermutationsII](/collection/leetcodes/47_PermutationsII/)  | Medium | 回溯法 + 全排列 + 有重复元素used|
 | [49-Group Anagrams](/collection/leetcodes/49_GroupAnagrams/)  | Medium | 字符串 + anagram  + HashMap |
@@ -84,6 +87,8 @@ screenshot: /assets/img/projects/code/code.jpg
 | [77-Combinations](/collection/leetcodes/77_Combinations/) | Medium | 回溯法 + 组合  + index控制 + k|
 | [78-Subsets](/collection/leetcodes/78_Subsets/) | Medium | 回溯法 + 子集  + index控制 |
 | [90-Subsets II](/collection/leetcodes/90_SubsetsII/) | Medium | 回溯法 + 子集  + index控制 + used |
+| [90-Subsets II](/collection/leetcodes/90_SubsetsII/) | Medium | 回溯法 + 子集  + index控制 + used |
+| [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) | Medium | 回溯法 + 实现  + index控制 + 内部数位控制 |
 | [125-Valid Palindrome](/collection/leetcodes/125_ValidPalindrome/)  | Easy | 字符串 + Palindrome|
 | [151-Reverse Words in a String](/collection/leetcodes/151_ReverseWordsinaString/) | Easy | 字符串 + 实现题 |
 | [157-Read N Characters Given Read4 I](/collection/leetcodes/157_ReadNCharactersGivenRead4I/)  | Easy | 字符串 + 实现题 + 空间思路|
