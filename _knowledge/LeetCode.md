@@ -56,6 +56,8 @@ screenshot: /assets/img/projects/code/code.jpg
 - 实现题
   - [17-LetterCombinationsOfAPhoneNumber](/collection/leetcodes/17_LetterCombinationsOfAPhoneNumber/)
   - [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) 
+  - [131-Palindrome Partitioning](/collection/leetcodes/131_PalindromePartitioning/) 
+  
 - [22-Generate Parentheses](/collection/leetcodes/22_GenerateParentheses/)
 <br><br>
 
@@ -90,6 +92,8 @@ screenshot: /assets/img/projects/code/code.jpg
 | [90-Subsets II](/collection/leetcodes/90_SubsetsII/) | Medium | 回溯法 + 子集  + index控制 + used |
 | [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) | Medium | 回溯法 + 实现  + index控制 + 内部数位控制 |
 | [125-Valid Palindrome](/collection/leetcodes/125_ValidPalindrome/)  | Easy | 字符串 + Palindrome|
+| [151-Reverse Words in a String](/collection/leetcodes/151_ReverseWordsinaString/) | Easy | 字符串 + 实现题 |
+| [131-Palindrome Partitioning](/collection/leetcodes/131_PalindromePartitioning/) | Medium | 回溯法 + 实现题  + 子集 + Palindrome判断|
 | [151-Reverse Words in a String](/collection/leetcodes/151_ReverseWordsinaString/) | Easy | 字符串 + 实现题 |
 | [157-Read N Characters Given Read4 I](/collection/leetcodes/157_ReadNCharactersGivenRead4I/)  | Easy | 字符串 + 实现题 + 空间思路|
 | [159-Longest Substring With At Most Two Distinct Characters](/collection/leetcodes/159_LongestSubstringWithAtMostTwoDistinctCharacters/) | Medium | 字符串 + substring + sliding window |
