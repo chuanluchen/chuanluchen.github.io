@@ -57,10 +57,11 @@ screenshot: /assets/img/projects/code/code.jpg
   - [40-CombinationSumII](/collection/leetcodes/40_CombinationSumII/) 
 - 实现题
   - [17-LetterCombinationsOfAPhoneNumber](/collection/leetcodes/17_LetterCombinationsOfAPhoneNumber/)
+  - [22-Generate Parentheses](/collection/leetcodes/22_GenerateParentheses/)
   - [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) 
   - [131-Palindrome Partitioning](/collection/leetcodes/131_PalindromePartitioning/) 
-  
-- [22-Generate Parentheses](/collection/leetcodes/22_GenerateParentheses/)
+
+
 <br><br>
 
 ## 顺序题目
