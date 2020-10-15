@@ -8,7 +8,7 @@ links:
   - title: Movie Profitability Predictor APP
     url: https://movie-profitability-predictor.herokuapp.com/
 
-caption: 机器学习：电影利润率预测模型
+caption: 机器学习+网站部署：电影利润率预测模型
 hide_image: false
 featured: true
 ---
