@@ -1096,3 +1096,64 @@ from
 ) t
 group by t.diff
 ~~~
+
+### 1308. Running Total for Different Genders
+**window function： sum() over (partition by xxx order by xxx) **
+~~~sql
+select gender, day, sum(score_points) over (partition by gender order by day) as total
+from Scores
+group by gender, day
+order by gender, day
+~~~
+
+### 1321. Restaurant Growth
+**先找每天收入**
+**window function前6天之和：sum(amount) over(order by visited_on rows 6 preceding)**
+**剔除不足6天的**
+~~~sql
+select * from
+(
+    select visited_on, 
+        sum(amount) over(order by visited_on rows 6 preceding) amount, # 当前+前6天总和
+        round(avg(amount) over(order by visited_on rows 6 preceding),2) average_amount
+    from
+    (   # 先计算每一天的amount
+        select visited_on, sum(amount) amount
+        from Customer
+        group by visited_on
+    ) t
+) temp 
+where DATEDIFF(visited_on,(select min(visited_on) from Customer)) >=6 # 去除前5天
+order by visited_on
+~~~
+
+### 1341. Movie Rating
+**分别找答案，Union all在一起**
+~~~sql
+(select u.name as results
+from Users u join Movie_Rating mr
+on u.user_id = mr.user_id
+group by mr.user_id
+order by count(mr.movie_id) desc, u.name
+limit 1)
+union all
+(select m.title as results
+from Movies m join Movie_Rating mr
+on m.movie_id = mr.movie_id
+where Year(mr.created_at) = 2020 and month(mr.created_at) = 2
+group by mr.movie_id
+order by avg(mr.rating) desc, m.title
+limit 1)
+~~~
+
+
+### 1355. Activity Participants
+**掐头去尾**
+~~~sql
+select a.name as activity
+from Activities a left join Friends f
+on a.name = f.activity
+group by f.activity
+having count(f.id) != (select count(id) from Friends group by activity order by count(id) desc limit 1)
+and count(f.id) != (select count(id) from Friends group by activity order by count(id)  limit 1)
+~~~
