@@ -12,6 +12,7 @@ screenshot: /assets/img/projects/code/code.jpg
 - 基础
   - [14-Longest Common Prefix](/collection/leetcodes/14_LongestCommonPrefix/) 
   - [28-Implement strStr](/collection/leetcodes/28_ImplementstrStr/) 
+  - [58-Length Of Last Word](/collection/leetcodes/58_LengthOfLastWord/) 
 - Palindrome
   - [125-Valid Palindrome](/collection/leetcodes/125_ValidPalindrome/) 
   - [9-Palindrome Number](/collection/leetcodes/9_PalindromeNumber/)
@@ -84,7 +85,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [49-Group Anagrams](/collection/leetcodes/49_GroupAnagrams/)  | Medium | 字符串 + anagram  + HashMap |
 | [56-Merge Intervals](/collection/leetcodes/56_MergeIntervals/)   | Medium | 排序排列 + 扫描线思想 |
 | [57-Insert Interval](/collection/leetcodes/57_InsertInterval/)    | Medium | 排序排列 + 扫描线思想 |
-| [49-Group Anagrams](/collection/leetcodes/49_GroupAnagrams/)  | Medium | 字符串 + anagram  + HashMap |
+| [58-Length Of Last Word](/collection/leetcodes/58_LengthOfLastWord/)  | Easy | 字符串 + 基本 |
 | [76-Minimum Window Substring](/collection/leetcodes/76_MinimumWindowSubstring/)  | Hard | 字符串 + substring  + sliding window |
 | [77-Combinations](/collection/leetcodes/77_Combinations/) | Medium | 回溯法 + 组合  + index控制 + k|
 | [78-Subsets](/collection/leetcodes/78_Subsets/) | Medium | 回溯法 + 子集  + index控制 |
