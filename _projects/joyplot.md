@@ -1,10 +1,10 @@
 ---
 layout: project
-title: '时时相伴的电影类型'
-date: 01 April 2020
+title: 'Joy Division Style Ridgeline Plot'
+date: 01 September 2020
 image:  
   path: /assets/img/projects/dataviz/joyplot_screenshot.jpg
-caption: 可视化：Chord图探索共同出现的电影类型
+caption: 可视化：戏仿一下
 description: >
   [数据来源](http://berkeleyearth.lbl.gov/auto/Global/Complete_TAVG_daily.txt)
 hide_image: true
