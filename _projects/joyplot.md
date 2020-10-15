@@ -1,10 +1,10 @@
 ---
 layout: project
-title: 'Joy Division's style Ridgeline Plot'
-date: 01 September 2020
+title: 'The US Will Become Grayer Than Ever'
+date: 01 February 2020
 screenshot: /assets/img/projects/dataviz/joyplot_screenshot.jpg
-caption: Just for fun!
+caption: 可视化：美国各年龄层人口结构对比
 description: >
-  构图模仿乐队Joy Division的著名专辑封面Unknown Pleasures。数据取自[世界每日气温](http://berkeleyearth.org/archive/data/)，纵轴为1880~2014年时间线，横轴为每日气温与1950~1980件全球气温均值的差异。
+  根据人口普查数据显示，美国人口结构正在日益向老龄化倾斜。通过对比2050年的2016年的人口估计数据，年长人口的增长比例将大幅超过年轻人口的增长比例。
 ---
 <img src="/assets/img/projects/dataviz/joyplot.png" alt="" />
