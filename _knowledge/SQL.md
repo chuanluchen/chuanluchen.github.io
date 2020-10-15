@@ -978,3 +978,55 @@ from (
  ) t
 order by price desc
 ~~~
+
+### 1174. Immediate Food Delivery II
+**复杂聚合：单独做表对数据做标记**
+~~~sql
+select round(sum(label) / count(customer_id)*100, 2)
+as immediate_percentage
+from (
+    select customer_id, if(min(order_date)=min(customer_pref_delivery_date), 1, 0) as label
+    from Delivery
+    group by customer_id
+    ) t
+~~~
+
+### 1193. Monthly Transactions I
+**聚合中使用if做标记**
+~~~sql
+select DATE_FORMAT(trans_date, '%Y-%m') as month, country, count(id) as trans_count, sum(if(state = 'approved', 1, 0)) as approved_count,sum(amount) as trans_total_amount,sum(if(state='approved', amount, 0)) as approved_total_amount
+from Transactions
+group by month, country
+~~~
+
+### 1204. Last Person to Fit in the Elevator
+**window function写running total: sum(...) over (order by ...)**
+~~~sql
+select person_name
+from 
+(select person_name, sum(weight) over(order by turn) as running_total
+ from queue ) t
+where running_total<= 1000
+order by running_total desc # 找最后一个人
+limit 1
+~~~
+
+### 1205. Monthly Transactions II
+**把transactions部分和chargeback部分union起来造一个表**
+~~~sql
+select DATE_FORMAT(trans_date, '%Y-%m') as month,
+country,
+sum(if(state ='approved',1,0)) as approved_count,
+sum(if(state ='approved',amount,0)) as approved_amount,
+sum(if(state = 'chargeback', 1,0)) as chargeback_count,
+sum(if(state = 'chargeback',amount,0)) as chargeback_amount
+from 
+    (select *
+    from Transactions
+    where state = 'approved'
+    union
+    select t.id, t.country, 'chargeback',t.amount,c.trans_date
+    from Transactions t
+    join Chargebacks c on t.id = c.trans_id) temp
+group by date_format(trans_date, '%Y-%m'), country
+~~~
