@@ -8,7 +8,7 @@ links:
   - title: Covid-19 Dashboard
     url: https://predicting-covid-19.herokuapp.com/
 
-caption: Curve fitting预测Covid-19走势，可视化Dashboard
+caption: Curve fitting + 可视化Dashboard：预测短期COVID-19走势
 hide_image: false
 kramdown:
   math_engine: mathjax # this is not a typo
