@@ -63,8 +63,10 @@ screenshot: /assets/img/projects/code/code.jpg
 
 ### 图
   - [200-Number Of Islands](/collection/leetcodes/200_NumberOfIslands/) 
+  - [79-Word Search](/collection/leetcodes/79_WordSearch/) 
   - [127-Word Ladder](/collection/leetcodes/127_WordLadder/) 
   - [133-Clone Graph](/collection/leetcodes/133_CloneGraph/) 
+ 
   
 <br><br>
 
@@ -94,6 +96,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [58-Length Of Last Word](/collection/leetcodes/58_LengthOfLastWord/)  | Easy | 字符串 + 基本 |
 | [76-Minimum Window Substring](/collection/leetcodes/76_MinimumWindowSubstring/)  | Hard | 字符串 + substring  + sliding window |
 | [77-Combinations](/collection/leetcodes/77_Combinations/) | Medium | 回溯法 + 组合  + index控制 + k|
+| [79-Word Search](/collection/leetcodes/79_WordSearch/) | Medium | BFS +  Flood Fill |
 | [78-Subsets](/collection/leetcodes/78_Subsets/) | Medium | 回溯法 + 子集  + index控制 |
 | [90-Subsets II](/collection/leetcodes/90_SubsetsII/) | Medium | 回溯法 + 子集  + index控制 + used |
 | [90-Subsets II](/collection/leetcodes/90_SubsetsII/) | Medium | 回溯法 + 子集  + index控制 + used |
@@ -110,7 +113,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [179-Largest Number](/collection/leetcodes/179_LargestNumber/) | Medium | 字符串 + 实现题 + 自定义排序 |
 | [187-Repeated DNA Sequences](/collection/leetcodes/187-RepeatedDNASequences/) | Medium | 字符串 + substring + hashset |
 | [186-Reverse Words In A String II](/collection/leetcodes/186_ReverseWordsInAStringII/) | Medium | 字符串 + 实现题 + 先全部反转再单词内部反转 |
-| [200-Number Of Islands](/collection/leetcodes/200_NumberOfIslands/) | Medium | 图+DFS|
+| [200-Number Of Islands](/collection/leetcodes/200_NumberOfIslands/) | Medium | 图 + DFS + Flood Fill|
 | [242-Valid Anagram](/collection/leetcodes/242_ValidAnagram/) | Easy | 字符串 + anagram + Count Sort |
 
 
