@@ -94,8 +94,8 @@ screenshot: /assets/img/projects/code/code.jpg
 | [58-Length Of Last Word](/collection/leetcodes/58_LengthOfLastWord/)  | Easy | 字符串 + 基本 |
 | [76-Minimum Window Substring](/collection/leetcodes/76_MinimumWindowSubstring/)  | Hard | 字符串 + substring  + sliding window |
 | [77-Combinations](/collection/leetcodes/77_Combinations/) | Medium | 回溯法 + 组合  + index控制 + k|
-| [79-Word Search](/collection/leetcodes/79_WordSearch/) | Medium | BFS +  Flood Fill |
 | [78-Subsets](/collection/leetcodes/78_Subsets/) | Medium | 回溯法 + 子集  + index控制 |
+| [79-Word Search](/collection/leetcodes/79_WordSearch/) | Medium | BFS +  Flood Fill |
 | [90-Subsets II](/collection/leetcodes/90_SubsetsII/) | Medium | 回溯法 + 子集  + index控制 + used |
 | [90-Subsets II](/collection/leetcodes/90_SubsetsII/) | Medium | 回溯法 + 子集  + index控制 + used |
 | [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) | Medium | 回溯法 + 实现  + index控制 + 内部数位控制 |
