@@ -2,13 +2,13 @@
 layout: project
 title: '200-Number of Islands'
 date: 01 July 2020
-
 ---
+
 ## 题意
-> Given an m x n 2d grid map of '1's (land) and '0's (water), return the number of islands.
-> An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. 
-> You may assume all four edges of the grid are all surrounded by water.
-~~~python
+> - Given an m x n 2d grid map of '1's (land) and '0's (water), return the number of islands.
+> - An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. 
+> - You may assume all four edges of the grid are all surrounded by water.
+```
 Example 1:
 Input: grid = [
   ["1","1","1","1","0"],
@@ -25,9 +25,8 @@ Input: grid = [
   ["0","0","0","1","1"]
 ]
 Output: 3
-~~~
-
->Constraints:
+```
+> Constraints:
 > - m == grid.length
 > - n == grid[i].length
 > - 1 <= m, n <= 300
@@ -35,7 +34,7 @@ Output: 3
 
 ## 思路
 - 遍历数组grid
-- 遇到一个1，用DFS把周围都标记为0,相连的陆地相当于一个岛
+- 遇到一个1，用DFS把周围都标记为0 -> 一个点与其它陆地相连相当于一个岛，直到遇见水
 - 对DFS的次数进行count，就是岛的数目。
 - DFS的作用：已知当前是1，把它周围相邻的所有1全部转成0.
 
