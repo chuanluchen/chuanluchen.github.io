@@ -47,20 +47,23 @@ screenshot: /assets/img/projects/code/code.jpg
 ### 回溯法
 - 排列
   - [46-Permutations](/collection/leetcodes/46_Permutations/)
-  - [47-PermutationsII](/collection/leetcodes/47_PermutationsII/)
+  - [47-Permutations II](/collection/leetcodes/47_PermutationsII/)
 - 子集
   - [78-Subsets](/collection/leetcodes/78_Subsets/)
   - [90-Subsets II](/collection/leetcodes/90_SubsetsII/)
 - 组合
   - [77-Combinations](/collection/leetcodes/77_Combinations/) 
-  - [39-CombinationSum](/collection/leetcodes/39_CombinationSum/) 
-  - [40-CombinationSumII](/collection/leetcodes/40_CombinationSumII/) 
+  - [39-Combination Sum](/collection/leetcodes/39_CombinationSum/) 
+  - [40-Combination Sum II](/collection/leetcodes/40_CombinationSumII/) 
 - 实现题
-  - [17-LetterCombinationsOfAPhoneNumber](/collection/leetcodes/17_LetterCombinationsOfAPhoneNumber/)
+  - [17-Letter Combinations Of APhoneNumber](/collection/leetcodes/17_LetterCombinationsOfAPhoneNumber/)
   - [22-Generate Parentheses](/collection/leetcodes/22_GenerateParentheses/)
   - [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) 
   - [131-Palindrome Partitioning](/collection/leetcodes/131_PalindromePartitioning/) 
 
+### 图
+  - [200-Number Of Islands](/collection/leetcodes/200_NumberOfIslands/) 
+  
 
 <br><br>
 
@@ -104,6 +107,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [179-Largest Number](/collection/leetcodes/179_LargestNumber/) | Medium | 字符串 + 实现题 + 自定义排序 |
 | [187-Repeated DNA Sequences](/collection/leetcodes/187-RepeatedDNASequences/) | Medium | 字符串 + substring + hashset |
 | [186-Reverse Words In A String II](/collection/leetcodes/186_ReverseWordsInAStringII/) | Medium | 字符串 + 实现题 + 先全部反转再单词内部反转 |
+| [200-Number Of Islands](/collection/leetcodes/200_NumberOfIslands/) | Medium | 图+DFS|
 | [242-Valid Anagram](/collection/leetcodes/242_ValidAnagram/) | Easy | 字符串 + anagram + Count Sort |
 
 
