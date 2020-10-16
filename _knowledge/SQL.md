@@ -1157,3 +1157,30 @@ group by f.activity
 having count(f.id) != (select count(id) from Friends group by activity order by count(id) desc limit 1)
 and count(f.id) != (select count(id) from Friends group by activity order by count(id)  limit 1)
 ~~~
+
+
+### 1355. Activity Participants
+**掐头去尾**
+~~~sql
+select i.invoice_id, c.customer_name, i.price, 
+	   count(distinct contact_name) as 'contacts_cnt', 
+       sum(if(contact_name in (select customer_name from Customers), 1,0)) as 'trusted_contacts_cnt'
+from Invoices i
+join Customers c
+on i.user_id = c.customer_id
+left join Contacts o
+on c.customer_id = o.user_id
+group by i.invoice_id, c.customer_name, i.price
+order by i.invoice_id
+~~~
+
+### 1355. Activity Participants
+**Sell价格总和-Buy价格总和**
+~~~sql
+select stock_name, sum(if(operation='Sell', price, 0)) - sum(if(operation='Buy', price, 0)) 
+as capital_gain_loss
+from Stocks
+group by stock_name
+~~~
+
+
