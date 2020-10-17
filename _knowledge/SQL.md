@@ -1183,10 +1183,10 @@ from Stocks
 group by stock_name
 ~~~
 
-
 ### 1532. The Most Recent Three Orders
 - CTE:rank() 
 - 筛选rank <= 3
+
 ~~~sql
 with temp as
 ( select customer_id, order_id, order_date, 
@@ -1203,6 +1203,7 @@ order by customer_name, t.customer_id, t.order_date desc
 
 ### 1549. The Most Recent Orders for Each Product
 - CTE:rank()
+
 ~~~sql
 with temp as
 ( select product_id, order_id, order_date, rank() over (partition by product_id order by order_date desc) as p_rank
