@@ -66,6 +66,10 @@ screenshot: /assets/img/projects/code/code.jpg
   - [127-Word Ladder](/collection/leetcodes/127_WordLadder/) 
   - [133-Clone Graph](/collection/leetcodes/133_CloneGraph/) 
  
+### 树
+- 双pre
+  - [112-Path Sum](/collection/leetcodes/112_PathSum/) 
+ 
 <br><br>
 
 ## 顺序题目
@@ -99,6 +103,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [90-Subsets II](/collection/leetcodes/90_SubsetsII/) | Medium | 回溯法 + 子集  + index控制 + used |
 | [90-Subsets II](/collection/leetcodes/90_SubsetsII/) | Medium | 回溯法 + 子集  + index控制 + used |
 | [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) | Medium | 回溯法 + 实现  + index控制 + 内部数位控制 |
+| [112-Path Sum](/collection/leetcodes/112_PathSum/) | Easy | 树 + 双pre |
 | [125-Valid Palindrome](/collection/leetcodes/125_ValidPalindrome/)  | Easy | 字符串 + Palindrome|
 | [127-Word Ladder](/collection/leetcodes/127_WordLadder/) | Medium | 图 + BFS |
 | [151-Reverse Words in a String](/collection/leetcodes/151_ReverseWordsinaString/) | Easy | 字符串 + 实现题 |
