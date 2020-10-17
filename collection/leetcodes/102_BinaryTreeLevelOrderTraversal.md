@@ -24,7 +24,7 @@ return its level order traversal as:
 ~~~
 
 ## 思路
-- 树的中序遍历
+- 树的层次遍历
 
 ~~~python
 # Definition for a binary tree node.
