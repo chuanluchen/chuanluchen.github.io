@@ -1278,3 +1278,40 @@ where value not in
 and value < (select max(customer_id) from Customers)
 ~~~
 
+## Hard
+### 185. Department Top Three Salaries    
+- CTE: dense_rank()
+~~~sql
+with temp as
+( select Name, Salary, DepartmentId,
+ dense_rank() over (partition by DepartmentId order by Salary desc) as s_rank
+ from Employee
+)
+
+select d.Name as Department, t.Name as Employee, t.Salary
+from Department d left join temp t
+on d.Id = t.DepartmentId
+where t.s_rank <= 3
+~~~
+
+### 262. Trips and Users  
+- 日期 between 'xxx' and 'xxx'
+~~~sql
+with temp as 
+( select Id, Status, Request_at
+ from Trips
+ where Client_id not in 
+    (select Users_Id from Users 
+     where Role='client' and Banned='Yes'
+    )
+ and Driver_id not in
+     (select Driver_Id from Users 
+     where Role='driver' and Banned='Yes'
+    )
+ and Request_at between '2013-10-01' and '2013-10-03'
+)
+
+select Request_at as Day,round(sum(if(Status != 'completed', 1, 0))/count(Id),2) as `Cancellation Rate`
+from temp
+group by Request_at
+~~~
