@@ -70,6 +70,9 @@ screenshot: /assets/img/projects/code/code.jpg
 - Level Order
   - [102-Binary Tree Level Order Traversal](/collection/leetcodes/102_BinaryTreeLevelOrderTraversal/) 
   - [199-Binary Tree Right Side View](/collection/leetcodes/199_BinaryTreeRightSideView/)  
+- Pre Order
+  - [113-Path Sum II](/collection/leetcodes/113_PathSumII/)  
+  
  
 <br><br>
 
@@ -106,6 +109,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) | Medium | 回溯法 + 实现  + index控制 + 内部数位控制 |
 | [102-Binary Tree Level Order Traversal](/collection/leetcodes/102_BinaryTreeLevelOrderTraversal/) | Medium | 树 + 层次遍历 | 
 | [112-Path Sum](/collection/leetcodes/112_PathSum/) | Easy | 树 + 双pre |
+| [113-Path Sum II](/collection/leetcodes/113_PathSumII/) | Medium | 树 + Pre Order + 回溯法 + 控制和 | 
 | [125-Valid Palindrome](/collection/leetcodes/125_ValidPalindrome/)  | Easy | 字符串 + Palindrome|
 | [127-Word Ladder](/collection/leetcodes/127_WordLadder/) | Medium | 图 + BFS |
 | [151-Reverse Words in a String](/collection/leetcodes/151_ReverseWordsinaString/) | Easy | 字符串 + 实现题 |
