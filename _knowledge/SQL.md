@@ -944,6 +944,7 @@ having count(distinct article_id) > 1
 
 ### 1158. Market Analysis I
 - 保留null值，left join
+
 ~~~sql
 select u.user_id as buyer_id, u.join_date as join_date, ifnull(count(o.order_id),0)  as orders_in_2019
 from Users u left join Orders o # 保留Null值
@@ -955,6 +956,7 @@ group by u.user_id
 - 两种情况union起来
 	- 2019-08-16之前改过价格，使用最大日期的价格
 	- 2019-08-16之前没有改过价格，价格为10
+	
 ~~~sql
 select product_id, price 
 from (
@@ -981,6 +983,7 @@ order by price desc
 
 ### 1174. Immediate Food Delivery II
 - 复杂聚合：单独做表对数据做标记
+
 ~~~sql
 select round(sum(label) / count(customer_id)*100, 2)
 as immediate_percentage
