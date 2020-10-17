@@ -1176,6 +1176,7 @@ order by i.invoice_id
 
 ### 1393. Capital Gain/Loss
 - Sell价格总和-Buy价格总和
+
 ~~~sql
 select stock_name, sum(if(operation='Sell', price, 0)) - sum(if(operation='Buy', price, 0)) 
 as capital_gain_loss
@@ -1220,6 +1221,7 @@ order by p.product_name, t.product_id, order_id
 ### 1555. Bank Account Summary
 - 花出的钱 + 收到的钱 -> CTE算出Amount
 - 再考虑credit问题
+
 ~~~sql
 with temp as
 (select user_id, sum(amount) as balance from 
@@ -1240,6 +1242,7 @@ on u.user_id = t.user_id
 
 ### 1596. The Most Frequently Ordered Products for Each Customer
 - CTE找分类rank
+
 ~~~sql
 # CTE找到每个顾客买的东西 rank
 with temp as
@@ -1259,6 +1262,7 @@ with temp as
 
 ### 1613. Find the Missing IDs
 - Recursive CTE生成连续数字
+
 ~~~sql
 # recursive CTE生成1到100的连续数字
 with recursive cte as (
