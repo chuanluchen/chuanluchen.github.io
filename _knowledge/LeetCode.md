@@ -71,7 +71,9 @@ screenshot: /assets/img/projects/code/code.jpg
   - [102-Binary Tree Level Order Traversal](/collection/leetcodes/102_BinaryTreeLevelOrderTraversal/) 
   - [199-Binary Tree Right Side View](/collection/leetcodes/199_BinaryTreeRightSideView/)  
 - Pre Order
+  - [144-Binary Tree Preorder Traversal](/collection/leetcodes/144_BinaryTreePreorderTraversal/)  
   - [113-Path Sum II](/collection/leetcodes/113_PathSumII/)  
+  
   
  
 <br><br>
@@ -116,6 +118,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [130-Surrounded Regions](/collection/leetcodes/130_SurroundedRegions/)  |  Medium |  图 + DFS + Flood Fill + 从边界开始 |
 | [131-Palindrome Partitioning](/collection/leetcodes/131_PalindromePartitioning/) | Medium | 回溯法 + 实现题  + 子集 + Palindrome判断|
 | [133-Clone Graph](/collection/leetcodes/133_CloneGraph/) | Medium | 图 + BFS + Hashmap |
+| [144-Binary Tree Preorder Traversal](/collection/leetcodes/144_BinaryTreePreorderTraversal/)  | Medium | 树 + 先序遍历模板 |
 | [151-Reverse Words in a String](/collection/leetcodes/151_ReverseWordsinaString/) | Easy | 字符串 + 实现题 |
 | [157-Read N Characters Given Read4 I](/collection/leetcodes/157_ReadNCharactersGivenRead4I/)  | Easy | 字符串 + 实现题 + 空间思路|
 | [159-Longest Substring With At Most Two Distinct Characters](/collection/leetcodes/159_LongestSubstringWithAtMostTwoDistinctCharacters/) | Medium | 字符串 + substring + sliding window |
