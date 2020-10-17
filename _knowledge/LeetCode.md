@@ -72,7 +72,7 @@ screenshot: /assets/img/projects/code/code.jpg
   - [199-Binary Tree Right Side View](/collection/leetcodes/199_BinaryTreeRightSideView/)  
 - Pre Order
   - [144-Binary Tree Preorder Traversal](/collection/leetcodes/144_BinaryTreePreorderTraversal/)  
- - Pre Order + Backtracking
+- Pre Order + Backtracking
   - [113-Path Sum II](/collection/leetcodes/113_PathSumII/)  
   
   
