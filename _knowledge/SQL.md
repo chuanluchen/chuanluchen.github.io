@@ -1152,6 +1152,7 @@ limit 1)
 
 ### 1355. Activity Participants
 - 掐头去尾
+
 ~~~sql
 select a.name as activity
 from Activities a left join Friends f
@@ -1164,6 +1165,7 @@ and count(f.id) != (select count(id) from Friends group by activity order by cou
 
 ### 1364. Number of Trusted Contacts of a Customer 
 - 掐头去尾
+
 ~~~sql
 select i.invoice_id, c.customer_name, i.price, 
 	   count(distinct contact_name) as 'contacts_cnt', 
@@ -1188,6 +1190,7 @@ group by stock_name
 ~~~
 
 ### 1398. Customers Who Bought Products A and B but Not C
+
 ~~~sql
 select customer_id, customer_name
 from Customers
@@ -1209,6 +1212,7 @@ and customer_id not in
 ~~~
 
 ### 1421. NPV Queries
+
 ~~~sql
 select q.id, q.year, ifnull(n.npv, 0) as npv
 from Queries q left join NPV n
@@ -1217,6 +1221,7 @@ on q.id = n.id and q.year = n.year
 
 ### 1440. Evaluate Boolean Expression
 - case when找出true的情况，其它为false
+
 ~~~sql
 select e.*,
 case 
@@ -1233,6 +1238,7 @@ and e.right_operand = v2.name
 
 ### 1445. Apples & Oranges
 - 区分apple, orange ->  sold_num * 1 or -1
+
 ~~~sql
 select sale_date, sum(adjusted_num) as diff
 from (
@@ -1246,6 +1252,7 @@ order by sale_date
 ### 1454. Active Users
 - 使用dense_rank()针对每个id的login_date排名 -> 连续的情形下：login_date - rank值是一样的
 - group by ID，login_date - rank -> 找count>=5的人
+
 ~~~sql
 with temp as (
     select id, login_date,
@@ -1263,6 +1270,7 @@ having count(distinct t.login_date) >= 5
 ### 1459. Rectangles Area
 - 自连接
 - 条件：a.id < b.id, a.x_value != b.x_value, a.y_value != b.y_value
+
 ~~~sql
 select a.id as p1, b.id as p2, abs(a.x_value - b.x_value)*abs(a.y_value - b.y_value) as area
 from Points a, Points b
@@ -1275,6 +1283,7 @@ order by area desc, p1, p2
 
 ### 1468. Calculate Salaries
 - 先算税率
+
 ~~~sql
 with temp as
 ( select company_id, 
@@ -1418,6 +1427,7 @@ where t.s_rank <= 3
 
 ### 262. Trips and Users  
 - 日期 between 'xxx' and 'xxx'
+
 ~~~sql
 with temp as 
 ( select Id, Status, Request_at
