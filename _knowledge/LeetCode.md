@@ -69,6 +69,9 @@ screenshot: /assets/img/projects/code/code.jpg
 ### 树
 - 双pre
   - [112-Path Sum](/collection/leetcodes/112_PathSum/) 
+- Level Order
+  - [102-Binary Tree Level Order Traversal](/collection/leetcodes/102_BinaryTreeLevelOrderTraversal/) 
+  
  
 <br><br>
 
@@ -103,6 +106,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [90-Subsets II](/collection/leetcodes/90_SubsetsII/) | Medium | 回溯法 + 子集  + index控制 + used |
 | [90-Subsets II](/collection/leetcodes/90_SubsetsII/) | Medium | 回溯法 + 子集  + index控制 + used |
 | [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) | Medium | 回溯法 + 实现  + index控制 + 内部数位控制 |
+| [102-Binary Tree Level Order Traversal](/collection/leetcodes/102_BinaryTreeLevelOrderTraversal/) | Medium | 树 + 层次遍历 | 
 | [112-Path Sum](/collection/leetcodes/112_PathSum/) | Easy | 树 + 双pre |
 | [125-Valid Palindrome](/collection/leetcodes/125_ValidPalindrome/)  | Easy | 字符串 + Palindrome|
 | [127-Word Ladder](/collection/leetcodes/127_WordLadder/) | Medium | 图 + BFS |
