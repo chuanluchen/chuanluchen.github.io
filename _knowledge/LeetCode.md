@@ -65,15 +65,17 @@ screenshot: /assets/img/projects/code/code.jpg
   - [133-Clone Graph](/collection/leetcodes/133_CloneGraph/) 
  
 ### 树
-- 双pre
-  - [112-Path Sum](/collection/leetcodes/112_PathSum/) 
+- PreOrder
+  - [144-Binary Tree Preorder Traversal](/collection/leetcodes/144_BinaryTreePreorderTraversal/)  
+- InOrder
+  - [94-Binary Tree Inorder Traversal](/collection/leetcodes/94_BinaryTreeInorderTraversal/)   
 - Level Order
   - [102-Binary Tree Level Order Traversal](/collection/leetcodes/102_BinaryTreeLevelOrderTraversal/) 
-  - [199-Binary Tree Right Side View](/collection/leetcodes/199_BinaryTreeRightSideView/)  
-- Pre Order
-  - [144-Binary Tree Preorder Traversal](/collection/leetcodes/144_BinaryTreePreorderTraversal/)  
+  - [199-Binary Tree Right Side View](/collection/leetcodes/199_BinaryTreeRightSideView/)    
 - Pre Order + Backtracking
   - [113-Path Sum II](/collection/leetcodes/113_PathSumII/)  
+- 双pre
+  - [112-Path Sum](/collection/leetcodes/112_PathSum/) 
   
   
  
@@ -110,7 +112,11 @@ screenshot: /assets/img/projects/code/code.jpg
 | [90-Subsets II](/collection/leetcodes/90_SubsetsII/) | Medium | 回溯法 + 子集  + index控制 + used |
 | [90-Subsets II](/collection/leetcodes/90_SubsetsII/) | Medium | 回溯法 + 子集  + index控制 + used |
 | [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) | Medium | 回溯法 + 实现  + index控制 + 内部数位控制 |
-| [102-Binary Tree Level Order Traversal](/collection/leetcodes/102_BinaryTreeLevelOrderTraversal/) | Medium | 树 + 层次遍历 | 
+| [94-Binary Tree Inorder Traversal](/collection/leetcodes/94_BinaryTreeInorderTraversal/)  | Medium | 树 + 中序遍历模板 |
+| [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) | Medium | 回溯法 + 实现  + index控制 + 内部数位控制 |
+| [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) | Medium | 回溯法 + 实现  + index控制 + 内部数位控制 |
+| [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) | Medium | 回溯法 + 实现  + index控制 + 内部数位控制 |
+| [102-Binary Tree Level Order Traversal](/collection/leetcodes/102_BinaryTreeLevelOrderTraversal/) | Medium | 树 + 层次遍历模板 | 
 | [112-Path Sum](/collection/leetcodes/112_PathSum/) | Easy | 树 + 双pre |
 | [113-Path Sum II](/collection/leetcodes/113_PathSumII/) | Medium | 树 + Pre Order + 回溯法 + 控制和 | 
 | [125-Valid Palindrome](/collection/leetcodes/125_ValidPalindrome/)  | Easy | 字符串 + Palindrome|
