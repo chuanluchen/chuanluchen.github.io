@@ -1187,6 +1187,127 @@ from Stocks
 group by stock_name
 ~~~
 
+### 1398. Customers Who Bought Products A and B but Not C
+~~~sql
+select customer_id, customer_name
+from Customers
+where customer_id in 
+    (select customer_id
+    from Orders
+    where product_name = 'A'
+     )
+and customer_id in 
+    (select customer_id
+    from Orders
+    where product_name = 'B'
+     )
+and customer_id not in 
+    (select customer_id
+    from Orders
+    where product_name = 'C'
+     )
+~~~
+
+### 1421. NPV Queries
+~~~sql
+select q.id, q.year, ifnull(n.npv, 0) as npv
+from Queries q left join NPV n
+on q.id = n.id and q.year = n.year
+~~~
+
+### 1440. Evaluate Boolean Expression
+- case when找出true的情况，其它为false
+~~~sql
+select e.*,
+case 
+when operator = '=' and v1.value = v2.value then 'true'
+when operator = '<' and v1.value < v2.value then 'true'
+when operator = '>' and v1.value > v2.value then 'true'
+else 'false'
+end as value
+from Expressions e, Variables v1, Variables v2
+where e.left_operand = v1.name
+and e.right_operand = v2.name
+~~~
+
+
+### 1445. Apples & Oranges
+- 区分apple, orange ->  sold_num * 1 or -1
+~~~sql
+select sale_date, sum(adjusted_num) as diff
+from (
+    select sale_date, if(fruit='apples', sold_num*1, sold_num*(-1)) as adjusted_num
+    from Sales
+    )t
+group by sale_date
+order by sale_date
+~~~
+
+### 1454. Active Users
+- 使用dense_rank()针对每个id的login_date排名 -> 连续的情形下：login_date - rank值是一样的
+- group by ID，login_date - rank -> 找count>=5的人
+~~~sql
+with temp as (
+    select id, login_date,
+    dense_rank() over(partition by id order by login_date) as day_rank  
+    from Logins
+)
+
+select distinct t.id, a.name
+from temp t join Accounts a
+on t.id = a.id
+group by t.id, DATE_SUB(t.login_date,interval t.day_rank day)
+having count(distinct t.login_date) >= 5
+~~~
+
+### 1459. Rectangles Area
+- 自连接
+- 条件：a.id < b.id, a.x_value != b.x_value, a.y_value != b.y_value
+~~~sql
+select a.id as p1, b.id as p2, abs(a.x_value - b.x_value)*abs(a.y_value - b.y_value) as area
+from Points a, Points b
+where a.id < b.id
+and a.x_value != b.x_value
+and a.y_value != b.y_value
+order by area desc, p1, p2
+~~~
+
+
+### 1468. Calculate Salaries
+- 先算税率
+~~~sql
+with temp as
+( select company_id, 
+ case
+ when max(salary) < 1000 then 0
+ when max(salary) <= 10000 then 0.24
+ when max(salary) > 10000 then 0.49
+ end as tax_rate
+ from Salaries
+ group by company_id
+)
+
+select s.company_id, s.employee_id, s.employee_name, 
+round(s.salary * (1-t.tax_rate),0) as salary
+from Salaries s left join temp t
+on s.company_id = t.company_id
+~~~
+
+
+### 1501. Countries You Can Safely Invest In
+- 打进或打出都算 call_id or callee_id属于某个国家
+- substring(xx, start, length)
+
+~~~sql
+select cc.name as country 
+from Calls c, Person p, Country cc
+where (p.id=c.caller_id or p.id=c.callee_id) 
+and cc.country_code=substring(p.phone_number,1,3)
+group by cc.name 
+having avg(c.duration)>(select avg(duration) from Calls)
+~~~
+
+
 ### 1532. The Most Recent Three Orders
 - CTE:rank() 
 - 筛选rank <= 3
@@ -1281,6 +1402,7 @@ and value < (select max(customer_id) from Customers)
 ## Hard
 ### 185. Department Top Three Salaries    
 - CTE: dense_rank()
+
 ~~~sql
 with temp as
 ( select Name, Salary, DepartmentId,
