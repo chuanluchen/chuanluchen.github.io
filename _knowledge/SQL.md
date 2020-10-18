@@ -1501,3 +1501,87 @@ where (Id, Month) not in  # 去除每个人最近的那个月份
     )
 order by Id, Month desc
 ~~~
+
+### 601. Human Traffic of Stadium
+- id - row_number() over (order by id) as diff
+- group by diff找连续数字组
+
+~~~sql
+with temp as(
+    select id, visit_date, people, 
+    id - row_number() over(order by id) as diff
+    from Stadium 
+    where people >= 100
+)
+
+select id, visit_date, people
+from temp
+where diff in (     # 不能直接group否则得不到组内详细信息
+    select diff from temp
+    group by diff 
+    having count(*) >= 3
+)
+~~~
+
+### 615. Average Salary: Departments VS Company
+- avg() over (partition by...) 算公司avg和部门avg
+
+~~~sql
+with temp as(
+select distinct DATE_FORMAT(s.pay_date,'%Y-%m') as pay_month, 
+e.department_id,
+avg(s.amount) over (partition by DATE_FORMAT(s.pay_date,'%Y-%m')) as avg_com,
+avg(s.amount) over (partition by e.department_id, DATE_FORMAT(s.pay_date,'%Y-%m')) as avg_depart
+from salary s join employee e
+on s.employee_id = e.employee_id
+)
+
+select pay_month, department_id, 
+case
+when avg_depart = avg_com then 'same'
+when avg_depart > avg_com then 'higher'
+else 'lower' end as comparison
+from temp
+~~~
+
+### 618. Students Report By Geography
+
+~~~sql
+with temp as
+( select 
+ case when continent = 'America' then name end as 'America',
+ case when continent = 'Europe' then name end as 'Europe',
+ case when continent = 'Asia' then name end as 'Asia',
+ row_number() over(partition by continent order by name) as name_rk # name 内部排序用于安排name的行
+ from student
+)
+
+select max(America) as America, max(Asia) as Asia, max(Europe) as Europe  #max去除null
+FROM temp
+GROUP BY name_rk
+~~~
+
+### 1097. Game Play Analysis V
+- 先找install date
+- count install date -> installs/ 分母
+- count 同一人 & 后一天 -> 分子
+
+~~~sql
+with temp as(
+    select player_id, 
+    min(event_date) as install_dt
+    from Activity
+    group by player_id
+)
+
+# count install_date -> installs 分母
+# 找player_id, login_date + 1  -> 分子
+select t.install_dt, 
+count(t.player_id) as installs,
+round(count(a.event_date) / count(t.player_id),2) as Day1_retention
+from temp t left join Activity a
+on t.player_id = a. player_id
+and DATE_ADD(t.install_dt, interval 1 day) = a.event_date
+group by install_dt
+order by install_dt
+~~~
