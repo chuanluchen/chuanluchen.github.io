@@ -1447,3 +1447,57 @@ select Request_at as Day,round(sum(if(Status != 'completed', 1, 0))/count(Id),2)
 from temp
 group by Request_at
 ~~~
+
+
+### 569. Median Employee Salary
+- window function:用row_number找每个公司排序，用count找每个公司count
+- count为奇数，找中间那个数；count为偶数，找中间两个数
+
+~~~sql
+with temp as
+( select *, 
+ row_number() over(partition by Company order by Salary) as s_rank,#用row_number不要用rank, 否则有跳过的问题
+ count(*) over(partition by Company) as count
+ from Employee
+)
+
+select Id, Company, Salary
+from temp
+where (count%2=1 and s_rank=(count+1)/2)  # count为奇数：median为中间那个数
+or (count%2=0 and ((s_rank=count/2) or (s_rank=count/2+1))) # count为偶数：median为中间两个数
+~~~
+
+### 571. Find Median Given Frequency of Numbers
+- window function:找running_total, count
+- 注意median定义：一个数或两个数平均 -> 定位所属区间，算avg
+
+~~~sql
+with temp as (
+    select *, 
+    sum(Frequency) over (order by Number) as running_total,
+    sum(Frequency) over () as count #注意使用window function算总sum的写法
+    from Numbers
+)
+
+select avg(Number) as median
+from temp
+where count/2 <= running_total     # 定位median落在哪个区间
+and count/2 >= running_total - Frequency
+~~~
+
+### 579. Find Cumulative Salary of an Employee
+- 针对每个人， 每个月计算三个月的running_total：sum() over (...row 2 preceding)
+- 去除每个人最近月份
+
+~~~sql
+# 针对每个人， 每个月计算三个月的running_total
+select Id, Month, 
+sum(Salary) over(partition by Id order by Month rows 2 preceding ) as Salary
+from Employee 
+where (Id, Month) not in  # 去除每个人最近的那个月份
+    (select Id, max(Month)
+     from Employee
+     group by Id
+    )
+order by Id, Month desc
+~~~
