@@ -1666,3 +1666,56 @@ on t.player = p.player_id
 ) t
 where score_rank = 1
 ~~~
+
+### 1194. Tournament Winners
+- 先找到所有人得分
+- 再找每组排名第一的
+
+~~~sql
+with temp as(
+    select player, sum(scores) as scores
+    from
+        (select first_player as player, first_score as scores
+        from Matches
+        union all
+        select second_player as player, second_score as scores
+        from Matches) c
+    group by player
+)
+
+select group_id, player_id
+from
+(select p.group_id,p.player_id, 
+rank() over(partition by p.group_id order by t.scores desc,player_id) as score_rank
+from temp t right join  Players p
+on t.player = p.player_id
+) t
+where score_rank = 1
+~~~
+
+### 1225. Report Contiguous Dates
+- 取连续日趋：DAYOFYEAR(success_date) - row_number() over (order by success_date) as diff_dt -> group by
+- 注意用DAYOFYEAR，否则月份断开
+
+~~~sql
+with temp as(
+    select 'succeeded' as state, success_date as event_dt,
+    DAYOFYEAR(success_date) - row_number() over (order by success_date) as diff_dt
+    from succeeded
+    where success_date between '2019-01-01' and '2019-12-31'
+    union all
+    select 'failed' as state, fail_date as event_dt,
+    DAYOFYEAR(fail_date) - row_number() over (order by fail_date) as diff_dt
+    from failed
+    where fail_date between '2019-01-01' and '2019-12-31'
+)
+
+select state as period_state, min(event_dt) as start_date, max(event_dt) as end_date
+from temp
+group by state, diff_dt
+order by start_date
+~~~
+
+
+
+
