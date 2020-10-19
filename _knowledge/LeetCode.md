@@ -65,18 +65,18 @@ screenshot: /assets/img/projects/code/code.jpg
   - [133-Clone Graph](/collection/leetcodes/133_CloneGraph/) 
  
 ### 树
-- PreOrder
-  - [144-Binary Tree Preorder Traversal](/collection/leetcodes/144_BinaryTreePreorderTraversal/)  
-- InOrder
-  - [94-Binary Tree Inorder Traversal](/collection/leetcodes/94_BinaryTreeInorderTraversal/)   
-- Level Order
-  - [102-Binary Tree Level Order Traversal](/collection/leetcodes/102_BinaryTreeLevelOrderTraversal/) 
-  - [199-Binary Tree Right Side View](/collection/leetcodes/199_BinaryTreeRightSideView/)    
+-  基础遍历
+  - [144-Binary Tree Preorder Traversal](/collection/leetcodes/144_BinaryTreePreorderTraversal/) 【先序模板】
+  - [94-Binary Tree Inorder Traversal](/collection/leetcodes/94_BinaryTreeInorderTraversal/) 【中序模板】
+  - [145-Binary Tree Postorder Traversal](/collection/leetcodes/145_BinaryTreePostorderTraversal/) 【后序模板】
+  - [102-Binary Tree Level Order Traversal](/collection/leetcodes/102_BinaryTreeLevelOrderTraversal/) 【层次模板】
+  - [199-Binary Tree Right Side View](/collection/leetcodes/199_BinaryTreeRightSideView/)   【层次变换】 
 - Pre Order + Backtracking
   - [113-Path Sum II](/collection/leetcodes/113_PathSumII/)  
 - 双pre
   - [112-Path Sum](/collection/leetcodes/112_PathSum/) 
-  
+  - [100-Same Tree](/collection/leetcodes/100_SameTree/) 
+  - [101-Symmetric Tree](/collection/leetcodes/101_SymmetricTree/) 
   
  
 <br><br>
@@ -116,6 +116,8 @@ screenshot: /assets/img/projects/code/code.jpg
 | [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) | Medium | 回溯法 + 实现  + index控制 + 内部数位控制 |
 | [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) | Medium | 回溯法 + 实现  + index控制 + 内部数位控制 |
 | [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) | Medium | 回溯法 + 实现  + index控制 + 内部数位控制 |
+| [100-Same Tree](/collection/leetcodes/100_SameTree/) | Easy | 树 + 双pre |
+| [101-Symmetric Tree](/collection/leetcodes/101_SymmetricTree/) | Easy | 树 + 双pre | 
 | [102-Binary Tree Level Order Traversal](/collection/leetcodes/102_BinaryTreeLevelOrderTraversal/) | Medium | 树 + 层次遍历模板 | 
 | [112-Path Sum](/collection/leetcodes/112_PathSum/) | Easy | 树 + 双pre |
 | [113-Path Sum II](/collection/leetcodes/113_PathSumII/) | Medium | 树 + Pre Order + 回溯法 + 控制和 | 
@@ -126,6 +128,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [131-Palindrome Partitioning](/collection/leetcodes/131_PalindromePartitioning/) | Medium | 回溯法 + 实现题  + 子集 + Palindrome判断|
 | [133-Clone Graph](/collection/leetcodes/133_CloneGraph/) | Medium | 图 + BFS + Hashmap |
 | [144-Binary Tree Preorder Traversal](/collection/leetcodes/144_BinaryTreePreorderTraversal/)  | Medium | 树 + 先序遍历模板 |
+| [145-Binary Tree Postorder Traversal](/collection/leetcodes/145_BinaryTreePostorderTraversal/) | Hard | 树 + 后序遍历模板 |
 | [151-Reverse Words in a String](/collection/leetcodes/151_ReverseWordsinaString/) | Easy | 字符串 + 实现题 |
 | [157-Read N Characters Given Read4 I](/collection/leetcodes/157_ReadNCharactersGivenRead4I/)  | Easy | 字符串 + 实现题 + 空间思路|
 | [159-Longest Substring With At Most Two Distinct Characters](/collection/leetcodes/159_LongestSubstringWithAtMostTwoDistinctCharacters/) | Medium | 字符串 + substring + sliding window |
