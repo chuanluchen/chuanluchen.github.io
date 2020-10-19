@@ -77,6 +77,8 @@ screenshot: /assets/img/projects/code/code.jpg
   - [112-Path Sum](/collection/leetcodes/112_PathSum/) 
   - [100-Same Tree](/collection/leetcodes/100_SameTree/) 
   - [101-Symmetric Tree](/collection/leetcodes/101_SymmetricTree/) 
+  - [129-Sum Root To Leaf Numbers](/collection/leetcodes/129_SumRootToLeafNumbers/) 
+  
   
  
 <br><br>
@@ -123,7 +125,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [113-Path Sum II](/collection/leetcodes/113_PathSumII/) | Medium | 树 + Pre Order + 回溯法 + 控制和 | 
 | [125-Valid Palindrome](/collection/leetcodes/125_ValidPalindrome/)  | Easy | 字符串 + Palindrome|
 | [127-Word Ladder](/collection/leetcodes/127_WordLadder/) | Medium | 图 + BFS |
-| [151-Reverse Words in a String](/collection/leetcodes/151_ReverseWordsinaString/) | Easy | 字符串 + 实现题 |
+| [129-Sum Root To Leaf Numbers](/collection/leetcodes/129_SumRootToLeafNumbers/) | Medium | 树 + 双pre + 数10进制 |
 | [130-Surrounded Regions](/collection/leetcodes/130_SurroundedRegions/)  |  Medium |  图 + DFS + Flood Fill + 从边界开始 |
 | [131-Palindrome Partitioning](/collection/leetcodes/131_PalindromePartitioning/) | Medium | 回溯法 + 实现题  + 子集 + Palindrome判断|
 | [133-Clone Graph](/collection/leetcodes/133_CloneGraph/) | Medium | 图 + BFS + Hashmap |
