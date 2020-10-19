@@ -1585,3 +1585,84 @@ and DATE_ADD(t.install_dt, interval 1 day) = a.event_date
 group by install_dt
 order by install_dt
 ~~~
+
+### 1127. User Purchase Platform
+- 针对每人/每天：mobile/ desktop的总量进行统计
+- 分别统计total_amount, total_user -> Union all
+
+~~~sql
+# 针对每人/每天：mobile/ desktop的总量进行统计
+with temp as(
+    select user_id, spend_date, 
+    sum(if(platform='mobile', amount, 0)) as mobile_amount,
+    sum(if(platform='desktop', amount, 0)) as desktop_amount
+    from Spending
+    group by user_id, spend_date
+)
+
+select spend_date, 'desktop' as platform,
+sum(if(desktop_amount>0 and mobile_amount=0,desktop_amount,0)) as total_amount, # desktop only
+sum(if(desktop_amount>0 and mobile_amount=0,1,0)) as total_users
+from temp
+group by spend_date
+union all
+select spend_date, 'mobile' as platform,
+sum(if(desktop_amount=0 and mobile_amount>0,mobile_amount,0)) as total_amount, # mobile only
+sum(if(desktop_amount=0 and mobile_amount>0,1,0)) as total_users
+from temp
+group by spend_date
+union all
+select spend_date, 'both' as platform,
+sum(if(desktop_amount>0 and mobile_amount>0,mobile_amount+desktop_amount,0)) as total_amount, # both
+sum(if(desktop_amount>0 and mobile_amount>0,1,0)) as total_users
+from temp
+group by spend_date
+~~~
+
+### 1159. Market Analysis II
+- 先找到second item的品牌
+
+~~~sql
+with temp as(
+    select o.seller_id, i.item_brand,
+    rank() over (partition by seller_id order by order_date) as item_rank
+    from Orders o join Items i
+    on o.item_id = i.item_id
+)
+
+select u.user_id as seller_id,
+if(u.favorite_brand = t.item_brand,'yes', 'no') as '2nd_item_fav_brand'
+from Users u left join
+    (
+    select seller_id, item_brand  
+    from temp
+    where item_rank = 2
+    ) t
+on u.user_id = t.seller_id
+~~~
+
+### 1194. Tournament Winners
+- 先找到所有人得分
+- 再找每组排名第一的
+
+~~~sql
+with temp as(
+    select player, sum(scores) as scores
+    from
+        (select first_player as player, first_score as scores
+        from Matches
+        union all
+        select second_player as player, second_score as scores
+        from Matches) c
+    group by player
+)
+
+select group_id, player_id
+from
+(select p.group_id,p.player_id, 
+rank() over(partition by p.group_id order by t.scores desc,player_id) as score_rank
+from temp t right join  Players p
+on t.player = p.player_id
+) t
+where score_rank = 1
+~~~
