@@ -78,7 +78,9 @@ screenshot: /assets/img/projects/code/code.jpg
   - [100-Same Tree](/collection/leetcodes/100_SameTree/) 
   - [101-Symmetric Tree](/collection/leetcodes/101_SymmetricTree/) 
   - [129-Sum Root To Leaf Numbers](/collection/leetcodes/129_SumRootToLeafNumbers/) 
-  
+  - [111-Minimum Depth Of Binary Tree](/collection/leetcodes/111_MinimumDepthOfBinaryTree/) 
+- InOrder应用
+  - [98-Validate Binary Search Tree](/collection/leetcodes/98_ValidateBinarySearchTree/) 
   
  
 <br><br>
@@ -118,9 +120,11 @@ screenshot: /assets/img/projects/code/code.jpg
 | [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) | Medium | 回溯法 + 实现  + index控制 + 内部数位控制 |
 | [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) | Medium | 回溯法 + 实现  + index控制 + 内部数位控制 |
 | [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) | Medium | 回溯法 + 实现  + index控制 + 内部数位控制 |
+| [98-Validate Binary Search Tree](/collection/leetcodes/98_ValidateBinarySearchTree/) | Medium | 树 + 中序遍历 + BST |
 | [100-Same Tree](/collection/leetcodes/100_SameTree/) | Easy | 树 + 双pre |
 | [101-Symmetric Tree](/collection/leetcodes/101_SymmetricTree/) | Easy | 树 + 双pre | 
 | [102-Binary Tree Level Order Traversal](/collection/leetcodes/102_BinaryTreeLevelOrderTraversal/) | Medium | 树 + 层次遍历模板 | 
+| [111-Minimum Depth Of Binary Tree](/collection/leetcodes/111_MinimumDepthOfBinaryTree/) | Easy | 树 + 双
 | [112-Path Sum](/collection/leetcodes/112_PathSum/) | Easy | 树 + 双pre |
 | [113-Path Sum II](/collection/leetcodes/113_PathSumII/) | Medium | 树 + Pre Order + 回溯法 + 控制和 | 
 | [125-Valid Palindrome](/collection/leetcodes/125_ValidPalindrome/)  | Easy | 字符串 + Palindrome|
