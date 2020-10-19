@@ -1716,6 +1716,41 @@ group by state, diff_dt
 order by start_date
 ~~~
 
+### 1336. Number of Transactions per Visit
+- 多个CTE with recursive写前面，即便不是所有CTE都是recursive
+
+~~~sql
+# 计算每人每次visit的transaction count
+with recursive a as (
+    select v.user_id, v.visit_date,
+    if(t.transaction_date is null, 0, count(t.transaction_date)) as transactions_count
+    from Visits v left join Transactions t
+    on v.user_id = t.user_id
+    and v.visit_date = t.transaction_date
+    group by v.user_id, v.visit_date
+),
+
+# 计算相应transaction count的count
+b as(
+    select transactions_count, count(*) as visits_count
+    from a
+    group by transactions_count
+),
+
+# recursive CTE:生成0~n的连续数字
+c as (
+    select 0 as transactions_count
+    union all
+    select transactions_count + 1 from c where transactions_count < 
+        (select max(transactions_count) from b)
+)
+
+select c.transactions_count, ifnull(b.visits_count, 0) as visits_count
+from c left join b
+on c.transactions_count =b.transactions_count
+
+~~~
+
 
 
 
