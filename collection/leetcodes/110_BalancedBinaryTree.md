@@ -31,8 +31,9 @@ Return false.
 ~~~
 
 ## 思路
-- 树：双pre，同时走两边
-- 递归调用
+- 树：PostOrder
+- 分别求左子树高度，右子树高度，diff<1
+- 求子树高度：max(left, right) + 1
 
 ~~~python
 # Definition for a binary tree node.
