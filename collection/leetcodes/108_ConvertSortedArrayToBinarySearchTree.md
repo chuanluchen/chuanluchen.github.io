@@ -42,6 +42,20 @@ class Solution(object):
         root.left = self.helper(nums, left, mid-1)
         root.right = self.helper(nums, mid+1, right)
         return root
+
+## 精简写法     
+class Solution(object):
+    def sortedArrayToBST(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: TreeNode
+        """
+        if not nums: return None
+        l = len(nums)
+        root = TreeNode(nums[l//2])
+        root.left = self.sortedArrayToBST(nums[:l//2])
+        root.right = self.sortedArrayToBST(nums[l//2+1:])
+        return root
 ~~~
 
 ## 分析:
