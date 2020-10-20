@@ -1748,9 +1748,110 @@ c as (
 select c.transactions_count, ifnull(b.visits_count, 0) as visits_count
 from c left join b
 on c.transactions_count =b.transactions_count
-
 ~~~
 
+### 1369. Get the Second Most Recent Activity
+
+~~~sql
+with temp as
+(
+    select * ,
+    rank() over (partition by username order by startDate desc) as activity_rank,
+    count(activity) over (partition by username) as count_activity
+    from UserActivity
+)
+
+select username, activity, startDate, endDate
+from temp
+where count_activity=1 or activity_rank = 2
+~~~
+
+### 1384. Total Sales Amount by Year
+
+~~~sql
+# 生成所有年份的start_date, end_date
+WITH recursive yearsAll
+AS    (SELECT (select year(min(period_start)) from Sales) AS years     -- anchor member
+        ,(select concat(years, '-01-01')) AS startDate
+        ,(select concat(years, '-12-31')) AS endDate
+        UNION ALL
+        SELECT years + 1                                                -- recursive member
+        ,(select concat(years + 1, '-01-01')) AS startDate
+        ,(select concat(years + 1, '-12-31')) AS endDate
+        FROM   yearsAll
+        WHERE  years <= (select year(max(period_end)) from Sales)        -- terminator
+       )
+       
+SELECT s.product_id,p.product_name,cast(y.years as char) as report_year,
+((case 
+  when year(s.period_start) = year(s.period_end) then datediff(s.period_end,s.period_start) + 1  #用一年内找range:end-start+1
+  else (case when year(s.period_start) = y.years then datediff(y.endDate,s.period_start) + 1  # start/end跨年
+              when year(s.period_end)   = y.years  then datediff(s.period_end,y.startDate) + 1 
+              else dayofyear(endDate) end) end) * s.average_daily_sales) as total_amount 
+FROM  Sales s
+inner join Product p on s.product_id = p.product_id
+inner join yearsAll y on y.years between year(s.period_start) and year(s.period_end)
+order by product_id,report_year
+~~~
+
+### 1412. Find the Quiet Students in All Exams
+- 正序rank一遍，倒序rank一遍
+- 排除掉rank=1的学生
+
+~~~sql
+# 生成所有年份的start_date, end_date
+WITH recursive yearsAll
+AS    (SELECT (select year(min(period_start)) from Sales) AS years     -- anchor member
+        ,(select concat(years, '-01-01')) AS startDate
+        ,(select concat(years, '-12-31')) AS endDate
+        UNION ALL
+        SELECT years + 1                                                -- recursive member
+        ,(select concat(years + 1, '-01-01')) AS startDate
+        ,(select concat(years + 1, '-12-31')) AS endDate
+        FROM   yearsAll
+        WHERE  years <= (select year(max(period_end)) from Sales)        -- terminator
+       )
+       
+SELECT s.product_id,p.product_name,cast(y.years as char) as report_year,
+((case 
+  when year(s.period_start) = year(s.period_end) then datediff(s.period_end,s.period_start) + 1  #用一年内找range:end-start+1
+  else (case when year(s.period_start) = y.years then datediff(y.endDate,s.period_start) + 1  # start/end跨年
+              when year(s.period_end)   = y.years  then datediff(s.period_end,y.startDate) + 1 
+              else dayofyear(endDate) end) end) * s.average_daily_sales) as total_amount 
+FROM  Sales s
+inner join Product p on s.product_id = p.product_id
+inner join yearsAll y on y.years between year(s.period_start) and year(s.period_end)
+order by product_id,report_year
+~~~
+
+### 1412. Find the Quiet Students in All Exams
+- CTE先取出每天每个类别的数量 dayname()
+- 再分成多列
+
+~~~sql
+# 每天每个类别的数量
+with temp as(
+    select dayname(o.order_date) as day, #使用dayname取day of week
+    sum(o.quantity) as quant,
+    i.item_category  as category
+    from Items i left join Orders o
+    on i.item_id = o.item_id
+    group by day,  i.item_category 
+)
+
+select 
+    category,  
+    sum(if(day = 'Monday', quant,0)) as Monday,
+    sum(if(day = 'Tuesday', quant,0)) as Tuesday,
+    sum(if(day = 'Wednesday', quant,0)) as Wednesday,
+    sum(if(day = 'Thursday', quant,0)) as Thursday,
+    sum(if(day = 'Friday', quant,0)) as Friday,
+    sum(if(day = 'Saturday', quant,0)) as Saturday,
+    sum(if(day = 'Sunday', quant,0)) as Sunday
+from temp
+group by category
+order by category
+~~~
 
 
 
