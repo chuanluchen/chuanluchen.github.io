@@ -1841,7 +1841,7 @@ inner join yearsAll y on y.years between year(s.period_start) and year(s.period_
 order by product_id,report_year
 ~~~
 
-### 1412. Find the Quiet Students in All Exams
+### 1479. Sales by Day of the Week    
 - CTE先取出每天每个类别的数量 dayname()
 - 再分成多列
 
