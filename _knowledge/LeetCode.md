@@ -70,7 +70,6 @@ screenshot: /assets/img/projects/code/code.jpg
   - [94-Binary Tree Inorder Traversal](/collection/leetcodes/94_BinaryTreeInorderTraversal/) 【中序模板】
   - [145-Binary Tree Postorder Traversal](/collection/leetcodes/145_BinaryTreePostorderTraversal/) 【后序模板】
   - [102-Binary Tree Level Order Traversal](/collection/leetcodes/102_BinaryTreeLevelOrderTraversal/) 【层次模板】
-  - [199-Binary Tree Right Side View](/collection/leetcodes/199_BinaryTreeRightSideView/)   【层次变换】 
 - Pre Order + Backtracking
   - [113-Path Sum II](/collection/leetcodes/113_PathSumII/)  
 - 双pre
@@ -87,6 +86,9 @@ screenshot: /assets/img/projects/code/code.jpg
  - PostOrder应用
   - [104-Maximum Depth Of Binary Tree](/collection/leetcodes/104_MaximumDepthOfBinaryTree/) 
   - [110-Balanced Binary Tree](/collection/leetcodes/110_BalancedBinaryTree/) 
+ - LevelOrder应用
+  - [199-Binary Tree Right Side View](/collection/leetcodes/199_BinaryTreeRightSideView/)
+  - [107-Binary Tree Level Order Traversal II](/collection/leetcodes/107_BinaryTreeLevelOrderTraversalII/)
   
  
  
@@ -132,6 +134,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [101-Symmetric Tree](/collection/leetcodes/101_SymmetricTree/) | Easy | 树 + 双pre | 
 | [102-Binary Tree Level Order Traversal](/collection/leetcodes/102_BinaryTreeLevelOrderTraversal/) | Medium | 树 + 层次遍历模板 |  
 | [104-Maximum Depth Of Binary Tree](/collection/leetcodes/104_MaximumDepthOfBinaryTree/)  | Easy | 树 + 后序遍历 |
+| [107-Binary Tree Level Order Traversal II](/collection/leetcodes/107_BinaryTreeLevelOrderTraversalII/) | Easy | 树 + 层次遍历 |
 | [108-Convert Sorted Array To Binary Search Tree](/collection/leetcodes/108_ConvertSortedArrayToBinarySearchTree/) | Easy | 树 + 中序遍历的逆序 + 二分递归 |
 | [109-Convert Sorted List To Binary Search Tree](/collection/leetcodes/109_ConvertSortedListToBinarySearchTree/)  | Medium | 树 + 中序遍历 + 套用108 |
 | [110-Balanced Binary Tree](/collection/leetcodes/110_BalancedBinaryTree/) | Easy + 树 + PostOrder | 
