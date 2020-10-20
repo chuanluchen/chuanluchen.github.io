@@ -82,6 +82,8 @@ screenshot: /assets/img/projects/code/code.jpg
 - InOrder应用
   - [98-Validate Binary Search Tree](/collection/leetcodes/98_ValidateBinarySearchTree/) 
   - [173-Binary Search Tree Iterator](/collection/leetcodes/173_BinarySearchTreeIterator/) 
+  - [108-Convert Sorted Array To Binary Search Tree](/collection/leetcodes/108_ConvertSortedArrayToBinarySearchTree/) 
+  
   
   
  
@@ -126,6 +128,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [100-Same Tree](/collection/leetcodes/100_SameTree/) | Easy | 树 + 双pre |
 | [101-Symmetric Tree](/collection/leetcodes/101_SymmetricTree/) | Easy | 树 + 双pre | 
 | [102-Binary Tree Level Order Traversal](/collection/leetcodes/102_BinaryTreeLevelOrderTraversal/) | Medium | 树 + 层次遍历模板 | 
+| [108-Convert Sorted Array To Binary Search Tree](/collection/leetcodes/108_ConvertSortedArrayToBinarySearchTree/) | Easy | 树 + 中序遍历的逆序 + 二分递归 |
 | [111-Minimum Depth Of Binary Tree](/collection/leetcodes/111_MinimumDepthOfBinaryTree/) | Easy | 树 + 双
 | [112-Path Sum](/collection/leetcodes/112_PathSum/) | Easy | 树 + 双pre |
 | [113-Path Sum II](/collection/leetcodes/113_PathSumII/) | Medium | 树 + Pre Order + 回溯法 + 控制和 | 
