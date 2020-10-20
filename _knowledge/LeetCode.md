@@ -84,7 +84,9 @@ screenshot: /assets/img/projects/code/code.jpg
   - [173-Binary Search Tree Iterator](/collection/leetcodes/173_BinarySearchTreeIterator/) 
   - [108-Convert Sorted Array To Binary Search Tree](/collection/leetcodes/108_ConvertSortedArrayToBinarySearchTree/) 
   - [109-Convert Sorted List To Binary Search Tree](/collection/leetcodes/109_ConvertSortedListToBinarySearchTree/) 
-  
+ - PostOrder应用
+  - [104-Maximum Depth Of Binary Tree](/collection/leetcodes/104_MaximumDepthOfBinaryTree/) 
+ 
  
 <br><br>
 
@@ -126,7 +128,8 @@ screenshot: /assets/img/projects/code/code.jpg
 | [98-Validate Binary Search Tree](/collection/leetcodes/98_ValidateBinarySearchTree/) | Medium | 树 + 中序遍历 + BST |
 | [100-Same Tree](/collection/leetcodes/100_SameTree/) | Easy | 树 + 双pre |
 | [101-Symmetric Tree](/collection/leetcodes/101_SymmetricTree/) | Easy | 树 + 双pre | 
-| [102-Binary Tree Level Order Traversal](/collection/leetcodes/102_BinaryTreeLevelOrderTraversal/) | Medium | 树 + 层次遍历模板 | 
+| [102-Binary Tree Level Order Traversal](/collection/leetcodes/102_BinaryTreeLevelOrderTraversal/) | Medium | 树 + 层次遍历模板 |  
+| [104-Maximum Depth Of Binary Tree](/collection/leetcodes/104_MaximumDepthOfBinaryTree/)  | Easy | 树 + 后序遍历 |
 | [108-Convert Sorted Array To Binary Search Tree](/collection/leetcodes/108_ConvertSortedArrayToBinarySearchTree/) | Easy | 树 + 中序遍历的逆序 + 二分递归 |
 | [109-Convert Sorted List To Binary Search Tree](/collection/leetcodes/109_ConvertSortedListToBinarySearchTree/)  | Medium | 树 + 中序遍历 + 套用108 |
 | [111-Minimum Depth Of Binary Tree](/collection/leetcodes/111_MinimumDepthOfBinaryTree/) | Easy | 树 + 双
