@@ -65,7 +65,7 @@ screenshot: /assets/img/projects/code/code.jpg
   - [133-Clone Graph](/collection/leetcodes/133_CloneGraph/) 
  
 ### 树
--  基础遍历
+- 基础遍历
   - [144-Binary Tree Preorder Traversal](/collection/leetcodes/144_BinaryTreePreorderTraversal/) 【先序模板】
   - [94-Binary Tree Inorder Traversal](/collection/leetcodes/94_BinaryTreeInorderTraversal/) 【中序模板】
   - [145-Binary Tree Postorder Traversal](/collection/leetcodes/145_BinaryTreePostorderTraversal/) 【后序模板】
