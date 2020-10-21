@@ -124,7 +124,6 @@ defaults:
       seo:
         type:          WebPage
 
-markdown: GFM
 kramdown:
   math_engine:         katex
   math_engine_opts:    {}
