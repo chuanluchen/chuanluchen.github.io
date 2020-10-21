@@ -47,7 +47,7 @@ University of Vermont与University of Adelaide两所大学的研究团队曾在2
 看过Joker(2019)的童鞋一定不会惊讶于这幅情感曲线图的走势。这部电影从头到尾都在压抑和癫狂中不断切换，几乎没有喘息的空间。电影剧本的整体情绪得分比较高，跌宕起伏亦非常明显。最后随着男主角走向崩溃与自我毁灭，这种文本上的情绪也被推向一个又一个高峰。
 
 <iFrame  seamless="seamless" frameborder="0"
-  src='/assets/img/projects/emotion_arc/Do The Right Thing.html'  width="100%" height="400px" scrolling="no" >
+  src='/assets/img/projects/emotion_arc/Do The Right Thing.html'  width="100%" height="100vh" scrolling="no" >
 </iFrame>
 <br>
 1989年的Do the Right Thing是一部反映纽约社区种族矛盾的电影。从剧本的情绪曲线上看，这个故事在略显平稳的叙述口吻展开。虽然偶有波澜，但在故事的发展进程中，并没有像Joker那样焦灼的起伏。但在故事的最后五分之一，多条线索的冲突集中爆发，形成了一个对观众情绪扰动的高峰。
