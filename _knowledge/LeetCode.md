@@ -96,8 +96,8 @@ screenshot: /assets/img/projects/code/code.jpg
   - [156-Binary Tree Upside Down](/collection/leetcodes/156_BinaryTreeUpsideDown/)
 - 树的实现
   - [114-Flatten Binary Tree To Linked List](/collection/leetcodes/114_FlattenBinaryTreeToLinkedList/)
+  - [105-Construct Binary Tree From Preorder And Inorder Traversal](/collection/leetcodes/105_ConstructBinaryTreeFromPreorderAndInorderTraversal/)
  
-  
   
   
 
@@ -144,6 +144,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [102-Binary Tree Level Order Traversal](/collection/leetcodes/102_BinaryTreeLevelOrderTraversal/) | Medium | 树 + 层次遍历模板 |  
 | [103-Binary Tree Zigzag Level Order Traversal](/collection/leetcodes/103_BinaryTreeZigzagLevelOrderTraversal/) | Medium | 树 + 层次遍历应用 |
 | [104-Maximum Depth Of Binary Tree](/collection/leetcodes/104_MaximumDepthOfBinaryTree/)  | Easy | 树 + 后序遍历 |
+| [105-Construct Binary Tree From Preorder And Inorder Traversal](/collection/leetcodes/105_ConstructBinaryTreeFromPreorderAndInorderTraversal/) | Medium | 树的实现 |
 | [107-Binary Tree Level Order Traversal II](/collection/leetcodes/107_BinaryTreeLevelOrderTraversalII/) | Easy | 树 + 层次遍历 |
 | [108-Convert Sorted Array To Binary Search Tree](/collection/leetcodes/108_ConvertSortedArrayToBinarySearchTree/) | Easy | 树 + 中序遍历的逆序 + 二分递归 |
 | [109-Convert Sorted List To Binary Search Tree](/collection/leetcodes/109_ConvertSortedListToBinarySearchTree/)  | Medium | 树 + 中序遍历 + 套用108 |
