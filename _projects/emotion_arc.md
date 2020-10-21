@@ -29,7 +29,7 @@ University of Vermont与University of Adelaide两所大学的研究团队曾在2
 
 看到这项研究的时候，我不禁好奇，我们对于电影剧本能否做类似的尝试？
 
-当然，在做尝试的时候，我也可以做一点点改进。既然我们关心的是文本的情绪激发程度，仅仅用情绪正负的程度区分或许不能精准的实现我们的诉求。在这里，我选择借助更新的一些NLP研究成果。NRC Valence, Arousal, and Dominance (VAD) Lexicon词表<sup id="note3">[2](#f3)</sup>对超过20000个英文单词进行valence, arousal, dominance三个维度的评分。具体来说，valence指的是情绪正负（欢乐/不悦）维度，arousal指的是情绪积极（excited or active）/消极(calm or passive)这一维度，dominance指的是掌控力强/弱的维度。其中，arousal这一指标更符合我们对于了解文本在多大程度上能够激发读者情绪的需求。在arousal维度上得分比较的高的词，有abduction, exorcism, homicide等，得分比较低的词有mellow,siesta, napping等等。
+当然，在做尝试的时候，我也可以做一点点改进。既然我们关心的是文本的情绪激发程度，仅仅用情绪正负的程度区分或许不能精准的实现我们的诉求。在这里，我选择借助更新的一些NLP研究成果。NRC Valence, Arousal, and Dominance (VAD) Lexicon词表<sup id="note3">[3](#f3)</sup>对超过20000个英文单词进行valence, arousal, dominance三个维度的评分。具体来说，valence指的是情绪正负（欢乐/不悦）维度，arousal指的是情绪积极（excited or active）/消极(calm or passive)这一维度，dominance指的是掌控力强/弱的维度。其中，arousal这一指标更符合我们对于了解文本在多大程度上能够激发读者情绪的需求。在arousal维度上得分比较的高的词，有abduction, exorcism, homicide等，得分比较低的词有mellow,siesta, napping等等。
 
 具体的实现参考以上小说研究项目。
 
@@ -67,10 +67,10 @@ University of Vermont与University of Adelaide两所大学的研究团队曾在2
 - 照搬此方法到中文电影剧本可能会有偏差。虽然NRC-VAD Lexicon词表提供了各个语言的版本，但词汇的对应是基于Google Translate产生，不免产生大量语义的损失。因此，当前的方法并没有在中文电影剧本上尝试。
 
 
-<id="f1">[1] Reagan, A. J., Mitchell, L., Kiley, D., Danforth, C. M., & Dodds, P. S. (2016). The emotional arcs of stories are dominated by six basic shapes. *EPJ Data Science*, *5*(1), 31. https://doi.org/10.1140/epjds/s13688-016-0093-1[↩](#note1)
+<id="f1">[1] Reagan, A. J., Mitchell, L., Kiley, D., Danforth, C. M., & Dodds, P. S. (2016). The emotional arcs of stories are dominated by six basic shapes. *EPJ Data Science*, *5*(1), 31. https://doi.org/10.1140/epjds/s13688-016-0093-1 [↩](#note1)
 
 <id="f2">[2]*Hedonometer*. (n.d.). Retrieved October 20, 2020, from http://hedonometer.org/timeseries/en_all/ [↩](#note2)
 
-<id="f3">[3]Obtaining Reliable Human Ratings of Valence, Arousal, and Dominance for 20,000 English Words.](https://saifmohammad.com/WebDocs/acl2018-VAD.pdf) Saif M. Mohammad. In *Proceedings of* the 56th Annual Meeting of the Association for Computational Linguistics, Melbourne, Australia, July 2018.[↩](#note3)
+<id="f3">[3]Obtaining Reliable Human Ratings of Valence, Arousal, and Dominance for 20,000 English Words.](https://saifmohammad.com/WebDocs/acl2018-VAD.pdf) Saif M. Mohammad. In *Proceedings of* the 56th Annual Meeting of the Association for Computational Linguistics, Melbourne, Australia, July 2018. [↩](#note3)
 
 
