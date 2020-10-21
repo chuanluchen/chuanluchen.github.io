@@ -83,14 +83,14 @@ screenshot: /assets/img/projects/code/code.jpg
   - [173-Binary Search Tree Iterator](/collection/leetcodes/173_BinarySearchTreeIterator/) 
   - [108-Convert Sorted Array To Binary Search Tree](/collection/leetcodes/108_ConvertSortedArrayToBinarySearchTree/) 
   - [109-Convert Sorted List To Binary Search Tree](/collection/leetcodes/109_ConvertSortedListToBinarySearchTree/) 
- - PostOrder应用
+- PostOrder应用
   - [104-Maximum Depth Of Binary Tree](/collection/leetcodes/104_MaximumDepthOfBinaryTree/) 
   - [110-Balanced Binary Tree](/collection/leetcodes/110_BalancedBinaryTree/) 
- - LevelOrder应用
+- LevelOrder应用
   - [199-Binary Tree Right Side View](/collection/leetcodes/199_BinaryTreeRightSideView/)
   - [107-Binary Tree Level Order Traversal II](/collection/leetcodes/107_BinaryTreeLevelOrderTraversalII/)
   - [103-Binary Tree Zigzag Level Order Traversal](/collection/leetcodes/103_BinaryTreeZigzagLevelOrderTraversal/)
- - 树 + 链表
+- 树 + 链表
   - [116-Populating Next Right Pointers In Each Node](/collection/leetcodes/116_PopulatingNextRightPointersInEachNode/)
   - [117-Populating Next Right Pointers In Each Node II](/collection/leetcodes/117_PopulatingNextRightPointersInEachNodeII/)
   
