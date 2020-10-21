@@ -90,6 +90,8 @@ screenshot: /assets/img/projects/code/code.jpg
   - [199-Binary Tree Right Side View](/collection/leetcodes/199_BinaryTreeRightSideView/)
   - [107-Binary Tree Level Order Traversal II](/collection/leetcodes/107_BinaryTreeLevelOrderTraversalII/)
   - [103-Binary Tree Zigzag Level Order Traversal](/collection/leetcodes/103_BinaryTreeZigzagLevelOrderTraversal/)
+ - 树 + 链表
+  - [116-Populating Next Right Pointers In Each Node](/collection/leetcodes/116_PopulatingNextRightPointersInEachNode/)
   
 
 <br><br>
@@ -142,6 +144,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [111-Minimum Depth Of Binary Tree](/collection/leetcodes/111_MinimumDepthOfBinaryTree/) | Easy | 树 + 双
 | [112-Path Sum](/collection/leetcodes/112_PathSum/) | Easy | 树 + 双pre |
 | [113-Path Sum II](/collection/leetcodes/113_PathSumII/) | Medium | 树 + Pre Order + 回溯法 + 控制和 | 
+| [116-Populating Next Right Pointers In Each Node](/collection/leetcodes/116_PopulatingNextRightPointersInEachNode/) | Medium | 树 + 链表 |
 | [125-Valid Palindrome](/collection/leetcodes/125_ValidPalindrome/)  | Easy | 字符串 + Palindrome|
 | [127-Word Ladder](/collection/leetcodes/127_WordLadder/) | Medium | 图 + BFS |
 | [129-Sum Root To Leaf Numbers](/collection/leetcodes/129_SumRootToLeafNumbers/) | Medium | 树 + 双pre + 数10进制 |
