@@ -94,6 +94,9 @@ screenshot: /assets/img/projects/code/code.jpg
   - [116-Populating Next Right Pointers In Each Node](/collection/leetcodes/116_PopulatingNextRightPointersInEachNode/)
   - [117-Populating Next Right Pointers In Each Node II](/collection/leetcodes/117_PopulatingNextRightPointersInEachNodeII/)
   - [156-Binary Tree Upside Down](/collection/leetcodes/156_BinaryTreeUpsideDown/)
+- 树的实现
+  - [114-Flatten Binary Tree To Linked List](/collection/leetcodes/114_FlattenBinaryTreeToLinkedList/)
+ 
   
   
   
@@ -148,6 +151,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [111-Minimum Depth Of Binary Tree](/collection/leetcodes/111_MinimumDepthOfBinaryTree/) | Easy | 树 + 双
 | [112-Path Sum](/collection/leetcodes/112_PathSum/) | Easy | 树 + 双pre |
 | [113-Path Sum II](/collection/leetcodes/113_PathSumII/) | Medium | 树 + Pre Order + 回溯法 + 控制和 | 
+| [114-Flatten Binary Tree To Linked List](/collection/leetcodes/114_FlattenBinaryTreeToLinkedList/) | Medium | 树的实现 +  preOrder + Stack |
 | [116-Populating Next Right Pointers In Each Node](/collection/leetcodes/116_PopulatingNextRightPointersInEachNode/) | Medium | 树 + 链表 |
 | [117-Populating Next Right Pointers In Each Node II](/collection/leetcodes/117_PopulatingNextRightPointersInEachNodeII/) | Medium | 树 + 链表 |
 | [125-Valid Palindrome](/collection/leetcodes/125_ValidPalindrome/)  | Easy | 字符串 + Palindrome|
