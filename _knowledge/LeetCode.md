@@ -93,6 +93,8 @@ screenshot: /assets/img/projects/code/code.jpg
 - 树 + 链表
   - [116-Populating Next Right Pointers In Each Node](/collection/leetcodes/116_PopulatingNextRightPointersInEachNode/)
   - [117-Populating Next Right Pointers In Each Node II](/collection/leetcodes/117_PopulatingNextRightPointersInEachNodeII/)
+  - [156-Binary Tree Upside Down](/collection/leetcodes/156_BinaryTreeUpsideDown/)
+  
   
   
 
@@ -157,6 +159,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [144-Binary Tree Preorder Traversal](/collection/leetcodes/144_BinaryTreePreorderTraversal/)  | Medium | 树 + 先序遍历模板 |
 | [145-Binary Tree Postorder Traversal](/collection/leetcodes/145_BinaryTreePostorderTraversal/) | Hard | 树 + 后序遍历模板 |
 | [151-Reverse Words in a String](/collection/leetcodes/151_ReverseWordsinaString/) | Easy | 字符串 + 实现题 |
+| [156-Binary Tree Upside Down](/collection/leetcodes/156_BinaryTreeUpsideDown/) | Medium | 树 + 链表 |
 | [157-Read N Characters Given Read4 I](/collection/leetcodes/157_ReadNCharactersGivenRead4I/)  | Easy | 字符串 + 实现题 + 空间思路|
 | [159-Longest Substring With At Most Two Distinct Characters](/collection/leetcodes/159_LongestSubstringWithAtMostTwoDistinctCharacters/) | Medium | 字符串 + substring + sliding window |
 | [171-Excel Sheet Column Number](/collection/leetcodes/171_ExcelSheetColumnNumber/)  | Easy | 字符串 + 基本 + 26进制转换 |
