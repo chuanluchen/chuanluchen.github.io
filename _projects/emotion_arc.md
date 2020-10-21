@@ -1,7 +1,7 @@
 ---
 layout: project
 title: '像数据科学家一样读电影剧本'
-date: 12 April 2020
+date: 12 December 2019
 image:  
   path: /assets/img/projects/emotion_arc/screeplay.jpg
 caption: NLP：电影剧本的情感曲线
