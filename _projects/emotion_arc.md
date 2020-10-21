@@ -64,8 +64,8 @@ University of Vermont与University of Adelaide两所大学的研究团队曾在2
 - 照搬此方法到中文电影剧本可能会有偏差。虽然NRC-VAD Lexicon词表提供了各个语言的版本，但词汇的对应是基于Google Translate产生，不免产生大量语义的损失。因此，当前的方法并没有在中文电影剧本上尝试。
 
 ## References
-<b id="f1">1</b> Reagan, A. J., Mitchell, L., Kiley, D., Danforth, C. M., & Dodds, P. S. (2016). The emotional arcs of stories are dominated by six basic shapes. *EPJ Data Science*, *5*(1), 31. https://doi.org/10.1140/epjds/s13688-016-0093-1 [↩](#a1)
-<b id="f2">2</b> *Hedonometer*. (n.d.). Retrieved October 20, 2020, from http://hedonometer.org/timeseries/en_all/ [↩](#a2)
-<b id="f3">3</b> Obtaining Reliable Human Ratings of Valence, Arousal, and Dominance for 20,000 English Words.](https://saifmohammad.com/WebDocs/acl2018-VAD.pdf) Saif M. Mohammad. In *Proceedings of* the 56th Annual Meeting of the Association for Computational Linguistics, Melbourne, Australia, July 2018. [↩](#a3)
+<b id="f1">1</b> Reagan, A. J., Mitchell, L., Kiley, D., Danforth, C. M., & Dodds, P. S. (2016). The emotional arcs of stories are dominated by six basic shapes. *EPJ Data Science*, *5*(1), 31. https://doi.org/10.1140/epjds/s13688-016-0093-1 [↩](#a1)<br>
+<b id="f2">2</b> *Hedonometer*. (n.d.). Retrieved October 20, 2020, from http://hedonometer.org/timeseries/en_all/ [↩](#a2)<br>
+<b id="f3">3</b> Obtaining Reliable Human Ratings of Valence, Arousal, and Dominance for 20,000 English Words.](https://saifmohammad.com/WebDocs/acl2018-VAD.pdf) Saif M. Mohammad. In *Proceedings of* the 56th Annual Meeting of the Association for Computational Linguistics, Melbourne, Australia, July 2018. [↩](#a3)<br>
 
 
