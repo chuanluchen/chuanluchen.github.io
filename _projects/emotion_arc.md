@@ -11,7 +11,9 @@ featured: true
 
 ## 缘起：数据科学家如何读小说
 
-University of Vermont与University of Adelaide两所大学的研究团队曾在2016年做过一项研究[^脚注ID1]：他们通过NLP技术对古登堡收藏项目中的1327篇小说做了语义情感分析。进而通过矩阵分解，主成分分析，层次聚类，他们发现小说中错综复杂的情感轨迹都可以归纳为六种基本的情感曲线：
+
+
+University of Vermont与University of Adelaide两所大学的研究团队曾在2016年做过一项研究 <sup id="note1">[1](#f1)</sup>：他们通过NLP技术对古登堡收藏项目中的1327篇小说做了语义情感分析。进而通过矩阵分解，主成分分析，层次聚类，他们发现小说中错综复杂的情感轨迹都可以归纳为六种基本的情感曲线：
 1. Rags to Riches：情感曲线不断上扬。
 2. Riches to Rags：情感曲线由盛转衰
 3. Man in a Hole：先抑后扬
@@ -65,8 +67,9 @@ University of Vermont与University of Adelaide两所大学的研究团队曾在2
 - 照搬此方法到中文电影剧本可能会有偏差。虽然NRC-VAD Lexicon词表提供了各个语言的版本，但词汇的对应是基于Google Translate产生，不免产生大量语义的损失。因此，当前的方法并没有在中文电影剧本上尝试。
 
 
+<b id="f1">1</b> Reagan, A. J., Mitchell, L., Kiley, D., Danforth, C. M., & Dodds, P. S. (2016). The emotional arcs of stories are dominated by six basic shapes. *EPJ Data Science*, *5*(1), 31. https://doi.org/10.1140/epjds/s13688-016-0093-1[↩](#note1)
 
-[^脚注ID1]: Reagan, A. J., Mitchell, L., Kiley, D., Danforth, C. M., & Dodds, P. S. (2016). The emotional arcs of stories are dominated by six basic shapes. *EPJ Data Science*, *5*(1), 31. https://doi.org/10.1140/epjds/s13688-016-0093-1
 [^脚注ID2]: *Hedonometer*. (n.d.). Retrieved October 20, 2020, from http://hedonometer.org/timeseries/en_all/
+
 [^ 脚注ID3 ]: Obtaining Reliable Human Ratings of Valence, Arousal, and Dominance for 20,000 English Words.](https://saifmohammad.com/WebDocs/acl2018-VAD.pdf) Saif M. Mohammad. In *Proceedings of* the 56th Annual Meeting of the Association for Computational Linguistics, Melbourne, Australia, July 2018.
 
