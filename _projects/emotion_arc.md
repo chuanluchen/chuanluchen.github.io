@@ -41,7 +41,7 @@ University of Vermont与University of Adelaide两所大学的研究团队曾在2
 
 利用这种方法，我们可以针对任何一个英文的电影剧本，绘制情感曲线图。以下随机展示几个例子。
 <iFrame seamless frameborder="0"
-  src='/assets/img/projects/emotion_arc/Joker.html'  width="100%" height=400vh" scrolling="no">
+  src='/assets/img/projects/emotion_arc/Joker.html'  width="100%" height="400vh" scrolling="no">
 </iFrame>
 <br>
 看过Joker(2019)的童鞋一定不会惊讶于这幅情感曲线图的走势。这部电影从头到尾都在压抑和癫狂中不断切换，几乎没有喘息的空间。电影剧本的整体情绪得分比较高，跌宕起伏亦非常明显。最后随着男主角走向崩溃与自我毁灭，这种文本上的情绪也被推向一个又一个高峰。
