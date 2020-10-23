@@ -104,6 +104,7 @@ screenshot: /assets/img/projects/code/code.jpg
   - [55-Jump Game](/collection/leetcodes/55_JumpGame/)
   - [45-Jump Game II](/collection/leetcodes/45_JumpGameII/)
   - [122-Best Time To Buy And Sell Stock II](/collection/leetcodes/122_BestTimeToBuyAndSellStockII/)
+  - [134-Gas Station](/collection/leetcodes/134_GasStation/)
   
 
  
@@ -173,6 +174,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [130-Surrounded Regions](/collection/leetcodes/130_SurroundedRegions/)  |  Medium |  图 + DFS + Flood Fill + 从边界开始 |
 | [131-Palindrome Partitioning](/collection/leetcodes/131_PalindromePartitioning/) | Medium | 回溯法 + 实现题  + 子集 + Palindrome判断|
 | [133-Clone Graph](/collection/leetcodes/133_CloneGraph/) | Medium | 图 + BFS + Hashmap |
+| [134-Gas Station](/collection/leetcodes/134_GasStation/) | Medium | 贪心算法 + 连续和 |
 | [144-Binary Tree Preorder Traversal](/collection/leetcodes/144_BinaryTreePreorderTraversal/)  | Medium | 树 + 先序遍历模板 |
 | [145-Binary Tree Postorder Traversal](/collection/leetcodes/145_BinaryTreePostorderTraversal/) | Hard | 树 + 后序遍历模板 |
 | [151-Reverse Words in a String](/collection/leetcodes/151_ReverseWordsinaString/) | Easy | 字符串 + 实现题 |
