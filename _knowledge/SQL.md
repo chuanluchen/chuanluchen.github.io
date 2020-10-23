@@ -10,7 +10,7 @@ screenshot: /assets/img/projects/code/SQL.jpg
 {:toc}
 
 ## Easy
-### 175 Combine Two Tables 👏
+### 175 Combine Two Tables👏
 - LEFT JOIN
 ~~~sql
 select P.FirstName, P.LastName, A.city, A.State 
@@ -18,15 +18,16 @@ from Person as P Left join Address as A
 on p.PersonId = A.PersonId
 ~~~
 
-### 176. Second Highest Salary
+### 176. Second Highest Salary👀
 - 先查询出最高的工资，然后查询身高小于该值的最高工资
+- 直接使用order...limit 1 offset 无法handle Null和并列第一的情况
 ~~~sql
 Select Max(Salary) as SecondHighestSalary 
 from Employee 
 where Salary < (select MAX(Salary) from Employee)
 ~~~
 
-### 181. Employees Earning More Than Their Managers
+### 181. Employees Earning More Than Their Managers👏
 - 表的内部比较：自连接根据两个条件inner join
 - 1. manager id = id 2. 工资大于manager salary
 ~~~sql
@@ -36,7 +37,7 @@ on a.ManagerId = b.Id
 and a.Salary > b.Salary
 ~~~
 
-### 182. Duplicate Emails
+### 182. Duplicate Emails👏
 - 找重复字段，group by, + having count > 1
 ~~~sql
 select Email 
@@ -45,7 +46,7 @@ group by Email
 having count(Email) > 1
 ~~~
 
-### 183. Customers Who Never Order
+### 183. Customers Who Never Order👏
 - 用NOT IN找不在Order中的id
 ~~~sql
 Select Name as Customers
@@ -55,7 +56,7 @@ where Id NOT IN (
 )
 ~~~
 
-### 184. Department Highest Salary
+### 196. Delete Duplicate Emails🧐
 - Delete +表的内部比较（自连接)
 ~~~sql
 Delete p1
@@ -63,7 +64,7 @@ from Person p1, Person p2
 where p1.Email = p2.Email and p1.Id >  p2.Id
 ~~~
 
-### 197. Rising Temperature
+### 197. Rising Temperature👀
 - 表的内部比较(自连接) + 使用DATEDIFF
 ~~~sql
 select a.id
@@ -71,14 +72,14 @@ from Weather a, Weather b
 where DATEDIFF(a.recordDate,b.recordDate) = 1 and a.Temperature> b.Temperature
 ~~~
 
-### 511. Game Play Analysis I
+### 511. Game Play Analysis I👏
 ~~~sql
 Select player_id, MIN(event_date) as first_login
 from Activity
 group by player_id
 ~~~
 
-### 512. Game Play Analysis II
+### 512. Game Play Analysis II👏
 - 先用自查询第一次登陆的时间，再提取其他的列
 ~~~sql
 select player_id,device_id
@@ -91,7 +92,7 @@ where (player_id,event_date) in
 )
 ~~~
 
-### 577. Employee Bonus
+### 577. Employee Bonus👏
 - 要保留null: 注意left join, 并且判断 is null
 ~~~sql
 select e.name, b.bonus 
