@@ -28,7 +28,7 @@ Explanation: You will always arrive at index 3 no matter what. Its maximum jump 
 ## 思路
 - 贪心算法
 - 不考虑最终能不能走到终点
-- 只考虑局部最优：前面index能走的最大距离max能不能接上当前i
+- 只考虑局部最优，当前index能不能走到：前面index能走的最大距离max能不能接上当前i
 
 ~~~python
 class Solution(object):
