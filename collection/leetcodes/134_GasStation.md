@@ -49,7 +49,7 @@ Therefore, you can't travel around the circuit once no matter where you start.
 ## 思路
 - 贪心算法
 - 数学定理：如果一个数组总和非负，那么一定可以找到一个起始位置，从此处开始遍历一圈，累加和一直都是非负的
-- 把全部的油耗情况计算出来看看是否大于等于0即可
+- 找连续和>0：把全部的油耗情况计算出来看看是否大于等于0即可
 
 ~~~python
 class Solution(object):
