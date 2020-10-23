@@ -10,7 +10,7 @@ screenshot: /assets/img/projects/code/SQL.jpg
 {:toc}
 
 ## Easy
-### 175 Combine Two Tables 
+### 175 Combine Two Tables 👏
 - LEFT JOIN
 ~~~sql
 select P.FirstName, P.LastName, A.city, A.State 
