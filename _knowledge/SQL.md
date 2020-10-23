@@ -56,7 +56,7 @@ where Id NOT IN (
 )
 ~~~
 
-### 196. Delete Duplicate Emails🧐
+### 196. Delete Duplicate Emails🧶
 - Delete +表的内部比较（自连接)
 ~~~sql
 Delete p1
@@ -923,7 +923,7 @@ group by student_id
 order by student_id
 ~~~
 
-### 1126. Active Businesses
+### 1126. Active Businesses👀
 - 复杂聚合问题：将聚合指标作为一个表与主表join -> 相当于多出一列
 ~~~sql
 select e.business_id 
@@ -1267,9 +1267,10 @@ group by sale_date
 order by sale_date
 ~~~
 
-### 1454. Active Users
+### 1454. Active Users👀
 - 使用dense_rank()针对每个id的login_date排名 -> 连续的情形下：login_date - rank值是一样的
 - group by ID，login_date - rank -> 找count>=5的人
+- 注意count日期要用distinct避免重复日期
 
 ~~~sql
 with temp as (
@@ -1541,9 +1542,9 @@ where diff in (     # 不能直接group否则得不到组内详细信息
 )
 ~~~
 
-### 615. Average Salary: Departments VS Company
+### 615. Average Salary: Departments VS Company👀
 - avg() over (partition by...) 算公司avg和部门avg
-
+- 注意这里日期必须用distinct
 ~~~sql
 with temp as(
 select distinct DATE_FORMAT(s.pay_date,'%Y-%m') as pay_month, 
