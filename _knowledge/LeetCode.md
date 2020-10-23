@@ -102,7 +102,9 @@ screenshot: /assets/img/projects/code/code.jpg
 
 ### 贪心算法
   - [55-Jump Game](/collection/leetcodes/55_JumpGame/)
+  - [45-Jump Game II](/collection/leetcodes/45_JumpGameII/)
 
+ 
 
 <br><br>
 
@@ -124,6 +126,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [38-Count And Say](/collection/leetcodes/38_CountAndSay/)  | Easy | 字符串 + 实现题 + 递归|
 | [39-CombinationSum](/collection/leetcodes/39_CombinationSum/)  | Medium | 回溯法 + 组合 + index + sum|
 | [40-CombinationSumII](/collection/leetcodes/40_CombinationSumII/)  | Medium | 回溯法 + 组合 + index + sum + 跳重复元素|
+| [45-Jump Game II](/collection/leetcodes/45_JumpGameII/) | Hard | 贪心算法 |
 | [46-Permutations](/collection/leetcodes/46_Permutations/)  | Medium | 回溯法 + 全排列|
 | [47-PermutationsII](/collection/leetcodes/47_PermutationsII/)  | Medium | 回溯法 + 全排列 + 有重复元素used|
 | [49-Group Anagrams](/collection/leetcodes/49_GroupAnagrams/)  | Medium | 字符串 + anagram  + HashMap |
