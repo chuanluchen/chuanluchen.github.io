@@ -99,7 +99,10 @@ screenshot: /assets/img/projects/code/code.jpg
   - [105-Construct Binary Tree From Preorder And Inorder Traversal](/collection/leetcodes/105_ConstructBinaryTreeFromPreorderAndInorderTraversal/)
   - [106-Construct Binary Tree From Inorder And Postorder Traversal](/collection/leetcodes/106_ConstructBinaryTreeFromInorderAndPostorderTraversal/)
   - [95-Unique Binary Search Trees II](/collection/leetcodes/95_UniqueBinarySearchTreesII/)
- 
+
+### 贪心算法
+  - [55-Jump Game](/collection/leetcodes/55_JumpGame/)
+
 
 <br><br>
 
@@ -124,6 +127,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [46-Permutations](/collection/leetcodes/46_Permutations/)  | Medium | 回溯法 + 全排列|
 | [47-PermutationsII](/collection/leetcodes/47_PermutationsII/)  | Medium | 回溯法 + 全排列 + 有重复元素used|
 | [49-Group Anagrams](/collection/leetcodes/49_GroupAnagrams/)  | Medium | 字符串 + anagram  + HashMap |
+| [55-Jump Game](/collection/leetcodes/55_JumpGame/) |  Mediam | 贪心算法 |
 | [56-Merge Intervals](/collection/leetcodes/56_MergeIntervals/)   | Medium | 排序排列 + 扫描线思想 |
 | [57-Insert Interval](/collection/leetcodes/57_InsertInterval/)    | Medium | 排序排列 + 扫描线思想 |
 | [58-Length Of Last Word](/collection/leetcodes/58_LengthOfLastWord/)  | Easy | 字符串 + 基本 |
