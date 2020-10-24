@@ -106,10 +106,11 @@ screenshot: /assets/img/projects/code/code.jpg
   - [122-Best Time To Buy And Sell Stock II](/collection/leetcodes/122_BestTimeToBuyAndSellStockII/)
   - [134-Gas Station](/collection/leetcodes/134_GasStation/)
 
-### 实现题
-  - [170-Two Sum III-Data Structure Design](/collection/leetcodes/170_TwoSumIII_DataStructureDesign/)[HashMap]
-
- 
+### HashMap
+  - [137-Single Number II](/collection/leetcodes/137_SingleNumberII/)
+  - [170-Two Sum III-Data Structure Design](/collection/leetcodes/170_TwoSumIII_DataStructureDesign/)
+  - [146-LRU Cache](/collection/leetcodes/146_LRU_Cache/)
+  
 
 <br><br>
 
@@ -177,8 +178,10 @@ screenshot: /assets/img/projects/code/code.jpg
 | [131-Palindrome Partitioning](/collection/leetcodes/131_PalindromePartitioning/) | Medium | 回溯法 + 实现题  + 子集 + Palindrome判断|
 | [133-Clone Graph](/collection/leetcodes/133_CloneGraph/) | Medium | 图 + BFS + Hashmap |
 | [134-Gas Station](/collection/leetcodes/134_GasStation/) | Medium | 贪心算法 + 连续和 |
+| [137-Single Number II](/collection/leetcodes/137_SingleNumberII/)| Medium | 
 | [144-Binary Tree Preorder Traversal](/collection/leetcodes/144_BinaryTreePreorderTraversal/)  | Medium | 树 + 先序遍历模板 |
 | [145-Binary Tree Postorder Traversal](/collection/leetcodes/145_BinaryTreePostorderTraversal/) | Hard | 树 + 后序遍历模板 |
+| [146-LRU Cache](/collection/leetcodes/146_LRU_Cache/) | Medium | 实现题 + HashMap |  
 | [151-Reverse Words in a String](/collection/leetcodes/151_ReverseWordsinaString/) | Easy | 字符串 + 实现题 |
 | [156-Binary Tree Upside Down](/collection/leetcodes/156_BinaryTreeUpsideDown/) | Medium | 树 + 链表 |
 | [157-Read N Characters Given Read4 I](/collection/leetcodes/157_ReadNCharactersGivenRead4I/)  | Easy | 字符串 + 实现题 + 空间思路|
