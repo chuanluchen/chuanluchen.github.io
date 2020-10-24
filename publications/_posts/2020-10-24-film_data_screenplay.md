@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Film Data Science：项目开发与剧本分析
+title: 电影数据新玩法：项目开发与剧本分析
 description: >
   数据科学在电影行业有哪些新鲜玩法：之一
 image:  
