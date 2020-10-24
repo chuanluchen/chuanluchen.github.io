@@ -923,7 +923,7 @@ group by student_id
 order by student_id
 ~~~
 
-### 1126. Active Businesses👀
+### 1126. Active Businesses👏
 - 复杂聚合问题：将聚合指标作为一个表与主表join -> 相当于多出一列
 ~~~sql
 select e.business_id 
@@ -1545,6 +1545,7 @@ where diff in (     # 不能直接group否则得不到组内详细信息
 ### 615. Average Salary: Departments VS Company👀
 - avg() over (partition by...) 算公司avg和部门avg
 - 注意这里日期必须用distinct
+
 ~~~sql
 with temp as(
 select distinct DATE_FORMAT(s.pay_date,'%Y-%m') as pay_month, 
