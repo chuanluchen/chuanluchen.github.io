@@ -1,9 +1,9 @@
 ---
 layout: list
-title: publications
-slug: publications
+title: Film Data
+slug: Film Data
 description: >
-  我的视角
+  数据科学在电影行业的新玩法
 accent_color: rgb(38,139,210)
 accent_image:
   background: rgb(32,32,32)
