@@ -20,6 +20,7 @@ screenshot: /assets/img/projects/code/code.jpg
   - [3-Longest Substring Without Repeating Characters](/collection/leetcodes/3_LongestSubstringWithoutRepeatingCharacters/) 
   - [76-Minimum Window Substring](/collection/leetcodes/76_MinimumWindowSubstring/) 
   - [159-Longest Substring With At Most Two Distinct Characters](/collection/leetcodes/159_LongestSubstringWithAtMostTwoDistinctCharacters/) 
+  - [161-One Edit Distance](/collection/leetcodes/161_OneEditDistance/) 
   - [187-Repeated DNA Sequences](/collection/leetcodes/187-RepeatedDNASequences/) 
 - Anagram
   - [49-Group Anagrams](/collection/leetcodes/49_GroupAnagrams/) 
@@ -186,6 +187,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [156-Binary Tree Upside Down](/collection/leetcodes/156_BinaryTreeUpsideDown/) | Medium | 树 + 链表 |
 | [157-Read N Characters Given Read4 I](/collection/leetcodes/157_ReadNCharactersGivenRead4I/)  | Easy | 字符串 + 实现题 + 空间思路|
 | [159-Longest Substring With At Most Two Distinct Characters](/collection/leetcodes/159_LongestSubstringWithAtMostTwoDistinctCharacters/) | Medium | 字符串 + substring + sliding window |
+| [161-One Edit Distance](/collection/leetcodes/161_OneEditDistance/) | Meidum | 字符串 + Substring |
 | [170-Two Sum III-Data Structure Design](/collection/leetcodes/170_TwoSumIII_DataStructureDesign/) | Easy | 实现题 + HashMap |
 | [171-Excel Sheet Column Number](/collection/leetcodes/171_ExcelSheetColumnNumber/)  | Easy | 字符串 + 基本 + 26进制转换 |
 | [173-Binary Search Tree Iterator](/collection/leetcodes/173_BinarySearchTreeIterator/) | Medium | 树 + 中序遍历应用 | 
