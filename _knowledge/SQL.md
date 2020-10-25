@@ -102,14 +102,14 @@ on e.empId = b.empId
 where b.bonus is null or b.bonus < 1000
 ~~~
 
-### 584. Find Customer Referee
+### 584. Find Customer Referee👏
 - 要保留null: 判断 is null
 ~~~sql
 select name from customer
 where referee_id is null or referee_id <> 2
 ~~~
 
-### 586. Customer Placing the Largest Number of Orders
+### 586. Customer Placing the Largest Number of Orderse👏
 - group by + order + 取第一个
 ~~~sql
 select customer_number
@@ -119,14 +119,14 @@ order by count(order_number) desc
 limit 1
 ~~~
 
-### 595. Big Countries
+### 595. Big Countries👏
 ~~~sql
 select name, population, area
 from World
 where area > 3000000 or population > 25000000
 ~~~
 
-### 596. Classes More Than 5 Students
+### 596. Classes More Than 5 Students👏
 - 注意排除duplicate
 ~~~sql
 select class 
@@ -135,7 +135,7 @@ group by class
 having count(distinct student)>=5
 ~~~
 
-### 597. Friend Requests I: Overall Acceptance Rate
+### 597. Friend Requests I: Overall Acceptance Rate👀
 - 多重考虑：distinct, count,if null
 ~~~sql
 select round(
@@ -145,7 +145,7 @@ select round(
 from friend_request f, request_accepted r
 ~~~
 
-### 603. Consecutive Available Seats
+### 603. Consecutive Available Seats👀
 - 自连接
 ~~~sql
 select distinct a.seat_id 
@@ -154,7 +154,7 @@ where a.free = '1' and b.free = '1'
 and ((a.seat_id = b.seat_id + 1) or (a.seat_id = b.seat_id - 1) )
 ~~~
 
-### 607. Sales Person
+### 607. Sales Person👏
 - 先找RED做过的交易，用NOT IN取其它
 ~~~sql
 select name 
@@ -166,23 +166,26 @@ where sales_id not in (
 )
 ~~~
 
-### 610. Triangle Judgement
-- 用if判断产生新的列：if(expression, 'Yes','No')
+### 610. Triangle Judgement👏
+- case when
 ~~~sql
-select T.*, 
-if (T.x + T.y > z and T.y + T.z >  T.x and T.x + T.z  > T.y, 'Yes', 'No') as triangle
-from triangle as T
+select *, 
+case
+when x + y > z and y + z >x and x + z > y then 'Yes'
+else 'No'
+end as triangle
+from triangle
 ~~~
 
-### 613. Shortest Distance in a Line
+### 613. Shortest Distance in a Line👏
 - 自连接，找差的绝对值的最小值
 ~~~sql
 select min(abs(a.x - b.x)) as shortest
-from point as a join point as b
-where a.x != b.x
+from point a cross join point b
+where a.x !=  b.x
 ~~~
 
-### 619. Biggest Single Number
+### 619. Biggest Single Number👀
 - 子查询：先找出现一次的数；再找最大
 - 注意子查询需要alias
 ~~~sql
