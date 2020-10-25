@@ -650,9 +650,10 @@ and a.student_id <>  c.student_id
 
 
 ## Medium
-### 177. Nth Highest Salary
+### 177. Nth Highest Salary🧶
 - 传入的参数要更改必须要事先SET...;
 - limit xx, offset xx
+- distinct可返回Null
 ~~~sql
 CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
 BEGIN
@@ -667,7 +668,7 @@ BEGIN
 END
 ~~~
 
-### 178. Rank Scores
+### 178. Rank Scores👏
 - 一个分数的名次：就是表中>=这个分数的数量
 - 对自己的表：找>=当前分数的分数，count之
 ~~~sql
@@ -680,7 +681,7 @@ from Scores as s
 order by s.Score desc
 ~~~
 
-### 180. Consecutive Numbers
+### 180. Consecutive Numbers👀
 - 自连接3遍：找数字一致，id连续的
 ~~~sql
 select distinct a.Num as ConsecutiveNums
@@ -689,7 +690,7 @@ join Logs b on (a.Num = b.Num and a.Id = b.Id - 1)
 join Logs c on (b.Num = c.Num and b.Id = c.Id - 1)
 ~~~
 
-### 184. Department Highest Salary
+### 184. Department Highest Salary👏
 - 自连接：先找本人所在部门最高的工资，再筛选工资=部门最高工资的人
 ~~~sql
 select d.Name as Department, e.Name as Employee, e.Salary
@@ -699,12 +700,16 @@ where e.Salary = (
 )
 ~~~
 
-### 534. Game Play Analysis III
+### 534. Game Play Analysis III👀
 ~~~sql
 select a.player_id, a.event_date, sum(b.games_played) as games_played_so_far
 from Activity a join Activity b
 on a.player_id = b.player_id and b.event_date <= a.event_date
 GROUP By a.player_id, a.event_date
+
+select player_id, event_date, 
+sum(games_played) over(partition by player_id order by event_date) as games_played_so_far
+from Activity
 ~~~
 
 ### 550. Game Play Analysis IV
@@ -802,7 +807,7 @@ order by num desc
 limit 1
 ~~~
 
-### 608. Tree Node
+### 608. Tree Node👀
 - 定义组别，case when
 ~~~sql
 select id, 
@@ -1431,7 +1436,7 @@ and value < (select max(customer_id) from Customers)
 ~~~
 
 ## Hard
-### 185. Department Top Three Salaries    
+### 185. Department Top Three Salaries👀 
 - CTE: dense_rank()
 
 ~~~sql
