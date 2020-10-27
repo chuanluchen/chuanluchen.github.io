@@ -121,6 +121,8 @@ screenshot: /assets/img/projects/code/code.jpg
 ### 动态规划
   - [139-Word Break](/collection/leetcodes/139_WordBreak/)
   - [72-Edit Distance](/collection/leetcodes/72_EditDistance/)
+  - [62-Unique Paths](/collection/leetcodes/62_UniquePaths/)
+  
   
 <br><br>
 
@@ -150,6 +152,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [56-Merge Intervals](/collection/leetcodes/56_MergeIntervals/)   | Medium | 排序排列 + 扫描线思想 |
 | [57-Insert Interval](/collection/leetcodes/57_InsertInterval/)    | Medium | 排序排列 + 扫描线思想 |
 | [58-Length Of Last Word](/collection/leetcodes/58_LengthOfLastWord/)  | Easy | 字符串 + 基本 |
+| [62-Unique Paths](/collection/leetcodes/62_UniquePaths/) | Medium | 动态规划 |
 | [70-Climbing Stairs](/collection/leetcodes/70_ClimbingStairs/) | Easy | 递归 + Fibonacci |
 | [72-Edit Distance](/collection/leetcodes/72_EditDistance/) | Hard | 动态规划 + 字符串|
 | [76-Minimum Window Substring](/collection/leetcodes/76_MinimumWindowSubstring/)  | Hard | 字符串 + substring  + sliding window |
