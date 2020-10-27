@@ -6,6 +6,9 @@ screenshot: /assets/img/projects/code/code.jpg
 ---
 
 ## 分类题目
+### 递归
+- [70-Climbing Stairs](/collection/leetcodes/70_ClimbingStairs/) 
+
 ### 字符串
 - 基础
   - [14-Longest Common Prefix](/collection/leetcodes/14_LongestCommonPrefix/) 
@@ -141,6 +144,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [56-Merge Intervals](/collection/leetcodes/56_MergeIntervals/)   | Medium | 排序排列 + 扫描线思想 |
 | [57-Insert Interval](/collection/leetcodes/57_InsertInterval/)    | Medium | 排序排列 + 扫描线思想 |
 | [58-Length Of Last Word](/collection/leetcodes/58_LengthOfLastWord/)  | Easy | 字符串 + 基本 |
+| [70-Climbing Stairs](/collection/leetcodes/70_ClimbingStairs/) | Easy | 递归 + Fibonacci |
 | [76-Minimum Window Substring](/collection/leetcodes/76_MinimumWindowSubstring/)  | Hard | 字符串 + substring  + sliding window |
 | [77-Combinations](/collection/leetcodes/77_Combinations/) | Medium | 回溯法 + 组合  + index控制 + k|
 | [78-Subsets](/collection/leetcodes/78_Subsets/) | Medium | 回溯法 + 子集  + index控制 |
