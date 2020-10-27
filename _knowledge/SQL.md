@@ -650,7 +650,7 @@ and a.student_id <>  c.student_id
 
 
 ## Medium
-### 177. Nth Highest Salary🧶
+### 177. Nth Highest Salary👀
 - 传入的参数要更改必须要事先SET...;
 - limit xx, offset xx
 - distinct可返回Null
