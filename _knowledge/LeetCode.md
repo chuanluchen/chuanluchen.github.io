@@ -122,6 +122,8 @@ screenshot: /assets/img/projects/code/code.jpg
   - [139-Word Break](/collection/leetcodes/139_WordBreak/)
   - [72-Edit Distance](/collection/leetcodes/72_EditDistance/)
   - [62-Unique Paths](/collection/leetcodes/62_UniquePaths/)
+  - [96-Unique Binary Search Trees](/collection/leetcodes/96_UniqueBinarySearchTrees/)
+  
   
   
 <br><br>
@@ -165,8 +167,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [94-Binary Tree Inorder Traversal](/collection/leetcodes/94_BinaryTreeInorderTraversal/)  | Medium | 树 + 中序遍历模板 |
 | [94-Binary Tree Inorder Traversal](/collection/leetcodes/94_BinaryTreeInorderTraversal/)  | Medium | 树 + 中序遍历模板 |
 | [95-Unique Binary Search Trees II](/collection/leetcodes/95_UniqueBinarySearchTreesII/) | Medium | 树 + 二叉树实现 + DFS + 回溯 |
-| [94-Binary Tree Inorder Traversal](/collection/leetcodes/94_BinaryTreeInorderTraversal/)  | Medium | 树 + 中序遍历模板 | 
-| [94-Binary Tree Inorder Traversal](/collection/leetcodes/94_BinaryTreeInorderTraversal/)  | Medium | 树 + 中序遍历模板 |
+| [96-Unique Binary Search Trees](/collection/leetcodes/96_UniqueBinarySearchTrees/) | Medium | 动态规划 |
 | [98-Validate Binary Search Tree](/collection/leetcodes/98_ValidateBinarySearchTree/) | Medium | 树 + 中序遍历 + BST |
 | [100-Same Tree](/collection/leetcodes/100_SameTree/) | Easy | 树 + 双pre |
 | [101-Symmetric Tree](/collection/leetcodes/101_SymmetricTree/) | Easy | 树 + 双pre | 
