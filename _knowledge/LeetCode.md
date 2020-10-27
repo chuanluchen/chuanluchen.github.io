@@ -120,6 +120,8 @@ screenshot: /assets/img/projects/code/code.jpg
  
 ### 动态规划
   - [139-Word Break](/collection/leetcodes/139_WordBreak/)
+  - [72-Edit Distance](/collection/leetcodes/72_EditDistance/)
+  
 <br><br>
 
 ## 顺序题目
@@ -149,6 +151,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [57-Insert Interval](/collection/leetcodes/57_InsertInterval/)    | Medium | 排序排列 + 扫描线思想 |
 | [58-Length Of Last Word](/collection/leetcodes/58_LengthOfLastWord/)  | Easy | 字符串 + 基本 |
 | [70-Climbing Stairs](/collection/leetcodes/70_ClimbingStairs/) | Easy | 递归 + Fibonacci |
+| [72-Edit Distance](/collection/leetcodes/72_EditDistance/) | Hard | 动态规划 + 字符串|
 | [76-Minimum Window Substring](/collection/leetcodes/76_MinimumWindowSubstring/)  | Hard | 字符串 + substring  + sliding window |
 | [77-Combinations](/collection/leetcodes/77_Combinations/) | Medium | 回溯法 + 组合  + index控制 + k|
 | [78-Subsets](/collection/leetcodes/78_Subsets/) | Medium | 回溯法 + 子集  + index控制 |
