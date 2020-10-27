@@ -117,8 +117,9 @@ screenshot: /assets/img/projects/code/code.jpg
   - [137-Single Number II](/collection/leetcodes/137_SingleNumberII/)
   - [170-Two Sum III-Data Structure Design](/collection/leetcodes/170_TwoSumIII_DataStructureDesign/)
   - [146-LRU Cache](/collection/leetcodes/146_LRU_Cache/)
-  
-
+ 
+### 动态规划
+  - [139-Word Break](/collection/leetcodes/139_WordBreak/)
 <br><br>
 
 ## 顺序题目
@@ -189,6 +190,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [133-Clone Graph](/collection/leetcodes/133_CloneGraph/) | Medium | 图 + BFS + Hashmap |
 | [134-Gas Station](/collection/leetcodes/134_GasStation/) | Medium | 贪心算法 + 连续和 |
 | [137-Single Number II](/collection/leetcodes/137_SingleNumberII/)| Medium | 
+| [139-Word Break](/collection/leetcodes/139_WordBreak/) | Medium | 动态规划 |
 | [144-Binary Tree Preorder Traversal](/collection/leetcodes/144_BinaryTreePreorderTraversal/)  | Medium | 树 + 先序遍历模板 |
 | [145-Binary Tree Postorder Traversal](/collection/leetcodes/145_BinaryTreePostorderTraversal/) | Hard | 树 + 后序遍历模板 |
 | [146-LRU Cache](/collection/leetcodes/146_LRU_Cache/) | Medium | 实现题 + HashMap |  
