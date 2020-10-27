@@ -8,6 +8,8 @@ screenshot: /assets/img/projects/code/code.jpg
 ## 分类题目
 ### 递归
 - [70-Climbing Stairs](/collection/leetcodes/70_ClimbingStairs/) 
+- [118-Pascal's Triangle](/collection/leetcodes/118_Pascal'sTriangle/) 
+
 
 ### 字符串
 - 基础
@@ -175,6 +177,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [114-Flatten Binary Tree To Linked List](/collection/leetcodes/114_FlattenBinaryTreeToLinkedList/) | Medium | 树的实现 +  preOrder + Stack |
 | [116-Populating Next Right Pointers In Each Node](/collection/leetcodes/116_PopulatingNextRightPointersInEachNode/) | Medium | 树 + 链表 |
 | [117-Populating Next Right Pointers In Each Node II](/collection/leetcodes/117_PopulatingNextRightPointersInEachNodeII/) | Medium | 树 + 链表 |
+| [118-Pascal's Triangle](/collection/leetcodes/118_Pascal'sTriangle/) | Easy | 递归 + 暴力找规律 |
 | [122-Best Time To Buy And Sell Stock II](/collection/leetcodes/122_BestTimeToBuyAndSellStockII/) | Easy | 贪心算法 | 能赚一点是一点 |
 | [125-Valid Palindrome](/collection/leetcodes/125_ValidPalindrome/)  | Easy | 字符串 + Palindrome|
 | [127-Word Ladder](/collection/leetcodes/127_WordLadder/) | Medium | 图 + BFS |
