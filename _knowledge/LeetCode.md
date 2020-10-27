@@ -189,7 +189,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [131-Palindrome Partitioning](/collection/leetcodes/131_PalindromePartitioning/) | Medium | 回溯法 + 实现题  + 子集 + Palindrome判断|
 | [133-Clone Graph](/collection/leetcodes/133_CloneGraph/) | Medium | 图 + BFS + Hashmap |
 | [134-Gas Station](/collection/leetcodes/134_GasStation/) | Medium | 贪心算法 + 连续和 |
-| [137-Single Number II](/collection/leetcodes/137_SingleNumberII/)| Medium | 
+| [137-Single Number II](/collection/leetcodes/137_SingleNumberII/)| Medium | HashMap | 
 | [139-Word Break](/collection/leetcodes/139_WordBreak/) | Medium | 动态规划 |
 | [144-Binary Tree Preorder Traversal](/collection/leetcodes/144_BinaryTreePreorderTraversal/)  | Medium | 树 + 先序遍历模板 |
 | [145-Binary Tree Postorder Traversal](/collection/leetcodes/145_BinaryTreePostorderTraversal/) | Hard | 树 + 后序遍历模板 |
