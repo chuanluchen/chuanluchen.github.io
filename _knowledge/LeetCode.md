@@ -11,6 +11,8 @@ screenshot: /assets/img/projects/code/code.jpg
 - [118-Pascal's Triangle](/collection/leetcodes/118_Pascal'sTriangle/) 
 - [119-Pascal'sTriangle II](/collection/leetcodes/119_Pascal'sTriangleII/) 
 
+### 排序
+- [88-Merge Sorted Array](/collection/leetcodes/88_MergeSortedArray/) 
 
 ### 字符串
 - 基础
@@ -161,7 +163,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [77-Combinations](/collection/leetcodes/77_Combinations/) | Medium | 回溯法 + 组合  + index控制 + k|
 | [78-Subsets](/collection/leetcodes/78_Subsets/) | Medium | 回溯法 + 子集  + index控制 |
 | [79-Word Search](/collection/leetcodes/79_WordSearch/) | Medium | BFS +  Flood Fill |
-| [90-Subsets II](/collection/leetcodes/90_SubsetsII/) | Medium | 回溯法 + 子集  + index控制 + used |
+| [88-Merge Sorted Array](/collection/leetcodes/88_MergeSortedArray/) | easy | 排序 + mergeSort |
 | [90-Subsets II](/collection/leetcodes/90_SubsetsII/) | Medium | 回溯法 + 子集  + index控制 + used |
 | [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) | Medium | 回溯法 + 实现  + index控制 + 内部数位控制 |
 | [94-Binary Tree Inorder Traversal](/collection/leetcodes/94_BinaryTreeInorderTraversal/)  | Medium | 树 + 中序遍历模板 |
