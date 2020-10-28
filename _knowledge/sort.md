@@ -2,7 +2,7 @@
 layout: project
 title: '排序算法'
 date: 01 May 2020
-screenshot: /assets/img/projects/code/sort.jpg
+screenshot: /assets/img/projects/code/sort.jpeg
 ---
 
 ## 冒泡排序
