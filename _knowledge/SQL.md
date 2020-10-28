@@ -196,7 +196,7 @@ group by num
 having count(*) = 1) as T
 ~~~
 
-### 620. Not Boring Movies
+### 620. Not Boring Movies👏
 - 注意降序
 ~~~sql
 select * 
@@ -205,13 +205,13 @@ where id % 2 != 0 and description != 'boring'
 order by rating desc
 ~~~
 
-### 627. Swap Salary
+### 627. Swap Salary👀
 ~~~sql
 update salary
 set sex = if(sex = 'm', 'f','m')
 ~~~
 
-### 1050. Actors and Directors Who Cooperated At Least Three Times
+### 1050. Actors and Directors Who Cooperated At Least Three Times👏
 ~~~sql
 select actor_id, director_id
 from ActorDirector
@@ -219,28 +219,28 @@ group by actor_id, director_id
 having count(timestamp) >=3
 ~~~
 
-### 1068. Product Sales Analysis I
+### 1068. Product Sales Analysis I👏
 ~~~sql
 select product_name, year, price
 from Sales s
 join Product p on s.product_id = p.product_id
 ~~~
 
-### 1069. Product Sales Analysis II
+### 1069. Product Sales Analysis II👏
 ~~~sql
 select product_id, sum(quantity) as total_quantity
 from Sales
 group by product_id
 ~~~
 
-### 1075. Project Employees I
+### 1075. Project Employees I👏
 ~~~sql
 select P.project_id, round(sum(E.experience_years )/ count(E.employee_id),2) as average_years
 from Employee E join Project P on E.employee_id = P.employee_id
 group by P.project_id
 ~~~
 
-### 1076. Project Employees II
+### 1076. Project Employees II👏
 - 注意:可能有多个project有最大employee count
 - 先找到最大count, 再做筛选
 ~~~sql
@@ -254,7 +254,7 @@ order by count(employee_id) desc
 limit 1)
 ~~~
 
-### 1082. Sales Analysis I
+### 1082. Sales Analysis I👏
 - 先找到最高sales, 再做筛选
 ~~~sql
 select seller_id 
@@ -269,7 +269,7 @@ limit 1
 )
 ~~~
 
-### 1083. Sales Analysis II
+### 1083. Sales Analysis II👏
 - group by 之后用sum(if xx, 1, 0)筛选品牌
 ~~~sql
 select buyer_id
@@ -279,9 +279,10 @@ having sum(if(p.product_name='S8', 1, 0)) > 0
 and sum(if(p.product_name = 'iPhone', 1, 0)) = 0
 ~~~
 
-### 1084. Sales Analysis III
-- group by 之后用sum(if xx, 1, 0)筛选日期
-- 注意日期加引号
+### 1084. Sales Analysis III👀
+- group by 之后用having+两个条件
+- sum(if xx, 1, 0)筛选日期，注意日期加引号
+
 ~~~sql
 select p.product_id, p.product_name
 from Sales s join Product p on s.product_id = p.product_id
@@ -700,7 +701,7 @@ where e.Salary = (
 )
 ~~~
 
-### 534. Game Play Analysis III👀
+### 534. Game Play Analysis III👏
 ~~~sql
 select a.player_id, a.event_date, sum(b.games_played) as games_played_so_far
 from Activity a join Activity b
@@ -807,7 +808,7 @@ order by num desc
 limit 1
 ~~~
 
-### 608. Tree Node👀
+### 608. Tree Node👏
 - 定义组别，case when
 ~~~sql
 select id, 
@@ -1291,7 +1292,7 @@ select distinct t.id, a.name
 from temp t join Accounts a
 on t.id = a.id
 group by t.id, DATE_SUB(t.login_date,interval t.day_rank day)
-having count(distinct t.login_date) >= 5
+having count(distinct t.login_date) >= 5  # 有同天多次登录
 ~~~
 
 ### 1459. Rectangles Area
