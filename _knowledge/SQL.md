@@ -1477,7 +1477,7 @@ group by Request_at
 ~~~
 
 
-### 569. Median Employee Salary
+### 569. Median Employee Salary👀
 - window function:用row_number找每个公司排序，用count找每个公司count
 - count为奇数，找中间那个数；count为偶数，找中间两个数
 
