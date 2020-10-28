@@ -291,7 +291,7 @@ having sum(if(sale_date > '2019-03-31', 1, 0)) = 0
 and sum(if(sale_date < '2019-01-01', 1, 0)) = 0
 ~~~
 
-### 1113. Reported Posts
+### 1113. Reported Posts👏
 - 先筛选日期， report
 - 日期function:DATE_SUB('2019-07-05', INTERVAL 1 DAY)
 ~~~sql
@@ -301,9 +301,10 @@ where action_date = DATE_SUB('2019-07-05', INTERVAL 1 DAY) and action='report'
 group by extra
 ~~~
 
-### 1141. User Activity for the Past 30 Days I
+### 1141. User Activity for the Past 30 Days I👀
 - 先筛选日期
 - 日期function:DATEDIFF(a, b) -> 求a-b
+- 时间窗口<30
 ~~~sql
 select activity_date as day, count(distinct user_id) as active_users
 from Activity
@@ -311,7 +312,7 @@ where DATEDIFF('2019-07-27',activity_date) < 30
 group by activity_date
 ~~~
 
-### 1142. User Activity for the Past 30 Days II
+### 1142. User Activity for the Past 30 Days II👀
 - 先筛选日期
 - 日期function:DATEDIFF(a, b) -> 求a-b
 - 需要使用ifnull避免选不出来
