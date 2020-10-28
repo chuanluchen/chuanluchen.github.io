@@ -13,6 +13,8 @@ screenshot: /assets/img/projects/code/code.jpg
 
 ### 排序
 - [88-Merge Sorted Array](/collection/leetcodes/88_MergeSortedArray/) 
+- [75-Sort Colors](/collection/leetcodes/75_SortColors/) 
+
 
 ### 字符串
 - 基础
@@ -159,6 +161,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [62-Unique Paths](/collection/leetcodes/62_UniquePaths/) | Medium | 动态规划 |
 | [70-Climbing Stairs](/collection/leetcodes/70_ClimbingStairs/) | Easy | 递归 + Fibonacci |
 | [72-Edit Distance](/collection/leetcodes/72_EditDistance/) | Hard | 动态规划 + 字符串|
+| [75-Sort Colors](/collection/leetcodes/75_SortColors/) | Medium | 排序 + 三指针 |
 | [76-Minimum Window Substring](/collection/leetcodes/76_MinimumWindowSubstring/)  | Hard | 字符串 + substring  + sliding window |
 | [77-Combinations](/collection/leetcodes/77_Combinations/) | Medium | 回溯法 + 组合  + index控制 + k|
 | [78-Subsets](/collection/leetcodes/78_Subsets/) | Medium | 回溯法 + 子集  + index控制 |
