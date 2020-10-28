@@ -713,8 +713,8 @@ sum(games_played) over(partition by player_id order by event_date) as games_play
 from Activity
 ~~~
 
-### 550. Game Play Analysis IV
-- 自连接：找同一个人的后一天【注意left join方便查人数】
+### 550. Game Play Analysis IV🧶
+- 自连接：找同一个人的后一天【注意left join方便总人数】
 - where确保a是第一天
 ~~~sql
 select round(count(b.event_date)/count(a.player_id),2) as fraction 
@@ -727,7 +727,7 @@ where (a.player_id, a.event_date) in ( # 保证a是first date
  )
 ~~~
 
-### 570. Managers with at Least 5 Direct Reports
+### 570. Managers with at Least 5 Direct Reports👏
 - 两组关联：非目标组做子查询，目标组用where...in 筛选
 ~~~sql
 select Name 
@@ -739,7 +739,7 @@ where Id in (
 )
 ~~~
 
-### 574. Winning Candidate
+### 574. Winning Candidate👏
 - 两组关联：非目标组做子查询，目标组用where...筛选
 ~~~sql
 select Name 
@@ -753,7 +753,7 @@ where id = (
 )
 ~~~
 
-### 578. Get Highest Answer Rate Question
+### 578. Get Highest Answer Rate Question👏
 - 组内找最大：直接order by... limit
 - 用sum(if(condition, 1, 0))做标记
 ~~~sql
