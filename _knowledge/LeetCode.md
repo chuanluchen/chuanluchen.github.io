@@ -20,7 +20,9 @@ screenshot: /assets/img/projects/code/code.jpg
   - [24-Swap Nodes In Pairs](/collection/leetcodes/24_SwapNodesInPairs/) 
   - [61-Rotate List](/collection/leetcodes/61_RotateList/) 
   - [86-Partition List](/collection/leetcodes/86_PartitionList/) 
+  - [21-Merge Two Sorted Lists](/collection/leetcodes/21_MergeTwoSortedLists/) 
   
+
   
 
 ### 字符串
@@ -151,6 +153,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [13-Roman To Integer](/collection/leetcodes/13_RomanToInteger/)  | Easy | 字符串 + 实现题 + 预先定义 + 找定义 |
 | [14-Longest Common Prefix](/collection/leetcodes/14_LongestCommonPrefix/)  | Easy | 字符串 + 基本 + 双重遍历找一致 |
 | [17-LetterCombinationsOfAPhoneNumber](/collection/leetcodes/17_LetterCombinationsOfAPhoneNumber/) | Medium | 回溯法 + 实现题 + index |
+| [21-Merge Two Sorted Lists](/collection/leetcodes/21_MergeTwoSortedLists/) | Easy | 链表 + 基本操作 |
 | [22-Generate Parentheses](/collection/leetcodes/22_GenerateParentheses/) | Medium | 回溯法 + 剪枝 |
 | [24-Swap Nodes In Pairs](/collection/leetcodes/24_SwapNodesInPairs/)  | Medium | 链表 + 基本操作 |
 | [28-Implement strStr](/collection/leetcodes/28_ImplementstrStr/)  | Easy | 字符串 |
