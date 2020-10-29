@@ -15,6 +15,9 @@ screenshot: /assets/img/projects/code/code.jpg
 - [88-Merge Sorted Array](/collection/leetcodes/88_MergeSortedArray/) 
 - [75-Sort Colors](/collection/leetcodes/75_SortColors/) 
 
+### 链表
+- 基本操作
+  - [24-Swap Nodes In Pairs](/collection/leetcodes/24_SwapNodesInPairs/) 
 
 ### 字符串
 - 基础
@@ -145,6 +148,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [14-Longest Common Prefix](/collection/leetcodes/14_LongestCommonPrefix/)  | Easy | 字符串 + 基本 + 双重遍历找一致 |
 | [17-LetterCombinationsOfAPhoneNumber](/collection/leetcodes/17_LetterCombinationsOfAPhoneNumber/) | Medium | 回溯法 + 实现题 + index |
 | [22-Generate Parentheses](/collection/leetcodes/22_GenerateParentheses/) | Medium | 回溯法 + 剪枝 |
+| [24-Swap Nodes In Pairs](/collection/leetcodes/24_SwapNodesInPairs/)  | Medium | 链表 + 基本操作 |
 | [28-Implement strStr](/collection/leetcodes/28_ImplementstrStr/)  | Easy | 字符串 |
 | [31-NextPermutation](/collection/leetcodes/31_NextPermutation/) | Medium | 排序排列 + 找重点位置|
 | [38-Count And Say](/collection/leetcodes/38_CountAndSay/)  | Easy | 字符串 + 实现题 + 递归|
