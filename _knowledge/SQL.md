@@ -385,7 +385,7 @@ on p.post_id = s.parent_id
 group by p.post_id
 ~~~
 
-### 1241. Number of Comments per Post
+### 1251. Average Selling Price👀
 - 以多重条件Join
 ~~~sql
 select p.product_id, round(sum(p.price * u.units)/ sum(u.units),2) as average_price 
@@ -396,7 +396,7 @@ and u.purchase_date <= p.end_date
 group by p.product_id
 ~~~
 
-### 1280. Students and Examinations
+### 1280. Students and Examinations👀
 - 使用cross join得到笛卡尔积
 - 注意只有e.subject_name才会出现null值
 ~~~sql
@@ -408,7 +408,7 @@ order by s.student_id, c.subject_name
 ~~~
 
 
-### 1294. Weather Type in Each Country
+### 1294. Weather Type in Each Country👏
 - case when
 - 注意使用month(date)提取月份
 ~~~sql
@@ -424,7 +424,7 @@ where month(day) = 11
 group by c.country_id
 ~~~
 
-### 1303. Find the Team Size
+### 1303. Find the Team Size👏
 - left join
 - 子查询作为表进行join
 ~~~sql
@@ -436,7 +436,7 @@ left join
 on a.team_id = b.team_id
 ~~~
 
-### 1322. Ads Performance
+### 1322. Ads Performance👀
 - sum()中使用=逻辑判断
 - ifnull()
 ~~~sql
