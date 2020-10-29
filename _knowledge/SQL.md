@@ -322,7 +322,7 @@ from activity
 where datediff("2019-07-27",activity_date)<30
 ~~~
 
-### 1148. Article Views I
+### 1148. Article Views I👏
 ~~~sql
 select distinct viewer_id as id
 from Views
@@ -330,7 +330,7 @@ where author_id = viewer_id
 order by viewer_id
 ~~~
 
-### 1173. Immediate Food Delivery I
+### 1173. Immediate Food Delivery I👏
 - 在sum中做逻辑判断
 ~~~sql
 select round(
@@ -342,7 +342,7 @@ from Delivery
 ~~~
 
 
-### 1179. Reformat Department Table
+### 1179. Reformat Department Table👀
 - 用case when then做判断，创造多列
 ~~~sql
 SELECT id,
@@ -362,7 +362,7 @@ FROM Department
 GROUP BY id
 ~~~
 
-### 1211. Queries Quality and Percentage
+### 1211. Queries Quality and Percentage👏
 - if逻辑判断
 ~~~sql
 select query_name, round(avg(rating/position),2) as quality, 
@@ -371,7 +371,7 @@ from Queries
 group by query_name
 ~~~
 
-### 1241. Number of Comments per Post
+### 1241. Number of Comments per Post👏
 - 自连接，需要保留Null行使用left/ right join
 ~~~sql
 select post_id, count(distinct s.sub_id) as number_of_comments
