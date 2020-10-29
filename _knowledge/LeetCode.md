@@ -19,6 +19,8 @@ screenshot: /assets/img/projects/code/code.jpg
 - 基本操作
   - [24-Swap Nodes In Pairs](/collection/leetcodes/24_SwapNodesInPairs/) 
   - [61-Rotate List](/collection/leetcodes/61_RotateList/) 
+  - [86-Partition List](/collection/leetcodes/86_PartitionList/) 
+  
   
 
 ### 字符串
@@ -173,6 +175,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [77-Combinations](/collection/leetcodes/77_Combinations/) | Medium | 回溯法 + 组合  + index控制 + k|
 | [78-Subsets](/collection/leetcodes/78_Subsets/) | Medium | 回溯法 + 子集  + index控制 |
 | [79-Word Search](/collection/leetcodes/79_WordSearch/) | Medium | BFS +  Flood Fill |
+| [86-Partition List](/collection/leetcodes/86_PartitionList/) | Medium | 链表 + 基本操作 |
 | [88-Merge Sorted Array](/collection/leetcodes/88_MergeSortedArray/) | easy | 排序 + mergeSort |
 | [90-Subsets II](/collection/leetcodes/90_SubsetsII/) | Medium | 回溯法 + 子集  + index控制 + used |
 | [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) | Medium | 回溯法 + 实现  + index控制 + 内部数位控制 |
