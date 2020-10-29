@@ -18,6 +18,8 @@ screenshot: /assets/img/projects/code/code.jpg
 ### 链表
 - 基本操作
   - [24-Swap Nodes In Pairs](/collection/leetcodes/24_SwapNodesInPairs/) 
+  - [61-Rotate List](/collection/leetcodes/61_RotateList/) 
+  
 
 ### 字符串
 - 基础
@@ -162,6 +164,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [56-Merge Intervals](/collection/leetcodes/56_MergeIntervals/)   | Medium | 排序排列 + 扫描线思想 |
 | [57-Insert Interval](/collection/leetcodes/57_InsertInterval/)    | Medium | 排序排列 + 扫描线思想 |
 | [58-Length Of Last Word](/collection/leetcodes/58_LengthOfLastWord/)  | Easy | 字符串 + 基本 |
+| [61-Rotate List](/collection/leetcodes/61_RotateList/) | Meidum | 链表 + 基本操作 |
 | [62-Unique Paths](/collection/leetcodes/62_UniquePaths/) | Medium | 动态规划 |
 | [70-Climbing Stairs](/collection/leetcodes/70_ClimbingStairs/) | Easy | 递归 + Fibonacci |
 | [72-Edit Distance](/collection/leetcodes/72_EditDistance/) | Hard | 动态规划 + 字符串|
