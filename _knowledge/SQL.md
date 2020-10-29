@@ -1496,7 +1496,7 @@ where (count%2=1 and s_rank=(count+1)/2)  # count为奇数：median为中间那�
 or (count%2=0 and ((s_rank=count/2) or (s_rank=count/2+1))) # count为偶数：median为中间两个数
 ~~~
 
-### 571. Find Median Given Frequency of Numbers
+### 571. Find Median Given Frequency of Numbers👀
 - window function:找running_total, count
 - 注意median定义：一个数或两个数平均 -> 定位所属区间，算avg
 
@@ -1514,7 +1514,7 @@ where count/2 <= running_total     # 定位median落在哪个区间
 and count/2 >= running_total - Frequency
 ~~~
 
-### 579. Find Cumulative Salary of an Employee
+### 579. Find Cumulative Salary of an Employee👀
 - 针对每个人， 每个月计算三个月的running_total：sum() over (...row 2 preceding)
 - 去除每个人最近月份
 
@@ -1531,7 +1531,7 @@ where (Id, Month) not in  # 去除每个人最近的那个月份
 order by Id, Month desc
 ~~~
 
-### 601. Human Traffic of Stadium
+### 601. Human Traffic of Stadium👀
 - id - row_number() over (order by id) as diff
 - group by diff找连续数字组
 
