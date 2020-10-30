@@ -1780,7 +1780,7 @@ from c left join b
 on c.transactions_count =b.transactions_count
 ~~~
 
-### 1369. Get the Second Most Recent Activity
+### 1369. Get the Second Most Recent Activity👀
 
 ~~~sql
 with temp as
@@ -1854,7 +1854,7 @@ inner join yearsAll y on y.years between year(s.period_start) and year(s.period_
 order by product_id,report_year
 ~~~
 
-### 1479. Sales by Day of the Week    
+### 1479. Sales by Day of the Week👀    
 - CTE先取出每天每个类别的数量 dayname()
 - 再分成多列
 
