@@ -203,7 +203,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [107-Binary Tree Level Order Traversal II](/collection/leetcodes/107_BinaryTreeLevelOrderTraversalII/) | Easy | 树 + 层次遍历 |
 | [108-Convert Sorted Array To Binary Search Tree](/collection/leetcodes/108_ConvertSortedArrayToBinarySearchTree/) | Easy | 树 + 中序遍历的逆序 + 二分递归 |
 | [109-Convert Sorted List To Binary Search Tree](/collection/leetcodes/109_ConvertSortedListToBinarySearchTree/)  | Medium | 树 + 中序遍历 + 套用108 |
-| [110-Balanced Binary Tree](/collection/leetcodes/110_BalancedBinaryTree/) | Easy + 树 + PostOrder | 
+| [110-Balanced Binary Tree](/collection/leetcodes/110_BalancedBinaryTree/) | Easy | 树 + PostOrder | 
 | [111-Minimum Depth Of Binary Tree](/collection/leetcodes/111_MinimumDepthOfBinaryTree/) | Easy | 树 + 双
 | [112-Path Sum](/collection/leetcodes/112_PathSum/) | Easy | 树 + 双pre |
 | [113-Path Sum II](/collection/leetcodes/113_PathSumII/) | Medium | 树 + Pre Order + 回溯法 + 控制和 | 
