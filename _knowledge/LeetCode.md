@@ -25,6 +25,9 @@ screenshot: /assets/img/projects/code/code.jpg
 - 链表反转
   - [206-Reverse Linked List](/collection/leetcodes/206_ReverseLinkedList/) 
   - [92-Reverse Linked List II](/collection/leetcodes/92_ReverseLinkedListII/) 
+- 快慢针
+  - [141-Linked List Cycle](/collection/leetcodes/141_LinkedListCycle/) 
+
 
  
 
@@ -219,6 +222,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [134-Gas Station](/collection/leetcodes/134_GasStation/) | Medium | 贪心算法 + 连续和 |
 | [137-Single Number II](/collection/leetcodes/137_SingleNumberII/)| Medium | HashMap | 
 | [139-Word Break](/collection/leetcodes/139_WordBreak/) | Medium | 动态规划 |
+| [141-Linked List Cycle](/collection/leetcodes/141_LinkedListCycle/) | Easy | 链表 + 快慢针 |
 | [144-Binary Tree Preorder Traversal](/collection/leetcodes/144_BinaryTreePreorderTraversal/)  | Medium | 树 + 先序遍历模板 |
 | [145-Binary Tree Postorder Traversal](/collection/leetcodes/145_BinaryTreePostorderTraversal/) | Hard | 树 + 后序遍历模板 |
 | [146-LRU Cache](/collection/leetcodes/146_LRU_Cache/) | Medium | 实现题 + HashMap |  
