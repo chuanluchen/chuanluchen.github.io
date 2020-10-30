@@ -448,7 +448,7 @@ group by ad_id
 order by ctr desc, ad_id
 ~~~
 
-### 1327. List the Products Ordered in a Period
+### 1327. List the Products Ordered in a Period👏
 - 提取日期， year(date), month(date)
 ~~~sql
 select p.product_name, sum(o.unit) as unit 
@@ -459,7 +459,7 @@ group by p.product_name
 having sum(o.unit) >= 100
 ~~~
 
-### 1350. Students With Invalid Departments
+### 1350. Students With Invalid Departments👏
 - 保留null, left join
 - 确认null：is null
 ~~~sql
@@ -469,7 +469,7 @@ on s.department_id = d.id
 where d.name is Null
 ~~~
 
-### 1378. Replace Employee ID With The Unique Identifier
+### 1378. Replace Employee ID With The Unique Identifier👏
 - 保留null，left join
 ~~~sql
 select u.unique_id, e.name
@@ -477,7 +477,7 @@ from Employees e left join EmployeeUNI u
 on e.id = u.id
 ~~~
 
-### 1407. Top Travellers
+### 1407. Top Travellers👏
 - 保留null，left join
 - ifnull()
 ~~~sql
@@ -487,7 +487,7 @@ group by r.user_id
 order by sum(r.distance) desc, u.name
 ~~~
 
-### 1435. Create a Session Bar Chart
+### 1435. Create a Session Bar Chart👏
 - 不可用case when：会丢失计数为0的项
 - 使用union把所有可能性连接起来
 ~~~sql
@@ -508,7 +508,7 @@ from Sessions
 where duration >= 15*60
 ~~~
 
-### 1484. Group Sold Products By The Date
+### 1484. Group Sold Products By The Date👀
 - group_concat: concate multiple rows of data into one field
 ~~~sql
 select sell_date, count(distinct product) as num_sold, 
@@ -517,7 +517,7 @@ from activities
 group by sell_date
 ~~~
 
-### 1495. Friendly Movies Streamed Last Month
+### 1495. Friendly Movies Streamed Last Month👏
 - group_concat: concate multiple rows of data into one field
 ~~~sql
 select distinct title 
@@ -526,7 +526,7 @@ where Year(t.program_date) = 2020 and month(t.program_date) = 6
 and c.Kids_content = 'Y' and c.content_type = 'Movies'
 ~~~
 
-### 1511. Customer Order Frequency
+### 1511. Customer Order Frequency👀
 - 多个having条件，用if构成
 ~~~sql
 select c.customer_id, c.name
