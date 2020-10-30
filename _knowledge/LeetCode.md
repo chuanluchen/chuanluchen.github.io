@@ -24,6 +24,7 @@ screenshot: /assets/img/projects/code/code.jpg
   - [160-Intersection Of Two Linked Lists](/collection/leetcodes/160_IntersectionOfTwoLinkedLists/) 
 - 链表反转
   - [206-Reverse Linked List](/collection/leetcodes/206_ReverseLinkedList/) 
+  - [92-Reverse Linked List II](/collection/leetcodes/92_ReverseLinkedListII/) 
 
  
 
@@ -183,8 +184,8 @@ screenshot: /assets/img/projects/code/code.jpg
 | [86-Partition List](/collection/leetcodes/86_PartitionList/) | Medium | 链表 + 基本操作 |
 | [88-Merge Sorted Array](/collection/leetcodes/88_MergeSortedArray/) | easy | 排序 + mergeSort |
 | [90-Subsets II](/collection/leetcodes/90_SubsetsII/) | Medium | 回溯法 + 子集  + index控制 + used |
+| [92-Reverse Linked List II](/collection/leetcodes/92_ReverseLinkedListII/) | Medium | 链表 + 反转 |
 | [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) | Medium | 回溯法 + 实现  + index控制 + 内部数位控制 |
-| [94-Binary Tree Inorder Traversal](/collection/leetcodes/94_BinaryTreeInorderTraversal/)  | Medium | 树 + 中序遍历模板 |
 | [94-Binary Tree Inorder Traversal](/collection/leetcodes/94_BinaryTreeInorderTraversal/)  | Medium | 树 + 中序遍历模板 |
 | [95-Unique Binary Search Trees II](/collection/leetcodes/95_UniqueBinarySearchTreesII/) | Medium | 树 + 二叉树实现 + DFS + 回溯 |
 | [96-Unique Binary Search Trees](/collection/leetcodes/96_UniqueBinarySearchTrees/) | Medium | 动态规划 |
