@@ -18,7 +18,9 @@ Output: 5->4->3->2->1->NULL
 
 ## 思路
 - 链表反转
-- 定位三个点: pre, cur, temp
+- 最简便的方法：直接将指针反转
+- 定位三个点: pre, cur, temp -> 迭代
+<img src="/assets/img/projects/code/206_ReverseLinkedList.jpeg"/>
 
 ~~~python
         # 定位三个点: pre, cur, temp
