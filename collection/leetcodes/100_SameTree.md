@@ -42,10 +42,10 @@ Output: false
 - 递归调用
 
 
-<script src="//emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fchuanluchen%2Fchuanluchen.github.io%2Fblob%2Fmain%2Fcollection%2Fleetcodes%2F_100_SameTree.py&style=hopscotch&showBorder=on&showFileMeta=on">     word</script>
+<script async src="//emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fchuanluchen%2Fchuanluchen.github.io%2Fblob%2Fmain%2Fcollection%2Fleetcodes%2F_100_SameTree.py&style=hopscotch&showBorder=on&showFileMeta=on">     word</script>
 
 
-<script src="https://gist.github.com/chuanluchen/6f9cb2e61f7d87e9880ed4e205609c68.js"></script>
+<script async src="https://gist.github.com/chuanluchen/6f9cb2e61f7d87e9880ed4e205609c68.js"></script>
 
 ## 分析:
 - Time: O(n) 
