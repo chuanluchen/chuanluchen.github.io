@@ -42,7 +42,7 @@ Output: false
 - 递归调用
 
 
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fchuanluchen%2Fchuanluchen.github.io%2Fblob%2Fmain%2Fcollection%2Fleetcodes%2F_100_SameTree.py&style=hopscotch&showBorder=on&showFileMeta=on"></script>
+<script src="//emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fchuanluchen%2Fchuanluchen.github.io%2Fblob%2Fmain%2Fcollection%2Fleetcodes%2F_100_SameTree.py&style=hopscotch&showBorder=on&showFileMeta=on"></script>
 
 ## 分析:
 - Time: O(n) 
