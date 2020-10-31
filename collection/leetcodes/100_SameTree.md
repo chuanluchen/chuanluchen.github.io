@@ -61,6 +61,8 @@ class Solution(object):
         return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
 ~~~
 
+<iFrame src='_100_sameTree.py'></iFrame>
+
 ## 分析:
 - Time: O(n) 
 - Space: O(n) 
