@@ -48,7 +48,7 @@ Output: false
 
 
 
-<script async src="https://gist.github.com/chuanluchen/6f9cb2e61f7d87e9880ed4e205609c68.js"></script>
+<script src="https://gist.github.com/chuanluchen/6f9cb2e61f7d87e9880ed4e205609c68.js"></script>
 
 ## 分析:
 - Time: O(n) 
