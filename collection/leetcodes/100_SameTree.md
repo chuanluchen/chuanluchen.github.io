@@ -61,8 +61,7 @@ class Solution(object):
         return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
 ~~~
 
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fchuanluchen%2Fchuanluchen.github.io%2Fblob%2Fmain%2Fcollection%2Fleetcodes%2F_100_SameTree.py&style=github&showLineNumbers=on"></script>
-
+<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fchuanluchen%2Fchuanluchen.github.io%2Fblob%2Fmain%2Fcollection%2Fleetcodes%2F_100_SameTree.py&style=github&showBorder=on"></script>
 
 
 ## 分析:
