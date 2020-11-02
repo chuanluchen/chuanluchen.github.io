@@ -2,7 +2,7 @@
 layout: project
 title: 'Data Science代码宝藏'
 date: 01 July 2020
-screenshot: /assets/img/projects/code/code.jpg
+screenshot: /assets/img/projects/DataScience/datascience.jpg
 ---
 
 ## Text Analysis
