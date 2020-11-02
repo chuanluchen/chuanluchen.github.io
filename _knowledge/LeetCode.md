@@ -30,6 +30,8 @@ screenshot: /assets/img/projects/code/code.jpg
   - [142-Linked List Cycle II](/collection/leetcodes/142_LinkedListCycleII/) 
 - 删除
   - [83-Remove Duplicates From Sorted List](/collection/leetcodes/83_RemoveDuplicatesFromSortedList/) 
+  - [82-Remove Duplicates From Sorted List II](/collection/leetcodes/82_RemoveDuplicatesFromSortedListII/) 
+  
   
 
 ### 字符串
@@ -185,7 +187,8 @@ screenshot: /assets/img/projects/code/code.jpg
 | [77-Combinations](/collection/leetcodes/77_Combinations/) | Medium | 回溯法 + 组合  + index控制 + k|
 | [78-Subsets](/collection/leetcodes/78_Subsets/) | Medium | 回溯法 + 子集  + index控制 |
 | [79-Word Search](/collection/leetcodes/79_WordSearch/) | Medium | BFS +  Flood Fill |
-| [83-Remove Duplicates From Sorted List](/collection/leetcodes/83_RemoveDuplicatesFromSortedList/) | Easy | 链表 + 删除|
+| [82-Remove Duplicates From Sorted List II](/collection/leetcodes/82_RemoveDuplicatesFromSortedListII/) | Medium | 链表 + 删除 |
+| [83-Remove Duplicates From Sorted List](/collection/leetcodes/83_RemoveDuplicatesFromSortedList/) | Easy | 链表 + 删除 |
 | [86-Partition List](/collection/leetcodes/86_PartitionList/) | Medium | 链表 + 基本操作 |
 | [88-Merge Sorted Array](/collection/leetcodes/88_MergeSortedArray/) | easy | 排序 + mergeSort |
 | [90-Subsets II](/collection/leetcodes/90_SubsetsII/) | Medium | 回溯法 + 子集  + index控制 + used |
