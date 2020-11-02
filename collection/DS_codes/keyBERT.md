@@ -41,6 +41,3 @@ model.extract_keywords(doc, keyphrase_length=3, stop_words='english',
 # 参数：增加diversity提升离散程度
 model.extract_keywords(doc, keyphrase_length=3, stop_words='english', use_mmr=True, diversity=0.7)
 ~~~
-
-
-<script src="https://gist.github.com/chuanluchen/ddff1b3575c8489014a796c2599d7a82.js"></script>
