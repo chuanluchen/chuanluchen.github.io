@@ -543,7 +543,7 @@ having
 ~~~
 
 
-### 1517. Find Users With Valid E-Mails
+### 1517. Find Users With Valid E-Mails👀
 - 正则表达式
 ~~~sql
 select * from Users
@@ -558,14 +558,14 @@ where mail regexp '^[a-zA-Z]+[a-zA-Z0-9\\_\\.\\-]*@leetcode\\.com$'
 - $ 结尾
 
 
-### 1527. Patients With a Condition
+### 1527. Patients With a Condition👏
 - %字符串模糊匹配
 ~~~sql
 select * from Patients
 where conditions like '%DIAB1%'
 ~~~
 
-### 1543. Fix Product Name Format
+### 1543. Fix Product Name Format👀
 - 字符串处理:trim(), lower()
 - 日期处理:DATE_FORMAT(xx, '%Y-%m')  Y4位年代，m数字月份，M英文月份
 ~~~sql
@@ -579,7 +579,7 @@ order by product_name, sale_date
 ~~~
 
 
-### 1543. Fix Product Name Format
+### 1565. Unique Orders and Customers Per Month👏
 - 日期处理:DATE_FORMAT(xx, '%Y-%m')  Y4位年代，m数字月份，M英文月份
 ~~~sql
 select month, count(distinct order_id) as order_count, count(distinct customer_id) as customer_count 
@@ -590,14 +590,14 @@ from
 group by month
 ~~~
 
-### 1571. Warehouse Manager
+### 1571. Warehouse Manager👏
 ~~~sql
 select w.name as warehouse_name, sum(p.Width * p.Length * p.Height * w.units)  as volume
 from Warehouse w join Products p on w.product_id = p.product_id
 group by w.name
 ~~~
 
-### 1571. Warehouse Manager
+### 1581. Customer Who Visited but Did Not Make Any Transactions👏
 - 先找交易过的id,再用not in排除
 ~~~sql
 select customer_id, count(visit_id) as count_no_trans
@@ -610,7 +610,7 @@ where visit_id not in (
 group by customer_id
 ~~~
 
-### 1587. Bank Account Summary II
+### 1587. Bank Account Summary II👏
 ~~~sql
 select name, balance
 from 
@@ -621,7 +621,7 @@ where balance > 10000
 ~~~
 
 
-### 1607. Sellers With No Sales
+### 1607. Sellers With No Sales👏
 - 子查询找到2020年卖过货的，再用not in筛选
 ~~~sql
 select seller_name
@@ -634,8 +634,8 @@ where seller_name not in
 order by seller_name
 ~~~
 
-1623. All Valid Triplets That Can Represent a Country
-- cross join,然后做排除
+### 1623. All Valid Triplets That Can Represent a Country👏
+- 多表选择,然后做排除
 
 ~~~sql
 select a.student_name as member_A,
