@@ -32,7 +32,7 @@ screenshot: /assets/img/projects/code/code.jpg
   - [83-Remove Duplicates From Sorted List](/collection/leetcodes/83_RemoveDuplicatesFromSortedList/) 
   - [82-Remove Duplicates From Sorted List II](/collection/leetcodes/82_RemoveDuplicatesFromSortedListII/) 
   - [237-Delete Node In A Linked List](/collection/leetcodes/237_DeleteNodeInALinkedList/) 
-  
+  - [19-Remove Nth Node From End Of List](/collection/leetcodes/19_RemoveNthNodeFromEndOfList/) 
   
   
 
@@ -164,6 +164,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [13-Roman To Integer](/collection/leetcodes/13_RomanToInteger/)  | Easy | 字符串 + 实现题 + 预先定义 + 找定义 |
 | [14-Longest Common Prefix](/collection/leetcodes/14_LongestCommonPrefix/)  | Easy | 字符串 + 基本 + 双重遍历找一致 |
 | [17-LetterCombinationsOfAPhoneNumber](/collection/leetcodes/17_LetterCombinationsOfAPhoneNumber/) | Medium | 回溯法 + 实现题 + index |
+| [19-Remove Nth Node From End Of List](/collection/leetcodes/19_RemoveNthNodeFromEndOfList/) | Medium | 链表+ 删除 + 快慢针 |
 | [21-Merge Two Sorted Lists](/collection/leetcodes/21_MergeTwoSortedLists/) | Easy | 链表 + 基本操作 |
 | [22-Generate Parentheses](/collection/leetcodes/22_GenerateParentheses/) | Medium | 回溯法 + 剪枝 |
 | [24-Swap Nodes In Pairs](/collection/leetcodes/24_SwapNodesInPairs/)  | Medium | 链表 + 基本操作 |
