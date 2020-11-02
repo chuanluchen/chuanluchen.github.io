@@ -4,7 +4,7 @@ title: 'BERT模型提取关键词'
 date: 01 July 2020
 
 ---
-使用BERT模型进行文本处理 
+## 使用BERT模型进行文本处理 
 [KeyBERT package](https://github.com/MaartenGr/KeyBERT/)
 - n-gram 
 - 去停用词
