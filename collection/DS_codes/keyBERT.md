@@ -15,6 +15,7 @@ date: 01 July 2020
 
 ~~~python
 from keybert import KeyBERT
+
 doc = """
          Supervised learning is the machine learning task of learning a function that
          maps an input to an output based on example input-output pairs.[1] It infers a
@@ -27,12 +28,14 @@ doc = """
          the learning algorithm to generalize from the training data to unseen situations in a 
          'reasonable' way (see inductive bias).
       """
+      
 model = KeyBERT('distilbert-base-nli-mean-tokens')
 keywords = model.extract_keywords(doc)
-Extract Keywords
+
+###### Extract Keywords
 # single keyword
 model.extract_keywords(doc, keyphrase_length=1, stop_words='english')
-['learning', 'training', 'algorithm', 'class', 'mapping']
+#['learning', 'training', 'algorithm', 'class', 'mapping']
 # n-gram
 model.extract_keywords(doc, keyphrase_length=2, stop_words=None)
 ['learning algorithm',
@@ -60,4 +63,4 @@ model.extract_keywords(doc, keyphrase_length=3, stop_words='english', use_mmr=Tr
 ~~~
 
 
-<script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fchuanluchen%2FLeetCode%2Fblob%2Fmain%2F_100_SameTree.py&style=hopscotch&showBorder=on&showFileMeta=on"></script>
+<script src="https://gist.github.com/chuanluchen/ddff1b3575c8489014a796c2599d7a82.js"></script>
