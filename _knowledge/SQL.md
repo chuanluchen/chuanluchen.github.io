@@ -18,7 +18,7 @@ from Person as P Left join Address as A
 on p.PersonId = A.PersonId
 ~~~
 
-### 176. Second Highest Salary👀
+### 176. Second Highest Salary👏
 - 先查询出最高的工资，然后查询身高小于该值的最高工资
 - 直接使用order...limit 1 offset 无法handle Null和并列第一的情况
 ~~~sql
@@ -56,7 +56,7 @@ where Id NOT IN (
 )
 ~~~
 
-### 196. Delete Duplicate Emails🧶
+### 196. Delete Duplicate Emails👀
 - Delete +表的内部比较（自连接)
 ~~~sql
 Delete p1
@@ -64,7 +64,7 @@ from Person p1, Person p2
 where p1.Email = p2.Email and p1.Id >  p2.Id
 ~~~
 
-### 197. Rising Temperature👀
+### 197. Rising Temperature👏
 - 表的内部比较(自连接) + 使用DATEDIFF
 ~~~sql
 select a.id
