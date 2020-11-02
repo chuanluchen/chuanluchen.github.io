@@ -6,7 +6,7 @@ screenshot: /assets/img/projects/code/code.jpg
 ---
 
 ## Text Analysis
-- [Bert模型提取关键词 & Diversification](/collection/DS_codes/keyBERT/) 
+- [关键词提取](/collection/DS_codes/KeywordsExtraction/) 
 
 
 
