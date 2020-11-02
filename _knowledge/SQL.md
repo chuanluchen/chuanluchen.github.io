@@ -135,7 +135,7 @@ group by class
 having count(distinct student)>=5
 ~~~
 
-### 597. Friend Requests I: Overall Acceptance Rate👀
+### 597. Friend Requests I: Overall Acceptance Rate👏
 - 多重考虑：distinct, count,if null
 ~~~sql
 select round(
@@ -145,7 +145,7 @@ select round(
 from friend_request f, request_accepted r
 ~~~
 
-### 603. Consecutive Available Seats👀
+### 603. Consecutive Available Seats👏
 - 自连接
 ~~~sql
 select distinct a.seat_id 
@@ -205,7 +205,7 @@ where id % 2 != 0 and description != 'boring'
 order by rating desc
 ~~~
 
-### 627. Swap Salary👀
+### 627. Swap Salary👏
 ~~~sql
 update salary
 set sex = if(sex = 'm', 'f','m')
@@ -279,7 +279,7 @@ having sum(if(p.product_name='S8', 1, 0)) > 0
 and sum(if(p.product_name = 'iPhone', 1, 0)) = 0
 ~~~
 
-### 1084. Sales Analysis III👀
+### 1084. Sales Analysis III👏
 - group by 之后用having+两个条件
 - sum(if xx, 1, 0)筛选日期，注意日期加引号
 
@@ -301,7 +301,7 @@ where action_date = DATE_SUB('2019-07-05', INTERVAL 1 DAY) and action='report'
 group by extra
 ~~~
 
-### 1141. User Activity for the Past 30 Days I👀
+### 1141. User Activity for the Past 30 Days I👏
 - 先筛选日期
 - 日期function:DATEDIFF(a, b) -> 求a-b
 - 时间窗口<30
