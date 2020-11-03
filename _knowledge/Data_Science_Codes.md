@@ -1,10 +1,10 @@
 ---
 layout: project
 title: 'Data Science代码宝藏'
-date: 01 July 2020
+date: 01 Nov 2020
 screenshot: /assets/img/projects/DataScience/datascience.jpg
 featured: true
 ---
 
 ## Text Analysis
-- [关键词提取](/collection/DS_codes/KeywordsExtraction/) 
+  - [关键词提取](/collection/DS_codes/KeywordsExtraction/) 
