@@ -1,6 +1,6 @@
 ---
 layout: project
-title: '算法与LeetCode'
+title: '算法LeetCode'
 date: 01 July 2020
 screenshot: /assets/img/projects/code/code.jpg
 ---
