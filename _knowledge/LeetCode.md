@@ -34,6 +34,8 @@ screenshot: /assets/img/projects/code/code.jpg
   - [82-Remove Duplicates From Sorted List II](/collection/leetcodes/82_RemoveDuplicatesFromSortedListII/) 
   - [237-Delete Node In A Linked List](/collection/leetcodes/237_DeleteNodeInALinkedList/) 
   - [19-Remove Nth Node From End Of List](/collection/leetcodes/19_RemoveNthNodeFromEndOfList/) 
+- 链表数组
+  - [148-Sort List](/collection/leetcodes/148_SortList/) 
   
   
   
@@ -149,9 +151,7 @@ screenshot: /assets/img/projects/code/code.jpg
   - [72-Edit Distance](/collection/leetcodes/72_EditDistance/)
   - [62-Unique Paths](/collection/leetcodes/62_UniquePaths/)
   - [96-Unique Binary Search Trees](/collection/leetcodes/96_UniqueBinarySearchTrees/)
-  
-  
-  
+ 
 <br><br>
 
 ## 顺序题目
@@ -236,7 +236,8 @@ screenshot: /assets/img/projects/code/code.jpg
 | [142-Linked List Cycle II](/collection/leetcodes/142_LinkedListCycleII/) | Medium | 链表 + 快慢针 |
 | [144-Binary Tree Preorder Traversal](/collection/leetcodes/144_BinaryTreePreorderTraversal/)  | Medium | 树 + 先序遍历模板 |
 | [145-Binary Tree Postorder Traversal](/collection/leetcodes/145_BinaryTreePostorderTraversal/) | Hard | 树 + 后序遍历模板 |
-| [146-LRU Cache](/collection/leetcodes/146_LRU_Cache/) | Medium | 实现题 + HashMap |  
+| [146-LRU Cache](/collection/leetcodes/146_LRU_Cache/) | Medium | 实现题 + HashMap | 
+| [148-Sort List](/collection/leetcodes/148_SortList/) | Medium | 链表 + 数组 + MergeSort | 
 | [151-Reverse Words in a String](/collection/leetcodes/151_ReverseWordsinaString/) | Easy | 字符串 + 实现题 |
 | [156-Binary Tree Upside Down](/collection/leetcodes/156_BinaryTreeUpsideDown/) | Medium | 树 + 链表 |
 | [157-Read N Characters Given Read4 I](/collection/leetcodes/157_ReadNCharactersGivenRead4I/)  | Easy | 字符串 + 实现题 + 空间思路|
