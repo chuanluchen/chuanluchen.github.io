@@ -29,5 +29,5 @@ Output: [-1,0,3,4,5]
 <script src="https://emgithub.com/embed.js?target=https%3A%2F%2Fgithub.com%2Fchuanluchen%2FLeetCode%2Fblob%2Fmain%2F_148_SortList.py&style=hopscotch&showBorder=on&showFileMeta=on"></script>
 
 ## 分析:
-- Time: O(n) 
+- Time: O(nlogn) 
 - Space: O(1) 
