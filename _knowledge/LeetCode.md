@@ -36,8 +36,9 @@ screenshot: /assets/img/projects/code/code.jpg
   - [19-Remove Nth Node From End Of List](/collection/leetcodes/19_RemoveNthNodeFromEndOfList/) 
 - 链表数组
   - [148-Sort List](/collection/leetcodes/148_SortList/) 
+  - [2-AddTwoNumbers](/collection/leetcodes/2_AddTwoNumbers/) 
   
-  
+ 
   
 
 ### 字符串
@@ -158,6 +159,7 @@ screenshot: /assets/img/projects/code/code.jpg
 
 |  题目   | 难度  | 思路  |
 |  ----  | ----  | ---  |
+| [2-AddTwoNumbers](/collection/leetcodes/2_AddTwoNumbers/) | Medium | 链表 + 数组 + 数位相加 |
 | [3-Longest Substring Without Repeating Characters](/collection/leetcodes/3_LongestSubstringWithoutRepeatingCharacters/) | Medium | 字符串 + window + hashset |
 | [5-Longest Palindromic Substring](/collection/leetcodes/5_LongestPalindromicSubstring/) | Medium | 字符串 + Palindrome + 中心扩散法 |
 | [6-ZigZag Conversion](/collection/leetcodes/6_ZigZag_Conversion/)  | Medium | 字符串 + 实现题 + 暴力找规律 |
