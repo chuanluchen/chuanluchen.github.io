@@ -766,7 +766,7 @@ limit 1
 ~~~
 
 
-### 580. Count Student Number in Departments
+### 580. Count Student Number in Departments👏
 - 保留null 用left join
 - null参与计数用ifnull(xxx, 0)
 ~~~sql
@@ -777,7 +777,7 @@ group by d.dept_name
 order by student_number desc, d.dept_name
 ~~~
 
-### 585. Investments in 2016
+### 585. Investments in 2016👀
 - 组内找相同特征/不同特征：where + 自连接 a.特征 = b.特征
 - 分别用in和not in
 ~~~sql
@@ -794,7 +794,7 @@ and PID not in
 )
 ~~~
 
-### 602. Friend Requests II: Who Has the Most Friends
+### 602. Friend Requests II: Who Has the Most Friends👀
 - 需要union两组数据：他申请的朋友 + 接受他的朋友
 - 注意使用Union all: 允许重复数据
 ~~~sql
@@ -823,7 +823,7 @@ from tree
 order by id
 ~~~
 
-### 612. Shortest Distance in a Plane
+### 612. Shortest Distance in a Plane🧶
 - 所有可能性：找所有点之间距离 cross join
 - 排除同一点
 - sqrt((x1-x2)^2 + (y1-y2)^2)
@@ -834,7 +834,7 @@ from point_2d a cross join point_2d b
 where a.x != b.x or a.y != b.y
 ~~~
 
-### 614. Second Degree Follower
+### 614. Second Degree Follower👏
 - 两组join,注意列名比较疑惑
 - 必须用distinct
 ~~~sql
@@ -845,7 +845,7 @@ group by a.followee
 order by a.followee
 ~~~
 
-### 626. Exchange Seats
+### 626. Exchange Seats🧶
 - 直接改id:偶数-1，奇数加1 -> if
 - 奇数且最后一行：不动 -> 需要计算总数
 ~~~sql
@@ -856,7 +856,7 @@ order by id
 ~~~
 
 
-### 1045. Customers Who Bought All Products
+### 1045. Customers Who Bought All Products👀
 - group by之后，保证产品数量相等
 ~~~sql
 select customer_id
@@ -866,7 +866,7 @@ having count(distinct product_key) = (select count(distinct product_key) from Pr
 ~~~
 
 
-### 1070. Product Sales Analysis III
+### 1070. Product Sales Analysis III👏
 - 把product_id, year联合起来找符合条件的
 ~~~sql
 select product_id, year as first_year, quantity, price
