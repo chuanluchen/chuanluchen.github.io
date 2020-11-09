@@ -38,6 +38,8 @@ screenshot: /assets/img/projects/code/code.jpg
 - 链表数组
   - [148-Sort List](/collection/leetcodes/148_SortList/) 
   - [2-AddTwoNumbers](/collection/leetcodes/2_AddTwoNumbers/) 
+  - [147-Insertion Sort List](/collection/leetcodes/147_InsertionSortList/) 
+  
   
  
   
@@ -241,6 +243,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [144-Binary Tree Preorder Traversal](/collection/leetcodes/144_BinaryTreePreorderTraversal/)  | Medium | 树 + 先序遍历模板 |
 | [145-Binary Tree Postorder Traversal](/collection/leetcodes/145_BinaryTreePostorderTraversal/) | Hard | 树 + 后序遍历模板 |
 | [146-LRU Cache](/collection/leetcodes/146_LRU_Cache/) | Medium | 实现题 + HashMap | 
+| [147-Insertion Sort List](/collection/leetcodes/147_InsertionSortList/)  | Medium | 链表 + 数组 + InsertionSort |
 | [148-Sort List](/collection/leetcodes/148_SortList/) | Medium | 链表 + 数组 + MergeSort | 
 | [151-Reverse Words in a String](/collection/leetcodes/151_ReverseWordsinaString/) | Easy | 字符串 + 实现题 |
 | [156-Binary Tree Upside Down](/collection/leetcodes/156_BinaryTreeUpsideDown/) | Medium | 树 + 链表 |
