@@ -25,6 +25,8 @@ Output: -1->0->3->4->5
 - 找升序序列的结尾cur, 将后一个元素temp插入到前面合适位置
   - 找pre位置
   - 使用pre, cur, temp改变指针
+ <img src="/assets/img/projects/code/147_InsertionSortList.jpeg"/>
+
 
 ~~~python
 # Definition for singly-linked list.
