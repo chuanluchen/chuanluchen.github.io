@@ -41,7 +41,8 @@ screenshot: /assets/img/projects/code/code.jpg
   - [147-Insertion Sort List](/collection/leetcodes/147_InsertionSortList/) 
 - 链表综合 
   - [143-Reorder List](/collection/leetcodes/143_ReorderList/) 
-  
+  - [138-Copy List With Random Pointer](/collection/leetcodes/138_CopyListWithRandomPointer/) 
+ 
   
 
 ### 字符串
@@ -237,6 +238,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [133-Clone Graph](/collection/leetcodes/133_CloneGraph/) | Medium | 图 + BFS + Hashmap |
 | [134-Gas Station](/collection/leetcodes/134_GasStation/) | Medium | 贪心算法 + 连续和 |
 | [137-Single Number II](/collection/leetcodes/137_SingleNumberII/)| Medium | HashMap | 
+| [138-Copy List With Random Pointer](/collection/leetcodes/138_CopyListWithRandomPointer/)  | Medium | 链表 + Hashmap | 
 | [139-Word Break](/collection/leetcodes/139_WordBreak/) | Medium | 动态规划 |
 | [141-Linked List Cycle](/collection/leetcodes/141_LinkedListCycle/) | Easy | 链表 + 快慢针 |
 | [142-Linked List Cycle II](/collection/leetcodes/142_LinkedListCycleII/) | Medium | 链表 + 快慢针 |
