@@ -39,9 +39,9 @@ screenshot: /assets/img/projects/code/code.jpg
   - [148-Sort List](/collection/leetcodes/148_SortList/) 
   - [2-AddTwoNumbers](/collection/leetcodes/2_AddTwoNumbers/) 
   - [147-Insertion Sort List](/collection/leetcodes/147_InsertionSortList/) 
+- 链表综合 
+  - [143-Reorder List](/collection/leetcodes/143_ReorderList/) 
   
-  
- 
   
 
 ### 字符串
@@ -240,6 +240,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [139-Word Break](/collection/leetcodes/139_WordBreak/) | Medium | 动态规划 |
 | [141-Linked List Cycle](/collection/leetcodes/141_LinkedListCycle/) | Easy | 链表 + 快慢针 |
 | [142-Linked List Cycle II](/collection/leetcodes/142_LinkedListCycleII/) | Medium | 链表 + 快慢针 |
+| [143-Reorder List](/collection/leetcodes/143_ReorderList/) | Medium | 链表 + 综合 |
 | [144-Binary Tree Preorder Traversal](/collection/leetcodes/144_BinaryTreePreorderTraversal/)  | Medium | 树 + 先序遍历模板 |
 | [145-Binary Tree Postorder Traversal](/collection/leetcodes/145_BinaryTreePostorderTraversal/) | Hard | 树 + 后序遍历模板 |
 | [146-LRU Cache](/collection/leetcodes/146_LRU_Cache/) | Medium | 实现题 + HashMap | 
