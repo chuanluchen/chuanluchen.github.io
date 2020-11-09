@@ -21,6 +21,7 @@ screenshot: /assets/img/projects/code/code.jpg
   - [61-Rotate List](/collection/leetcodes/61_RotateList/) 
   - [86-Partition List](/collection/leetcodes/86_PartitionList/) 
   - [21-Merge Two Sorted Lists](/collection/leetcodes/21_MergeTwoSortedLists/) 
+  - [23-Merge K Sorted Lists](/collection/leetcodes/23_MergeKSortedLists/) 
   - [160-Intersection Of Two Linked Lists](/collection/leetcodes/160_IntersectionOfTwoLinkedLists/) 
 - 链表反转
   - [206-Reverse Linked List](/collection/leetcodes/206_ReverseLinkedList/) 
@@ -171,6 +172,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [19-Remove Nth Node From End Of List](/collection/leetcodes/19_RemoveNthNodeFromEndOfList/) | Medium | 链表+ 删除 + 快慢针 |
 | [21-Merge Two Sorted Lists](/collection/leetcodes/21_MergeTwoSortedLists/) | Easy | 链表 + 基本操作 |
 | [22-Generate Parentheses](/collection/leetcodes/22_GenerateParentheses/) | Medium | 回溯法 + 剪枝 |
+| [23-Merge K Sorted Lists](/collection/leetcodes/23_MergeKSortedLists/) | Hard | 链表 + 基本操作 |
 | [24-Swap Nodes In Pairs](/collection/leetcodes/24_SwapNodesInPairs/)  | Medium | 链表 + 基本操作 |
 | [28-Implement strStr](/collection/leetcodes/28_ImplementstrStr/)  | Easy | 字符串 |
 | [31-NextPermutation](/collection/leetcodes/31_NextPermutation/) | Medium | 排序排列 + 找重点位置|
