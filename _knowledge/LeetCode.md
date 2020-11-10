@@ -43,7 +43,10 @@ screenshot: /assets/img/projects/code/code.jpg
   - [143-Reorder List](/collection/leetcodes/143_ReorderList/) 
   - [138-Copy List With Random Pointer](/collection/leetcodes/138_CopyListWithRandomPointer/) 
  
-  
+### 二分法
+- 基本
+  - [35-Search Insert Position](/collection/leetcodes/35_SearchInsertPosition/) 
+
 
 ### 字符串
 - 基础
@@ -178,7 +181,8 @@ screenshot: /assets/img/projects/code/code.jpg
 | [23-Merge K Sorted Lists](/collection/leetcodes/23_MergeKSortedLists/) | Hard | 链表 + 基本操作 |
 | [24-Swap Nodes In Pairs](/collection/leetcodes/24_SwapNodesInPairs/)  | Medium | 链表 + 基本操作 |
 | [28-Implement strStr](/collection/leetcodes/28_ImplementstrStr/)  | Easy | 字符串 |
-| [31-NextPermutation](/collection/leetcodes/31_NextPermutation/) | Medium | 排序排列 + 找重点位置|
+| [31-NextPermutation](/collection/leetcodes/31_NextPermutation/) | Medium | 排序排列 + 找重点位置 |
+| [35-Search Insert Position](/collection/leetcodes/35_SearchInsertPosition/)  | Easy | 二分法 + 基本 |
 | [38-Count And Say](/collection/leetcodes/38_CountAndSay/)  | Easy | 字符串 + 实现题 + 递归|
 | [39-CombinationSum](/collection/leetcodes/39_CombinationSum/)  | Medium | 回溯法 + 组合 + index + sum|
 | [40-CombinationSumII](/collection/leetcodes/40_CombinationSumII/)  | Medium | 回溯法 + 组合 + index + sum + 跳重复元素|
