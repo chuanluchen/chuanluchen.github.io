@@ -48,7 +48,8 @@ screenshot: /assets/img/projects/code/code.jpg
   - [35-Search Insert Position](/collection/leetcodes/35_SearchInsertPosition/) 
 - Rotate
   - [33-Search In Rotated Sorted Array](/collection/leetcodes/33_SearchInRotatedSortedArray/) 
- 
+  - [81-Search In Rotated Sorted Array II](/collection/leetcodes/81_SearchInRotatedSortedArrayII/) 
+
 
 
 ### 字符串
@@ -207,6 +208,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [77-Combinations](/collection/leetcodes/77_Combinations/) | Medium | 回溯法 + 组合  + index控制 + k|
 | [78-Subsets](/collection/leetcodes/78_Subsets/) | Medium | 回溯法 + 子集  + index控制 |
 | [79-Word Search](/collection/leetcodes/79_WordSearch/) | Medium | BFS +  Flood Fill |
+| [81-Search In Rotated Sorted Array II](/collection/leetcodes/81_SearchInRotatedSortedArrayII/) | Meidum | 二分法 + Rotate |
 | [82-Remove Duplicates From Sorted List II](/collection/leetcodes/82_RemoveDuplicatesFromSortedListII/) | Medium | 链表 + 删除 |
 | [83-Remove Duplicates From Sorted List](/collection/leetcodes/83_RemoveDuplicatesFromSortedList/) | Easy | 链表 + 删除 |
 | [86-Partition List](/collection/leetcodes/86_PartitionList/) | Medium | 链表 + 基本操作 |
