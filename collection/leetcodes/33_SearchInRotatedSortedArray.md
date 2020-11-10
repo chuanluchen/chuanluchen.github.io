@@ -27,6 +27,8 @@ Output: -1
 ## 思路
 - 二分法查找 + Rotate：元素不重复
 - 左右找的时候，先判断pivot分界点
+- 4  5  6  7  0  1  2
+- low     mid      high
 
 ~~~python
 class Solution(object):
