@@ -46,9 +46,11 @@ screenshot: /assets/img/projects/code/code.jpg
 ### 二分法
 - 基本
   - [35-Search Insert Position](/collection/leetcodes/35_SearchInsertPosition/) 
+  - [34-Find First And Last Position Of Element In Sorted Array](/collection/leetcodes/34_FindFirstAndLastPositionOfElementInSortedArray/) 
 - Rotate
   - [33-Search In Rotated Sorted Array](/collection/leetcodes/33_SearchInRotatedSortedArray/) 
   - [81-Search In Rotated Sorted Array II](/collection/leetcodes/81_SearchInRotatedSortedArrayII/) 
+  
 
 
 
@@ -187,6 +189,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [28-Implement strStr](/collection/leetcodes/28_ImplementstrStr/)  | Easy | 字符串 |
 | [31-NextPermutation](/collection/leetcodes/31_NextPermutation/) | Medium | 排序排列 + 找重点位置 |
 | [33-Search In Rotated Sorted Array](/collection/leetcodes/33_SearchInRotatedSortedArray/) | Meidum | 二分法 + Rotate |
+| [34-Find First And Last Position Of Element In Sorted Array](/collection/leetcodes/34_FindFirstAndLastPositionOfElementInSortedArray/) | Medium | 二分法 + 基本 |
 | [35-Search Insert Position](/collection/leetcodes/35_SearchInsertPosition/)  | Easy | 二分法 + 基本 |
 | [38-Count And Say](/collection/leetcodes/38_CountAndSay/)  | Easy | 字符串 + 实现题 + 递归|
 | [39-CombinationSum](/collection/leetcodes/39_CombinationSum/)  | Medium | 回溯法 + 组合 + index + sum|
