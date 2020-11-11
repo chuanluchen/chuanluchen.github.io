@@ -4,7 +4,16 @@ title: '算法总结'
 date: 01 May 2020
 screenshot: /assets/img/projects/code/sort.jpeg
 ---
-
+- [递归](#递归)
+- [排序](#排序)
+- [二分法查找](#二分法查找)
+- [链表](#链表)
+- [回溯法](#回溯法)
+- [图](#图)
+- [树](#树)
+- [贪心算法](#贪心算法)
+- [HashMap](#HashMap)
+- [动态规划](#动态规划)
 {:toc}
 
 ## 递归
@@ -56,7 +65,7 @@ screenshot: /assets/img/projects/code/sort.jpeg
 - 递归的空间复杂度：层数
 
 
-## 排序算法
+## 排序
 #### 冒泡排序 
 - 核心：每次找未排序部分的最大值，两两swap,顶到最后面排好序的头部
 - 方法
@@ -375,7 +384,7 @@ DFS(graph,'E')
 ~~~
 
 
-## 树的遍历
+## 树
 
 - PreOrder是所有遍历方式中最通用的方式，经常与backtracking结合
 - InOrder与BST有关
@@ -505,7 +514,7 @@ for / while:
     # 前进一步
 ~~~
 
-## HashMap实现
+## HashMap
 ~~~python
 from collections import defaultdict
 hashmap = defaultdict(int) # key不存在的时候返回默认值，可以是int/ str/ list
