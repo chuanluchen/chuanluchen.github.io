@@ -4,10 +4,9 @@ title: '算法总结'
 date: 01 May 2020
 screenshot: /assets/img/projects/code/sort.jpeg
 ---
-- [目录](#算法总结)
+
 {:toc}
 
-# 算法总结
 ## 递归
 - Fibonacci 
 
@@ -506,8 +505,7 @@ for / while:
     # 前进一步
 ~~~
 
-HashMap实现
-
+## HashMap实现
 ~~~python
 from collections import defaultdict
 hashmap = defaultdict(int) # key不存在的时候返回默认值，可以是int/ str/ list
