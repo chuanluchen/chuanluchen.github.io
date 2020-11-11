@@ -1,10 +1,13 @@
 ---
 layout: project
-title: '算法小结'
+title: '算法总结'
 date: 01 May 2020
 screenshot: /assets/img/projects/code/sort.jpeg
 ---
+- [目录](#算法总结)
+{:toc}
 
+# 算法总结
 ## 递归
 - Fibonacci 
 
