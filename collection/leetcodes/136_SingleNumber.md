@@ -47,5 +47,5 @@ class Solution(object):
 ~~~
 
 ## 分析:
-- Time: O(n)   
-- Space: O(1) 
+- Time: O(n)   O(1)
+- Space: O(1)    O(n)
