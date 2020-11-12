@@ -16,7 +16,7 @@ screenshot: /assets/img/projects/code/code.jpg
 - 异或找唯一
   - [136-Single Number](/collection/leetcodes/136_SingleNumber/) 
   - [389-Find The Difference](/collection/leetcodes/389_FindTheDifference/) 
-
+  - [268-Missing Number](/collection/leetcodes/268_MissingNumber/) 
 
 ### 排序
 - [88-Merge Sorted Array](/collection/leetcodes/88_MergeSortedArray/) 
@@ -296,4 +296,5 @@ screenshot: /assets/img/projects/code/code.jpg
 | [206-Reverse Linked List](/collection/leetcodes/206_ReverseLinkedList/) | Easy | 链表 + 反转 |
 | [237-Delete Node In A Linked List](/collection/leetcodes/237_DeleteNodeInALinkedList/) | Easy | 链表 + 删除 |
 | [242-Valid Anagram](/collection/leetcodes/242_ValidAnagram/) | Easy | 字符串 + anagram + Count Sort |
+| [268-Missing Number](/collection/leetcodes/268_MissingNumber/) | Easy | 位运算 + 异或 |
 | [389-Find The Difference](/collection/leetcodes/389_FindTheDifference/) | Easy | 位运算 + 异或 |
