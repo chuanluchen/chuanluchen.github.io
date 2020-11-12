@@ -53,6 +53,9 @@ screenshot: /assets/img/projects/code/code.jpg
   - [81-Search In Rotated Sorted Array II](/collection/leetcodes/81_SearchInRotatedSortedArrayII/) 
   - [153-Find Minimum In Rotated Sorted Array](/collection/leetcodes/153_FindMinimumInRotatedSortedArray/) 
   - [154-Find Minimum In Rotated Sorted Array II](/collection/leetcodes/154_FindMinimumInRotatedSortedArrayII/) 
+- 数组
+  - [74-Search A 2D Matrix](/collection/leetcodes/74_SearchA2DMatrix/) 
+  
 
 ### 字符串
 - 基础
@@ -206,6 +209,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [62-Unique Paths](/collection/leetcodes/62_UniquePaths/) | Medium | 动态规划 |
 | [70-Climbing Stairs](/collection/leetcodes/70_ClimbingStairs/) | Easy | 递归 + Fibonacci |
 | [72-Edit Distance](/collection/leetcodes/72_EditDistance/) | Hard | 动态规划 + 字符串|
+| [74-Search A 2D Matrix](/collection/leetcodes/74_SearchA2DMatrix/) | Medium | 二分法 + 数组 |
 | [75-Sort Colors](/collection/leetcodes/75_SortColors/) | Medium | 排序 + 三指针 |
 | [76-Minimum Window Substring](/collection/leetcodes/76_MinimumWindowSubstring/)  | Hard | 字符串 + substring  + sliding window |
 | [77-Combinations](/collection/leetcodes/77_Combinations/) | Medium | 回溯法 + 组合  + index控制 + k|
