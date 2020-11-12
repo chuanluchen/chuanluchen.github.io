@@ -47,12 +47,11 @@ screenshot: /assets/img/projects/code/code.jpg
 - 基本
   - [35-Search Insert Position](/collection/leetcodes/35_SearchInsertPosition/) 
   - [34-Find First And Last Position Of Element In Sorted Array](/collection/leetcodes/34_FindFirstAndLastPositionOfElementInSortedArray/) 
+  - [162-Find Peak Element](/collection/leetcodes/162_FindPeakElement/) 
 - Rotate
   - [33-Search In Rotated Sorted Array](/collection/leetcodes/33_SearchInRotatedSortedArray/) 
   - [81-Search In Rotated Sorted Array II](/collection/leetcodes/81_SearchInRotatedSortedArrayII/) 
   
-
-
 
 ### 字符串
 - 基础
@@ -267,6 +266,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [159-Longest Substring With At Most Two Distinct Characters](/collection/leetcodes/159_LongestSubstringWithAtMostTwoDistinctCharacters/) | Medium | 字符串 + substring + sliding window |
 | [160-Intersection Of Two Linked Lists](/collection/leetcodes/160_IntersectionOfTwoLinkedLists/) | Easy | 链表 + 基本操作 |
 | [161-One Edit Distance](/collection/leetcodes/161_OneEditDistance/) | Meidum | 字符串 + Substring |
+| [162-Find Peak Element](/collection/leetcodes/162_FindPeakElement/) | Medium | 二分法查找 + range |
 | [170-Two Sum III-Data Structure Design](/collection/leetcodes/170_TwoSumIII_DataStructureDesign/) | Easy | 实现题 + HashMap |
 | [171-Excel Sheet Column Number](/collection/leetcodes/171_ExcelSheetColumnNumber/)  | Easy | 字符串 + 基本 + 26进制转换 |
 | [173-Binary Search Tree Iterator](/collection/leetcodes/173_BinarySearchTreeIterator/) | Medium | 树 + 中序遍历应用 | 
