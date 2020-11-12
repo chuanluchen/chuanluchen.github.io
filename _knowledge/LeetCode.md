@@ -20,9 +20,8 @@ screenshot: /assets/img/projects/code/code.jpg
 - 与 
   - [231-Power Of Two](/collection/leetcodes/231_PowerOfTwo/) 
   - [191-Number Of 1 Bits](/collection/leetcodes/191_NumberOf1Bits/) 
-  
-  
-
+  - [190-Reverse Bits](/collection/leetcodes/190_ReverseBits/) 
+    
 ### 排序
 - [88-Merge Sorted Array](/collection/leetcodes/88_MergeSortedArray/) 
 - [75-Sort Colors](/collection/leetcodes/75_SortColors/) 
@@ -293,6 +292,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [179-Largest Number](/collection/leetcodes/179_LargestNumber/) | Medium | 字符串 + 实现题 + 自定义排序 |
 | [187-Repeated DNA Sequences](/collection/leetcodes/187-RepeatedDNASequences/) | Medium | 字符串 + substring + hashset |
 | [186-Reverse Words In A String II](/collection/leetcodes/186_ReverseWordsInAStringII/) | Medium | 字符串 + 实现题 + 先全部反转再单词内部反转 |
+| [190-Reverse Bits](/collection/leetcodes/190_ReverseBits/) | Easy | 位运算 + 按位与 |
 | [191-Number Of 1 Bits](/collection/leetcodes/191_NumberOf1Bits/) | Easy | 位运算 + 按位与 |
 | [199-Binary Tree Right Side View](/collection/leetcodes/199_BinaryTreeRightSideView/)  | Medium | 树 + 层次遍历 | 
 | [200-Number Of Islands](/collection/leetcodes/200_NumberOfIslands/) | Medium | 图 + DFS + Flood Fill|
