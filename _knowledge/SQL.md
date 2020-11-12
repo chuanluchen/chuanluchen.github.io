@@ -892,7 +892,7 @@ where (p.project_id,e.experience_years) in
     )
 ~~~
 
-### 1098. Unpopular Books
+### 1098. Unpopular Books🧶
 - 注意left join，没有销量的书也算
 - 基于（多个条件）join
 ~~~sql
