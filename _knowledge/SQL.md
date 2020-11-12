@@ -961,7 +961,7 @@ from
      ) t
 ~~~
 
-### 1149. Article Views II
+### 1149. Article Views II👀
 - 注意article，viewer取distinct
 ~~~sql
 select distinct viewer_id as id
