@@ -27,6 +27,7 @@ Explanation: The input binary string 11111111111111111111111111111101 has a tota
 ## 思路
 - 位运算：按位与
 - 相邻数字按位与：将末位的1改为0
+- bin()转换为二进制，count '1'的个数
 
 ~~~python
 class Solution(object):
@@ -40,6 +41,9 @@ class Solution(object):
             n &= (n-1)
             res += 1
         return res
+        
+    def hammingWeight2(self, n):
+        return bin(n).count('1')
 ~~~
 
 ## 分析:
