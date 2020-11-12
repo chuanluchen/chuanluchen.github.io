@@ -6,10 +6,15 @@ screenshot: /assets/img/projects/code/code.jpg
 ---
 
 ## 分类题目
+
 ### 递归
 - [70-Climbing Stairs](/collection/leetcodes/70_ClimbingStairs/) 
 - [118-Pascal's Triangle](/collection/leetcodes/118_Pascal'sTriangle/) 
 - [119-Pascal'sTriangle II](/collection/leetcodes/119_Pascal'sTriangleII/) 
+
+### 位运算
+- [136-Single Number](/collection/leetcodes/136_SingleNumber/) 
+
 
 ### 排序
 - [88-Merge Sorted Array](/collection/leetcodes/88_MergeSortedArray/) 
