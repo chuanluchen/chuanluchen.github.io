@@ -13,7 +13,9 @@ screenshot: /assets/img/projects/code/code.jpg
 - [119-Pascal'sTriangle II](/collection/leetcodes/119_Pascal'sTriangleII/) 
 
 ### 位运算
-- [136-Single Number](/collection/leetcodes/136_SingleNumber/) 
+- 异或找唯一
+  - [136-Single Number](/collection/leetcodes/136_SingleNumber/) 
+  - [389-Find The Difference](/collection/leetcodes/389_FindTheDifference/) 
 
 
 ### 排序
@@ -259,6 +261,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [131-Palindrome Partitioning](/collection/leetcodes/131_PalindromePartitioning/) | Medium | 回溯法 + 实现题  + 子集 + Palindrome判断|
 | [133-Clone Graph](/collection/leetcodes/133_CloneGraph/) | Medium | 图 + BFS + Hashmap |
 | [134-Gas Station](/collection/leetcodes/134_GasStation/) | Medium | 贪心算法 + 连续和 |
+| [136-Single Number](/collection/leetcodes/136_SingleNumber/)  | Easy | 位运算 + 异或 |
 | [137-Single Number II](/collection/leetcodes/137_SingleNumberII/)| Medium | HashMap | 
 | [138-Copy List With Random Pointer](/collection/leetcodes/138_CopyListWithRandomPointer/)  | Medium | 链表 + Hashmap | 
 | [139-Word Break](/collection/leetcodes/139_WordBreak/) | Medium | 动态规划 |
@@ -293,4 +296,4 @@ screenshot: /assets/img/projects/code/code.jpg
 | [206-Reverse Linked List](/collection/leetcodes/206_ReverseLinkedList/) | Easy | 链表 + 反转 |
 | [237-Delete Node In A Linked List](/collection/leetcodes/237_DeleteNodeInALinkedList/) | Easy | 链表 + 删除 |
 | [242-Valid Anagram](/collection/leetcodes/242_ValidAnagram/) | Easy | 字符串 + anagram + Count Sort |
-
+| [389-Find The Difference](/collection/leetcodes/389_FindTheDifference/) | Easy | 位运算 + 异或 |
