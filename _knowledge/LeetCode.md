@@ -52,8 +52,7 @@ screenshot: /assets/img/projects/code/code.jpg
   - [33-Search In Rotated Sorted Array](/collection/leetcodes/33_SearchInRotatedSortedArray/) 
   - [81-Search In Rotated Sorted Array II](/collection/leetcodes/81_SearchInRotatedSortedArrayII/) 
   - [153-Find Minimum In Rotated Sorted Array](/collection/leetcodes/153_FindMinimumInRotatedSortedArray/) 
-  
-  
+  - [154-Find Minimum In Rotated Sorted Array II](/collection/leetcodes/154_FindMinimumInRotatedSortedArrayII/) 
 
 ### 字符串
 - 基础
@@ -264,6 +263,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [148-Sort List](/collection/leetcodes/148_SortList/) | Medium | 链表 + 数组 + MergeSort | 
 | [151-Reverse Words in a String](/collection/leetcodes/151_ReverseWordsinaString/) | Easy | 字符串 + 实现题 |
 | [153-Find Minimum In Rotated Sorted Array](/collection/leetcodes/153_FindMinimumInRotatedSortedArray/) | Medium | 二分法查找 + range |
+| [154-Find Minimum In Rotated Sorted Array II](/collection/leetcodes/154_FindMinimumInRotatedSortedArrayII/) | Hard | 二分法查找 + range |
 | [156-Binary Tree Upside Down](/collection/leetcodes/156_BinaryTreeUpsideDown/) | Medium | 树 + 链表 |
 | [157-Read N Characters Given Read4 I](/collection/leetcodes/157_ReadNCharactersGivenRead4I/)  | Easy | 字符串 + 实现题 + 空间思路|
 | [159-Longest Substring With At Most Two Distinct Characters](/collection/leetcodes/159_LongestSubstringWithAtMostTwoDistinctCharacters/) | Medium | 字符串 + substring + sliding window |
