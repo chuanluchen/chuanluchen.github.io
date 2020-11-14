@@ -28,9 +28,10 @@ screenshot: /assets/img/projects/code/code.jpg
   - [7-Reverse Integer](/collection/leetcodes/7_ReverseInteger/) 
 - 加法进位
   - [66-Plus One](/collection/leetcodes/66_PlusOne/) 
-- str转换
+- int-str转换
   - [8-String To Integer](/collection/leetcodes/8_StringToInteger/) 
-
+  - [67-Add Binary](/collection/leetcodes/67_AddBinary/) 
+  
     
 ### 排序
 - [88-Merge Sorted Array](/collection/leetcodes/88_MergeSortedArray/) 
@@ -201,7 +202,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [5-Longest Palindromic Substring](/collection/leetcodes/5_LongestPalindromicSubstring/) | Medium | 字符串 + Palindrome + 中心扩散法 |
 | [6-ZigZag Conversion](/collection/leetcodes/6_ZigZag_Conversion/)  | Medium | 字符串 + 实现题 + 暴力找规律 |
 | [7-Reverse Integer](/collection/leetcodes/7_ReverseInteger/) | Easy | 数学题 + 数位反转 |
-| [8-String To Integer](/collection/leetcodes/8_StringToInteger/) | Medium | 数学题 + str转换 |
+| [8-String To Integer](/collection/leetcodes/8_StringToInteger/) | Medium | 数学题 + int/str转换 |
 | [9-Palindrome Number](/collection/leetcodes/9_PalindromeNumber/) | Easy | 字符串 + Palindrome + 数位反转 |
 | [12-Integer To Roman](/collection/leetcodes/12_IntegerToRoman/)  | Medium | 字符串 + 实现题 + 预先定义 |
 | [13-Roman To Integer](/collection/leetcodes/13_RomanToInteger/)  | Easy | 字符串 + 实现题 + 预先定义 + 找定义 |
@@ -231,6 +232,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [61-Rotate List](/collection/leetcodes/61_RotateList/) | Meidum | 链表 + 基本操作 |
 | [62-Unique Paths](/collection/leetcodes/62_UniquePaths/) | Medium | 动态规划 |
 | [66-Plus One](/collection/leetcodes/66_PlusOne/) | Easy | 数学题 + 加法进位 |
+| [67-Add Binary](/collection/leetcodes/67_AddBinary/) | Easy | 数学题 + str/int转换 |
 | [70-Climbing Stairs](/collection/leetcodes/70_ClimbingStairs/) | Easy | 递归 + Fibonacci |
 | [72-Edit Distance](/collection/leetcodes/72_EditDistance/) | Hard | 动态规划 + 字符串|
 | [74-Search A 2D Matrix](/collection/leetcodes/74_SearchA2DMatrix/) | Medium | 二分法 + 数组 |
