@@ -26,6 +26,9 @@ screenshot: /assets/img/projects/code/code.jpg
 ### 数学题
 - 数位反转
   - [7-Reverse Integer](/collection/leetcodes/7_ReverseInteger/) 
+- 加法进位
+  - [66-PlusOne](/collection/leetcodes/66_PlusOne/) 
+  
 
     
 ### 排序
@@ -225,6 +228,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [58-Length Of Last Word](/collection/leetcodes/58_LengthOfLastWord/)  | Easy | 字符串 + 基本 |
 | [61-Rotate List](/collection/leetcodes/61_RotateList/) | Meidum | 链表 + 基本操作 |
 | [62-Unique Paths](/collection/leetcodes/62_UniquePaths/) | Medium | 动态规划 |
+| [66-PlusOne](/collection/leetcodes/66_PlusOne/) | Easy | 数学题 + 加法进位 |
 | [70-Climbing Stairs](/collection/leetcodes/70_ClimbingStairs/) | Easy | 递归 + Fibonacci |
 | [72-Edit Distance](/collection/leetcodes/72_EditDistance/) | Hard | 动态规划 + 字符串|
 | [74-Search A 2D Matrix](/collection/leetcodes/74_SearchA2DMatrix/) | Medium | 二分法 + 数组 |
