@@ -30,6 +30,7 @@ screenshot: /assets/img/projects/code/code.jpg
   - [66-Plus One](/collection/leetcodes/66_PlusOne/) 
   - [8-String To Integer](/collection/leetcodes/8_StringToInteger/) 
   - [67-Add Binary](/collection/leetcodes/67_AddBinary/) 
+  - [258-Add Digits](/collection/leetcodes/258_AddDigits/) 
   
     
 ### 排序
@@ -318,5 +319,6 @@ screenshot: /assets/img/projects/code/code.jpg
 | [231-Power Of Two](/collection/leetcodes/231_PowerOfTwo/) | Easy | 位运算 + 与 |
 | [237-Delete Node In A Linked List](/collection/leetcodes/237_DeleteNodeInALinkedList/) | Easy | 链表 + 删除 |
 | [242-Valid Anagram](/collection/leetcodes/242_ValidAnagram/) | Easy | 字符串 + anagram + Count Sort |
+| [258-Add Digits](/collection/leetcodes/258_AddDigits/) | Easy | 数学题 + 数位相加 |
 | [268-Missing Number](/collection/leetcodes/268_MissingNumber/) | Easy | 位运算 + 异或 |
 | [389-Find The Difference](/collection/leetcodes/389_FindTheDifference/) | Easy | 位运算 + 异或 |
