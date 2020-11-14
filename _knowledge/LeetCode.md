@@ -21,6 +21,7 @@ screenshot: /assets/img/projects/code/code.jpg
   - [231-Power Of Two](/collection/leetcodes/231_PowerOfTwo/) 
   - [191-Number Of 1 Bits](/collection/leetcodes/191_NumberOf1Bits/) 
   - [190-Reverse Bits](/collection/leetcodes/190_ReverseBits/) 
+  - [89-Gray Code](/collection/leetcodes/89_GrayCode/) 
     
 ### 排序
 - [88-Merge Sorted Array](/collection/leetcodes/88_MergeSortedArray/) 
@@ -231,6 +232,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [83-Remove Duplicates From Sorted List](/collection/leetcodes/83_RemoveDuplicatesFromSortedList/) | Easy | 链表 + 删除 |
 | [86-Partition List](/collection/leetcodes/86_PartitionList/) | Medium | 链表 + 基本操作 |
 | [88-Merge Sorted Array](/collection/leetcodes/88_MergeSortedArray/) | easy | 排序 + mergeSort |
+| [89-Gray Code](/collection/leetcodes/89_GrayCode/) | Medium | 位运算 + 动态规划 |
 | [90-Subsets II](/collection/leetcodes/90_SubsetsII/) | Medium | 回溯法 + 子集  + index控制 + used |
 | [92-Reverse Linked List II](/collection/leetcodes/92_ReverseLinkedListII/) | Medium | 链表 + 反转 |
 | [93-Restore IP Addresses](/collection/leetcodes/93_RestoreIPAddresses/) | Medium | 回溯法 + 实现  + index控制 + 内部数位控制 |
