@@ -22,6 +22,11 @@ screenshot: /assets/img/projects/code/code.jpg
   - [191-Number Of 1 Bits](/collection/leetcodes/191_NumberOf1Bits/) 
   - [190-Reverse Bits](/collection/leetcodes/190_ReverseBits/) 
   - [89-Gray Code](/collection/leetcodes/89_GrayCode/) 
+  
+### 数学题
+- 数位反转
+  - [7-Reverse Integer](/collection/leetcodes/7_ReverseInteger/) 
+
     
 ### 排序
 - [88-Merge Sorted Array](/collection/leetcodes/88_MergeSortedArray/) 
@@ -191,6 +196,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [3-Longest Substring Without Repeating Characters](/collection/leetcodes/3_LongestSubstringWithoutRepeatingCharacters/) | Medium | 字符串 + window + hashset |
 | [5-Longest Palindromic Substring](/collection/leetcodes/5_LongestPalindromicSubstring/) | Medium | 字符串 + Palindrome + 中心扩散法 |
 | [6-ZigZag Conversion](/collection/leetcodes/6_ZigZag_Conversion/)  | Medium | 字符串 + 实现题 + 暴力找规律 |
+| [7-Reverse Integer](/collection/leetcodes/7_ReverseInteger/) | Easy | 数学题 + 数位反转 |
 | [9-Palindrome Number](/collection/leetcodes/9_PalindromeNumber/) | Easy | 字符串 + Palindrome + 数位反转 |
 | [12-Integer To Roman](/collection/leetcodes/12_IntegerToRoman/)  | Medium | 字符串 + 实现题 + 预先定义 |
 | [13-Roman To Integer](/collection/leetcodes/13_RomanToInteger/)  | Easy | 字符串 + 实现题 + 预先定义 + 找定义 |
