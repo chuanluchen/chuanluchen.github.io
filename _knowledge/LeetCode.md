@@ -26,11 +26,13 @@ screenshot: /assets/img/projects/code/code.jpg
 ### 数学题
 - 数位反转
   - [7-Reverse Integer](/collection/leetcodes/7_ReverseInteger/) 
-- 数位相加 / str转换
+- 数位运算 / str转换
   - [66-Plus One](/collection/leetcodes/66_PlusOne/) 
   - [8-String To Integer](/collection/leetcodes/8_StringToInteger/) 
   - [67-Add Binary](/collection/leetcodes/67_AddBinary/) 
   - [258-Add Digits](/collection/leetcodes/258_AddDigits/) 
+  - [43-MultiplyStrings](/collection/leetcodes/43_MultiplyStrings/) 
+  
   
     
 ### 排序
@@ -221,6 +223,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [38-Count And Say](/collection/leetcodes/38_CountAndSay/)  | Easy | 字符串 + 实现题 + 递归|
 | [39-CombinationSum](/collection/leetcodes/39_CombinationSum/)  | Medium | 回溯法 + 组合 + index + sum|
 | [40-CombinationSumII](/collection/leetcodes/40_CombinationSumII/)  | Medium | 回溯法 + 组合 + index + sum + 跳重复元素|
+| [43-MultiplyStrings](/collection/leetcodes/43_MultiplyStrings/) | Medium | 数学题 + 数位运算 + 竖位相乘法 |
 | [45-Jump Game II](/collection/leetcodes/45_JumpGameII/) | Hard | 贪心算法 |
 | [46-Permutations](/collection/leetcodes/46_Permutations/)  | Medium | 回溯法 + 全排列|
 | [47-PermutationsII](/collection/leetcodes/47_PermutationsII/)  | Medium | 回溯法 + 全排列 + 有重复元素used|
