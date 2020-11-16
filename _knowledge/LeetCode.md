@@ -30,16 +30,15 @@ screenshot: /assets/img/projects/code/code.jpg
   - [66-Plus One](/collection/leetcodes/66_PlusOne/) 
   - [8-String To Integer](/collection/leetcodes/8_StringToInteger/) 
   - [67-Add Binary](/collection/leetcodes/67_AddBinary/) 
-  - [258-Add Digits](/collection/leetcodes/258_AddDigits/) 
-  - [43-Multiply Strings](/collection/leetcodes/43_MultiplyStrings/) 
-  - [29-Divide Two Integers](/collection/leetcodes/29_DivideTwoIntegers/) 
+  - [258-Add Digits](/collection/leetcodes/258_AddDigits/)   
 - 二分法
   - [69-Sqrt(x)](/collection/leetcodes/69_Sqrt(x)/) 
 - 幂
   - [50-Pow(x, n)](/collection/leetcodes/50_Pow(x, n)/) 
-
-
-  
+- 特殊问题
+  - [29-Divide Two Integers](/collection/leetcodes/29_DivideTwoIntegers/) 
+  - [43-Multiply Strings](/collection/leetcodes/43_MultiplyStrings/) 
+  - [204-Count Primes](/collection/leetcodes/204_CountPrimes/) 
     
 ### 排序
 - [88-Merge Sorted Array](/collection/leetcodes/88_MergeSortedArray/) 
@@ -327,6 +326,7 @@ screenshot: /assets/img/projects/code/code.jpg
 
 
 | [203-Remove Linked List Elements](/collection/leetcodes/203_RemoveLinkedListElements/)  | Easy | 链表 + 删除 |
+| [204-Count Primes](/collection/leetcodes/204_CountPrimes/) | Easy | 数学题 + 特殊问题 + 找质数 |
 | [206-Reverse Linked List](/collection/leetcodes/206_ReverseLinkedList/) | Easy | 链表 + 反转 |
 | [231-Power Of Two](/collection/leetcodes/231_PowerOfTwo/) | Easy | 位运算 + 与 |
 | [237-Delete Node In A Linked List](/collection/leetcodes/237_DeleteNodeInALinkedList/) | Easy | 链表 + 删除 |
