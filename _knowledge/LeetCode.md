@@ -39,7 +39,9 @@ screenshot: /assets/img/projects/code/code.jpg
   - [29-Divide Two Integers](/collection/leetcodes/29_DivideTwoIntegers/) 
   - [43-Multiply Strings](/collection/leetcodes/43_MultiplyStrings/) 
   - [204-Count Primes](/collection/leetcodes/204_CountPrimes/) 
-  - [263_Ugly Number](/collection/leetcodes/263_UglyNumber/) 
+  - [263-Ugly Number](/collection/leetcodes/263_UglyNumber/) 
+  - [264-Ugly Number II](/collection/leetcodes/264_UglyNumberII/) 
+  
   
     
 ### 排序
@@ -335,5 +337,6 @@ screenshot: /assets/img/projects/code/code.jpg
 | [242-Valid Anagram](/collection/leetcodes/242_ValidAnagram/) | Easy | 字符串 + anagram + Count Sort |
 | [258-Add Digits](/collection/leetcodes/258_AddDigits/) | Easy | 数学题 + 数位相加 |
 | [263_Ugly Number](/collection/leetcodes/263_UglyNumber/) | Easy | 数学题 + 特殊问题 |
+| [264-Ugly Number II](/collection/leetcodes/264_UglyNumberII/) | Medium | 数学题 + 特殊问题 | 
 | [268-Missing Number](/collection/leetcodes/268_MissingNumber/) | Easy | 位运算 + 异或 |
 | [389-Find The Difference](/collection/leetcodes/389_FindTheDifference/) | Easy | 位运算 + 异或 |
