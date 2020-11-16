@@ -185,7 +185,7 @@ from point a cross join point b
 where a.x !=  b.x
 ~~~
 
-### 619. Biggest Single Number👀
+### 619. Biggest Single Number👏
 - 子查询：先找出现一次的数；再找最大
 - 注意子查询需要alias
 ~~~sql
@@ -970,7 +970,7 @@ group by viewer_id, view_date
 having count(distinct article_id) > 1
 ~~~
 
-### 1158. Market Analysis I
+### 1158. Market Analysis I👏
 - 保留null值，left join
 
 ~~~sql
@@ -980,33 +980,31 @@ on u.user_id = o.buyer_id and year(o.order_date) = '2019' # 双重join条件
 group by u.user_id
 ~~~
 
-### 1164. Product Price at a Given Date
+### 1164. Product Price at a Given Date👀
 - 两种情况union起来
 	- 2019-08-16之前改过价格，使用最大日期的价格
 	- 2019-08-16之前没有改过价格，价格为10
 	
 ~~~sql
-select product_id, price 
-from (
-    select product_id,new_price as price
+with temp as (
+    select * 
     from Products
-    where (product_id, change_date) in (
-        select product_id, max(change_date)
-        from Products
-        where change_date <= date('2019-08-16')
-        group by product_id
-        ) 
- 
-    union
-    select product_id, 10 as price
-     from Products 
-     where product_id not in (
-         select product_id 
+    where (product_id, change_date) in 
+        (select product_id, max(change_date)
          from Products
-         where change_date <= date('2019-08-16')
-     )
- ) t
-order by price desc
+         where change_date <= '2019-08-16'
+         group by product_id
+        )
+)
+
+select product_id, new_price as price
+from temp
+union
+select distinct product_id, 10 as price
+from Products
+where product_id not in (
+    select product_id from temp
+)
 ~~~
 
 ### 1174. Immediate Food Delivery II
@@ -1574,7 +1572,7 @@ else 'lower' end as comparison
 from temp
 ~~~
 
-### 618. Students Report By Geography
+### 618. Students Report By Geography👀
 
 ~~~sql
 with temp as
@@ -1824,7 +1822,7 @@ inner join yearsAll y on y.years between year(s.period_start) and year(s.period_
 order by product_id,report_year
 ~~~
 
-### 1412. Find the Quiet Students in All Exams
+### 1412. Find the Quiet Students in All Exams👀
 - 正序rank一遍，倒序rank一遍
 - 排除掉rank=1的学生
 
