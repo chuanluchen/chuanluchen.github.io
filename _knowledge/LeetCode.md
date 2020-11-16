@@ -33,7 +33,9 @@ screenshot: /assets/img/projects/code/code.jpg
   - [258-Add Digits](/collection/leetcodes/258_AddDigits/) 
   - [43-Multiply Strings](/collection/leetcodes/43_MultiplyStrings/) 
   - [29-Divide Two Integers](/collection/leetcodes/29_DivideTwoIntegers/) 
-  
+- 二分法
+  - [69-Sqrt(x)](/collection/leetcodes/69_Sqrt(x)/) 
+
   
     
 ### 排序
@@ -238,6 +240,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [62-Unique Paths](/collection/leetcodes/62_UniquePaths/) | Medium | 动态规划 |
 | [66-Plus One](/collection/leetcodes/66_PlusOne/) | Easy | 数学题 + 加法进位 |
 | [67-Add Binary](/collection/leetcodes/67_AddBinary/) | Easy | 数学题 + 数位相加/str转换 |
+| [69-Sqrt(x)](/collection/leetcodes/69_Sqrt(x)/) | Easy | 数学题 + 二分法 |
 | [70-Climbing Stairs](/collection/leetcodes/70_ClimbingStairs/) | Easy | 递归 + Fibonacci |
 | [72-Edit Distance](/collection/leetcodes/72_EditDistance/) | Hard | 动态规划 + 字符串|
 | [74-Search A 2D Matrix](/collection/leetcodes/74_SearchA2DMatrix/) | Medium | 二分法 + 数组 |
