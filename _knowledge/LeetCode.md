@@ -35,6 +35,9 @@ screenshot: /assets/img/projects/code/code.jpg
   - [29-Divide Two Integers](/collection/leetcodes/29_DivideTwoIntegers/) 
 - 二分法
   - [69-Sqrt(x)](/collection/leetcodes/69_Sqrt(x)/) 
+- 幂
+  - [50-Pow(x, n)](/collection/leetcodes/50_Pow(x, n)/) 
+
 
   
     
@@ -232,7 +235,8 @@ screenshot: /assets/img/projects/code/code.jpg
 | [46-Permutations](/collection/leetcodes/46_Permutations/)  | Medium | 回溯法 + 全排列|
 | [47-PermutationsII](/collection/leetcodes/47_PermutationsII/)  | Medium | 回溯法 + 全排列 + 有重复元素used|
 | [49-Group Anagrams](/collection/leetcodes/49_GroupAnagrams/)  | Medium | 字符串 + anagram  + HashMap |
-| [55-Jump Game](/collection/leetcodes/55_JumpGame/) |  Mediam | 贪心算法 |
+| [50-Pow(x, n)](/collection/leetcodes/50_Pow(x, n)/) | Medium | 数学题 + 幂 |
+| [55-Jump Game](/collection/leetcodes/55_JumpGame/) |  Medium | 贪心算法 |
 | [56-Merge Intervals](/collection/leetcodes/56_MergeIntervals/)   | Medium | 排序排列 + 扫描线思想 |
 | [57-Insert Interval](/collection/leetcodes/57_InsertInterval/)    | Medium | 排序排列 + 扫描线思想 |
 | [58-Length Of Last Word](/collection/leetcodes/58_LengthOfLastWord/)  | Easy | 字符串 + 基本 |
