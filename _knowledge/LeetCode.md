@@ -42,7 +42,7 @@ screenshot: /assets/img/projects/code/code.jpg
   - [263-Ugly Number](/collection/leetcodes/263_UglyNumber/) 
   - [264-Ugly Number II](/collection/leetcodes/264_UglyNumberII/) 
   - [292-Nim Game](/collection/leetcodes/292_NimGame/) 
-  
+  - [202-Happy Number](/collection/leetcodes/202_HappyNumber/) 
   
     
 ### 排序
@@ -330,6 +330,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [200-Number Of Islands](/collection/leetcodes/200_NumberOfIslands/) | Medium | 图 + DFS + Flood Fill|
 
 
+| [202-Happy Number](/collection/leetcodes/202_HappyNumber/) | Easy | 数学题 + 特殊问题 |
 | [203-Remove Linked List Elements](/collection/leetcodes/203_RemoveLinkedListElements/)  | Easy | 链表 + 删除 |
 | [204-Count Primes](/collection/leetcodes/204_CountPrimes/) | Easy | 数学题 + 特殊问题 + 找质数 |
 | [206-Reverse Linked List](/collection/leetcodes/206_ReverseLinkedList/) | Easy | 链表 + 反转 |
