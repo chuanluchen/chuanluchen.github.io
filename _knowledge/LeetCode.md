@@ -34,7 +34,9 @@ screenshot: /assets/img/projects/code/code.jpg
 - 二分法
   - [69-Sqrt(x)](/collection/leetcodes/69_Sqrt(x)/) 
 - 幂
-  - [50-Pow(x, n)](/collection/leetcodes/50_Pow(x, n)/) 
+  - [50-Pow(x, n)](/collection/leetcodes/50_Pow(x, n)/)
+- Sum
+  - [1-Two Sum](/collection/leetcodes/1_TwoSum/)  
 - 特殊问题
   - [29-Divide Two Integers](/collection/leetcodes/29_DivideTwoIntegers/) 
   - [43-Multiply Strings](/collection/leetcodes/43_MultiplyStrings/) 
@@ -213,6 +215,7 @@ screenshot: /assets/img/projects/code/code.jpg
 
 |  题目   | 难度  | 思路  |
 |  ----  | ----  | ---  |
+| [1-Two Sum](/collection/leetcodes/1_TwoSum/)  | Easy | 数学题 + Sum + HashMap |
 | [2-AddTwoNumbers](/collection/leetcodes/2_AddTwoNumbers/) | Medium | 链表 + 数组 + 数位相加 |
 | [3-Longest Substring Without Repeating Characters](/collection/leetcodes/3_LongestSubstringWithoutRepeatingCharacters/) | Medium | 字符串 + window + hashset |
 | [5-Longest Palindromic Substring](/collection/leetcodes/5_LongestPalindromicSubstring/) | Medium | 字符串 + Palindrome + 中心扩散法 |
