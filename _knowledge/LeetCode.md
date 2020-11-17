@@ -41,6 +41,7 @@ screenshot: /assets/img/projects/code/code.jpg
   - [204-Count Primes](/collection/leetcodes/204_CountPrimes/) 
   - [263-Ugly Number](/collection/leetcodes/263_UglyNumber/) 
   - [264-Ugly Number II](/collection/leetcodes/264_UglyNumberII/) 
+  - [292-Nim Game](/collection/leetcodes/292_NimGame/) 
   
   
     
@@ -339,4 +340,5 @@ screenshot: /assets/img/projects/code/code.jpg
 | [263_Ugly Number](/collection/leetcodes/263_UglyNumber/) | Easy | 数学题 + 特殊问题 |
 | [264-Ugly Number II](/collection/leetcodes/264_UglyNumberII/) | Medium | 数学题 + 特殊问题 | 
 | [268-Missing Number](/collection/leetcodes/268_MissingNumber/) | Easy | 位运算 + 异或 |
+| [292-Nim Game](/collection/leetcodes/292_NimGame/) | Easy | 数学题 + 特殊问题 |
 | [389-Find The Difference](/collection/leetcodes/389_FindTheDifference/) | Easy | 位运算 + 异或 |
