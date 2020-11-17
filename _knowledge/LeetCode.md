@@ -43,6 +43,8 @@ screenshot: /assets/img/projects/code/code.jpg
   - [264-Ugly Number II](/collection/leetcodes/264_UglyNumberII/) 
   - [292-Nim Game](/collection/leetcodes/292_NimGame/) 
   - [202-Happy Number](/collection/leetcodes/202_HappyNumber/) 
+  - [172-Factorial Trailing Zeroes](/collection/leetcodes/172_FactorialTrailingZeroes/) 
+  
   
     
 ### 排序
@@ -320,6 +322,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [162-Find Peak Element](/collection/leetcodes/162_FindPeakElement/) | Medium | 二分法查找 + range |
 | [170-Two Sum III-Data Structure Design](/collection/leetcodes/170_TwoSumIII_DataStructureDesign/) | Easy | 实现题 + HashMap |
 | [171-Excel Sheet Column Number](/collection/leetcodes/171_ExcelSheetColumnNumber/)  | Easy | 字符串 + 基本 + 26进制转换 |
+| [172-Factorial Trailing Zeroes](/collection/leetcodes/172_FactorialTrailingZeroes/) | Easy | 数学题 + 特殊问题 |
 | [173-Binary Search Tree Iterator](/collection/leetcodes/173_BinarySearchTreeIterator/) | Medium | 树 + 中序遍历应用 | 
 | [179-Largest Number](/collection/leetcodes/179_LargestNumber/) | Medium | 字符串 + 实现题 + 自定义排序 |
 | [187-Repeated DNA Sequences](/collection/leetcodes/187-RepeatedDNASequences/) | Medium | 字符串 + substring + hashset |
