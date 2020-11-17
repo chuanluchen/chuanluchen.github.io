@@ -44,6 +44,8 @@ screenshot: /assets/img/projects/code/code.jpg
   - [292-Nim Game](/collection/leetcodes/292_NimGame/) 
   - [202-Happy Number](/collection/leetcodes/202_HappyNumber/) 
   - [172-Factorial Trailing Zeroes](/collection/leetcodes/172_FactorialTrailingZeroes/) 
+  - [166-Fraction To Recurring Decimal](/collection/leetcodes/166_FractionToRecurringDecimal/) 
+  
   
   
     
@@ -320,6 +322,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [160-Intersection Of Two Linked Lists](/collection/leetcodes/160_IntersectionOfTwoLinkedLists/) | Easy | 链表 + 基本操作 |
 | [161-One Edit Distance](/collection/leetcodes/161_OneEditDistance/) | Meidum | 字符串 + Substring |
 | [162-Find Peak Element](/collection/leetcodes/162_FindPeakElement/) | Medium | 二分法查找 + range |
+| [166-Fraction To Recurring Decimal](/collection/leetcodes/166_FractionToRecurringDecimal/) | Medium | 数学题 + 特殊问题 |
 | [170-Two Sum III-Data Structure Design](/collection/leetcodes/170_TwoSumIII_DataStructureDesign/) | Easy | 实现题 + HashMap |
 | [171-Excel Sheet Column Number](/collection/leetcodes/171_ExcelSheetColumnNumber/)  | Easy | 字符串 + 基本 + 26进制转换 |
 | [172-Factorial Trailing Zeroes](/collection/leetcodes/172_FactorialTrailingZeroes/) | Easy | 数学题 + 特殊问题 |
