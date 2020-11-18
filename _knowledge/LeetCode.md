@@ -36,7 +36,9 @@ screenshot: /assets/img/projects/code/code.jpg
 - 幂
   - [50-Pow(x, n)](/collection/leetcodes/50_Pow(x, n)/)
 - Sum
-  - [1-Two Sum](/collection/leetcodes/1_TwoSum/)  
+  - [1-Two Sum](/collection/leetcodes/1_TwoSum/) 
+  - [167-Two Sum II](/collection/leetcodes/167_TwoSumII/) 
+  
 - 特殊问题
   - [29-Divide Two Integers](/collection/leetcodes/29_DivideTwoIntegers/) 
   - [43-Multiply Strings](/collection/leetcodes/43_MultiplyStrings/) 
@@ -326,6 +328,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [161-One Edit Distance](/collection/leetcodes/161_OneEditDistance/) | Meidum | 字符串 + Substring |
 | [162-Find Peak Element](/collection/leetcodes/162_FindPeakElement/) | Medium | 二分法查找 + range |
 | [166-Fraction To Recurring Decimal](/collection/leetcodes/166_FractionToRecurringDecimal/) | Medium | 数学题 + 特殊问题 |
+| [167-Two Sum II](/collection/leetcodes/167_TwoSumII/) | Easy | 数学题 + Sum |
 | [170-Two Sum III-Data Structure Design](/collection/leetcodes/170_TwoSumIII_DataStructureDesign/) | Easy | 实现题 + HashMap |
 | [171-Excel Sheet Column Number](/collection/leetcodes/171_ExcelSheetColumnNumber/)  | Easy | 字符串 + 基本 + 26进制转换 |
 | [172-Factorial Trailing Zeroes](/collection/leetcodes/172_FactorialTrailingZeroes/) | Easy | 数学题 + 特殊问题 |
