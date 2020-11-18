@@ -38,6 +38,8 @@ screenshot: /assets/img/projects/code/code.jpg
 - Sum
   - [1-Two Sum](/collection/leetcodes/1_TwoSum/) 
   - [167-Two Sum II](/collection/leetcodes/167_TwoSumII/) 
+  - [15-3 Sum](/collection/leetcodes/15_3Sum/) 
+  
   
 - 特殊问题
   - [29-Divide Two Integers](/collection/leetcodes/29_DivideTwoIntegers/) 
@@ -227,6 +229,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [12-Integer To Roman](/collection/leetcodes/12_IntegerToRoman/)  | Medium | 字符串 + 实现题 + 预先定义 |
 | [13-Roman To Integer](/collection/leetcodes/13_RomanToInteger/)  | Easy | 字符串 + 实现题 + 预先定义 + 找定义 |
 | [14-Longest Common Prefix](/collection/leetcodes/14_LongestCommonPrefix/)  | Easy | 字符串 + 基本 + 双重遍历找一致 |
+| [15-3 Sum](/collection/leetcodes/15_3Sum/) | Medim | 数学题 + Sum |
 | [17-LetterCombinationsOfAPhoneNumber](/collection/leetcodes/17_LetterCombinationsOfAPhoneNumber/) | Medium | 回溯法 + 实现题 + index |
 | [19-Remove Nth Node From End Of List](/collection/leetcodes/19_RemoveNthNodeFromEndOfList/) | Medium | 链表+ 删除 + 快慢针 |
 | [21-Merge Two Sorted Lists](/collection/leetcodes/21_MergeTwoSortedLists/) | Easy | 链表 + 基本操作 |
