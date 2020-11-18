@@ -49,9 +49,7 @@ screenshot: /assets/img/projects/code/code.jpg
   - [202-Happy Number](/collection/leetcodes/202_HappyNumber/) 
   - [172-Factorial Trailing Zeroes](/collection/leetcodes/172_FactorialTrailingZeroes/) 
   - [166-Fraction To Recurring Decimal](/collection/leetcodes/166_FractionToRecurringDecimal/) 
-  
-  
-  
+  - [4-Median Of Two Sorted Arrays](/collection/leetcodes/4_MedianOfTwoSortedArrays/) 
     
 ### 排序
 - [88-Merge Sorted Array](/collection/leetcodes/88_MergeSortedArray/) 
@@ -220,6 +218,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [1-Two Sum](/collection/leetcodes/1_TwoSum/)  | Easy | 数学题 + Sum + HashMap |
 | [2-AddTwoNumbers](/collection/leetcodes/2_AddTwoNumbers/) | Medium | 链表 + 数组 + 数位相加 |
 | [3-Longest Substring Without Repeating Characters](/collection/leetcodes/3_LongestSubstringWithoutRepeatingCharacters/) | Medium | 字符串 + window + hashset |
+| [4-Median Of Two Sorted Arrays](/collection/leetcodes/4_MedianOfTwoSortedArrays/) | Hard | 数学题 + 特殊问题 |
 | [5-Longest Palindromic Substring](/collection/leetcodes/5_LongestPalindromicSubstring/) | Medium | 字符串 + Palindrome + 中心扩散法 |
 | [6-ZigZag Conversion](/collection/leetcodes/6_ZigZag_Conversion/)  | Medium | 字符串 + 实现题 + 暴力找规律 |
 | [7-Reverse Integer](/collection/leetcodes/7_ReverseInteger/) | Easy | 数学题 + 数位反转 |
