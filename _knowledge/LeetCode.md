@@ -41,8 +41,7 @@ screenshot: /assets/img/projects/code/code.jpg
   - [15-3 Sum](/collection/leetcodes/15_3Sum/) 
   - [16-3 Sum Closest](/collection/leetcodes/16_3SumClosest/) 
   - [18-4 Sum](/collection/leetcodes/18_4Sum/) 
-  
-  
+  - [259_3 Sum Smaller](/collection/leetcodes/259_3SumSmaller/) 
   
   
 - 特殊问题
@@ -358,6 +357,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [237-Delete Node In A Linked List](/collection/leetcodes/237_DeleteNodeInALinkedList/) | Easy | 链表 + 删除 |
 | [242-Valid Anagram](/collection/leetcodes/242_ValidAnagram/) | Easy | 字符串 + anagram + Count Sort |
 | [258-Add Digits](/collection/leetcodes/258_AddDigits/) | Easy | 数学题 + 数位相加 |
+| [259_3 Sum Smaller](/collection/leetcodes/259_3SumSmaller/) | Medium | 数学题 + Sum|
 | [263_Ugly Number](/collection/leetcodes/263_UglyNumber/) | Easy | 数学题 + 特殊问题 |
 | [264-Ugly Number II](/collection/leetcodes/264_UglyNumberII/) | Medium | 数学题 + 特殊问题 | 
 | [268-Missing Number](/collection/leetcodes/268_MissingNumber/) | Easy | 位运算 + 异或 |
