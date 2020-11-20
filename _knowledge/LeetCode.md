@@ -40,6 +40,8 @@ screenshot: /assets/img/projects/code/code.jpg
   - [167-Two Sum II](/collection/leetcodes/167_TwoSumII/) 
   - [15-3 Sum](/collection/leetcodes/15_3Sum/) 
   - [16-3 Sum Closest](/collection/leetcodes/16_3SumClosest/) 
+  - [18-4 Sum](/collection/leetcodes/18_4Sum/) 
+  
   
   
   
@@ -234,6 +236,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [15-3 Sum](/collection/leetcodes/15_3Sum/) | Medim | 数学题 + Sum + Sliding Window  |
 | [16-3 Sum Closest](/collection/leetcodes/16_3SumClosest/) | Medium | 数学题 + Sum + Sliding Window |
 | [17-LetterCombinationsOfAPhoneNumber](/collection/leetcodes/17_LetterCombinationsOfAPhoneNumber/) | Medium | 回溯法 + 实现题 + index |
+| [18-4 Sum](/collection/leetcodes/18_4Sum/) | Medium | 数学题 + Sum |
 | [19-Remove Nth Node From End Of List](/collection/leetcodes/19_RemoveNthNodeFromEndOfList/) | Medium | 链表+ 删除 + 快慢针 |
 | [21-Merge Two Sorted Lists](/collection/leetcodes/21_MergeTwoSortedLists/) | Easy | 链表 + 基本操作 |
 | [22-Generate Parentheses](/collection/leetcodes/22_GenerateParentheses/) | Medium | 回溯法 + 剪枝 |
