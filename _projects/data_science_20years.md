@@ -17,4 +17,4 @@ https://public.tableau.com/views/researchinDataScience/Dashboard2?:embed=yes&:ta
 <br>
 <br>
 项目详细介绍
-<object width="400" height="400" data="/assets/img/projects/dataviz/Data_Science_Presentation.pdf" width=850 height=550></object>
+<object width="400" height="400" data="/assets/img/projects/dataviz/Data_Science_Presentation.pdf" width=850 height=600></object>
