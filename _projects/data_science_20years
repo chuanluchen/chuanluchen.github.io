@@ -10,8 +10,9 @@ description: >
   数据来自于Microsoft Academic Graph。[数据来源](https://docs.microsoft.com/en-us/academic-services/graph/)
 ---
 <iframe seamless frameborder="0" src="
-https://public.tableau.com/views/researchinDataScience/Dashboard2?:embed=yes&:tabs=no&:display_count=yes&:showVizHome=no&:subscriptions=no:toolbar=top"  scrolling='yes' width=850 height=600 >
+https://public.tableau.com/views/researchinDataScience/Dashboard2?:embed=yes&:tabs=no&:display_count=yes&:showVizHome=no&:subscriptions=no:toolbar=top"   >
 </iframe>  
 
 
-<iframe src="http://docs.google.com/gview?url=https://github.com/chuanluchen/chuanluchen.github.io/blob/main/assets/img/projects/dataviz/Data%20Science%20Presentation.&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
+<embed src="https://github.com/chuanluchen/chuanluchen.github.io/blob/main/assets/img/projects/dataviz/Data%20Science%20Presentation.pdf" width="500" height="375" 
+ type="application/pdf">
