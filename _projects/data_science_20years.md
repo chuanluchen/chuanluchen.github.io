@@ -14,5 +14,6 @@ https://public.tableau.com/views/researchinDataScience/Dashboard2?:embed=yes&:ta
 </iframe>  
 
 [原项目地址](https://public.tableau.com/profile/chuanlu.chen#!/vizhome/researchinDataScience/Dashboard2)
-详细介绍
+<br>
+本项目详细介绍
 <object width="400" height="400" data="/assets/img/projects/dataviz/Data_Science_Presentation.pdf" width=850 height=650></object>
