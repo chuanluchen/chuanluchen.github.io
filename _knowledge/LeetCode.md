@@ -42,6 +42,8 @@ screenshot: /assets/img/projects/code/code.jpg
   - [16-3 Sum Closest](/collection/leetcodes/16_3SumClosest/) 
   - [18-4 Sum](/collection/leetcodes/18_4Sum/) 
   - [259_3 Sum Smaller](/collection/leetcodes/259_3SumSmaller/) 
+- 面积
+  - [223_Rectangle Area](/collection/leetcodes/223_RectangleArea/) 
   
   
 - 特殊问题
@@ -353,6 +355,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [203-Remove Linked List Elements](/collection/leetcodes/203_RemoveLinkedListElements/)  | Easy | 链表 + 删除 |
 | [204-Count Primes](/collection/leetcodes/204_CountPrimes/) | Easy | 数学题 + 特殊问题 + 找质数 |
 | [206-Reverse Linked List](/collection/leetcodes/206_ReverseLinkedList/) | Easy | 链表 + 反转 |
+| [223_Rectangle Area](/collection/leetcodes/223_RectangleArea/) | Medium | 数学题 + 暴力解 |
 | [231-Power Of Two](/collection/leetcodes/231_PowerOfTwo/) | Easy | 位运算 + 与 |
 | [237-Delete Node In A Linked List](/collection/leetcodes/237_DeleteNodeInALinkedList/) | Easy | 链表 + 删除 |
 | [242-Valid Anagram](/collection/leetcodes/242_ValidAnagram/) | Easy | 字符串 + anagram + Count Sort |
