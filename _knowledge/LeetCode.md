@@ -61,8 +61,9 @@ screenshot: /assets/img/projects/code/code.jpg
   - [20-ValidParentheses](/collection/leetcodes/20_ValidParentheses/) 
 - 压栈匹配
   - [71-Simplify Path](/collection/leetcodes/71_SimplifyPath/) 
-  
-
+  - [224-Basic Calculator](/collection/leetcodes/224_BasicCalculator/) 
+ 
+ 
 ### 排序
 - [88-Merge Sorted Array](/collection/leetcodes/88_MergeSortedArray/) 
 - [75-Sort Colors](/collection/leetcodes/75_SortColors/) 
@@ -363,6 +364,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [204-Count Primes](/collection/leetcodes/204_CountPrimes/) | Easy | 数学题 + 特殊问题 + 找质数 |
 | [206-Reverse Linked List](/collection/leetcodes/206_ReverseLinkedList/) | Easy | 链表 + 反转 |
 | [223_Rectangle Area](/collection/leetcodes/223_RectangleArea/) | Medium | 数学题 + 暴力解 |
+| [224-Basic Calculator](/collection/leetcodes/224_BasicCalculator/) | Hard | 栈+ 压栈匹配 + 数学计算 |
 | [231-Power Of Two](/collection/leetcodes/231_PowerOfTwo/) | Easy | 位运算 + 与 |
 | [237-Delete Node In A Linked List](/collection/leetcodes/237_DeleteNodeInALinkedList/) | Easy | 链表 + 删除 |
 | [242-Valid Anagram](/collection/leetcodes/242_ValidAnagram/) | Easy | 字符串 + anagram + Count Sort |
