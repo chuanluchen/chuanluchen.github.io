@@ -41,7 +41,7 @@ screenshot: /assets/img/projects/code/code.jpg
   - [15-3 Sum](/collection/leetcodes/15_3Sum/) 
   - [16-3 Sum Closest](/collection/leetcodes/16_3SumClosest/) 
   - [18-4 Sum](/collection/leetcodes/18_4Sum/) 
-  - [259-3 Sum Smaller](/collection/leetcodes/259_3SumSmaller/) 
+  - [259-3 Sum Smaller](/collection/leetcodes/259_3SumSmaller/)  
 - 面积
   - [223-Rectangle Area](/collection/leetcodes/223_RectangleArea/) 
 - 特殊问题
@@ -57,6 +57,9 @@ screenshot: /assets/img/projects/code/code.jpg
   - [4-Median Of Two Sorted Arrays](/collection/leetcodes/4_MedianOfTwoSortedArrays/) 
  
 ### 栈
+- 基本应用
+  - [155-Min Stack](/collection/leetcodes/155_MinStack/) 
+  
 - 平衡符号
   - [20-ValidParentheses](/collection/leetcodes/20_ValidParentheses/) 
 - 压栈匹配 + 数学运算
@@ -341,6 +344,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [151-Reverse Words in a String](/collection/leetcodes/151_ReverseWordsinaString/) | Easy | 字符串 + 实现题 |
 | [153-Find Minimum In Rotated Sorted Array](/collection/leetcodes/153_FindMinimumInRotatedSortedArray/) | Medium | 二分法查找 + range |
 | [154-Find Minimum In Rotated Sorted Array II](/collection/leetcodes/154_FindMinimumInRotatedSortedArrayII/) | Hard | 二分法查找 + range |
+| [155-Min Stack](/collection/leetcodes/155_MinStack/) | Easy | 栈 + 基本应用 |
 | [156-Binary Tree Upside Down](/collection/leetcodes/156_BinaryTreeUpsideDown/) | Medium | 树 + 链表 |
 | [157-Read N Characters Given Read4 I](/collection/leetcodes/157_ReadNCharactersGivenRead4I/)  | Easy | 字符串 + 实现题 + 空间思路|
 | [159-Longest Substring With At Most Two Distinct Characters](/collection/leetcodes/159_LongestSubstringWithAtMostTwoDistinctCharacters/) | Medium | 字符串 + substring + sliding window |
