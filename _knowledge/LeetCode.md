@@ -59,9 +59,11 @@ screenshot: /assets/img/projects/code/code.jpg
 ### 栈
 - 平衡符号
   - [20-ValidParentheses](/collection/leetcodes/20_ValidParentheses/) 
-- 压栈匹配
+- 压栈匹配 + 数学运算
   - [71-Simplify Path](/collection/leetcodes/71_SimplifyPath/) 
   - [224-Basic Calculator](/collection/leetcodes/224_BasicCalculator/) 
+  - [150-Evaluate Reverse Polish Notation](/collection/leetcodes/150_EvaluateReversePolishNotation/) 
+  
  
  
 ### 排序
@@ -335,6 +337,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [146-LRU Cache](/collection/leetcodes/146_LRU_Cache/) | Medium | 实现题 + HashMap | 
 | [147-Insertion Sort List](/collection/leetcodes/147_InsertionSortList/)  | Medium | 链表 + 数组 + InsertionSort |
 | [148-Sort List](/collection/leetcodes/148_SortList/) | Medium | 链表 + 数组 + MergeSort | 
+| [150-Evaluate Reverse Polish Notation](/collection/leetcodes/150_EvaluateReversePolishNotation/) | Medium | 栈+ 压栈匹配 + 数学运算 |
 | [151-Reverse Words in a String](/collection/leetcodes/151_ReverseWordsinaString/) | Easy | 字符串 + 实现题 |
 | [153-Find Minimum In Rotated Sorted Array](/collection/leetcodes/153_FindMinimumInRotatedSortedArray/) | Medium | 二分法查找 + range |
 | [154-Find Minimum In Rotated Sorted Array II](/collection/leetcodes/154_FindMinimumInRotatedSortedArrayII/) | Hard | 二分法查找 + range |
