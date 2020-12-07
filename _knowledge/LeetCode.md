@@ -59,6 +59,9 @@ screenshot: /assets/img/projects/code/code.jpg
 ### 栈
 - 平衡符号
   - [20-ValidParentheses](/collection/leetcodes/20_ValidParentheses/) 
+- 压栈匹配
+  - [71-Simplify Path](/collection/leetcodes/71_SimplifyPath/) 
+  
 
 ### 排序
 - [88-Merge Sorted Array](/collection/leetcodes/88_MergeSortedArray/) 
@@ -271,6 +274,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [67-Add Binary](/collection/leetcodes/67_AddBinary/) | Easy | 数学题 + 数位相加/str转换 |
 | [69-Sqrt(x)](/collection/leetcodes/69_Sqrt(x)/) | Easy | 数学题 + 二分法 |
 | [70-Climbing Stairs](/collection/leetcodes/70_ClimbingStairs/) | Easy | 递归 + Fibonacci |
+| [71-Simplify Path](/collection/leetcodes/71_SimplifyPath/) | Medium | 栈 + 压栈匹配 |
 | [72-Edit Distance](/collection/leetcodes/72_EditDistance/) | Hard | 动态规划 + 字符串|
 | [74-Search A 2D Matrix](/collection/leetcodes/74_SearchA2DMatrix/) | Medium | 二分法 + 数组 |
 | [75-Sort Colors](/collection/leetcodes/75_SortColors/) | Medium | 排序 + 三指针 |
