@@ -41,11 +41,9 @@ screenshot: /assets/img/projects/code/code.jpg
   - [15-3 Sum](/collection/leetcodes/15_3Sum/) 
   - [16-3 Sum Closest](/collection/leetcodes/16_3SumClosest/) 
   - [18-4 Sum](/collection/leetcodes/18_4Sum/) 
-  - [259_3 Sum Smaller](/collection/leetcodes/259_3SumSmaller/) 
+  - [259-3 Sum Smaller](/collection/leetcodes/259_3SumSmaller/) 
 - 面积
-  - [223_Rectangle Area](/collection/leetcodes/223_RectangleArea/) 
-  
-  
+  - [223-Rectangle Area](/collection/leetcodes/223_RectangleArea/) 
 - 特殊问题
   - [29-Divide Two Integers](/collection/leetcodes/29_DivideTwoIntegers/) 
   - [43-Multiply Strings](/collection/leetcodes/43_MultiplyStrings/) 
@@ -57,7 +55,11 @@ screenshot: /assets/img/projects/code/code.jpg
   - [172-Factorial Trailing Zeroes](/collection/leetcodes/172_FactorialTrailingZeroes/) 
   - [166-Fraction To Recurring Decimal](/collection/leetcodes/166_FractionToRecurringDecimal/) 
   - [4-Median Of Two Sorted Arrays](/collection/leetcodes/4_MedianOfTwoSortedArrays/) 
-    
+ 
+### 栈
+- 平衡符号
+  - [20-ValidParentheses](/collection/leetcodes/20_ValidParentheses/) 
+
 ### 排序
 - [88-Merge Sorted Array](/collection/leetcodes/88_MergeSortedArray/) 
 - [75-Sort Colors](/collection/leetcodes/75_SortColors/) 
@@ -239,6 +241,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [17-LetterCombinationsOfAPhoneNumber](/collection/leetcodes/17_LetterCombinationsOfAPhoneNumber/) | Medium | 回溯法 + 实现题 + index |
 | [18-4 Sum](/collection/leetcodes/18_4Sum/) | Medium | 数学题 + Sum |
 | [19-Remove Nth Node From End Of List](/collection/leetcodes/19_RemoveNthNodeFromEndOfList/) | Medium | 链表+ 删除 + 快慢针 |
+| [20-ValidParentheses](/collection/leetcodes/20_ValidParentheses/) | Easy | 栈 + 平衡符号 |
 | [21-Merge Two Sorted Lists](/collection/leetcodes/21_MergeTwoSortedLists/) | Easy | 链表 + 基本操作 |
 | [22-Generate Parentheses](/collection/leetcodes/22_GenerateParentheses/) | Medium | 回溯法 + 剪枝 |
 | [23-Merge K Sorted Lists](/collection/leetcodes/23_MergeKSortedLists/) | Hard | 链表 + 基本操作 |
