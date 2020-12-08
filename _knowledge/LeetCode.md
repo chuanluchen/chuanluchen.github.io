@@ -59,6 +59,8 @@ screenshot: /assets/img/projects/code/code.jpg
 ### 栈
 - 基本应用
   - [155-Min Stack](/collection/leetcodes/155_MinStack/) 
+  - [232-Implement Queue Using Stacks](/collection/leetcodes/232_ImplementQueueUsingStacks/) 
+  
   
 - 平衡符号
   - [20-ValidParentheses](/collection/leetcodes/20_ValidParentheses/) 
@@ -373,6 +375,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [223_Rectangle Area](/collection/leetcodes/223_RectangleArea/) | Medium | 数学题 + 暴力解 |
 | [224-Basic Calculator](/collection/leetcodes/224_BasicCalculator/) | Hard | 栈+ 压栈匹配 + 数学计算 |
 | [231-Power Of Two](/collection/leetcodes/231_PowerOfTwo/) | Easy | 位运算 + 与 |
+| [232-Implement Queue Using Stacks](/collection/leetcodes/232_ImplementQueueUsingStacks/) | Easy | 栈 + 基本应用 |
 | [237-Delete Node In A Linked List](/collection/leetcodes/237_DeleteNodeInALinkedList/) | Easy | 链表 + 删除 |
 | [242-Valid Anagram](/collection/leetcodes/242_ValidAnagram/) | Easy | 字符串 + anagram + Count Sort |
 | [258-Add Digits](/collection/leetcodes/258_AddDigits/) | Easy | 数学题 + 数位相加 |
