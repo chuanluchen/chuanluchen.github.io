@@ -60,7 +60,7 @@ screenshot: /assets/img/projects/code/code.jpg
 - 基本应用
   - [155-Min Stack](/collection/leetcodes/155_MinStack/) 
   - [232-Implement Queue Using Stacks](/collection/leetcodes/232_ImplementQueueUsingStacks/) 
-  
+  - [225-Implement Stack Using Queues](/collection/leetcodes/225_ImplementStackUsingQueues/) 
   
 - 平衡符号
   - [20-ValidParentheses](/collection/leetcodes/20_ValidParentheses/) 
@@ -374,6 +374,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [206-Reverse Linked List](/collection/leetcodes/206_ReverseLinkedList/) | Easy | 链表 + 反转 |
 | [223_Rectangle Area](/collection/leetcodes/223_RectangleArea/) | Medium | 数学题 + 暴力解 |
 | [224-Basic Calculator](/collection/leetcodes/224_BasicCalculator/) | Hard | 栈+ 压栈匹配 + 数学计算 |
+| [225-Implement Stack Using Queues](/collection/leetcodes/225_ImplementStackUsingQueues/) | Easy | 栈 + 基本应用 |
 | [231-Power Of Two](/collection/leetcodes/231_PowerOfTwo/) | Easy | 位运算 + 与 |
 | [232-Implement Queue Using Stacks](/collection/leetcodes/232_ImplementQueueUsingStacks/) | Easy | 栈 + 基本应用 |
 | [237-Delete Node In A Linked List](/collection/leetcodes/237_DeleteNodeInALinkedList/) | Easy | 链表 + 删除 |
