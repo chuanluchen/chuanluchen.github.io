@@ -64,11 +64,14 @@ screenshot: /assets/img/projects/code/code.jpg
   
 - 平衡符号
   - [20-ValidParentheses](/collection/leetcodes/20_ValidParentheses/) 
+  - [32-Longest Valid Parentheses](/collection/leetcodes/32_LongestValidParentheses/) 
+ 
 - 压栈匹配 + 数学运算
   - [71-Simplify Path](/collection/leetcodes/71_SimplifyPath/) 
   - [224-Basic Calculator](/collection/leetcodes/224_BasicCalculator/) 
   - [150-Evaluate Reverse Polish Notation](/collection/leetcodes/150_EvaluateReversePolishNotation/) 
   - [227-Basic Calculator II](/collection/leetcodes/227_BasicCalculatorII/) 
+  
 - 极值迭代
   - [42-Trapping Rain Water](/collection/leetcodes/42_TrappingRainWater/) 
   - [84-Largest Rectangle In Histogram](/collection/leetcodes/84_LargestRectangleInHistogram/) 
@@ -264,6 +267,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [28-Implement strStr](/collection/leetcodes/28_ImplementstrStr/)  | Easy | 字符串 |
 | [29-Divide Two Integers](/collection/leetcodes/29_DivideTwoIntegers/)  | Medium | 数学题 + 数位运算 + 减法做除法 |
 | [31-NextPermutation](/collection/leetcodes/31_NextPermutation/) | Medium | 排序排列 + 找重点位置 |
+| [32-Longest Valid Parentheses](/collection/leetcodes/32_LongestValidParentheses/) | Hard | 栈 + 平衡符号|
 | [33-Search In Rotated Sorted Array](/collection/leetcodes/33_SearchInRotatedSortedArray/) | Meidum | 二分法 + Rotate |
 | [34-Find First And Last Position Of Element In Sorted Array](/collection/leetcodes/34_FindFirstAndLastPositionOfElementInSortedArray/) | Medium | 二分法 + 基本 |
 | [35-Search Insert Position](/collection/leetcodes/35_SearchInsertPosition/)  | Easy | 二分法 + 基本 |
