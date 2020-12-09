@@ -24,7 +24,7 @@ Output: 0
 ~~~
 
 ## 思路
-- 栈：压栈匹配
+- 栈：平衡符号
 - stack中放前一个还没有被匹配的下标
 - 遇到(: 把index push进stack
 - 遇到): stack.pop()
