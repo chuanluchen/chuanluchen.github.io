@@ -69,6 +69,8 @@ screenshot: /assets/img/projects/code/code.jpg
   - [224-Basic Calculator](/collection/leetcodes/224_BasicCalculator/) 
   - [150-Evaluate Reverse Polish Notation](/collection/leetcodes/150_EvaluateReversePolishNotation/) 
   - [227-Basic Calculator II](/collection/leetcodes/227_BasicCalculatorII/) 
+- 极值迭代
+  - [42-Trapping Rain Water](/collection/leetcodes/42_TrappingRainWater/) 
   
  
 ### 排序
@@ -266,6 +268,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [38-Count And Say](/collection/leetcodes/38_CountAndSay/)  | Easy | 字符串 + 实现题 + 递归|
 | [39-CombinationSum](/collection/leetcodes/39_CombinationSum/)  | Medium | 回溯法 + 组合 + index + sum|
 | [40-CombinationSumII](/collection/leetcodes/40_CombinationSumII/)  | Medium | 回溯法 + 组合 + index + sum + 跳重复元素|
+| [42-Trapping Rain Water](/collection/leetcodes/42_TrappingRainWater/) | Hard | 栈 + 极值迭代 |
 | [43-Multiply Strings](/collection/leetcodes/43_MultiplyStrings/) | Medium | 数学题 + 数位运算 + 竖位相乘法 |
 | [45-Jump Game II](/collection/leetcodes/45_JumpGameII/) | Hard | 贪心算法 |
 | [46-Permutations](/collection/leetcodes/46_Permutations/)  | Medium | 回溯法 + 全排列|
