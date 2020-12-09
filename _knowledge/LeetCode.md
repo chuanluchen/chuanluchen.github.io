@@ -71,6 +71,8 @@ screenshot: /assets/img/projects/code/code.jpg
   - [227-Basic Calculator II](/collection/leetcodes/227_BasicCalculatorII/) 
 - 极值迭代
   - [42-Trapping Rain Water](/collection/leetcodes/42_TrappingRainWater/) 
+  - [84-Largest Rectangle In Histogram](/collection/leetcodes/84_LargestRectangleInHistogram/) 
+  
   
  
 ### 排序
@@ -296,6 +298,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [81-Search In Rotated Sorted Array II](/collection/leetcodes/81_SearchInRotatedSortedArrayII/) | Meidum | 二分法 + Rotate |
 | [82-Remove Duplicates From Sorted List II](/collection/leetcodes/82_RemoveDuplicatesFromSortedListII/) | Medium | 链表 + 删除 |
 | [83-Remove Duplicates From Sorted List](/collection/leetcodes/83_RemoveDuplicatesFromSortedList/) | Easy | 链表 + 删除 |
+| [84-Largest Rectangle In Histogram](/collection/leetcodes/84_LargestRectangleInHistogram/) | Hard | 栈 + 极值迭代 |
 | [86-Partition List](/collection/leetcodes/86_PartitionList/) | Medium | 链表 + 基本操作 |
 | [88-Merge Sorted Array](/collection/leetcodes/88_MergeSortedArray/) | easy | 排序 + mergeSort |
 | [89-Gray Code](/collection/leetcodes/89_GrayCode/) | Medium | 位运算 + 动态规划 |
