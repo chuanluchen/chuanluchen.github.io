@@ -129,7 +129,9 @@ screenshot: /assets/img/projects/code/code.jpg
   - [14-Longest Common Prefix](/collection/leetcodes/14_LongestCommonPrefix/) 
   - [28-Implement strStr](/collection/leetcodes/28_ImplementstrStr/) 
   - [58-Length Of Last Word](/collection/leetcodes/58_LengthOfLastWord/) 
-  - [171-Excel Sheet Column Number](/collection/leetcodes/171_ExcelSheetColumnNumber/)  
+  - [171-Excel Sheet Column Number](/collection/leetcodes/171_ExcelSheetColumnNumber/) 
+  - [168-Excel Sheet Column Title](/collection/leetcodes/168_ExcelSheetColumnTitle/) 
+  
 - Palindrome
   - [125-Valid Palindrome](/collection/leetcodes/125_ValidPalindrome/) 
   - [9-Palindrome Number](/collection/leetcodes/9_PalindromeNumber/)
@@ -365,6 +367,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [162-Find Peak Element](/collection/leetcodes/162_FindPeakElement/) | Medium | 二分法查找 + range |
 | [166-Fraction To Recurring Decimal](/collection/leetcodes/166_FractionToRecurringDecimal/) | Medium | 数学题 + 特殊问题 |
 | [167-Two Sum II](/collection/leetcodes/167_TwoSumII/) | Easy | 数学题 + Sum |
+| [168-Excel Sheet Column Title](/collection/leetcodes/168_ExcelSheetColumnTitle/) | Easy | 字符串 + 基本操作 |
 | [170-Two Sum III-Data Structure Design](/collection/leetcodes/170_TwoSumIII_DataStructureDesign/) | Easy | 实现题 + HashMap |
 | [171-Excel Sheet Column Number](/collection/leetcodes/171_ExcelSheetColumnNumber/)  | Easy | 字符串 + 基本 + 26进制转换 |
 | [172-Factorial Trailing Zeroes](/collection/leetcodes/172_FactorialTrailingZeroes/) | Easy | 数学题 + 特殊问题 |
