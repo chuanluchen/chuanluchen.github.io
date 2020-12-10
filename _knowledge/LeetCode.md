@@ -131,6 +131,7 @@ screenshot: /assets/img/projects/code/code.jpg
   - [58-Length Of Last Word](/collection/leetcodes/58_LengthOfLastWord/) 
   - [171-Excel Sheet Column Number](/collection/leetcodes/171_ExcelSheetColumnNumber/) 
   - [168-Excel Sheet Column Title](/collection/leetcodes/168_ExcelSheetColumnTitle/) 
+  - [165-Compare Version Numbers](/collection/leetcodes/165_CompareVersionNumbers/) 
   
 - Palindrome
   - [125-Valid Palindrome](/collection/leetcodes/125_ValidPalindrome/) 
@@ -365,6 +366,7 @@ screenshot: /assets/img/projects/code/code.jpg
 | [160-Intersection Of Two Linked Lists](/collection/leetcodes/160_IntersectionOfTwoLinkedLists/) | Easy | 链表 + 基本操作 |
 | [161-One Edit Distance](/collection/leetcodes/161_OneEditDistance/) | Meidum | 字符串 + Substring |
 | [162-Find Peak Element](/collection/leetcodes/162_FindPeakElement/) | Medium | 二分法查找 + range |
+| [165-Compare Version Numbers](/collection/leetcodes/165_CompareVersionNumbers/) | Medium | 字符串 + 基本操作 |
 | [166-Fraction To Recurring Decimal](/collection/leetcodes/166_FractionToRecurringDecimal/) | Medium | 数学题 + 特殊问题 |
 | [167-Two Sum II](/collection/leetcodes/167_TwoSumII/) | Easy | 数学题 + Sum |
 | [168-Excel Sheet Column Title](/collection/leetcodes/168_ExcelSheetColumnTitle/) | Easy | 字符串 + 基本操作 |
