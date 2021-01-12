@@ -1,7 +1,7 @@
 ---
 layout: project
 title: 'The US Will Become Grayer Than Ever'
-date: 01 February 2020
+date: 11 December 2019
 screenshot: /assets/img/projects/dataviz/US Aging_screenshot.jpg
 caption: 可视化：美国各年龄层人口结构对比
 description: >
