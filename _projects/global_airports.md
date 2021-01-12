@@ -1,7 +1,7 @@
 ---
 layout: project
 title: '世界机场分布'
-date: 01 July 2020
+date: 01 September 2019
 image:  
   path: /assets/img/projects/dataviz/global_airports.jpg
 screenshot: /assets/img/projects/dataviz/global_airports.jpg
