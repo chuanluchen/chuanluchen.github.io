@@ -8,7 +8,7 @@ links:
   - title: 我家菜单小网站
     url: https://whatsfordinner.glitch.me/
 
-caption: 轻松一刻：我们的独家点餐网站
+caption: 网页前端：我们的独家点餐网站
 hide_image: false
 
 ---
