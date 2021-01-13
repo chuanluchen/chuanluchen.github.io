@@ -137,10 +137,10 @@ PowerCo提供的数据包括2015年的客户消费资料，客户历史定价记
 我们使用LightGBM模型自带的方法和SHAP对模型进行解释。
 
 
-<img src="/assets/img/projects/BCG_virtual/BCG_feature.jpg" width="60%"/>
+<img src="/assets/img/projects/BCG_virtual/BCG_feature.jpg" width="80%"/>
 <br>
 
-<img src="/assets/img/projects/BCG_virtual/BCG_SHAP1.jpg" width="60%" />
+<img src="/assets/img/projects/BCG_virtual/BCG_SHAP1.jpg" width="80%" />
 <br>
 <br>
 
@@ -151,7 +151,7 @@ PowerCo提供的数据包括2015年的客户消费资料，客户历史定价记
 - 另一个不能忽视的重要特征是一年以来每个用户定价的标准差，即价格的波动。我们可以通过interaction plot进一步看一下价格波动和用电量的关系。
 
  
-  <img src="/assets/img/projects/BCG_virtual/BCG_SHAP2.jpg" width="60%"/>
+  <img src="/assets/img/projects/BCG_virtual/BCG_SHAP2.jpg" width="80%"/>
   <br>
    <br>
 
@@ -172,11 +172,11 @@ LightGBM模型的另一个便利之处，在于它可以方便地查看其中某
 - 对于价格波动来说，是否小于0.002是个重要分界点。
 - 另外，正如我们以上提到的，销售渠道'lm', 营销活动'ka',也是划分用户的重要指标。
 
-<img src="/assets/img/projects/BCG_virtual/BCG_tree1.jpg" width="60%"/>
+<img src="/assets/img/projects/BCG_virtual/BCG_tree1.jpg" width="100%"/>
 <br>
 
 <br>
-<img src="/assets/img/projects/BCG_virtual/BCG_tree2.jpg" width="60%"/>
+<img src="/assets/img/projects/BCG_virtual/BCG_tree2.jpg" width="100%"/>
 <br>
  <br>
 
@@ -193,19 +193,19 @@ LightGBM模型的另一个便利之处，在于它可以方便地查看其中某
 在这些预设前提之下，我们的任务转化为：寻找一个优化的分界点，向流失概率高于此分界点的客户提供20%折扣，同时希望收益能够最大化。对于这个问题的探索，将主要在测试集得到的预测概率基础上之上进行模拟和估计。
 
 首先，在进行收益估计的时候，我们可以计算得出不存在任何客户流失情况下的基本收益。
-<img src="/assets/img/projects/BCG_virtual/BCG_churn1.jpg" width="60%"/>
+<img src="/assets/img/projects/BCG_virtual/BCG_churn1.jpg" width="80%"/>
 <br>
  <br>
 
 然后，假设所有流失概率高的客户都会在头三个月内退出服务，可以计算得到考虑客户情况之后的收益。
 
-<img src="/assets/img/projects/BCG_virtual/BCG_churn2.jpg" width="60%"/>
+<img src="/assets/img/projects/BCG_virtual/BCG_churn2.jpg" width="80%"/>
 <br>
 <br>
 
 之后，我们可以相应的方法，计算在整个[0，1]范围内选取不同cut-off情况下，给与20%的折扣会来带来多少收益的变化。
 
-<img src="/assets/img/projects/BCG_virtual/BCG_churn3.jpg" width="60%"/>
+<img src="/assets/img/projects/BCG_virtual/BCG_churn3.jpg" width="80%"/>
 <br>
 <br>
 
