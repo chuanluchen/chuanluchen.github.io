@@ -1,7 +1,7 @@
 ---
 layout: project
 title: '如何用打折挽留住你的客户？'
-date: 12 Jul 2020
+date: 11 January 2021
 image:  
   path: /assets/img/projects/BCG_virtual/BCG_cover.jpg
 links:
