@@ -206,7 +206,7 @@ LightGBM模型的另一个便利之处，在于它可以方便地查看其中某
 最终，我们可以用可视化的方式，呈现这个优化的cut-off和最大收益变化。
 
 <iFrame seamless frameborder="0"
-  src='/assets/img/projects/BCG_virtual/rev_v_cutoff_at20.html.html'  width="100%" height="400vh" scrolling="no">
+  src='/assets/img/projects/BCG_virtual/rev_v_cutoff_at20.html'  width="100%" height="400vh" scrolling="no">
 </iFrame>
 
 
@@ -225,7 +225,7 @@ LightGBM模型的另一个便利之处，在于它可以方便地查看其中某
 
 
 <iFrame seamless frameborder="0"
-  src='/assets/img/projects/BCG_virtual/rev_v_cutoff_v_discount.html.html'  width="100%" height="400vh" scrolling="no">
+  src='/assets/img/projects/BCG_virtual/rev_v_cutoff_v_discount.html'  width="100%" height="400vh" scrolling="no">
 </iFrame>
 
 ## VII.Lesson I learned
