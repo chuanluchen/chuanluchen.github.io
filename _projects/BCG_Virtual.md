@@ -3,7 +3,7 @@ layout: project
 title: '如何用打折挽留住你的客户？'
 date: 11 January 2021
 image:  
-  path: /assets/img/projects/BCG_virtual/BCG_cover.jpg
+  path: /assets/img/projects/BCG_virtual/BCG_cover.png
 links:
   - title: 项目完整代码
     url: https://github.com/chuanluchen/BCG-Virtual-Internship/
