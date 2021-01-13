@@ -33,7 +33,7 @@ featured: true
 
 欢迎查看本项目[完整代码](https://github.com/chuanluchen/BCG-Virtual-Internship/)
 
-##II.项目背景 
+## II.项目背景 
 
 PowerCo是一家英国能源企业，向商业机构，中小企业以及住宅户提供电力和天然气服务。近些年来，伴随着欧洲能源市场电力自由化的发展，PowerCo出现了比较明显的中小企业客户流失。于是，他们向波士顿咨询的GAMMA团队寻求帮助。
 
@@ -47,20 +47,20 @@ PowerCo提供的数据包括2015年的客户消费资料，客户历史定价记
 
 要验证价格敏感是否导致客户流失是主要原因，用数据科学的角度，可以表述为：“跟价格相关的特征是否能在预测客户流失率的过程中起到重要作用”？一个可行的思路是：训练一个分类模型来预测客户流失率，进而查看特征重要性，判断价格相关因素是否起到重要作用。
 
-##III.特征工程
+## III.特征工程
 
 通过数据清洗（处理缺失值、处理异常值、处理不匹配数据类型等），可供我们利用的数据有53万多条，20个特征。同时，通过基本的数据可视化，几点初步发现值得一提：
 
 - 预测目标（客户是否流失）分布不平衡，现有客户中大约存在10%的流失率
 
   <br>
-  <img src="/assets/img/projects/BCG_virtual/BCG_fig1.jpg"/>
+  <img src="/assets/img/projects/BCG_virtual/BCG_fig1.jpg" width="60%"/>
   <br>
 
 - 绝大多数客户集中在某一个销售渠道，相应的，该渠道的流失客户绝对数量居高
 
   <br>
-  <img src="/assets/img/projects/BCG_virtual/BCG_fig2.jpg"/>
+  <img src="/assets/img/projects/BCG_virtual/BCG_fig2.jpg" width="60%"/>
   <br>
 
 - 客户的电力和天然气用量数据均呈现极其倾斜的分布，绝大多数的用户集中于用量较小的范围内，少数客户用量极大。呈现明显的长尾分布趋势。
@@ -72,25 +72,25 @@ PowerCo提供的数据包括2015年的客户消费资料，客户历史定价记
 - 现存用户中，很大比例来自于2009~2013年的新签署的合约。相应的，这几年新加入的客户流失率也比较高，尤其以2012年为甚。
 
   <br>
-  <img src="/assets/img/projects/BCG_virtual/BCG_fig4.jpg"/>
+  <img src="/assets/img/projects/BCG_virtual/BCG_fig4.jpg" width="60%"/>
   <br>
 
 - 流失客户相对集中于特定的价格区间中
 
   <br>
-  <img src="/assets/img/projects/BCG_virtual/BCG_fig5.jpg"/>
+  <img src="/assets/img/projects/BCG_virtual/BCG_fig5.jpg"width="60%"/>
   <br>
 
 - 从合同的存续周期来看，3~6年的老客户有比较高的流失率
 
   <br>
-  <img src="/assets/img/projects/BCG_virtual/BCG_fig6.jpg"/>
+  <img src="/assets/img/projects/BCG_virtual/BCG_fig6.jpg" width="60%"/>
   <br>
 
 - 大多数客户是因为特定的促销活动加入进来的，但是需要注意的是，个别促销活动例如'lx'反而会与高流失率有着某种联系
 
   <br>
-  <img src="/assets/img/projects/BCG_virtual/BCG_fig7.jpg" width="80%"/>
+  <img src="/assets/img/projects/BCG_virtual/BCG_fig7.jpg" width="60%"/>
   <br>
 
 经过处理，最终放入模型的特征总量为52个。主要特征工程如下：
@@ -118,13 +118,13 @@ PowerCo提供的数据包括2015年的客户消费资料，客户历史定价记
 使用最佳参数，重新训练LightGBM。得到训练集AUC score为0.69， 测试集AUC score 0.66。我们将训练集和测试集的AUC score保持在0.03以内，以确保模型不会过拟合。同时，测试集预测准确率达到了0.89。
 
 <br>
-<img src="/assets/img/projects/BCG_virtual/BCG_roc.jpg" width="80%"/>
+<img src="/assets/img/projects/BCG_virtual/BCG_roc.jpg" width="60%"/>
 <br>
 
 从平衡Ture positive rate和false positive fate的角度，我们可以找到一个对客户的最佳分界点。通过计算，这一分界点在0.308左右。这意味着，预测概率>0.308的用户，我们判断为即将流失的客户，剩下的为可以留存的客户。
 
 <br>
-<img src="/assets/img/projects/BCG_virtual/BCG_threshold.jpg" width="80%"/>
+<img src="/assets/img/projects/BCG_virtual/BCG_threshold.jpg" width="60%"/>
 <br>
 
 ## V.模型解释
@@ -132,11 +132,11 @@ PowerCo提供的数据包括2015年的客户消费资料，客户历史定价记
 我们使用LightGBM模型自带的方法和SHAP对模型进行解释。
 
 <br>
-<img src="/assets/img/projects/BCG_virtual/BCG_feature.jpg" />
+<img src="/assets/img/projects/BCG_virtual/BCG_feature.jpg" width="60%"/>
 <br>
 
 <br>
-<img src="/assets/img/projects/BCG_virtual/BCG_SHAP1.jpg" />
+<img src="/assets/img/projects/BCG_virtual/BCG_SHAP1.jpg" width="60%" />
 <br>
 
 综合两种对模型的解释，我们可以得到以下发现：
@@ -146,7 +146,7 @@ PowerCo提供的数据包括2015年的客户消费资料，客户历史定价记
 - 另一个不能忽视的重要特征是一年以来每个用户定价的标准差，即价格的波动。我们可以通过interaction plot进一步看一下价格波动和用电量的关系。
 
   <br>
-  <img src="/assets/img/projects/BCG_virtual/BCG_SHAP2.jpg" />
+  <img src="/assets/img/projects/BCG_virtual/BCG_SHAP2.jpg" width="60%"/>
   <br>
 
   价格波动对用电量两极分化的客户具有特殊的意义。对于用电量大的用户来说，比较大的价格波动会导致他们的流失。可以说，他们是对价格极度敏感的一群客户。但是对于用电量比较小的中小商业客户或普通住户来说，即便价格波动比较小，客户流失概率依然很高。从他们的角度来说，可能是没有获得应有的优惠。
@@ -167,11 +167,11 @@ LightGBM模型的另一个便利之处，在于它可以方便地查看其中某
 - 另外，正如我们以上提到的，销售渠道'lm', 营销活动'ka',也是划分用户的重要指标。
 
 <br>
-<img src="/assets/img/projects/BCG_virtual/BCG_tree1.jpg" />
+<img src="/assets/img/projects/BCG_virtual/BCG_tree1.jpg" width="60%"/>
 <br>
 
 <br>
-<img src="/assets/img/projects/BCG_virtual/BCG_tree2.jpg" />
+<img src="/assets/img/projects/BCG_virtual/BCG_tree2.jpg" width="60%"/>
 <br>
 
 通过以上的模型特征分析，我们基本确认之前的假设是成立的。客户流失，尤其中小客户的流失跟价格敏感有关系。因此，通过打折方案缓解客户流失的逻辑是基本合理。这就引出我们下一步对于打折策略的讨论。
@@ -188,19 +188,19 @@ LightGBM模型的另一个便利之处，在于它可以方便地查看其中某
 
 首先，在进行收益估计的时候，我们可以计算得出不存在任何客户流失情况下的基本收益。
 <br>
-<img src="/assets/img/projects/BCG_virtual/BCG_churn1.jpg" />
+<img src="/assets/img/projects/BCG_virtual/BCG_churn1.jpg" width="60%"/>
 <br>
 
 然后，假设所有流失概率高的客户都会在头三个月内退出服务，可以计算得到考虑客户情况之后的收益。
 
 <br>
-<img src="/assets/img/projects/BCG_virtual/BCG_churn2.jpg" />
+<img src="/assets/img/projects/BCG_virtual/BCG_churn2.jpg" width="60%"/>
 <br>
 
 之后，我们可以相应的方法，计算在整个[0，1]范围内选取不同cut-off情况下，给与20%的折扣会来带来多少收益的变化。
 
 <br>
-<img src="/assets/img/projects/BCG_virtual/BCG_churn3.jpg" />
+<img src="/assets/img/projects/BCG_virtual/BCG_churn3.jpg" width="60%"/>
 <br>
 
 最终，我们可以用可视化的方式，呈现这个优化的cut-off和最大收益变化。
