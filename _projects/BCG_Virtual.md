@@ -78,7 +78,7 @@ PowerCo提供的数据包括2015年的客户消费资料，客户历史定价记
 - 流失客户相对集中于特定的价格区间中
 
   <br>
-  <img src="/assets/img/projects/BCG_virtual/BCG_fig5.jpg"width="60%"/>
+  <img src="/assets/img/projects/BCG_virtual/BCG_fig5.jpg" width="60%"/>
   <br>
 
 - 从合同的存续周期来看，3~6年的老客户有比较高的流失率
