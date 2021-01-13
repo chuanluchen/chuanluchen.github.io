@@ -231,7 +231,7 @@ LightGBM模型的另一个便利之处，在于它可以方便地查看其中某
 
 
 <iFrame seamless frameborder="0"
-  src='/assets/img/projects/BCG_virtual/rev_v_cutoff_v_discount.html'  width="100%" height="600vh" scrolling="no">
+  src='/assets/img/projects/BCG_virtual/rev_v_cutoff_v_discount.html'  width="100%" height="700vh" scrolling="no">
 </iFrame>
 
 ## VII.Lesson I learned
