@@ -1,7 +1,7 @@
 ---
 layout: project
-title: '如何验证AB Test的合理性'
-date: 13 January 2020
+title: '你的AB Test真实合理吗?'
+date: 14 January 2021
 image:  
   path: /assets/img/projects/DataScience/ab_test_cover.jpg
 caption: Data Science Challenge 2
