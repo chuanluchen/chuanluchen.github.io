@@ -6,7 +6,7 @@ image:
   path: /assets/img/projects/DataScience/ab_test_cover.jpg
 caption: Data Science Challenge: 验证AB Test的合理性
 hide_image: false
-featured: false
+featured: true
 ---
 
 ## AB Test的基本逻辑
@@ -26,5 +26,19 @@ featured: false
 - 普通方法:针对不同分类画图比较
 - 高级方法:建立树模型预测用户所属组别，查看tree plot。如果存在特征能将两组用户明显地区分开来，则说明该类别的分布出现了问题。
 
+## AB test核心代码
+~~~Python
+# perform a t-test on control group and test group
+from scipy import stats
+t_test = stats.ttest_ind(df[df['test']==1]['conversion'],
+                         df[df['test']==0]['conversion'],
+                         equal_var = False)
+# check t statisitc
+t_test.statistic
 
+# check p value
+t_test.pvalue
+~~~
+
+## 完整项目
 <script src="https://gist.github.com/chuanluchen/d97c7df35678ed9d7b8cfd305aba02ee.js"></script>
