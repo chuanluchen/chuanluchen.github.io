@@ -6,7 +6,7 @@ image:
   path: /assets/img/projects/DataScience/ab_test_cover.jpg
 caption: Data Challenge：AB Test及其合理性验证
 hide_image: false
-featured: true
+featured: false
 ---
 
 ## AB Test的基本逻辑
@@ -27,7 +27,7 @@ featured: true
 - 高级方法:建立树模型预测用户所属组别，查看tree plot。如果存在特征能将两组用户明显地区分开来，则说明该类别的分布出现了问题。
 
 ## AB test核心代码
-~~~Python
+~~~python
 # perform a t-test on control group and test group
 from scipy import stats
 t_test = stats.ttest_ind(df[df['test']==1]['conversion'],
