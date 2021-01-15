@@ -18,12 +18,12 @@ featured: false
 - 结论与建议
   - 有哪些表现好的特征
     - segmentation是怎样的
-    - 好中的不好的哪部分-
-    - 是否能get more
+    - 好中的不好是哪部分
+    - 有什么方法能get more
   - 有哪些表现不好的特征
     - 猜测可能的原因并run test
     - 不好中的好是哪部分
-    - 有什么方法能改进，big oppotunity
+    - 有什么方法能改进，big opportunity
 
 ## 完整项目
 <script src="https://gist.github.com/chuanluchen/87fe73701f9e1da09a72e33321d154b7.js"></script>
