@@ -1,10 +1,10 @@
 ---
 layout: project
-title: '你的AB Test成功了吗?'
+title: '你的AB test成功了吗？'
 date: 14 January 2021
 image:  
   path: /assets/img/projects/DataScience/ab_test_cover.jpg
-caption: Data Science Challenge: 验证AB Test的合理性
+caption: Data Challenge：AB Test及其合理性验证
 hide_image: false
 featured: true
 ---
