@@ -29,9 +29,15 @@ date: 01 July 2020
 - SVM 通过间隔最大化可以将优化问题转换成一个凸优化问题，这时解是唯一的。
 
 ## 假设函数
-$\hat{y}=\operatorname{sign}\left(w^{T} x+b\right)$
-其中 $\operatorname{sign}(x)=\left\{\begin{array}{ll}-1 & x<0 \\ 1 & x \geq 0\end{array}\right.$
-
+$$
+\begin{aligned}
+\hat{y}=\operatorname{sign}\left(w^{T} x+b\right) \\
+\text { 其中 } \operatorname{sign}(x)=\left\{\begin{array}{ll}
+-1 & x<0 \\
+1 & x \geq 0
+\end{array}\right.
+\end{aligned}
+$$
 <br>
 <img src="/assets/img/knowledge/SVM/SVM1.jpg" width="70%" />
 <br><br>		
