@@ -97,7 +97,8 @@ $$
   - 解决线性不可分问题，生成平滑决策边界
   - γ, r,p 都需要调参
   - 相当于将原始空间映射到p 维空间
-- 高斯核函数（Gaussian Kernel/Radial Basis Function，RBF）：$$\mathrm{K}(\mathrm{x}, \mathrm{y})=e^{-\gamma \||x-y|^{2}}$$
+- 高斯核函数（Gaussian Kernel/Radial Basis Function）：
+$$\mathrm{K}(\mathrm{x}, \mathrm{y})=e^{-\gamma \||x-y|^{2}}$$
   - 非线性分类SVM最主流的核函数。
   - 参数 $$\gamma$$ 需要调参
   - 根据泰勒展开 $$e^{x} \approx 1+x+\frac{x^{2}}{2 !}+\frac{x^{3}}{3 !}+\ldots \frac{x^{n}}{n !}$$ 可得到一个无穷维度的映射, 因此高斯核函数将原始空间映射到无穷维空间
