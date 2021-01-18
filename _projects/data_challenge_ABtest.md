@@ -9,11 +9,13 @@ hide_image: false
 featured: false
 ---
 
-## AB Test的基本逻辑
+## AB Test的基本逻辑（[详见笔记](https://chuanluchen.github.io/collection/DS_notes/Hypothesis_test/)）
 1. 两个组别：控制组，实验组
-2. 两个假设：零假设（没有明显变化），备择假设
-3. t-test，计算统计量
-4. 计算p-value, 做出推断
+2. 两个假设：原假设（新功能没有效果，没有差异），备择假设
+3. 选择显著性水平
+4. 选择检验功效，计算样本数量
+5. 进行T-test，计算检验统计量与检验p-value
+6. 将检验p-value与显著性水平做比较，给出判断
 
 ## 判断AB test合理与否的几个关键
 1. 足够的数据
