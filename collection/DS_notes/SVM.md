@@ -40,21 +40,34 @@ $$
 $$
 <br>
 <img src="/assets/img/knowledge/SVM/SVM1.jpg" width="70%" />
-<br><br>		
-		
-SVM的损失函数的涵义：
-- 如果点被正确分类，且在支持向量以外，损失是 0
-- 如果点被正确分类，且在margin之内，损失为小于1的小数
-- 如果点被分类错误，损失函数大于1，且随样本到超平面距离的增大，损失函数增大。
+<br><br>
+
+## 损失函数		
+- Hinge Loss(合页形): $J(z)=\max (0,1-z)$	
+<br>
+<img src="/assets/img/knowledge/SVM/SVM2.jpg" width="70%" />
+<br><br>
+
+- SVM的损失函数：$J(\theta)=\max \{0,1-y \hat{y}\}$
+	- 如果点被正确分类，且在支持向量以外，损失是 0
+	- 如果点被正确分类，且在margin之内，损失为小于1的小数
+	- 如果点被分类错误，损失函数大于1，且随样本到超平面距离的增大，损失函数增大。
 
 ## 优化问题
-<img src="/assets/img/knowledge/SVM/SVM2.jpg" width="70%" />
-<br><br>	
-
+- hyperplane $=w^{T} x+b$
+- 点到平面的几何距离$=\frac{y\left(w^{T} x+b\right)}{\|w\|_{2}}$
+- margin$=\frac{2}{\|w\|_{2}}$
+- 优化问题： $\max \frac{2}{\|w\|_{2}}$ subject to $y_{i}\left(w^{T} x+b\right) \geq 1(i=12, \ldots m)$
 - 优化目标：最大化Margin，同时保证其他样本点在H1和H2 （支持向量）以外
-- 优化问题转化为：在所有满足约束条件的超平面中， 选择具有最小w的超平面，这意味着最大间隔
+- 优化问题转化为：在所有满足约束条件的超平面中， 选择具有最小$\|\mathbf{w}\|$的超平面，这意味着最大间隔
 - 如何求解：一个带约束的凸二次规划问题 -> 用拉格朗日乘子法 + 对偶问题的思路来求解
 - 最终推导：支持向量分类器的优化问题的解-> 只涉及点的内积 inner product, 不涉及点本身
+$$
+\begin{aligned}
+f(x) &=\left(\sum_{i=1}^{n} \alpha_{i} y_{i} x_{i}\right)^{T} x+b \\
+&=\sum_{i=1}^{n} \alpha_{i} y_{i}\left\langle x_{i}, x\right\rangle+b
+\end{aligned}
+$$
 		
 ## 软间隔支持向量机
 - 允许某一些数据点不满足约束：允许一些点落间隔错误的一侧，甚至超平面错误的一侧
@@ -71,22 +84,22 @@ SVM的损失函数的涵义：
 <br>
 <img src="/assets/img/knowledge/SVM/SVM3.jpg" width="70%" />
 <br><br>	
-<br>
-<img src="/assets/img/knowledge/SVM/SVM4.jpg" width="70%" />
-<br><br>
 
 - 核函数的定义为特征空间的内积
+  - $\mathrm{K}(\mathrm{x}, \mathrm{y})=<\mathrm{x}, \mathrm{y}>=\emptyset(x)^{T} \emptyset(y)$
   - 因为支持向量分类器的优化问题的解-> 只涉及点的内积->可定义核函数来代替内积
   <br><br>
 
 **几种核函数**
 - 线性核函数（Linear Kernel）：主要用于线性可分以及样本数与特征数差不多的情况。
+  - $K(x, y)=(x \cdot y)$
   - 参数少，速度快
 - 多项式核函数（Polynomial Kernel）：解决线性不可分问题，生成平滑决策边界
-  - γ, r,p 都需要调参
+  - $\mathrm{K}(\mathrm{x}, \mathrm{y})=(\gamma \mathrm{x} \cdot y+r)^{p}$ -> γ, r,p 都需要调参
   - 相当于将原始空间映射到p 维空间
 - 高斯核函数（Gaussian Kernel/Radial Basis Function，RBF）：非线性分类SVM最主流的核函数。
-  - 参数γ 需要调参
+  - $\mathrm{K}(\mathrm{x}, \mathrm{y})=e^{-\gamma \||x-y|^{2}} \rightarrow$ 根据泰勒展开 $e^{x} \approx 1+x+\frac{x^{2}}{2 !}+\frac{x^{3}}{3 !}+\ldots \frac{x^{n}}{n !}$ 
+  - 参数 $\gamma$ 需要调参
   - 根据泰勒展开得到一个无穷维度的映射, 因此高斯核函数将原始空间映射到无穷维空间
   - 参数gamma表示受数据集中哪些点的影响
     - 小gamma: 考虑所有点，不容易捕捉超平面的形状-> get a smoothier surface
