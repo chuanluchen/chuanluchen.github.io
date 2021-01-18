@@ -5,7 +5,8 @@ date: 01 Nov 2020
 screenshot: /assets/img/knowledge/data_science_notes_cover.jpg
 featured: true
 ---
-
+## 机器学习
+  - [SVM](/collection/DS_notes/SVM/) 
 ## Text Analysis
   - [BERT模型关键词提取](/collection/DS_notes/KeywordsExtraction/) 
   
