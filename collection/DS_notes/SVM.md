@@ -39,13 +39,13 @@ $$
 \end{aligned}
 $$
 <br>
-<img src="/assets/img/knowledge/SVM/SVM1.jpg" width="70%" />
+<img src="/assets/img/knowledge/SVM/SVM1.jpg" width="50%" />
 <br><br>
 
 ## 损失函数		
 - Hinge Loss(合页形): $$J(z)=\max (0,1-z)$$	
 <br>
-<img src="/assets/img/knowledge/SVM/SVM2.jpg" width="70%" />
+<img src="/assets/img/knowledge/SVM/SVM2.jpg" width="50%" />
 <br><br>
 
 - SVM的损失函数:$$J(\theta)=\max \{0,1-y \hat{y}\}$$
@@ -97,7 +97,7 @@ $$
   - 解决线性不可分问题，生成平滑决策边界
   - γ, r,p 都需要调参
   - 相当于将原始空间映射到p 维空间
-- 高斯核函数（Gaussian Kernel/Radial Basis Function，RBF）：$$\mathrm{K}(\mathrm{x}, \mathrm{y})=e^{-\gamma \||x-y|^{2}} $$
+- 高斯核函数（Gaussian Kernel/Radial Basis Function，RBF）：$$\mathrm{K}(\mathrm{x}, \mathrm{y})=e^{-\gamma \||x-y|^{2}}$$
   - 非线性分类SVM最主流的核函数。
   - 参数 $$\gamma$$ 需要调参
   - 根据泰勒展开 $$e^{x} \approx 1+x+\frac{x^{2}}{2 !}+\frac{x^{3}}{3 !}+\ldots \frac{x^{n}}{n !}$$ 可得到一个无穷维度的映射, 因此高斯核函数将原始空间映射到无穷维空间
