@@ -27,13 +27,13 @@ date: 01 July 2020
 **2.选择显著性水平significance level α**
 - 通常选择95%置信水平，α值为0.05
 - 本质上是允许type I error出现的概率
-<br>
+<br><br>
   
 **3.确定检验功效和样本数量**
 - 检验功效【也是sensitivity】为1-β， 通常取值0.8
 - β本质上是允许type II error出现的概率
 - 根据α， power， based metric, 预期最小差异值可计算所需样本数量
-<br>
+<br><br>
 
 **4.计算检验统计量与检验p-value**
 - Z检验：已知标准差，检验两组均值
@@ -61,14 +61,15 @@ date: 01 July 2020
 **Type I error: False positive**
 - 原假设为真，但遭到了否定，犯错概率为α。当否定原假设的时候，就要面对5%的犯错概率。
 - 为了降低风险，要使用较低的alpha值
+<br><br>
 	
 **Type II error: False Negative**
 - 原假设为假，但无法否定它， 犯错概率为β，依赖于检验功效
 - 为了降低风险，确保足够大的检验功效
-
+<br>
 ## V.样本大小
 - 样本大小由base metric, 预期最小变化幅度，显著性水平α，功效1-β共同决定
-<br>	
+<br><br>
 **α vs. β trade-off**
 <br>
 <img src="/assets/img/knowledge/ABtest/hypothesis_test4.jpg" width="60%" />
@@ -77,7 +78,7 @@ date: 01 July 2020
 - 当α值设置很小，t检验值就会向右移动，β会变大
 - 当样本量一定的情况下， α减小，β增大；α增大，β减小
 - 要同时减小α，β，需要增大样本量
-	
+<br><br>
 **计算所需样本大小的三种方法**
 - Built-in library
 - Look up answer in a table
