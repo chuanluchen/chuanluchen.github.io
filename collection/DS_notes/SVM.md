@@ -85,7 +85,7 @@ $$
 <img src="/assets/img/knowledge/SVM/SVM3.jpg" width="70%" />
 <br><br>	
 
-- 核函数的定义为特征空间的内积: $$\mathrm{K}(\mathrm{x}, \mathrm{y})=<\mathrm{x}, \mathrm{y}>=\emptyset(x)^{T} \emptyset(y)$$
+- 核函数的定义为特征空间的内积: $$\mathrm{K}(\mathrm{x}, \mathrm{y})=<\mathrm{x}, \mathrm{y}>=\phi(x)^{T} \phi(y)$$
   - 因为支持向量分类器的优化问题的解-> 只涉及点的内积->可定义核函数来代替内积
   <br><br>
 
