@@ -1,6 +1,6 @@
 ---
 layout: project
-title: '关键词提取'
+title: 'BERT模型关键词提取'
 date: 01 July 2020
 
 ---
