@@ -11,8 +11,8 @@ date: 01 July 2020
 - SVM 既支持二元分类也支持多元分类
 - 可支持分类问题，也支持回归问题
 
-## svm的内核
-- 最大间隔分类器maximum margin classifierH
+## SVM的内核
+- 最大间隔分类器maximum margin classifier
 
 ## 三种SVM形式
 - 硬间隔支持向量机Hard Margin：不允许出现任何点出现在间隔内，应对线性可分问题
@@ -30,7 +30,7 @@ date: 01 July 2020
 
 ## 假设函数 & 损失函数
 <br>
-<img src="/assets/img/knowledge/SVM/SVM1.jpg" width="50%" />
+<img src="/assets/img/knowledge/SVM/SVM1.jpg" width="70%" />
 <br><br>		
 		
 SVM的损失函数的涵义：
@@ -39,12 +39,11 @@ SVM的损失函数的涵义：
 - 如果点被分类错误，损失函数大于1，且随样本到超平面距离的增大，损失函数增大。
 
 ## 优化问题
-<br>
-<img src="/assets/img/knowledge/SVM/SVM2.jpg" width="50%" />
+<img src="/assets/img/knowledge/SVM/SVM2.jpg" width="70%" />
 <br><br>	
 
 - 优化目标：最大化Margin，同时保证其他样本点在H1和H2 （支持向量）以外
-- 优化问题转化为：在所有满足约束条件的超平面中， 选择具有最小||w||的超平面，这意味着最大间隔
+- 优化问题转化为：在所有满足约束条件的超平面中， 选择具有最小w的超平面，这意味着最大间隔
 - 如何求解：一个带约束的凸二次规划问题 -> 用拉格朗日乘子法 + 对偶问题的思路来求解
 - 最终推导：支持向量分类器的优化问题的解-> 只涉及点的内积 inner product, 不涉及点本身
 		
@@ -61,10 +60,10 @@ SVM的损失函数的涵义：
 - 面对线性不可分的问题，引入核函数
 - 使用核函数kernel来扩大特征空间，将低维原始空间映射到高维特征空间，使得数据集在高维空间中变得线性可分，从而再使用线性学习器分类。
 <br>
-<img src="/assets/img/knowledge/SVM/SVM3.jpg" width="50%" />
+<img src="/assets/img/knowledge/SVM/SVM3.jpg" width="70%" />
 <br><br>	
 <br>
-<img src="/assets/img/knowledge/SVM/SVM4.jpg" width="50%" />
+<img src="/assets/img/knowledge/SVM/SVM4.jpg" width="70%" />
 <br><br>
 
 - 核函数的定义为特征空间的内积
@@ -91,7 +90,12 @@ SVM的损失函数的涵义：
 ## Sample Code
 <script src="https://gist.github.com/chuanluchen/0a4416bbc7151e5d48c1fd8322428207.js"></script>
 
+### SVM with default gamma Value
+<iFrame seamless frameborder="0" src='/assets/img/knowledge/SVM/svm1.html' width="100%" height="700vh" scrolling="no"> </iFrame>
 
+### SVM with a large gamma Value
+<iFrame seamless frameborder="0" src='/assets/img/knowledge/SVM/svm2.html' width="100%" height="700vh" scrolling="no"> </iFrame>
 
-
+### SVM with a small gamma Value
+<iFrame seamless frameborder="0" src='/assets/img/knowledge/SVM/svm3.html' width="100%" height="700vh" scrolling="no"> </iFrame>
 
