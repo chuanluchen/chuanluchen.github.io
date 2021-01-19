@@ -15,43 +15,24 @@ $$P(B \mid A)=\frac{P(A \mid B) P(B)}{P(A)}$$
 <br>
 <img src="/assets/img/knowledge/Naive_Bayes/Bayes1.jpg" width="70%" />
 <br><br>
+- 朴素贝叶斯：已知类别中特征的分布，求具有某些特征属于什么类别
+$$P\left(y_{i} \mid x\right)=\frac{P\left(x \mid y_{i}\right) P\left(y_{i}\right)}{P(x)}$$
 - 朴素贝叶斯 = 贝叶斯定理 + 条件独立假设 + 平滑（拉普拉斯平滑）
-- 假设1：条件
-- 朴素贝叶斯 = 贝叶斯定理 + 条件独立假设 + 平滑（拉普拉斯平滑）独立
-- 朴素贝叶斯 = 贝叶斯定理 + 条件独立假设 + 平滑（拉普拉斯平滑）
-
-## 三种SVM形式
-- 硬间隔支持向量机Hard Margin：不允许出现任何点出现在间隔内，应对线性可分问题
-- 软间隔支持向量机 Soft Margin：允许出现分类错误的点或点可以进入margin，应对近似线性可分问题
-- 非线性支持向量机 Kernel-based：使用核函数和软间隔最大化，解决非线性问题
-
-## 几个核心概念
-- 超平面：在n维空间中总会有一个n-1空间将点分开 e.g. 在一维空间中是一个点，二维空间中是一条线，高维空间中是一个超平面
-- 最优分离超平面 maximum margin classifier: 最大程度地将不同组地点分开，尽可能远离所有类别的点【margin最大】，即我们要找的决策面【超平面】
-- 支持向量：两组数据中与超平面最近的点
-- 间隔margin：支持向量与超平面之间的距离
-- 学习目标：最优分离超平面要求远离所有点，即最大化margin
-- 决策边界只跟支持向量有关系，跟其它点没有关系
-- SVM 通过间隔最大化可以将优化问题转换成一个凸优化问题，这时解是唯一的。
-
-## 假设函数
-$$
-\begin{aligned}
-\hat{y}=\operatorname{sign}\left(w^{T} x+b\right) \\
-\text { 其中 } \operatorname{sign}(x)=\left\{\begin{array}{ll}
--1 & x<0 \\
-1 & x \geq 0
-\end{array}\right.
-\end{aligned}
-$$
-<br>
-<img src="/assets/img/knowledge/SVM/SVM1.jpg" width="50%" />
-<br><br>
-
-## 损失函数		
-- Hinge Loss(合页形): $$J(z)=\max (0,1-z)$$	
-<br>
-<img src="/assets/img/knowledge/SVM/SVM2.jpg" width="50%" />
-<br><br>
-
-
+- 假设1：条件独立假设
+  - 某一特征的出现于其它特征无关 <-【“朴素”说法的来源，蠢萌】
+  - 某一个类别中的特征分布可以通过条件概率连乘获得
+  $$p\left(x \mid y_{i}\right)=p\left(a_{1} \mid y_{i}\right) p\left(a_{2} \mid y_{i}\right) \ldots p\left(a_{m} \mid y_{i}\right)=\prod_{j=1}^{m} p\left(a_{j} \mid y_{i}\right)$$
+- 假设2：连续值特征属性服从正态分布
+- LapLace校准：为避免某些类别中某个特征为0 p(a|y) = 0 ->每个类别中每个特征计数 + 1
+  
+## 朴素贝叶斯流程
+- 确定类别数量m和特征数量n
+  - m个特征$$\left\{\mathrm{a}_{1},\mathrm{a}_{2}, \ldots, \mathrm{a}_{\mathrm{m}}\right\} ;$$ 
+  n个类别 $$\left\{\mathrm{y}_{1}, \mathrm{y}_{2}, \ldots, \mathrm{y}_{n}\right\}$$
+- 建立分类器
+  - 统计各个类别出现的先验概率 $$P\left(y_{i}\right)$$
+  - 统计每个特征相对于每个类别的条件概率 
+  $$\mathrm{P}\left(\mathrm{a}_{\mathrm{i}} \mid \mathrm{y}_{\mathrm{i}}\right)$$
+- 推断后验概率 
+$$P\left(x \mid y_{i}\right) P\left(y_{i}\right)=P\left(a_{1} \mid y_{i}\right) P\left(a_{2} \mid y_{i}\right) \ldots P\left(a_{m} \mid y_{i}\right) P\left(y_{i}\right)$$
+- 预估结果取 $$ P\left(x \mid y_{i}\right) P\left(y_{i}\right) $$ 最大项的类别
