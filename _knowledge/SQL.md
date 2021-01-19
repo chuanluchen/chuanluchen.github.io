@@ -18,13 +18,19 @@ from Person as P Left join Address as A
 on p.PersonId = A.PersonId
 ~~~
 
-### 176. Second Highest Salary
+### 176. Second Highest Salary👀
 - 先查询出最高的工资，然后查询身高小于该值的最高工资
 - 直接使用order...limit 1 offset 无法handle Null和并列第一的情况
 ~~~sql
 Select Max(Salary) as SecondHighestSalary 
 from Employee 
 where Salary < (select MAX(Salary) from Employee)
+
+select (
+    select distinct Salary 
+    from Employee 
+    order by Salary desc
+    limit 1 offset 1) as SecondHighestSalary
 ~~~
 
 ### 181. Employees Earning More Than Their Managers
@@ -652,7 +658,7 @@ and a.student_id <>  c.student_id
 
 
 ## Medium
-### 177. Nth Highest Salary
+### 177. Nth Highest Salary👀
 - 传入的参数要更改必须要事先SET...;
 - limit xx, offset xx
 - distinct可返回Null
@@ -670,9 +676,10 @@ BEGIN
 END
 ~~~
 
-### 178. Rank Scores
+### 178. Rank Scores👀
 - 一个分数的名次：就是表中>=这个分数的数量
 - 对自己的表：找>=当前分数的分数，count之
+- window funciton: dense_rank()
 ~~~sql
 select s.Score,
     (select count(distinct t.Score) 
@@ -681,6 +688,11 @@ select s.Score,
     ) as `Rank`
 from Scores as s
 order by s.Score desc
+
+select Score as 'score',
+dense_rank() over(order by Score desc) as 'Rank'
+from Scores
+order by Score desc
 ~~~
 
 ### 180. Consecutive Numbers👀
@@ -690,6 +702,11 @@ select distinct a.Num as ConsecutiveNums
 from Logs a 
 join Logs b on (a.Num = b.Num and a.Id = b.Id - 1)
 join Logs c on (b.Num = c.Num and b.Id = c.Id - 1)
+
+select distinct b.Num as ConsecutiveNums
+from Logs a, Logs b, Logs c
+where a.Id = b.Id-1 and a.Num = b.Num
+and c.Id = b.Id+1 and b.Num = c.Num
 ~~~
 
 ### 184. Department Highest Salary
