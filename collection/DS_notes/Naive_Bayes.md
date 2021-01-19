@@ -10,7 +10,7 @@ $$\mathbf{p}(\mathbf{A} \mid \mathbf{B})=\frac{P(A B)}{P(B)}$$
 - 已知p(A|B), 求p(B|A) 
 $$P(B \mid A)=\frac{P(A \mid B) P(B)}{P(A)}$$
 
-- 贝叶斯最大的用途是打通了条件概率之间的通路，p(A|B)<=>p(B|A) 
+- 贝叶斯最大的用途是打通了条件概率之间的通路 $$P(A \mid B)<->P(B \mid A)$$
 
 ## 朴素贝叶斯
 <br>
@@ -28,7 +28,7 @@ $$P\left(y_{i} \mid x\right)=\frac{P\left(x \mid y_{i}\right) P\left(y_{i}\right
 $$g(x, \eta, \sigma)=\frac{1}{\sqrt{2 \pi} \sigma} e^{-\frac{(x-\eta)^{2}}{2 \sigma^{2}}}$$
 $$P\left(a_{k} \mid y_{i}\right)=g\left(a_{k}, \eta_{y_{i}}, \sigma_{y_{i}}\right)$$
 
-- LapLace校准：为避免某些类别中某个特征为0 p(a|y) = 0 ->每个类别中每个特征计数 + 1
+- LapLace校准：为避免某些类别中某个特征为0 $$P(a \mid y)=0$$ ->每个类别中每个特征计数 + 1
   
 ## 朴素贝叶斯流程
 - 确定类别数量m和特征数量n
