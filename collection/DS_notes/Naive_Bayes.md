@@ -14,7 +14,7 @@ $$P(B \mid A)=\frac{P(A \mid B) P(B)}{P(A)}$$
 
 ## 朴素贝叶斯
 <br>
-<img src="/assets/img/knowledge/Naive_Bayes/Bayes1.jpg" width="70%" />
+<img src="/assets/img/knowledge/Bayes/Bayes1.jpg" width="70%" />
 <br><br>
 - 朴素贝叶斯：已知类别中特征的分布，求具有某些特征属于什么类别
 $$P\left(y_{i} \mid x\right)=\frac{P\left(x \mid y_{i}\right) P\left(y_{i}\right)}{P(x)}$$
