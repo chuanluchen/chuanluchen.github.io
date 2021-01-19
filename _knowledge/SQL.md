@@ -10,7 +10,7 @@ screenshot: /assets/img/projects/code/SQL.jpg
 {:toc}
 
 ## Easy
-### 175 Combine Two Tables👏
+### 175 Combine Two Tables
 - LEFT JOIN
 ~~~sql
 select P.FirstName, P.LastName, A.city, A.State 
@@ -18,7 +18,7 @@ from Person as P Left join Address as A
 on p.PersonId = A.PersonId
 ~~~
 
-### 176. Second Highest Salary👏
+### 176. Second Highest Salary
 - 先查询出最高的工资，然后查询身高小于该值的最高工资
 - 直接使用order...limit 1 offset 无法handle Null和并列第一的情况
 ~~~sql
@@ -27,7 +27,7 @@ from Employee
 where Salary < (select MAX(Salary) from Employee)
 ~~~
 
-### 181. Employees Earning More Than Their Managers👏
+### 181. Employees Earning More Than Their Managers
 - 表的内部比较：自连接根据两个条件inner join
 - 1. manager id = id 2. 工资大于manager salary
 ~~~sql
@@ -37,7 +37,7 @@ on a.ManagerId = b.Id
 and a.Salary > b.Salary
 ~~~
 
-### 182. Duplicate Emails👏
+### 182. Duplicate Emails
 - 找重复字段，group by, + having count > 1
 ~~~sql
 select Email 
@@ -46,7 +46,7 @@ group by Email
 having count(Email) > 1
 ~~~
 
-### 183. Customers Who Never Order👏
+### 183. Customers Who Never Order
 - 用NOT IN找不在Order中的id
 ~~~sql
 Select Name as Customers
@@ -56,7 +56,7 @@ where Id NOT IN (
 )
 ~~~
 
-### 196. Delete Duplicate Emails👀
+### 196. Delete Duplicate Emails
 - Delete +表的内部比较（自连接)
 ~~~sql
 Delete p1
@@ -64,7 +64,7 @@ from Person p1, Person p2
 where p1.Email = p2.Email and p1.Id >  p2.Id
 ~~~
 
-### 197. Rising Temperature👏
+### 197. Rising Temperature
 - 表的内部比较(自连接) + 使用DATEDIFF
 ~~~sql
 select a.id
@@ -72,14 +72,14 @@ from Weather a, Weather b
 where DATEDIFF(a.recordDate,b.recordDate) = 1 and a.Temperature> b.Temperature
 ~~~
 
-### 511. Game Play Analysis I👏
+### 511. Game Play Analysis I
 ~~~sql
 Select player_id, MIN(event_date) as first_login
 from Activity
 group by player_id
 ~~~
 
-### 512. Game Play Analysis II👏
+### 512. Game Play Analysis II
 - 先用自查询第一次登陆的时间，再提取其他的列
 ~~~sql
 select player_id,device_id
@@ -92,7 +92,7 @@ where (player_id,event_date) in
 )
 ~~~
 
-### 577. Employee Bonus👏
+### 577. Employee Bonus
 - 要保留null: 注意left join, 并且判断 is null
 ~~~sql
 select e.name, b.bonus 
@@ -102,14 +102,14 @@ on e.empId = b.empId
 where b.bonus is null or b.bonus < 1000
 ~~~
 
-### 584. Find Customer Referee👏
+### 584. Find Customer Referee
 - 要保留null: 判断 is null
 ~~~sql
 select name from customer
 where referee_id is null or referee_id <> 2
 ~~~
 
-### 586. Customer Placing the Largest Number of Orderse👏
+### 586. Customer Placing the Largest Number of Orderse
 - group by + order + 取第一个
 ~~~sql
 select customer_number
@@ -119,14 +119,14 @@ order by count(order_number) desc
 limit 1
 ~~~
 
-### 595. Big Countries👏
+### 595. Big Countries
 ~~~sql
 select name, population, area
 from World
 where area > 3000000 or population > 25000000
 ~~~
 
-### 596. Classes More Than 5 Students👏
+### 596. Classes More Than 5 Students
 - 注意排除duplicate
 ~~~sql
 select class 
@@ -135,7 +135,7 @@ group by class
 having count(distinct student)>=5
 ~~~
 
-### 597. Friend Requests I: Overall Acceptance Rate👏
+### 597. Friend Requests I: Overall Acceptance Rate
 - 多重考虑：distinct, count,if null
 ~~~sql
 select round(
@@ -145,7 +145,7 @@ select round(
 from friend_request f, request_accepted r
 ~~~
 
-### 603. Consecutive Available Seats👏
+### 603. Consecutive Available Seats
 - 自连接
 ~~~sql
 select distinct a.seat_id 
@@ -154,7 +154,7 @@ where a.free = '1' and b.free = '1'
 and ((a.seat_id = b.seat_id + 1) or (a.seat_id = b.seat_id - 1) )
 ~~~
 
-### 607. Sales Person👏
+### 607. Sales Person
 - 先找RED做过的交易，用NOT IN取其它
 ~~~sql
 select name 
@@ -166,7 +166,7 @@ where sales_id not in (
 )
 ~~~
 
-### 610. Triangle Judgement👏
+### 610. Triangle Judgement
 - case when
 ~~~sql
 select *, 
@@ -177,7 +177,7 @@ end as triangle
 from triangle
 ~~~
 
-### 613. Shortest Distance in a Line👏
+### 613. Shortest Distance in a Line
 - 自连接，找差的绝对值的最小值
 ~~~sql
 select min(abs(a.x - b.x)) as shortest
@@ -185,7 +185,7 @@ from point a cross join point b
 where a.x !=  b.x
 ~~~
 
-### 619. Biggest Single Number👏
+### 619. Biggest Single Number
 - 子查询：先找出现一次的数；再找最大
 - 注意子查询需要alias
 ~~~sql
@@ -196,7 +196,7 @@ group by num
 having count(*) = 1) as T
 ~~~
 
-### 620. Not Boring Movies👏
+### 620. Not Boring Movies
 - 注意降序
 ~~~sql
 select * 
@@ -205,13 +205,13 @@ where id % 2 != 0 and description != 'boring'
 order by rating desc
 ~~~
 
-### 627. Swap Salary👏
+### 627. Swap Salary
 ~~~sql
 update salary
 set sex = if(sex = 'm', 'f','m')
 ~~~
 
-### 1050. Actors and Directors Who Cooperated At Least Three Times👏
+### 1050. Actors and Directors Who Cooperated At Least Three Times
 ~~~sql
 select actor_id, director_id
 from ActorDirector
@@ -219,28 +219,28 @@ group by actor_id, director_id
 having count(timestamp) >=3
 ~~~
 
-### 1068. Product Sales Analysis I👏
+### 1068. Product Sales Analysis I
 ~~~sql
 select product_name, year, price
 from Sales s
 join Product p on s.product_id = p.product_id
 ~~~
 
-### 1069. Product Sales Analysis II👏
+### 1069. Product Sales Analysis II
 ~~~sql
 select product_id, sum(quantity) as total_quantity
 from Sales
 group by product_id
 ~~~
 
-### 1075. Project Employees I👏
+### 1075. Project Employees I
 ~~~sql
 select P.project_id, round(sum(E.experience_years )/ count(E.employee_id),2) as average_years
 from Employee E join Project P on E.employee_id = P.employee_id
 group by P.project_id
 ~~~
 
-### 1076. Project Employees II👏
+### 1076. Project Employees II
 - 注意:可能有多个project有最大employee count
 - 先找到最大count, 再做筛选
 ~~~sql
@@ -254,7 +254,7 @@ order by count(employee_id) desc
 limit 1)
 ~~~
 
-### 1082. Sales Analysis I👏
+### 1082. Sales Analysis I
 - 先找到最高sales, 再做筛选
 ~~~sql
 select seller_id 
@@ -269,7 +269,7 @@ limit 1
 )
 ~~~
 
-### 1083. Sales Analysis II👏
+### 1083. Sales Analysis II
 - group by 之后用sum(if xx, 1, 0)筛选品牌
 ~~~sql
 select buyer_id
@@ -279,7 +279,7 @@ having sum(if(p.product_name='S8', 1, 0)) > 0
 and sum(if(p.product_name = 'iPhone', 1, 0)) = 0
 ~~~
 
-### 1084. Sales Analysis III👏
+### 1084. Sales Analysis III
 - group by 之后用having+两个条件
 - sum(if xx, 1, 0)筛选日期，注意日期加引号
 
@@ -291,7 +291,7 @@ having sum(if(sale_date > '2019-03-31', 1, 0)) = 0
 and sum(if(sale_date < '2019-01-01', 1, 0)) = 0
 ~~~
 
-### 1113. Reported Posts👏
+### 1113. Reported Posts
 - 先筛选日期， report
 - 日期function:DATE_SUB('2019-07-05', INTERVAL 1 DAY)
 ~~~sql
@@ -301,7 +301,7 @@ where action_date = DATE_SUB('2019-07-05', INTERVAL 1 DAY) and action='report'
 group by extra
 ~~~
 
-### 1141. User Activity for the Past 30 Days I👏
+### 1141. User Activity for the Past 30 Days I
 - 先筛选日期
 - 日期function:DATEDIFF(a, b) -> 求a-b
 - 时间窗口<30
@@ -312,7 +312,7 @@ where DATEDIFF('2019-07-27',activity_date) < 30
 group by activity_date
 ~~~
 
-### 1142. User Activity for the Past 30 Days II👀
+### 1142. User Activity for the Past 30 Days II
 - 先筛选日期
 - 日期function:DATEDIFF(a, b) -> 求a-b
 - 需要使用ifnull避免选不出来
@@ -322,7 +322,7 @@ from activity
 where datediff("2019-07-27",activity_date)<30
 ~~~
 
-### 1148. Article Views I👏
+### 1148. Article Views I
 ~~~sql
 select distinct viewer_id as id
 from Views
@@ -330,7 +330,7 @@ where author_id = viewer_id
 order by viewer_id
 ~~~
 
-### 1173. Immediate Food Delivery I👏
+### 1173. Immediate Food Delivery I
 - 在sum中做逻辑判断
 ~~~sql
 select round(
@@ -342,7 +342,7 @@ from Delivery
 ~~~
 
 
-### 1179. Reformat Department Table👀
+### 1179. Reformat Department Table
 - 用case when then做判断，创造多列
 ~~~sql
 SELECT id,
@@ -362,7 +362,7 @@ FROM Department
 GROUP BY id
 ~~~
 
-### 1211. Queries Quality and Percentage👏
+### 1211. Queries Quality and Percentage
 - if逻辑判断
 ~~~sql
 select query_name, round(avg(rating/position),2) as quality, 
@@ -371,7 +371,7 @@ from Queries
 group by query_name
 ~~~
 
-### 1241. Number of Comments per Post👏
+### 1241. Number of Comments per Post
 - 自连接，需要保留Null行使用left/ right join
 ~~~sql
 select post_id, count(distinct s.sub_id) as number_of_comments
@@ -385,7 +385,7 @@ on p.post_id = s.parent_id
 group by p.post_id
 ~~~
 
-### 1251. Average Selling Price👀
+### 1251. Average Selling Price
 - 以多重条件Join
 ~~~sql
 select p.product_id, round(sum(p.price * u.units)/ sum(u.units),2) as average_price 
@@ -396,7 +396,7 @@ and u.purchase_date <= p.end_date
 group by p.product_id
 ~~~
 
-### 1280. Students and Examinations👀
+### 1280. Students and Examinations
 - 使用cross join得到笛卡尔积
 - 注意只有e.subject_name才会出现null值
 ~~~sql
@@ -408,7 +408,7 @@ order by s.student_id, c.subject_name
 ~~~
 
 
-### 1294. Weather Type in Each Country👏
+### 1294. Weather Type in Each Country
 - case when
 - 注意使用month(date)提取月份
 ~~~sql
@@ -424,7 +424,7 @@ where month(day) = 11
 group by c.country_id
 ~~~
 
-### 1303. Find the Team Size👏
+### 1303. Find the Team Size
 - left join
 - 子查询作为表进行join
 ~~~sql
@@ -436,7 +436,7 @@ left join
 on a.team_id = b.team_id
 ~~~
 
-### 1322. Ads Performance👀
+### 1322. Ads Performance
 - sum()中使用=逻辑判断
 - ifnull()
 ~~~sql
@@ -448,7 +448,7 @@ group by ad_id
 order by ctr desc, ad_id
 ~~~
 
-### 1327. List the Products Ordered in a Period👏
+### 1327. List the Products Ordered in a Period
 - 提取日期， year(date), month(date)
 ~~~sql
 select p.product_name, sum(o.unit) as unit 
@@ -459,7 +459,7 @@ group by p.product_name
 having sum(o.unit) >= 100
 ~~~
 
-### 1350. Students With Invalid Departments👏
+### 1350. Students With Invalid Departments
 - 保留null, left join
 - 确认null：is null
 ~~~sql
@@ -469,7 +469,7 @@ on s.department_id = d.id
 where d.name is Null
 ~~~
 
-### 1378. Replace Employee ID With The Unique Identifier👏
+### 1378. Replace Employee ID With The Unique Identifier
 - 保留null，left join
 ~~~sql
 select u.unique_id, e.name
@@ -477,7 +477,7 @@ from Employees e left join EmployeeUNI u
 on e.id = u.id
 ~~~
 
-### 1407. Top Travellers👏
+### 1407. Top Travellers
 - 保留null，left join
 - ifnull()
 ~~~sql
@@ -487,7 +487,7 @@ group by r.user_id
 order by sum(r.distance) desc, u.name
 ~~~
 
-### 1435. Create a Session Bar Chart👏
+### 1435. Create a Session Bar Chart
 - 不可用case when：会丢失计数为0的项
 - 使用union把所有可能性连接起来
 ~~~sql
@@ -508,7 +508,7 @@ from Sessions
 where duration >= 15*60
 ~~~
 
-### 1484. Group Sold Products By The Date👀
+### 1484. Group Sold Products By The Date
 - group_concat: concate multiple rows of data into one field
 ~~~sql
 select sell_date, count(distinct product) as num_sold, 
@@ -517,7 +517,7 @@ from activities
 group by sell_date
 ~~~
 
-### 1495. Friendly Movies Streamed Last Month👏
+### 1495. Friendly Movies Streamed Last Month
 - group_concat: concate multiple rows of data into one field
 ~~~sql
 select distinct title 
@@ -526,7 +526,7 @@ where Year(t.program_date) = 2020 and month(t.program_date) = 6
 and c.Kids_content = 'Y' and c.content_type = 'Movies'
 ~~~
 
-### 1511. Customer Order Frequency👀
+### 1511. Customer Order Frequency
 - 多个having条件，用if构成
 ~~~sql
 select c.customer_id, c.name
@@ -543,7 +543,7 @@ having
 ~~~
 
 
-### 1517. Find Users With Valid E-Mails👀
+### 1517. Find Users With Valid E-Mails
 - 正则表达式
 ~~~sql
 select * from Users
@@ -558,14 +558,14 @@ where mail regexp '^[a-zA-Z]+[a-zA-Z0-9\\_\\.\\-]*@leetcode\\.com$'
 - $ 结尾
 
 
-### 1527. Patients With a Condition👏
+### 1527. Patients With a Condition
 - %字符串模糊匹配
 ~~~sql
 select * from Patients
 where conditions like '%DIAB1%'
 ~~~
 
-### 1543. Fix Product Name Format👀
+### 1543. Fix Product Name Format
 - 字符串处理:trim(), lower()
 - 日期处理:DATE_FORMAT(xx, '%Y-%m')  Y4位年代，m数字月份，M英文月份
 ~~~sql
@@ -579,7 +579,7 @@ order by product_name, sale_date
 ~~~
 
 
-### 1565. Unique Orders and Customers Per Month👏
+### 1565. Unique Orders and Customers Per Month
 - 日期处理:DATE_FORMAT(xx, '%Y-%m')  Y4位年代，m数字月份，M英文月份
 ~~~sql
 select month, count(distinct order_id) as order_count, count(distinct customer_id) as customer_count 
@@ -590,14 +590,14 @@ from
 group by month
 ~~~
 
-### 1571. Warehouse Manager👏
+### 1571. Warehouse Manager
 ~~~sql
 select w.name as warehouse_name, sum(p.Width * p.Length * p.Height * w.units)  as volume
 from Warehouse w join Products p on w.product_id = p.product_id
 group by w.name
 ~~~
 
-### 1581. Customer Who Visited but Did Not Make Any Transactions👏
+### 1581. Customer Who Visited but Did Not Make Any Transactions
 - 先找交易过的id,再用not in排除
 ~~~sql
 select customer_id, count(visit_id) as count_no_trans
@@ -610,7 +610,7 @@ where visit_id not in (
 group by customer_id
 ~~~
 
-### 1587. Bank Account Summary II👏
+### 1587. Bank Account Summary II
 ~~~sql
 select name, balance
 from 
@@ -621,7 +621,7 @@ where balance > 10000
 ~~~
 
 
-### 1607. Sellers With No Sales👏
+### 1607. Sellers With No Sales
 - 子查询找到2020年卖过货的，再用not in筛选
 ~~~sql
 select seller_name
@@ -634,7 +634,7 @@ where seller_name not in
 order by seller_name
 ~~~
 
-### 1623. All Valid Triplets That Can Represent a Country👏
+### 1623. All Valid Triplets That Can Represent a Country
 - 多表选择,然后做排除
 
 ~~~sql
@@ -652,7 +652,7 @@ and a.student_id <>  c.student_id
 
 
 ## Medium
-### 177. Nth Highest Salary👀
+### 177. Nth Highest Salary
 - 传入的参数要更改必须要事先SET...;
 - limit xx, offset xx
 - distinct可返回Null
@@ -670,7 +670,7 @@ BEGIN
 END
 ~~~
 
-### 178. Rank Scores👏
+### 178. Rank Scores
 - 一个分数的名次：就是表中>=这个分数的数量
 - 对自己的表：找>=当前分数的分数，count之
 ~~~sql
@@ -692,7 +692,7 @@ join Logs b on (a.Num = b.Num and a.Id = b.Id - 1)
 join Logs c on (b.Num = c.Num and b.Id = c.Id - 1)
 ~~~
 
-### 184. Department Highest Salary👏
+### 184. Department Highest Salary
 - 自连接：先找本人所在部门最高的工资，再筛选工资=部门最高工资的人
 ~~~sql
 select d.Name as Department, e.Name as Employee, e.Salary
@@ -702,7 +702,7 @@ where e.Salary = (
 )
 ~~~
 
-### 534. Game Play Analysis III👏
+### 534. Game Play Analysis III
 ~~~sql
 select a.player_id, a.event_date, sum(b.games_played) as games_played_so_far
 from Activity a join Activity b
@@ -714,7 +714,7 @@ sum(games_played) over(partition by player_id order by event_date) as games_play
 from Activity
 ~~~
 
-### 550. Game Play Analysis IV🧶
+### 550. Game Play Analysis IV
 - 自连接：找同一个人的后一天【注意left join方便总人数】
 - where确保a是第一天
 ~~~sql
@@ -728,7 +728,7 @@ where (a.player_id, a.event_date) in ( # 保证a是first date
  )
 ~~~
 
-### 570. Managers with at Least 5 Direct Reports👏
+### 570. Managers with at Least 5 Direct Reports
 - 两组关联：非目标组做子查询，目标组用where...in 筛选
 ~~~sql
 select Name 
@@ -740,7 +740,7 @@ where Id in (
 )
 ~~~
 
-### 574. Winning Candidate👏
+### 574. Winning Candidate
 - 两组关联：非目标组做子查询，目标组用where...筛选
 ~~~sql
 select Name 
@@ -754,7 +754,7 @@ where id = (
 )
 ~~~
 
-### 578. Get Highest Answer Rate Question👏
+### 578. Get Highest Answer Rate Question
 - 组内找最大：直接order by... limit
 - 用sum(if(condition, 1, 0))做标记
 ~~~sql
@@ -766,7 +766,7 @@ limit 1
 ~~~
 
 
-### 580. Count Student Number in Departments👏
+### 580. Count Student Number in Departments
 - 保留null 用left join
 - null参与计数用ifnull(xxx, 0)
 ~~~sql
@@ -777,7 +777,7 @@ group by d.dept_name
 order by student_number desc, d.dept_name
 ~~~
 
-### 585. Investments in 2016👀
+### 585. Investments in 2016
 - 组内找相同特征/不同特征：where + 自连接 a.特征 = b.特征
 - 分别用in和not in
 ~~~sql
@@ -794,7 +794,7 @@ and PID not in
 )
 ~~~
 
-### 602. Friend Requests II: Who Has the Most Friends👀
+### 602. Friend Requests II: Who Has the Most Friends
 - 需要union两组数据：他申请的朋友 + 接受他的朋友
 - 注意使用Union all: 允许重复数据
 ~~~sql
@@ -809,7 +809,7 @@ order by num desc
 limit 1
 ~~~
 
-### 608. Tree Node👏
+### 608. Tree Node
 - 定义组别，case when
 ~~~sql
 select id, 
@@ -823,7 +823,7 @@ from tree
 order by id
 ~~~
 
-### 612. Shortest Distance in a Plane🧶
+### 612. Shortest Distance in a Plane
 - 所有可能性：找所有点之间距离 cross join
 - 排除同一点
 - sqrt((x1-x2)^2 + (y1-y2)^2)
@@ -834,7 +834,7 @@ from point_2d a cross join point_2d b
 where a.x != b.x or a.y != b.y
 ~~~
 
-### 614. Second Degree Follower👏
+### 614. Second Degree Follower
 - 两组join,注意列名比较疑惑
 - 必须用distinct
 ~~~sql
@@ -845,7 +845,7 @@ group by a.followee
 order by a.followee
 ~~~
 
-### 626. Exchange Seats🧶
+### 626. Exchange Seats
 - 直接改id:偶数-1，奇数加1 -> if
 - 奇数且最后一行：不动 -> 需要计算总数
 ~~~sql
@@ -856,7 +856,7 @@ order by id
 ~~~
 
 
-### 1045. Customers Who Bought All Products👀
+### 1045. Customers Who Bought All Products
 - group by之后，保证产品数量相等
 ~~~sql
 select customer_id
@@ -866,7 +866,7 @@ having count(distinct product_key) = (select count(distinct product_key) from Pr
 ~~~
 
 
-### 1070. Product Sales Analysis III👏
+### 1070. Product Sales Analysis III
 - 把product_id, year联合起来找符合条件的
 ~~~sql
 select product_id, year as first_year, quantity, price
@@ -878,7 +878,7 @@ where (product_id, year) in
     )
 ~~~
 
-### 1077. Project Employees III👀
+### 1077. Project Employees III
 - project_id, experience_years联合起来找符合条件的
 ~~~sql
 select p.project_id, p.employee_id
@@ -892,7 +892,7 @@ where (p.project_id,e.experience_years) in
     )
 ~~~
 
-### 1098. Unpopular Books🧶
+### 1098. Unpopular Books
 - 注意left join，没有销量的书也算
 - 基于（多个条件）join
 ~~~sql
@@ -933,7 +933,7 @@ group by student_id
 order by student_id
 ~~~
 
-### 1126. Active Businesses👏
+### 1126. Active Businesses
 - 复杂聚合问题：将聚合指标作为一个表与主表join -> 相当于多出一列
 ~~~sql
 select e.business_id 
@@ -961,7 +961,7 @@ from
      ) t
 ~~~
 
-### 1149. Article Views II👀
+### 1149. Article Views II
 - 注意article，viewer取distinct
 ~~~sql
 select distinct viewer_id as id
@@ -970,7 +970,7 @@ group by viewer_id, view_date
 having count(distinct article_id) > 1
 ~~~
 
-### 1158. Market Analysis I👏
+### 1158. Market Analysis I
 - 保留null值，left join
 
 ~~~sql
@@ -980,7 +980,7 @@ on u.user_id = o.buyer_id and year(o.order_date) = '2019' # 双重join条件
 group by u.user_id
 ~~~
 
-### 1164. Product Price at a Given Date👀
+### 1164. Product Price at a Given Date
 - 两种情况union起来
 	- 2019-08-16之前改过价格，使用最大日期的价格
 	- 2019-08-16之前没有改过价格，价格为10
@@ -1436,7 +1436,7 @@ and value < (select max(customer_id) from Customers)
 ~~~
 
 ## Hard
-### 185. Department Top Three Salaries👀 
+### 185. Department Top Three Salaries
 - CTE: dense_rank()
 
 ~~~sql
@@ -1452,7 +1452,7 @@ on d.Id = t.DepartmentId
 where t.s_rank <= 3
 ~~~
 
-### 262. Trips and Users👀  
+### 262. Trips and Users
 - 日期 between 'xxx' and 'xxx'
 
 ~~~sql
@@ -1476,7 +1476,7 @@ group by Request_at
 ~~~
 
 
-### 569. Median Employee Salary👀
+### 569. Median Employee Salary
 - window function:用row_number找每个公司排序，用count找每个公司count
 - count为奇数，找中间那个数；count为偶数，找中间两个数
 
@@ -1494,7 +1494,7 @@ where (count%2=1 and s_rank=(count+1)/2)  # count为奇数：median为中间那�
 or (count%2=0 and ((s_rank=count/2) or (s_rank=count/2+1))) # count为偶数：median为中间两个数
 ~~~
 
-### 571. Find Median Given Frequency of Numbers👀
+### 571. Find Median Given Frequency of Numbers
 - window function:找running_total, count
 - 注意median定义：一个数或两个数平均 -> 定位所属区间，算avg
 
@@ -1512,7 +1512,7 @@ where count/2 <= running_total     # 定位median落在哪个区间
 and count/2 >= running_total - Frequency
 ~~~
 
-### 579. Find Cumulative Salary of an Employee👀
+### 579. Find Cumulative Salary of an Employee
 - 针对每个人， 每个月计算三个月的running_total：sum() over (...row 2 preceding)
 - 去除每个人最近月份
 
@@ -1529,7 +1529,7 @@ where (Id, Month) not in  # 去除每个人最近的那个月份
 order by Id, Month desc
 ~~~
 
-### 601. Human Traffic of Stadium👀
+### 601. Human Traffic of Stadium
 - id - row_number() over (order by id) as diff
 - group by diff找连续数字组
 
@@ -1550,7 +1550,7 @@ where diff in (     # 不能直接group否则得不到组内详细信息
 )
 ~~~
 
-### 615. Average Salary: Departments VS Company👀
+### 615. Average Salary: Departments VS Company
 - avg() over (partition by...) 算公司avg和部门avg
 - 注意这里日期必须用distinct
 
@@ -1572,7 +1572,7 @@ else 'lower' end as comparison
 from temp
 ~~~
 
-### 618. Students Report By Geography👀
+### 618. Students Report By Geography
 
 ~~~sql
 with temp as
@@ -1778,7 +1778,7 @@ from c left join b
 on c.transactions_count =b.transactions_count
 ~~~
 
-### 1369. Get the Second Most Recent Activity👀
+### 1369. Get the Second Most Recent Activity
 
 ~~~sql
 with temp as
@@ -1822,7 +1822,7 @@ inner join yearsAll y on y.years between year(s.period_start) and year(s.period_
 order by product_id,report_year
 ~~~
 
-### 1412. Find the Quiet Students in All Exams👀
+### 1412. Find the Quiet Students in All Exams
 - 正序rank一遍，倒序rank一遍
 - 排除掉rank=1的学生
 
@@ -1852,7 +1852,7 @@ inner join yearsAll y on y.years between year(s.period_start) and year(s.period_
 order by product_id,report_year
 ~~~
 
-### 1479. Sales by Day of the Week👀    
+### 1479. Sales by Day of the Week   
 - CTE先取出每天每个类别的数量 dayname()
 - 再分成多列
 
