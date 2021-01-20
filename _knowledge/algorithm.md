@@ -4,7 +4,9 @@ title: '算法总结'
 date: 01 May 2020
 screenshot: /assets/img/projects/code/sort.jpeg
 ---
+
 - [递归](#递归)
+- [位运算](#位运算)
 - [排序](#排序)
 - [二分法查找](#二分法查找)
 - [链表](#链表)
@@ -15,6 +17,7 @@ screenshot: /assets/img/projects/code/sort.jpeg
 - [HashMap](#HashMap)
 - [动态规划](#动态规划)
 {:toc}
+
 
 ## 递归
 - Fibonacci 
@@ -64,6 +67,20 @@ screenshot: /assets/img/projects/code/sort.jpeg
 - 递归的时间复杂度：元素个数
 - 递归的空间复杂度：层数
 
+## 位运算
+
+- 异或^找唯一元素:相同为0，不同为1
+  - 相同元素^之后为0000
+  - 不同元素^之后为该元素本身 -> 找唯一元素
+- ord() 字符转换成ascii码;chr() ascii码转换为字符
+
+- 按位与&：n&(n-1)
+  - n&(n-1) ==0 n是2的整数次幂
+  - n&(n-1)将末位的1改为0
+- 按位与&
+  - n&1判断奇偶数
+  - n&1判断末位是否是1
+- Gray Code: G(i) = i ^(i/2)
 
 ## 排序
 #### 冒泡排序 
