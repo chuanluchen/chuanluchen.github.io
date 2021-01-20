@@ -54,7 +54,7 @@ group by Email
 having count(Email) > 1
 ~~~
 
-### 183. Customers Who Never Order
+### 183. Customers Who Never Order👀
 - 用NOT IN找不在Order中的id
 ~~~sql
 Select Name as Customers
@@ -1455,7 +1455,7 @@ and value < (select max(customer_id) from Customers)
 ~~~
 
 ## Hard
-### 185. Department Top Three Salaries
+### 185. Department Top Three Salaries👀
 - CTE: dense_rank()
 
 ~~~sql
