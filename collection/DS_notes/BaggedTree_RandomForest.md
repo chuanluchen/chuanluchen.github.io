@@ -1,6 +1,6 @@
 ---
 layout: project
-title: 'Bagged Tree & Random Forest'
+title: 'Bagged Trees & Random Forest'
 date: 01 July 2020
 
 ---
@@ -38,7 +38,7 @@ date: 01 July 2020
  
 ## 随机森林 vs. Bagged Trees
 - 随机森林的起始性能较差（单棵树的准确度有所下降）
-- 随和树的数量增多，往往会收敛到比较低的泛化误差
+- 随着树的数量增多，往往会收敛到比较低的泛化误差
 - 只在特征子集选取最优划分属性，训练效率更高
 
 ## 随机森林重要参数
