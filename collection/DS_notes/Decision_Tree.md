@@ -30,13 +30,12 @@ date: 01 July 2020
 
 ## 选择最优属性的指标
 - 信息熵 entropy
-  - **衡量信息的不确定性/纯洁度**
-  - 公式 $$\operatorname{Ent}(\mathrm{D})=-\sum_{k=1}^{|y|} p_{k} \log p_{k}$$
+  - **衡量信息的不确定性/纯洁度**  $$\operatorname{Ent}(\mathrm{D})=-\sum_{k=1}^{|y|} p_{k} \log p_{k}$$
   - 目标：越小越好（接近0）；属性的信息熵越小越纯洁
 - 信息增益 Information Gain
   - **计算信息熵下降了多少【ID3算法使用】**
   - 使用某个属性划分前的信息熵-划分后的信息熵，并使用各分支样本占比作为权重 
-  $$\operatorname{Gain}(\mathbf{D}, \mathbf{A})=\operatorname{Ent}(\mathbf{D})-\sum_{v=1}^{V} \frac{\left|\boldsymbol{D}^{v}\right|}{|\boldsymbol{D}|} \boldsymbol{E n t}\left(\boldsymbol{D}^{v}\right)$$
+$$\operatorname{Gain}(\mathbf{D}, \mathbf{A})=\operatorname{Ent}(\mathbf{D})-\sum_{v=1}^{V} \frac{\left|D^{v}\right|}{|D|} \operatorname{Ent}\left(D^{v}\right)$$
   - 目标：越大越好；ID3寻找信息增益最大的属性，最大程度降低信息的不确定性
   - 不良偏好:倾向取值数目多的属性 e.g. 用学号划分学生
 - 信息增益率 Gain Ratio
@@ -47,9 +46,11 @@ date: 01 July 2020
   某属性划分之后样本占比: 属性a的可能取值数目越多
   - 目标：越大越好，C4.5算法在信息增益高于平均的情况下，优先找信息增益率高的属性
 - 基尼指数 Gini Index
-  - 衡量信息的不确定性【CART使用】
-  - 从D中随机抽取两个样本，类别不一致的概率 $$\operatorname{Gini}(\mathrm{D})=1-\sum_{k=1}^{|y|} p_{k}^{2}$$
-  - 属性a的基尼指数  = 基尼指数*样本占比 Ginilndex $$(\mathrm{D}, \mathrm{a})=\frac{\left|\nu^{v}\right|}{\nu} \operatorname{Gini}\left(D^{v}\right)$$
+  - **衡量信息的不确定性【CART使用】**
+  - 从D中随机抽取两个样本，类别不一致的概率 
+  $$\operatorname{Gini}(\mathrm{D})=1-\sum_{k=1}^{|y|} p_{k}^{2}$$
+  - 属性a的基尼指数  = 基尼指数*样本占比 Gini lndex 
+  GiniIndex $$(\mathrm{D}, \mathrm{a})=\frac{\left|\mathrm{D}^{v}\right|}{\nu} \operatorname{Gini}\left(D^{v}\right)$$
   - 目标：基本等价于Entropy越小越好， CART寻找Gini Index最小的属性，Gini Index越小越纯洁
 
 ## 连续值与缺失值
@@ -75,11 +76,11 @@ date: 01 July 2020
 <br><br>
 
 - 学习目标：遍历每个区域中， 每个样本与预测值（region平均）的误差平方和最小化
-$$\sum_{j=1}^{J} \sum_{i \in R_{i}}\left(y_{i}-\widehat{y}_{R_{j}}\right)^{2}$$
+$$\sum_{j=1}^{J} \sum_{i \in R_{j}}\left(y_{i}-\widehat{y}_{R_{j}}\right)^{2}$$
 - 算法：递归二分法
   - Top-down:自上而下，把样本划分到两个区域
   - Greedy: 每次划分只考虑当前最优
   - Recursive: 选择合适的切分特征和切分点，不断划分使得RSS最小化
 - 防止Overfitting的方法
   - 正则化：对叶子节点个数进行惩罚,损失函数 + 正则化项
-  $$\sum_{m=1}^{|T|} \sum_{i \in R_{m}}\left(y_{i}-\widehat{y}_{K_{j}}\right)^{2}+\alpha|T|$$
+ $$\sum_{m=1}^{|T|} \sum_{i \in R_{m}}\left(y_{i}-\widehat{y}_{R_{j}}\right)^{2}+\alpha|T|$$
