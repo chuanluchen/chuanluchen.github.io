@@ -8,6 +8,7 @@ featured: true
 ## 机器学习
   - [SVM支持向量机](/collection/DS_notes/SVM/) 
   - [Naive Bayes朴素贝叶斯](/collection/DS_notes/Naive_Bayes/) 
+  - [Decision Tree决策树](/collection/DS_notes/Decision_Tree/) 
 ## Text Analysis
   - [BERT模型关键词提取](/collection/DS_notes/KeywordsExtraction/) 
   
