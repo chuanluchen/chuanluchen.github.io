@@ -25,7 +25,9 @@ on p.PersonId = A.PersonId
 Select Max(Salary) as SecondHighestSalary 
 from Employee 
 where Salary < (select MAX(Salary) from Employee)
+~~~
 
+~~~sql
 select (
     select distinct Salary 
     from Employee 
