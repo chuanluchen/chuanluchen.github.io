@@ -30,7 +30,8 @@ date: 01 July 2020
 
 ## 选择最优属性的指标
 - 信息熵 entropy
-  - **衡量信息的不确定性/纯洁度**  $$\operatorname{Ent}(\mathrm{D})=-\sum_{k=1}^{|y|} p_{k} \log p_{k}$$
+  - **衡量信息的不确定性/纯洁度**  
+  $$\operatorname{Ent}(\mathrm{D})=-\sum_{k=1}^{|y|} p_{k} \log p_{k}$$
   - 目标：越小越好（接近0）；属性的信息熵越小越纯洁
 - 信息增益 Information Gain
   - **计算信息熵下降了多少【ID3算法使用】**
