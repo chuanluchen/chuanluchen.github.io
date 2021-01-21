@@ -9,6 +9,7 @@ featured: true
   - [SVM支持向量机](/collection/DS_notes/SVM/) 
   - [Naive Bayes朴素贝叶斯](/collection/DS_notes/Naive_Bayes/) 
   - [Decision Tree决策树](/collection/DS_notes/Decision_Tree/) 
+  - [Ensemble Learning集成学习](/collection/DS_notes/ensemble_learning/) 
   - [Bagged Trees and Random Forest随机森林](/collection/DS_notes/BaggedTree_RandomForest/) 
   
 ## Text Analysis
