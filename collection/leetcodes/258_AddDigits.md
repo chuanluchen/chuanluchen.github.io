@@ -32,6 +32,20 @@ class Solution(object):
         if num ==0: return 0
         if num % 9 ==0: return 9
         return num % 9
+        
+        
+    def addDigits(self, num):
+        if 0<=num <=9: return num
+        temp = 0
+        while num :          
+            temp += num % 10
+            num //= 10
+        return self.addDigits(temp)
+        
+    def addDigits(self, num):
+        while num >9:
+            num = sum(int(c) for c in str(num))
+        return num
 ~~~
 
 ## 分析:
