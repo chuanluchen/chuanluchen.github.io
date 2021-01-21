@@ -3,7 +3,7 @@ layout: project
 title: '你会因何而辞职？'
 date: 14 January 2021
 image:  
-  path: /assets/img/projects/DataScience/employement_retention_cover.jpg
+  path: /assets/img/projects/DataScience/employment_retention_cover.jpg
 caption: Data Challenge：机器学习模型挖掘员工流失的动因
 hide_image: false
 featured: false
