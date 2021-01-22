@@ -5,7 +5,7 @@ date: 01 July 2020
 
 ---		
 ## Overview
-- GBDT是Gradient Boosting的算法应用
+- GBDT是应用Gradient Boosting的机器学习算法
 - 广义GBDT泛指所有使用gradient boosting进行优化算法
 - 狭义GBDT特指使用贪心法迭代求解的算法
 
