@@ -31,3 +31,11 @@ date: 01 July 2020
 ## 主流集成及升级方案
 - Bagging -> Random forest
 - Boosting -> GBDT -> XGBoost
+
+## Bagging vs. Boosting
+- Bagging
+  - 并行工作方式，学习器之间没有先后顺序可以同时进行
+  - 改善过拟合，改善模型方差
+- Boosting
+  - 串行工作方式，学习器之间存在依赖关系，下一个学习器在前一个学习器基础上进行优化
+  - 对控制偏差和方差都有非常好的效果，更加注重改善偏差
