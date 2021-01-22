@@ -71,7 +71,7 @@ class Solution(object):
         res = 1.0
         i = abs(n) # 取正数次幂
         while i>0:
-            if i %2 !=0: # res = res * x
+            if i %2 !=0: res = res * x
             x = x * x
             i = i // 2
             
