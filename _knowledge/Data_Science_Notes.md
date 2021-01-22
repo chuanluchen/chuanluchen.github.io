@@ -13,7 +13,7 @@ featured: true
     - [Bagging & Random Forest随机森林](/collection/DS_notes/Bagging_RandomForest/) 
     - [Boosting](/collection/DS_notes/Boosting/) 
       - [GBDT](/collection/DS_notes/GBDT/) 
-   
+      - [XGBoost](/collection/DS_notes/XGBoost/) 
   
 ## Text Analysis
   - [BERT模型关键词提取](/collection/DS_notes/KeywordsExtraction/) 
