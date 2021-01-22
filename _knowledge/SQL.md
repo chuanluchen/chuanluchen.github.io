@@ -45,7 +45,7 @@ on a.ManagerId = b.Id
 and a.Salary > b.Salary
 ~~~
 
-### 182. Duplicate Emails
+### 182. Duplicate Emails👀
 - 找重复字段，group by, + having count > 1
 ~~~sql
 select Email 
@@ -64,7 +64,7 @@ where Id NOT IN (
 )
 ~~~
 
-### 196. Delete Duplicate Emails👀
+### 196. Delete Duplicate Emails
 - Delete +表的内部比较（自连接)
 ~~~sql
 Delete p1
@@ -72,7 +72,7 @@ from Person p1, Person p2
 where p1.Email = p2.Email and p1.Id >  p2.Id
 ~~~
 
-### 197. Rising Temperature👀
+### 197. Rising Temperature
 - 表的内部比较(自连接) + 使用DATEDIFF
 ~~~sql
 select a.id
@@ -87,7 +87,7 @@ from Activity
 group by player_id
 ~~~
 
-### 512. Game Play Analysis II👀
+### 512. Game Play Analysis II
 - 先用自查询第一次登陆的时间，再提取其他的列
 ~~~sql
 select player_id,device_id
@@ -1471,7 +1471,7 @@ on d.Id = t.DepartmentId
 where t.s_rank <= 3
 ~~~
 
-### 262. Trips and Users👀
+### 262. Trips and Users
 - 日期 between 'xxx' and 'xxx'
 
 ~~~sql
