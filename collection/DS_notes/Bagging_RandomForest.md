@@ -1,13 +1,13 @@
 ---
 layout: project
-title: 'Bagged Trees & Random Forest'
+title: 'Bagging & Random Forest'
 date: 01 July 2020
 
 ---
 ## Bootstrapping
 - Bootstrapping思想：一种统计抽样方法，通过有放回的方法从总样本中选取部分样本，允许重复
 
-## Bagged Trees
+## Bagging
 - bagging是boostrapping思想在机器学习领域的应用，是bootstrap aggregating的缩写
 - Bagging核心：
   - 有放回的方式选取训练集
