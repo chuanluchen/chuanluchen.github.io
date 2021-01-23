@@ -5,7 +5,7 @@ date: 01 July 2020
 
 ---		
 ## Overview
-- lightGBM是对XGBoost的改进: 速度更快，内存占用更低
+- LightGBM是对XGBoost的改进: 速度更快，内存占用更低
 
 ## 对XGBoost的改进
 - 直方图算法：对连续特征离散化，构造一个直方图，寻找最优分割点
