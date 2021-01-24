@@ -15,6 +15,8 @@ featured: true
       - [GBDT](/collection/DS_notes/GBDT/) 
       - [XGBoost](/collection/DS_notes/XGBoost/) 
       - [LightGBM](/collection/DS_notes/LightGBM/) 
+      - [CatBoost](/collection/DS_notes/CatBoost/) 
+      
   
 ## Text Analysis
   - [BERT模型关键词提取](/collection/DS_notes/KeywordsExtraction/) 
