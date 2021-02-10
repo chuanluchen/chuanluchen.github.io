@@ -166,6 +166,7 @@ plt.show()
 <br><br>
 
 ### 3.3 PDP Code
+
 ~~~Python
 # partial dependence plot on one feature
 from pdpbox import pdp, info_plots
@@ -282,7 +283,7 @@ output.iloc[:, 2] = np.transpose(log.coef_)
 output[output['coef'] != 0].sort_values('coef', ascending=False)
 ~~~
 <br>
-<img src="/assets/img/knowledge/Product/Getting_insights/insight5.jpg" width="60%" />
+<img src="/assets/img/knowledge/Product/Getting_insights/insight5.jpg" width="80%" />
 <br><br>
 
 ### 4.4 解读
@@ -304,3 +305,5 @@ output[output['coef'] != 0].sort_values('coef', ascending=False)
 - 不够流行
 - 如果某个feature在rule中使用多次，很难孤立评估它的影响 -> 可以考虑将PDP与RuleFit合用
 
+## 示例项目
+<script src="https://gist.github.com/chuanluchen/dd1dcfeb61b8786dbe711c6f2920936c.js"></script>
