@@ -23,8 +23,8 @@ date: 01 July 2020
 - 但这种insight不宜直接应用于生产，因为没有考虑改变的成本，也缺乏足够的确定性
 - 得到insight之后-> 尝试性的做出改变 -> 进行AB test
 	
-## Logistic Regression + Coefficients
-### Code
+## 1. Logistic Regression + Coefficients
+### 1.1 Code
 
 ~~~python
 # Convert categorical features and check reference level
@@ -56,8 +56,11 @@ output_table
 # important features: only keep significant variables and order results by coefficient value
 output_table.loc[output_table['p_values'] < 0.05].sort_values('coefficients', ascending=False)
 ~~~
+<br>
+<img src="/assets/img/knowledge/Product/Getting_insights/insight1.jpg" width="60%" />
+<br><br>
 
-### 理解类别变量的转换与coefficient的解读
+### 1.2 理解类别变量的转换与coefficient的解读
 - One-hot encoding: n个level转换成n-1个dummy variable
 - 去掉的那个level是reference level /  baseline
 - Coefficient的解读是相较于reference level的相对值
@@ -66,17 +69,18 @@ output_table.loc[output_table['p_values'] < 0.05].sort_values('coefficients', as
 - 基于商业需求，可手动设定reference level
   - 需要手动的情形：最常见的level/ 需要拿来做比较的level / 研究新市场增长，可拿当前最好的市场做reference level
 
-### 优劣
+### 1.3 优劣
 #### 优
   - 逻辑回归模型广为熟知，方便团队之间沟通合作
   - 简单，快速，稳定
 	- 因为需要进行logit函数转换，结果不易于可视化
+	
 #### 劣
   - 关注的是feature与target之间的线性关系：将现实粗暴简单化，不利于找segment
   - 不同量级(Scale)的feature会影响结果，但经过normalization之后又变得不易解读
   
-## Decision Tree + Tree Plot
-### Code
+## 2. Decision Tree + Tree Plot
+### 2.1 Code
 
 ~~~python
 import graphviz
@@ -102,8 +106,11 @@ dot_data = export_graphviz(tree,
 graph = pydotplus.graph_from_dot_data(dot_data)
 display(Image(graph.create_png()))
 ~~~
+<br>
+<img src="/assets/img/knowledge/Product/Getting_insights/insight2.jpg" />
+<br><br>
 
-### 解读Tree Plot
+### 2.2 解读Tree Plot
 - 每个block是一个树节点，右边终端是叶节点
 - block中的四个值
   - Split
@@ -114,7 +121,7 @@ display(Image(graph.create_png()))
 - 在first split之后看几个重要的split
 - 也许split只集中在几个variable：因为我们只是基于宏观信息建了一个small tree， 过于细微的split难以在small tree画出来，信息量也不大
 
-### 优劣
+### 2.3 优劣
 #### 优
 - 方便寻找feature/ target之间的非线性关系
 - 方便看variable之间是如何互动的
@@ -127,14 +134,15 @@ display(Image(graph.create_png()))
     - Response rate: proportion of questions with at least 1 answer within X hour
     - Conversion rate: proportion of users who convert within X time since their first visit
 - 了解不同需求的priority
+
 #### 劣
 - 除了first split, 其它split都是基于first split的条件概率 -> 不同反映overall impact
 - Small tree只显示first few splits：基于macro-information, 不适用small improvement
   - 应对方案：可以去掉几个重要特征，重新建模
 - Large tree不易理解，信息量不大
 
-## Partial Dependence Plot（PDP）模型
-### PDP原理
+## 3. Partial Dependence Plot（PDP）模型
+### 3.1 PDP原理
 - 训练任意模型
 - 将训练集中某个variable X的所有unique value创建成vector [x1,x2, …, xn]
 - 遍历所有unique value
@@ -143,7 +151,7 @@ display(Image(graph.create_png()))
   - 在Plot上绘制一点，x轴为x1, y轴为平均值
   - 下一取值
 
-### 理解Python模型自带的feature importance
+### 3.2 理解Python模型自带的feature importance
 - 自带功能产生Feature Importance图未必准确，且信息量有限，不要过于依赖
 - model直接产生的feature importance是针对feature one-hot encoding之后的，而不是针对原features
 - level多的类别变量会被惩罚，重要性被分散
@@ -153,8 +161,11 @@ feat_importances = pd.Series(rf.feature_importances_, index=features.columns)
 feat_importances.sort_values(ascending=True).plot(kind='barh')
 plt.show()
 ~~~
+<br>
+<img src="/assets/img/knowledge/Product/Getting_insights/insight3.jpg" width="60%" />
+<br><br>
 
-### PDP Code
+### 3.3 PDP Code
 ~~~Python
 # partial dependence plot on one feature
 from pdpbox import pdp, info_plots
@@ -196,32 +207,36 @@ for i in range(len(feat_original)):
         pdp_dataset.sort_values(ascending=False).plot(kind='bar', title=feat_original[i])
         plt.show()
 ~~~
+<br>
+<img src="/assets/img/knowledge/Product/Getting_insights/insight4.jpg" width="60%" />
+<br><br>
 
-### PDP解读
+### 3.4 PDP解读
 - y轴值越大，feature约重要
 - y值的涵义：对指定变量做改变，会对结果带来多大的变化
 		
-### 优劣
+### 3.5 优劣
 #### 优
 - 最可靠的挖掘洞见的方式
 - 可与任何模型结合，与black-box的复杂模型(random forest/ boosting trees)配合更加
 - 方便可视化
 - 深度理解各个变量如何影响结果
+
 #### 劣
 - 注意连续变量出现的huge peak/ drop -> 可能是noise导致，说明该segment中样本太少
 - PDP原理不普及，对外传达，需要进一步解释涵义
 
-## RuleFit
-### 核心思想
+## 4. RuleFit
+### 4.1 核心思想
 - 将regression模型与decision tree相结合
 
-### 原理
+### 4.2 原理
 - 建立树分类模型(通常是random forest, 考虑到计算量树的层次较浅)
 - 利用树的分裂机构挖掘rule(rule即从跟到叶的分裂条件)
 - 根据rule创建dummy varibles，与原数据合并形成新的数据集
 - 在新数据集上建立logistic regression model
 
-### Code
+### 4.3 Code
 ~~~python
 from numpy.core.umath_tests import inner1d
 from sklearn.ensemble import RandomForestClassifier
@@ -266,8 +281,11 @@ log.fit(new_features, target)
 output.iloc[:, 2] = np.transpose(log.coef_)
 output[output['coef'] != 0].sort_values('coef', ascending=False)
 ~~~
+<br>
+<img src="/assets/img/knowledge/Product/Getting_insights/insight5.jpg" width="60%" />
+<br><br>
 
-### 解读
+### 4.4 解读
 - Rule: feature name
 - Type: original variable, or rule extracted from the forest
 - Coefficient: the coefficient of that variable in the final regression. 
@@ -276,10 +294,11 @@ output[output['coef'] != 0].sort_values('coef', ascending=False)
   - For rules, support close to 0/1 -> useless
 - 目标：重点看coefficient系数高且support接近0.5的rule
 
-### 优劣
+### 4.5 优劣
 #### 优
 - 将线性和非线性关系都考虑进来
 - 使用灵活: 可以决定如何建random forest, 如何extract rule, 如何建logistic regression
+
 #### 劣
 - 计算量大
 - 不够流行
