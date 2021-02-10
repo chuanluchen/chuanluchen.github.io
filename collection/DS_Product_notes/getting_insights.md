@@ -155,6 +155,7 @@ display(Image(graph.create_png()))
 - 自带功能产生Feature Importance图未必准确，且信息量有限，不要过于依赖
 - model直接产生的feature importance是针对feature one-hot encoding之后的，而不是针对原features
 - level多的类别变量会被惩罚，重要性被分散
+
 ~~~ python
 # python build-in feature importance
 feat_importances = pd.Series(rf.feature_importances_, index=features.columns)
