@@ -162,7 +162,7 @@ feat_importances.sort_values(ascending=True).plot(kind='barh')
 plt.show()
 ~~~
 <br>
-<img src="/assets/img/knowledge/Product/Getting_insights/insight3.jpg" width="60%" />
+<img src="/assets/img/knowledge/Product/Getting_insights/insight3.jpg" width="70%" />
 <br><br>
 
 ### 3.3 PDP Code
