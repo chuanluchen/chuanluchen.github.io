@@ -1,6 +1,6 @@
 ---
 layout: project
-title: 'Data Science笔记'
+title: 'Data Science知识笔记'
 date: 01 Nov 2020
 screenshot: /assets/img/knowledge/data_science_notes_cover.jpg
 featured: true
