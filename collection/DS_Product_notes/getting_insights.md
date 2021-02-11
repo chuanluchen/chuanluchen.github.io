@@ -162,6 +162,7 @@ feat_importances = pd.Series(rf.feature_importances_, index=features.columns)
 feat_importances.sort_values(ascending=True).plot(kind='barh')
 plt.show()
 ~~~
+
 <br>
 <img src="/assets/img/knowledge/Product/Getting_insights/insight3.jpg" width="70%" />
 <br><br>
