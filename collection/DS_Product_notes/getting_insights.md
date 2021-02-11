@@ -307,9 +307,4 @@ output[output['coef'] != 0].sort_values('coef', ascending=False)
 - 如果某个feature在rule中使用多次，很难孤立评估它的影响 -> 可以考虑将PDP与RuleFit合用
 
 ## 示例项目
-<iframe class="render-viewer " src="https://render.githubusercontent.com/view/ipynb?color_mode=light&amp;commit=5e4b4fde3b78010a730c2e12204d8ad1d3664325&amp;enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f636875616e6c756368656e2f44535f70726f647563742f356534623466646533623738303130613733306332653132323034643861643164333636343332352f47657474696e675f496e7369676874732e6970796e623f746f6b656e3d414d48544e4e5244584a484454554d4a354b334a3759334145544d4651&amp;nwo=chuanluchen%2FDS_product&amp;path=Getting_Insights.ipynb&amp;repository_id=337952756&amp;repository_type=Repository#1ff85202-da2d-42c8-af06-94cf7ab1c987" sandbox="allow-scripts allow-same-origin allow-top-navigation" title="File display">
-          Viewer requires iframe.
-      </iframe>
-
-
-<script src="https://gist.github.com/chuanluchen/dd1dcfeb61b8786dbe711c6f2920936c.js"></script>
+<script src="https://gist.github.com/chuanluchen/89ca633bfc35a306f42752d395e63b95.js"></script>
