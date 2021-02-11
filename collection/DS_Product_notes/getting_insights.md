@@ -168,7 +168,7 @@ plt.show()
 
 ### 3.3 PDP Code
 
-~~~Python
+~~~python
 # partial dependence plot on one feature
 from pdpbox import pdp, info_plots
 
@@ -181,7 +181,6 @@ pdp_iso = pdp.pdp_isolate(model=rf,
 pdp_dataset = pd.Series(pdp_iso.pdp, index=pdp_iso.display_columns)
 pdp_dataset.sort_values(ascending=False).plot(kind='bar', title='Country')  ### one categorical feature
 plt.show()
-
 
 
 # PDP for all features
@@ -209,6 +208,7 @@ for i in range(len(feat_original)):
         pdp_dataset.sort_values(ascending=False).plot(kind='bar', title=feat_original[i])
         plt.show()
 ~~~
+
 <br>
 <img src="/assets/img/knowledge/Product/Getting_insights/insight4.jpg" width="60%" />
 <br><br>
