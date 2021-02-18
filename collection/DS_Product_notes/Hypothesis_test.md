@@ -97,7 +97,13 @@ date: 01 July 2020
 <br><br>
 **计算所需样本大小的三种方法**
 - Built-in library
-~~~python
+- Look up answer in a table
+- [Online calculator](https://www.evanmiller.org/ab-testing/sample-size.html)
+ <br>
+ <img src="/assets/img/knowledge/ABtest/hypothesis_test5.jpg" width="60%" />
+ <br><br>
+ 
+ ~~~python
 import statsmodels.stats.api as sms
 # Define the two conversion rates via proportion_effectsize. 
 p1_and_p2 = sms.proportion_effectsize(0.10, 0.11)
@@ -106,11 +112,6 @@ p1_and_p2 = sms.proportion_effectsize(0.10, 0.11)
 sample_size = sms.NormalIndPower().solve_power(p1_and_p2, power=0.8, alpha=0.05)
 print("The required sample size per group is ~", round(sample_size))
 ~~~
-- Look up answer in a table
-- [Online calculator](https://www.evanmiller.org/ab-testing/sample-size.html)
- <br>
- <img src="/assets/img/knowledge/ABtest/hypothesis_test5.jpg" width="60%" />
- <br><br>
  
  **确定实验时间**
  - 已知样本大小，根据每日流量可以计算实验所需时长
