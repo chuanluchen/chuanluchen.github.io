@@ -13,6 +13,9 @@ date: 01 July 2020
 - 当产品测试一个新功能的时候，使用随机抽样对用户分成控制组和实验组。
 - 控制组用户使用老版本，实验组用户使用新版本。来验证新功能是否能提升产品表现
 - AB test原理基础是假设检验
+- AB test在互联网产品中流行的原因
+	- 软件产品更新迭代成本低
+	- 数据量足够大 
 
 ## III.假设检验【AB Test】步骤
 **1.定义原假设 Null/备择假设 Alternative**
@@ -67,8 +70,21 @@ date: 01 July 2020
 - 原假设为假，但无法否定它， 犯错概率为β，依赖于检验功效
 - 为了降低风险，确保足够大的检验功效
 <br>
-## V.样本大小
-- 样本大小由base metric, 预期最小变化幅度，显著性水平α，功效1-β共同决定
+
+## V.AB test的几个预先假设与问题
+- 样本大小：有足够大的样本来检测到差异
+	- -> 需要计算样本大小和实验时间
+- 随机化Randomization：实验组和控制组除了要测试的功能，其它是一模一样的。
+	- -> 需要保证两组在所有特征上分布保持一致。
+- 独立性Independency: 事件的发生是独立的，一个用户的行为不会另一个用户的行为产生影响。
+	- -> 需要排除network effect
+- 结果可泛化 Test results generalization: 实验结果可以泛化到所有用户在更长一段时间的表现。
+	- -> 需要排除Novelty effect / Change Aversion
+
+## VI.样本大小问题
+- 样本大小由预期最小变化幅度(metric baseline + improvement)，显著性水平α，功效1-β共同决定
+- 显著性水平越小，功效越大，变化幅度越小 -> 需要的样本量越大
+- 实际操作中，显著性水平（0.05）和功效（0.8）有常规取值，样本量的大小取决于预期最小变化幅度
 <br><br>
 **α vs. β trade-off**
 <br>
@@ -81,23 +97,47 @@ date: 01 July 2020
 <br><br>
 **计算所需样本大小的三种方法**
 - Built-in library
+~~~python
+import statsmodels.stats.api as sms
+# Define the two conversion rates via proportion_effectsize. 
+p1_and_p2 = sms.proportion_effectsize(0.10, 0.11)
+
+# Calculate sample size
+sample_size = sms.NormalIndPower().solve_power(p1_and_p2, power=0.8, alpha=0.05)
+print("The required sample size per group is ~", round(sample_size))
+~~~
 - Look up answer in a table
 - [Online calculator](https://www.evanmiller.org/ab-testing/sample-size.html)
  <br>
  <img src="/assets/img/knowledge/ABtest/hypothesis_test5.jpg" width="60%" />
  <br><br>
+ 
+ **确定实验时间**
+ - 已知样本大小，根据每日流量可以计算实验所需时长
+ 	- 将流量对半分，分别进入实验组和控制组
+ 	- 取到足够的样本为止
+ - 基本经验
+ 	- 实验最少执行两周，以抓住weekly pattern，不足两周的补足两周时间
+ 	- 如果traffic很大，可以减小取样比例，通常互联网公司在小于1%的用户上进行实验  	
 			
-## VI.统计意义上的显著性与实际显著性
+## VII.统计意义上的显著性与实际显著性
 - 统计意义的显著性并不意味着实际差值显著
 - 样本量足够多或重复多次实验的时候，会提升小概率事件发生的概率，极小的差值会变得显著
 - 考虑使用Bonferroni correction: α / number of tests
 
-## VII.判断AB test合理与否的几个关键
-- 足够的数据
-- 控制组和实验组规模相当
-- 实验进行足够的时长，以抓住一段周期（一周）的规律，最少一周，两周为宜
-- 用可视化的方式检验控制组/测试组的变化趋势，查看是否有猛烈变化
-- 控制组和实验组中的用户构成一致【重中之重】：例如，在控制组中有10%英国用户，在实验组中也应该有大致相当的比例
+## VIII.Randomization问题
+- 控制组和实验组中的用户构成需要保持一致
+- 验证方法
+	- 单个特征验证：查看两组在某个特征上的分布
+	- 自动化验证：机器学习树模型 + tree plot
+		- 针对是否属于实验组建立tree model
+		- 通过tree plot找分裂点
+		- 如果控制组/实验组分布一致，则找不到分裂点；否则，分裂点即是分布不均衡的特征
 
-## VIII.Sample Code
-<script src="https://gist.github.com/chuanluchen/4101e0d30d3eff185d7dc111fe389658.js"></script>
+## IX.Novelty Effect问题
+- 在控制组/实验组基础之上再分别分出新用户和老用户，分别进行AB test
+- 如果新功能在老用户实验组胜出，但在新用户实验组失败，则是novelty effect的表现
+- 由于新增分组，使用bonfferoni corrction调整p-value阈值：使用0.05/2进行判断
+
+## X.Sample Code
+<script src="https://gist.github.com/chuanluchen/729ef14a85ab95bd5bc41d547dbb49fb.js"></script>
