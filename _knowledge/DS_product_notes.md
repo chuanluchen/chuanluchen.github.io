@@ -7,3 +7,4 @@ featured: True
 ---
 
 - [通过机器学习挖掘商业洞见：四种方法](/collection/DS_Product_notes/getting_insights/) 
+- [假设检验与AB Test](/collection/DS_Product_notes/Hypothesis_test/) 
