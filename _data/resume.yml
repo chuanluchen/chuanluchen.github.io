@@ -36,8 +36,8 @@ work:
     #website: "https://www.circadence.com/"
     startDate: "2014-12-01"
     endDate: "2015-04-30"
-    #summary: >
-    #  Working on the Research and Development team at Circadence to provide state of the art technologies for cyber-security penetration testing.
+    summary: >
+      Working on the Research and Development team at Circadence to provide state of the art technologies for cyber-security penetration testing.
     
 #     highlights:
 #       - "Responsible for architecting, implementing and testing multiple software and firmware solutions for custom hardware."
@@ -45,15 +45,15 @@ work:
 #       - "Maintains two high quality 3D printers for both rapid design and production"
 #       - "Utilized CAD software to design multiple enclosures for custom hardware solutions."
 #       - "Designed multiple custom PCB solutions utilizing both the ESP32 and ATTiny85 chipset."
-#   - company: "Hackster"
-#     position: "Contributing Freelance Writer"
+  - company: "文津时代文化创意（北京）股份有限公司"
+    position: "影视部总经理助理"
 #     website: "https://www.hackster.io/nick-engmann/articles"
 #     startDate: "2019-07-15"
 #     endDate: "2020-02-15"
-#     summary: >
-#       Researched and covered different technologies that interest the readership.
-#     highlights:
-#       - "Curated 13 different articles, with concepts ranging from green energy technologies to hardware cybersecurity solutions."
+     summary: >
+       Researched and covered different technologies that interest the readership.
+     highlights:
+       - "Curated 13 different articles, with concepts ranging from green energy technologies to hardware cybersecurity solutions."
 #   - company: "Flashcards for Developers"
 #     position: "Co-Founder"
 #     website: "https://www.flashcardsfordevelopers.com/"
@@ -89,17 +89,17 @@ work:
 #       - "Regular public speaking experience in front of 500+ people"
 #       - "Presentations involve communicating technical topics to audience of varying skill levels."
 #       - "Teach developers how to solve a wide variety of programming challenges and actively help them debug problems across a variety of languages & platforms."
-# education:
-#   - institution: "University of Texas - Austin"
-#     area: "Electrical Engineering & Government"
-#     studyType: "Bachelor"
-#     startDate: "2011-06-01"
-#     endDate: "2016-06-01"
-#   - institution: "Universidad de Cantabria"
-#     area: "Spanish"
-#     studyType: "Exchange Student"
-#     startDate: "2014-06-01"
-#     endDate: "2014-12-01"
+ education:
+   - institution: "University of Texas - Austin"
+     area: "Electrical Engineering & Government"
+     studyType: "Bachelor"
+     startDate: "2011-06-01"
+     endDate: "2016-06-01"
+   - institution: "Universidad de Cantabria"
+     area: "Spanish"
+     studyType: "Exchange Student"
+     startDate: "2014-06-01"
+     endDate: "2014-12-01"
 #   - institution: "YCombinator"
 #     area: "Startup School"
 #     studyType: "Founder"
