@@ -8,13 +8,13 @@ menu: true
 order: 4
 left_column:
  - work
-#  - volunteer
- - education
-#  - awards
-# - publications
-#  - references
+ - volunteer
+ - education  
+ - awards
+ - publications
+ - references
 right_column:
-# - languages
+ - languages
  - skills
-# - interests
+ - interests
 ---
