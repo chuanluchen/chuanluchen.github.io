@@ -63,47 +63,67 @@ work:
 #    highlights:
 #      - "Awarded 'Teacher of the Month'"
 education:
-  - institution: "University of Oklahoma"
-    area: "Information Technology"
-    studyType: "Bachelor"
-    startDate: "2011-06-01"
-    endDate: "2014-01-01"
-    gpa: "4.0"
-    courses:
-      - "DB1101 - Basic SQL"
-      - "CS2011 - Java Introduction"
-awards:
-  - title: "Digital Compression Pioneer Award"
-    date: "2014-11-01"
-    awarder: "Techcrunch"
-    summary: "There is no spoon."
-publications:
-  - name: "Video compression for 3d media"
-    publisher: "Hooli"
-    releaseDate: "2014-10-01"
-    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    summary: "Innovative middle-out compression algorithm that changes the way we store data."
-skills:
-  - name: "Web Development"
-    level: "Master"
-    keywords:
-      - "HTML"
-      - "CSS"
-      - "Javascript"
-  - name: "Compression"
-    level: "Master"
-    keywords:
-      - "Mpeg"
-      - "MP4"
-      - "GIF"
+  - institution: "匹兹堡大学  计算机与信息学院"
+    area: "数据科学"
+    studyType: "工学硕士"
+    startDate: "2019-01-01"
+    endDate: "2021-01-01"
+#    gpa: "4.0"
+#    courses:
+#      - "DB1101 - Basic SQL"
+#      - "CS2011 - Java Introduction"
+  - institution: "匹兹堡大学  计算机与信息学院"
+    area: "数据科学"
+    studyType: "工学硕士"
+    startDate: "2019-01-01"
+    endDate: "2021-01-01"
+  - institution: "纽约大学  电影学院"
+    area: "电影研究"
+    studyType: "文学硕士"
+    startDate: "2015-09-01"
+    endDate: "2017-01-01"
+  - institution: "清华大学  新闻与传播学院"
+    area: "影视传播研究"
+    studyType: "文学硕士"
+    startDate: "2008-09-01"
+    endDate: "2011-07-01"
+  - institution: "复旦大学  新闻学院"
+    area: "新闻学"
+    studyType: "文学硕士"
+    startDate: "2004-09-01"
+    endDate: "2008-07-01"
+#awards:
+#  - title: "Digital Compression Pioneer Award"
+#    date: "2014-11-01"
+#    awarder: "Techcrunch"
+#    summary: "There is no spoon."
+#publications:
+#  - name: "Video compression for 3d media"
+#    publisher: "Hooli"
+#    releaseDate: "2014-10-01"
+#    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
+#    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+#skills:
+#  - name: "Web Development"
+#    level: "Master"
+#    keywords:
+#      - "HTML"
+#      - "CSS"
+#      - "Javascript"
+#  - name: "Compression"
+#    level: "Master"
+#    keywords:
+#      - "Mpeg"
+#      - "MP4"
+#      - "GIF"
 #languages:
 #  - language: "English"
 #    fluency: "Native speaker"
-interests:
-  - name: "Wildlife"
-    keywords:
-      - "Ferrets"
-      - "Unicorns"
+#interests:
+#  - name: "Wildlife"
+#    keywords:
+#      - "Ferrets"
+#      - "Unicorns"
 #references:
 #  - name: "Erlich Bachman"
 #    reference: >
