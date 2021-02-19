@@ -68,8 +68,9 @@ $$
 $$
 \begin{aligned}
 &L\left(\theta^{t}\right)=L\left(\theta^{t-1}+\Delta \theta\right) \approx L\left(\theta^{t-1}\right)+L^{\prime\left(\theta^{t-1}\right)}(\Delta \theta)+L^{\prime \prime}\left(\theta^{t-1}\right) \frac{\Delta \theta^{2}}{2}\\
-&\text { 将一阶导, 二阶导记为g, } h->\mathrm{L}\left(\theta^{t}\right) \approx L\left(\theta^{t-1}\right)+g(\Delta \theta)+h \frac{\Delta \theta^{2}}{2}\\
-&\widehat{令} \Delta \theta=-\frac{g}{h} \text { 可让损失函数变小 } \rightarrow \boldsymbol{\theta}^{t}=\boldsymbol{\theta}^{t-1}-\frac{\mathbf{g}}{\mathbf{h}}
+&\text { 将一阶导, 二阶导记为g, } \mathrm{h}->\mathrm{L}\left(\theta^{t}\right) \approx L\left(\theta^{t-1}\right)+g(\Delta \theta)+h \frac{\Delta \theta^{2}}{2}\\
+&\text{令} \Delta \theta=-\frac{g}{h} \text { 可让损失函数变小 }\\
+&\rightarrow \theta^{t}=\theta^{t-1}-\frac{g}{h}
 \end{aligned}
 $$
 - 应用：XGBoost在函数空间中利用牛顿法进行优化，优化的方向是一阶导/二阶导的负方向
