@@ -7,6 +7,7 @@ featured: true
 ---
 ## 机器学习基本问题
 - [机器学习总览](/collection/DS_notes/overview/) 
+- [优化问题和基于梯度的方法](/collection/DS_notes/gradient/) 
 
 ## 监督学习
 - [SVM支持向量机](/collection/DS_notes/SVM/) 
