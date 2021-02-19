@@ -13,7 +13,7 @@ date: 01 July 2020
       - 当目标函数是多元函数时，让目标函数的每一个偏导数为0，求参数
       - 劣：计算量大 / 有时不存在解析解
     2. 基于梯度的方法：常用
-      - 梯度下降法/ 牛顿法：区别在于优化时使用了一阶/二阶泰勒展开
+      - 梯度下降法/ 牛顿法：区别在于优化时使用了几阶导数/泰勒展开
    - 有约束条件的最小化问题： 拉格朗日乘子法
 
 ## 泰勒展开
@@ -39,7 +39,7 @@ $$
   - 沿着负梯度的方向不断迭代-> 不断修正初始参数θ的值
   - 直至走到损失函数的最低点(极小化)
 <br>
-<img src="/assets/img/knowledge/overview/gradient_descent.jpg"  width='60%'/>
+<img src="/assets/img/knowledge/overview/gradient_descent.jpg"  width='80%'/>
 <br><br>
 - 如何求解下一个参数：梯度下降法用到一阶导 ->对损失函数进行一阶泰勒展开，α即步长
   $$
@@ -62,3 +62,14 @@ $$
   - Mini Batch梯度下降：每次选取小批量（batch个）样本计算梯度
     - 优劣：训练过程比较快，也能参数训练的准确率
 - 应用：GBDT（Gradient Boosted Decision Tree） 在函数空间中利用梯度下降法进行优化
+
+## 牛顿法
+- 对损失函数进行二阶泰勒展开，同时用到一阶导和二阶导
+$$
+\begin{aligned}
+&L\left(\theta^{t}\right)=L\left(\theta^{t-1}+\Delta \theta\right) \approx L\left(\theta^{t-1}\right)+L^{\prime\left(\theta^{t-1}\right)}(\Delta \theta)+L^{\prime \prime}\left(\theta^{t-1}\right) \frac{\Delta \theta^{2}}{2}\\
+&\text { 将一阶导, 二阶导记为g, } h->\mathrm{L}\left(\theta^{t}\right) \approx L\left(\theta^{t-1}\right)+g(\Delta \theta)+h \frac{\Delta \theta^{2}}{2}\\
+&\widehat{令} \Delta \theta=-\frac{g}{h} \text { 可让损失函数变小 } \rightarrow \boldsymbol{\theta}^{t}=\boldsymbol{\theta}^{t-1}-\frac{\mathbf{g}}{\mathbf{h}}
+\end{aligned}
+$$
+- XGBoost在函数空间中利用牛顿法进行优化，优化的方向是一阶导/二阶导的负方向
