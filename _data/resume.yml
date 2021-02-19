@@ -3,7 +3,7 @@ basics:
   label: "数据科学家"
   # picture: "/assets/img/avatar_square.jpg"
   email: "chuanlu.chen@gmail.com"
-  phone: "18612084141"
+  #phone: "18612084141"
   website: "https://chuanluchen.github.io/"
   summary: >
     我叫陈传露，目前是一名电影研究者 + 数据科学家。
@@ -13,10 +13,10 @@ basics:
     我擅长逻辑思考，享受顺畅敲打码的乐趣，坚持每天学点新东西。
     <br><br>
     
-    [下载我的简历](/assets/Resume_CHEN, Chuanlu.pdf)
+    [下载我的简历](/assets/Resume_CHEN,Chuanlu.pdf)
 
   location:
-    address: ""
+  address: "5645 Hempstead Rd APT 9"
     postalCode: "15217"
     city: "Pittsburgh"
     countryCode: "US"
@@ -33,19 +33,15 @@ basics:
    #   url: "https://www.hackster.io/nick-engmann"
 work:
   - company: "乐视影业"
-    position: "数据分析经理"
+    position: "数据经理"
     #website: "https://www.circadence.com/"
-    startDate: "2014"
-    #endDate: ""
-    #summary: >
-    #  Working on the Research and Development team at Circadence to provide state of the art technologies for cyber-security penetration testing.
-    
-#     highlights:
-#       - "Responsible for architecting, implementing and testing multiple software and firmware solutions for custom hardware."
-#       - "Utilized Software Defined Radio to spawn a custom 4GLTE Base station. Created an operation GUI for users to forward traffic, track logs and maintain Command and Control channels"
-#       - "Maintains two high quality 3D printers for both rapid design and production"
-#       - "Utilized CAD software to design multiple enclosures for custom hardware solutions."
-#       - "Designed multiple custom PCB solutions utilizing both the ESP32 and ATTiny85 chipset."
+    startDate: "2014-12-01"
+    endDate: "2015-04-01"
+    summary: >
+       - 服务于《太平轮(下)·彼岸》(2015)，《九层妖塔》(2015)等电影项目，通过定性研究和定量调研，对市场策略团队提供决策支持；
+       - 对社交网络进行持续数据追踪，监测观众口碑趋势，评估物料投放效果，分析竞品表现；
+       - 主持焦点小组访谈，参与组织观众试映会，撰写可视化研究报告，向宣发团队提出不限于片名、故事内核、影片调性、物料方向、宣传侧重的操作性建议。
+
 #   - company: "Hackster"
 #     position: "Contributing Freelance Writer"
 #     website: "https://www.hackster.io/nick-engmann/articles"
