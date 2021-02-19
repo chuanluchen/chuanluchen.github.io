@@ -35,13 +35,10 @@ work:
     startDate: "2014-12-01"
     endDate: "2015-04-01"
     summary: >
-      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
-      consistently fielded high Weisman Scores™ that are not merely competitive,
-      but approach the theoretical limit of lossless compression.
+      服务于《太平轮(下)·彼岸》(2015)，《九层妖塔》(2015)等电影项目，通过定性研究和定量调研，对市场策略团队提供决策支持。
     highlights:
-      - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
-      - "Successfully won Techcrunch Disrupt"
-      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+      - "对社交网络进行持续数据追踪，监测观众口碑趋势，评估物料投放效果，分析竞品表现；"
+      - "主持焦点小组访谈，参与组织观众试映会，撰写可视化研究报告，向宣发团队提出不限于片名、故事内核、影片调性、物料方向、宣传侧重的操作性建议。"
    
 #volunteer:
 #  - organization: "CoderDojo"
