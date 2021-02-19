@@ -39,7 +39,7 @@ $$
   - 沿着负梯度的方向不断迭代-> 不断修正初始参数θ的值
   - 直至走到损失函数的最低点(极小化)
 <br>
-<img src="/assets/img/knowledge/overview/gradient_descent.jpg"  width='80%'/>
+<img src="/assets/img/knowledge/overview/gradient_descent.jpg"/>
 <br><br>
 - 如何求解下一个参数：梯度下降法用到一阶导 ->对损失函数进行一阶泰勒展开，α即步长
   $$
