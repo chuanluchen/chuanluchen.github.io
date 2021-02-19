@@ -72,4 +72,4 @@ $$
 &\widehat{令} \Delta \theta=-\frac{g}{h} \text { 可让损失函数变小 } \rightarrow \boldsymbol{\theta}^{t}=\boldsymbol{\theta}^{t-1}-\frac{\mathbf{g}}{\mathbf{h}}
 \end{aligned}
 $$
-- XGBoost在函数空间中利用牛顿法进行优化，优化的方向是一阶导/二阶导的负方向
+- 应用：XGBoost在函数空间中利用牛顿法进行优化，优化的方向是一阶导/二阶导的负方向
