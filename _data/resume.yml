@@ -2,41 +2,38 @@
 # If you don't have a JSON Resume you can just edit this YAML file instead.
 # See also: <https://jsonresume.org/>.
 basics:
-  name: "Richard Hendricks"
-  label: "Programmer"
-  picture: "https://placehold.it/240x240"
-  email: ""
-  phone: "(912) 555-4321"
-  website: "https://piedpiper.com"
+  name: "陈传露"
+  label: "数据科学家"
+  #picture: "https://placehold.it/240x240"
+  email: "chuanlu.chen@gmail.com"
+  #phone: "(912) 555-4321"
+  website: "https://chuanluchen.github.io/"
   summary: >
-    Richard hails from Tulsa.
-    He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!)
-    Before starting Pied Piper, he worked for Hooli as a part time software developer.
-    While his work focuses on applied information theory,
-    mostly optimizing lossless compression schema of both the length-limited and adaptive variants,
-    his non-work interests range widely,
-    everything from quantum computing to chaos theory.
-    He could tell you about it, but THAT would NOT be a “length-limited” conversation!
-    Open `_data/resume.yml` to edit this text.
+    我叫陈传露，目前是一名电影研究者 + 数据科学家。
+    <br><br>
+    曾经我是一位电影人，受过清华大学和纽约大学的学术训练，也有过5年电影制作、市场研究的工作经验。最近的两年，我个人对人工智能技术、数据科学技术产生了极大兴趣。同时， 我意识到这些技术的应用将为我所在的行业带来新的机会。于是，我投入到了这片全新领域的研究获得了第三个硕士学位。
+    <br><br>
+    我擅长逻辑思考，享受顺畅敲打码的乐趣，坚持每天学点新东西。
+    <br><br>
   location:
-    address: "2712 Broadway St"
-    postalCode: "CA 94115"
-    city: "San Francisco"
+    address: "5645 Hempstead Rd APT 9"
+    postalCode: "PA 15217"
+    city: "Pittsburgh"
     countryCode: "US"
-    region: "California"
+    region: "Pennsylvania"
   profiles:
-    - network: "Twitter"
-      username: "RHendricksCEO"
-      url: ""
+    - network: "Github"
+      username: "ChuanluChen"
+      url: "https://github.com/chuanluchen"
     - network: "LinkedIn"
-      username: "Richard Hendricks"
-      url: ""
+      username: "ChuanluChen"
+      url: "https://www.linkedin.com/in/chuanluchen"
 work:
-  - company: "Pied Piper"
-    position: "CEO/President"
+  - company: "乐视影业"
+    position: "数据经理"
     website: "https://piedpiper.com"
-    startDate: "2013-12-01"
-    endDate: ""
+    startDate: "2014-12-01"
+    endDate: "2015-04-01"
     summary: >
       Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
       consistently fielded high Weisman Scores™ that are not merely competitive,
@@ -45,15 +42,28 @@ work:
       - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
       - "Successfully won Techcrunch Disrupt"
       - "Optimized an algorithm that holds the current world record for Weisman Scores"
-volunteer:
-  - organization: "CoderDojo"
-    position: "Teacher"
-    website: "https://coderdojo.com/"
-    startDate: "2012-01-01"
-    endDate: "2013-01-01"
-    summary: "Global movement of free coding clubs for young people."
-    highlights:
-      - "Awarded 'Teacher of the Month'"
+   - company: "文津时代文化创意（北京）股份有限公司"
+      position: "影视部总经理助理"
+      website: "https://piedpiper.com"
+      startDate: "2014-12-01"
+      endDate: "2015-04-01"
+      summary: >
+        Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
+        consistently fielded high Weisman Scores™ that are not merely competitive,
+        but approach the theoretical limit of lossless compression.
+      highlights:
+        - "Built an algorithm for artist to detect if their music was violating copy right infringement laws"
+        - "Successfully won Techcrunch Disrupt"
+        - "Optimized an algorithm that holds the current world record for Weisman Scores"
+#volunteer:
+#  - organization: "CoderDojo"
+#    position: "Teacher"
+#    website: "https://coderdojo.com/"
+#    startDate: "2012-01-01"
+#    endDate: "2013-01-01"
+#    summary: "Global movement of free coding clubs for young people."
+#    highlights:
+#      - "Awarded 'Teacher of the Month'"
 education:
   - institution: "University of Oklahoma"
     area: "Information Technology"
@@ -88,16 +98,16 @@ skills:
       - "Mpeg"
       - "MP4"
       - "GIF"
-languages:
-  - language: "English"
-    fluency: "Native speaker"
+#languages:
+#  - language: "English"
+#    fluency: "Native speaker"
 interests:
   - name: "Wildlife"
     keywords:
       - "Ferrets"
       - "Unicorns"
-references:
-  - name: "Erlich Bachman"
-    reference: >
-      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
-      Company proved that he will be a valuable addition to any company.
+#references:
+#  - name: "Erlich Bachman"
+#    reference: >
+#      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+#      Company proved that he will be a valuable addition to any company.
