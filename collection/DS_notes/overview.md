@@ -38,7 +38,7 @@ date: 01 July 2020
 - 偏差bias:模型预估平均值与真实值的差异
 - 方差variance: 模型预估与其平均值的差异
 <br>
-<img src="/assets/img/knowledge/overview/bias_variance.jpg"/>
+<img src="/assets/img/knowledge/overview/bias_variance.jpg"  width='40%'/>
 <br><br>
 
 ### bias vs. variance trade-off
@@ -46,7 +46,7 @@ date: 01 July 2020
 - 现实中是bias和variance之间的权衡
 - 更应该关注的是目标函数的极值：例如最小化MSE
 <br>
-<img src="/assets/img/knowledge/overview/bias_variance2.jpg"/>
+<img src="/assets/img/knowledge/overview/bias_variance2.jpg" width='40%'/>
 <br><br>
 
 ### 偏差bias的两种衡量方式
