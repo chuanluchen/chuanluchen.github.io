@@ -3,25 +3,19 @@ basics:
   label: "数据科学家"
   # picture: "/assets/img/avatar_square.jpg"
   email: "chuanlu.chen@gmail.com"
-  #phone: "(214) 316-0638"
+  phone: "+86-18612084141"
   website: "https://chuanluchen.github.io/"
-  summary: #>
-    #I'm an aspiring inventor who seeks to learn something new every day. 
-    #I graduated the University of Texas at Austin Spring of 2016 with a bachelors in Integrated Circuits and Computer Engineering and a minor in Government. <br><br>
-
-
-    #My interests include robotics, cyber-security, internet of things technology, defense, consulting, app development, and event organizing. 
-    #However, the list of all my passions extends much further.<br><br>
-
-    #My dream job is to obtain a position where I can create new things to help better all the individuals around me. 
-    #If you're interested in someone with my skill-set, or would like to discuss something tech. related feel free to reach out.<br><br> 
-    #I'd love to talk.
+  summary: >
+  我叫陈传露，目前是一名电影研究者 + 数据科学家。<br>
+  曾经我是一位电影人，受过清华大学和纽约大学的学术训练，也有过5年电影制作、市场研究的工作经验。最近的两年，我个人对人工智能技术、数据科学技术产生了极大兴趣。
+  同时， 我意识到这些技术的应用将为我所在的行业带来新的机会。于是，我投入到了这片全新领域的研究获得了第三个硕士学位。<br>
+  我擅长逻辑思考，享受顺畅敲打码的乐趣，坚持每天学点新东西。
     <br><br>
     
-    #[Download my Resume here](/assets/Resume.pdf)
+    [Download my Resume here](/assets/Resume.pdf)
 
   location:
-    address: ""
+    address: "5645 Hempstead Rd APT 9"
     postalCode: "15217"
     city: "Pittsburgh"
     countryCode: "US"
@@ -38,25 +32,32 @@ basics:
    #   url: "https://www.hackster.io/nick-engmann"
 work:
   - company: "乐视影业"
-    position: "数据分析经理"
+    position: "数据经理"
     #website: "https://www.circadence.com/"
     startDate: "2014"
-    #endDate: ""
-    #summary: >
-    #  Working on the Research and Development team at Circadence to provide state of the art technologies for cyber-security penetration testing.
-    
-#     highlights:
-#       - "Responsible for architecting, implementing and testing multiple software and firmware solutions for custom hardware."
-#       - "Utilized Software Defined Radio to spawn a custom 4GLTE Base station. Created an operation GUI for users to forward traffic, track logs and maintain Command and Control channels"
-#       - "Maintains two high quality 3D printers for both rapid design and production"
-#       - "Utilized CAD software to design multiple enclosures for custom hardware solutions."
-#       - "Designed multiple custom PCB solutions utilizing both the ESP32 and ATTiny85 chipset."
-#   - company: "Hackster"
-#     position: "Contributing Freelance Writer"
+    endDate: "2015"
+    summary: >
+    服务于《太平轮(下)·彼岸》(2015)，《九层妖塔》(2015)等电影项目，通过定性研究和定量调研，对市场策略团队提供决策支持；<br>
+    对社交网络进行持续数据追踪，监测观众口碑趋势，评估物料投放效果，分析竞品表现；<br>
+    主持焦点小组访谈，参与组织观众试映会，撰写可视化研究报告，向宣发团队提出不限于片名、故事内核、影片调性、物料方向、宣传侧重的操作性建议。
+
+   - company: "文津时代文化创意（北京）股份有限公司"
+     position: "影视部总经理助理"
 #     website: "https://www.hackster.io/nick-engmann/articles"
-#     startDate: "2019-07-15"
-#     endDate: "2020-02-15"
-#     summary: >
+     startDate: "2011"
+     endDate: "2014"
+     summary: >
+     **电影《无问西东》    制片人助理/商业分析**
+    - 负责用户行为和市场需求研究，主导影片市场调研的招标和框架设计，对接乙方开展定性挖掘(5城市12组座谈)和定量问卷调查（8城市1200问卷），用于锁定目标观众群，验证影片定位和测试片名接受度；
+    - 协助制片人进行日常剧组管理，参与指定和维护影片拍摄排期及预算计划；
+    - 协助制片人推进投资和商务合作谈判，分析市场需求和预期收益，产出可视化研究报告；
+    - 协助宣发策略的指定和落地，统筹宣发物料的制作和发布，作为主要负责人推进2次新闻发布会的实施。
+
+    **独立纪录电影《飞鱼秀》    制片人**
+    - 带领团队制作关于中国国际广播电台《飞鱼秀》节目的纪录电影，2014年10月23日院线上映21天；
+    - 负责拍摄制作流程把控、立项审批备案、商业方案与宣传文案制定、首映及上映活动统筹等工作；
+    - 创造此前中国独立纪录电影最高票房,及单银幕最高上座率。
+
 #       Researched and covered different technologies that interest the readership.
 #     highlights:
 #       - "Curated 13 different articles, with concepts ranging from green energy technologies to hardware cybersecurity solutions."
@@ -95,22 +96,27 @@ work:
 #       - "Regular public speaking experience in front of 500+ people"
 #       - "Presentations involve communicating technical topics to audience of varying skill levels."
 #       - "Teach developers how to solve a wide variety of programming challenges and actively help them debug problems across a variety of languages & platforms."
-# education:
-#   - institution: "University of Texas - Austin"
-#     area: "Electrical Engineering & Government"
-#     studyType: "Bachelor"
-#     startDate: "2011-06-01"
-#     endDate: "2016-06-01"
-#   - institution: "Universidad de Cantabria"
-#     area: "Spanish"
-#     studyType: "Exchange Student"
-#     startDate: "2014-06-01"
-#     endDate: "2014-12-01"
-#   - institution: "YCombinator"
-#     area: "Startup School"
-#     studyType: "Founder"
-#     startDate: "2018-07-30"
-#     endDate: "2018-12-01"
+ education:
+   - institution: "匹兹堡大学  计算机与信息学院"
+     area: "数据科学"
+     studyType: "工学硕士"
+     startDate: "2019"
+     endDate: "2021"
+   - institution: "纽约大学  电影学院"
+     area: "电影研究"
+     studyType: "文学硕士"
+     startDate: "2015"
+     endDate: "2017"
+   - institution: "清华大学  新闻与传播学院"
+     area: "影视传播研究"
+     studyType: "文学硕士"
+     startDate: "2008"
+     endDate: "2011"
+   - institution: "复旦大学  新闻学院"
+     area: "新闻学"
+     studyType: "文学学士"
+     startDate: "2004"
+     endDate: "2008"
 # awards:
 #   - title: "Startup School"
 #     date: "2018-09-01"
@@ -138,22 +144,27 @@ work:
 #     releaseDate: "2018-05-08"
 #     website: "https://hackaday.com/2018/05/08/alexa-attack-intruders/"
 #     summary: "Designed an Alexa activated Nerf Turret home defense system."
-# skills:
-#   - name: "Web Development"
-#     level: "Master"
-#     keywords:
-#       - "HTML"
-#       - "CSS"
-#       - "Javascript"
-#       - "Python"
-#   - name: "Systems Engineering"
-#     level: "Master"
-#     keywords:
-#       - "Electrical"
-#       - "Mechanical"
-#       - "OpenSCAD"
-#       - "IoT"
-#       - "Hardware"
+skills:
+   - 深入掌握数据挖掘和机器学习算法，了解神经网络深度学习算法
+   - 熟练使用Python，了解Java / R语言的使用
+   - 熟悉MySQL的使用，了解NoSQL数据库MongoDB / Neo4j的使用
+   - 熟练使用Tableau / Python Seaborn / Plotly / Plotly Dash等可视化及仪表盘工具
+   - 有在Microsoft Azure大数据平台使用Spark处理数十亿级数据的经验
+   - 拥有扎实的影响传播理论基础，影视制作和行业研究经历，具备传统市场调研经验
+     level: "Master"
+     keywords:
+       - "HTML"
+       - "CSS"
+       - "Javascript"
+       - "Python"
+   - name: "Systems Engineering"
+     level: "Master"
+     keywords:
+       - "Electrical"
+       - "Mechanical"
+       - "OpenSCAD"
+       - "IoT"
+       - "Hardware"
 # languages:
 #   - language: "Python"
 #     fluency: "Native speaker"
@@ -165,17 +176,17 @@ work:
 #     fluency: "professional-working-proficiency"
 #   - language: "Spanish"
 #     fluency: "limited-working-proficiency"
-# interests:
-#   - name: "Cyber-Security"
-#     keywords:
-#       - "Physical Security"
-#       - "Close Access Technology"
-#   - name: "Internet of Things"
-#     keywords:
-#       - "Wireless Embeded Technology"
-#       - "NFC"
-#       - "4G-LTE"
-#       - "5G"
+ interests:
+   - name: "Cyber-Security"
+     keywords:
+       - "Physical Security"
+       - "Close Access Technology"
+   - name: "Internet of Things"
+     keywords:
+       - "Wireless Embeded Technology"
+       - "NFC"
+       - "4G-LTE"
+       - "5G"
 # references:
 #   - name: "Erlich Bachman"
 #     reference: >
