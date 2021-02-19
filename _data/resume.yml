@@ -45,11 +45,11 @@ work:
 #       - "Maintains two high quality 3D printers for both rapid design and production"
 #       - "Utilized CAD software to design multiple enclosures for custom hardware solutions."
 #       - "Designed multiple custom PCB solutions utilizing both the ESP32 and ATTiny85 chipset."
-#   - company: "Hackster"
-#     position: "Contributing Freelance Writer"
+   - company: "Hackster"
+     position: "Contributing Freelance Writer"
 #     website: "https://www.hackster.io/nick-engmann/articles"
-#     startDate: "2019-07-15"
-#     endDate: "2020-02-15"
+     startDate: "2019-07-15"
+     endDate: "2020-02-15"
 #     summary: >
 #       Researched and covered different technologies that interest the readership.
 #     highlights:
