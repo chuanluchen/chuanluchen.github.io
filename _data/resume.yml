@@ -34,17 +34,17 @@ work:
   - company: "乐视影业"
     position: "数据经理"
     #website: "https://www.circadence.com/"
-    startDate: "2014"
-    endDate: "2015"
-    #summary: >
-    #  Working on the Research and Development team at Circadence to provide state of the art technologies for cyber-security penetration testing.
+    startDate: "2014-12-01"
+    endDate: "2015-04-30"
+    summary: >
+      Working on the Research and Development team at Circadence to provide state of the art technologies for cyber-security penetration testing.
     
-#     highlights:
-#       - "Responsible for architecting, implementing and testing multiple software and firmware solutions for custom hardware."
-#       - "Utilized Software Defined Radio to spawn a custom 4GLTE Base station. Created an operation GUI for users to forward traffic, track logs and maintain Command and Control channels"
-#       - "Maintains two high quality 3D printers for both rapid design and production"
-#       - "Utilized CAD software to design multiple enclosures for custom hardware solutions."
-#       - "Designed multiple custom PCB solutions utilizing both the ESP32 and ATTiny85 chipset."
+     highlights:
+       - "Responsible for architecting, implementing and testing multiple software and firmware solutions for custom hardware."
+       - "Utilized Software Defined Radio to spawn a custom 4GLTE Base station. Created an operation GUI for users to forward traffic, track logs and maintain Command and Control channels"
+       - "Maintains two high quality 3D printers for both rapid design and production"
+       - "Utilized CAD software to design multiple enclosures for custom hardware solutions."
+       - "Designed multiple custom PCB solutions utilizing both the ESP32 and ATTiny85 chipset."
 #   - company: "Hackster"
 #     position: "Contributing Freelance Writer"
 #     website: "https://www.hackster.io/nick-engmann/articles"
