@@ -18,12 +18,11 @@ date: 01 July 2020
 
 ## 泰勒展开
 - 泰勒展开：用函数在某点上的取值来逼近附近取值，展开越多越接近
-  - $f(x)=\sum_{n=0}^{\infty} \frac{f^{(n)}\left(x_{0}\right)}{n !}\left(x-x_{0}\right)^{n}$
-  - 一阶泰勒展开： $$f(x) \approx f\left(x_{0}\right)+f^{\prime}\left(x_{0}\right)\left(x-x_{0}\right)$$
+  $$f(x)=\sum_{n=0}^{\infty} \frac{f^{(n)}\left(x_{0}\right)}{n !}\left(x-x_{0}\right)^{n}$$
+  - 一阶泰勒展开： $f(x) \approx f\left(x_{0}\right)+f^{\prime}\left(x_{0}\right)\left(x-x_{0}\right)$ 
   - 二阶泰勒展开： $f(x) \approx f\left(x_{0}\right)+f^{\prime}\left(x_{0}\right)\left(x-x_{0}\right)+f^{\prime \prime}\left(x_{0}\right) \frac{\left(x-x_{0}\right)^{2}}{2}$
   - n阶泰勒展开： $f(x)=f\left(x_{0}\right)+f^{\prime}\left(x_{0}\right)\left(x-x_{0}\right)+\frac{f^{\prime \prime}\left(x_{0}\right)}{2 !}\left(x-x_{0}\right)^{2}+\cdots+\frac{f^{(n)}\left(x_{0}\right)}{n !}\left(x-x_{0}\right)^{n}+R_{n}(x)$
-- 泰勒展开在GBDT上的应用：参数迭代或模型迭代
-  - 用前一个参数值来推测下一个参数值的结果
+- 泰勒展开在GBDT上的应用：参数迭代或模型迭代,用前一个参数值来推测下一个参数值的结果
   
 $$
 \begin{aligned}
