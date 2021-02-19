@@ -36,8 +36,8 @@ work:
     #website: "https://www.circadence.com/"
     startDate: "2014-12-01"
     endDate: "2015-04-30"
-    summary: >
-      Working on the Research and Development team at Circadence to provide state of the art technologies for cyber-security penetration testing.
+#    summary: >
+#      Working on the Research and Development team at Circadence to provide state of the art technologies for cyber-security penetration testing.
     
 #     highlights:
 #       - "Responsible for architecting, implementing and testing multiple software and firmware solutions for custom hardware."
@@ -50,10 +50,10 @@ work:
 #     website: "https://www.hackster.io/nick-engmann/articles"
 #     startDate: "2019-07-15"
 #     endDate: "2020-02-15"
-     summary: >
-       Researched and covered different technologies that interest the readership.
-     highlights:
-       - "Curated 13 different articles, with concepts ranging from green energy technologies to hardware cybersecurity solutions."
+#     summary: >
+#       Researched and covered different technologies that interest the readership.
+#     highlights:
+#       - "Curated 13 different articles, with concepts ranging from green energy technologies to hardware cybersecurity solutions."
 #   - company: "Flashcards for Developers"
 #     position: "Co-Founder"
 #     website: "https://www.flashcardsfordevelopers.com/"
