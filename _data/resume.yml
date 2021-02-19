@@ -15,12 +15,14 @@ basics:
     <br><br>
     我擅长逻辑思考，享受顺畅敲打码的乐趣，坚持每天学点新东西。
     <br><br>
-  location:
-    address: "5645 Hempstead Rd APT 9"
-    postalCode: "PA 15217"
-    city: "Pittsburgh"
-    countryCode: "US"
-    region: "Pennsylvania"
+    
+    [下载我的简历](/assets/Resume_CHEN,Chuanlu.pdf)
+#  location:
+#    address: "5645 Hempstead Rd APT 9"
+#    postalCode: "PA 15217"
+#    city: "Pittsburgh"
+#    countryCode: "US"
+#    region: "Pennsylvania"
   profiles:
     - network: "Github"
       username: "ChuanluChen"
@@ -72,24 +74,22 @@ education:
 #    courses:
 #      - "DB1101 - Basic SQL"
 #      - "CS2011 - Java Introduction"
-  - institution: "匹兹堡大学  计算机与信息学院"
-    area: "数据科学"
-    studyType: "工学硕士"
-    startDate: "2019-01-01"
-    endDate: "2021-01-01"
+
   - institution: "纽约大学  电影学院"
     area: "电影研究"
     studyType: "文学硕士"
     startDate: "2015-09-01"
     endDate: "2017-01-01"
+    
   - institution: "清华大学  新闻与传播学院"
     area: "影视传播研究"
     studyType: "文学硕士"
     startDate: "2008-09-01"
     endDate: "2011-07-01"
+    
   - institution: "复旦大学  新闻学院"
     area: "新闻学"
-    studyType: "文学硕士"
+    studyType: "文学学士"
     startDate: "2004-09-01"
     endDate: "2008-07-01"
 #awards:
