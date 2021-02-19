@@ -5,20 +5,20 @@ basics:
   email: "chuanlu.chen@gmail.com"
   #phone: "(214) 316-0638"
   website: "https://chuanluchen.github.io/"
-  summary: #>
-    #I'm an aspiring inventor who seeks to learn something new every day. 
-    #I graduated the University of Texas at Austin Spring of 2016 with a bachelors in Integrated Circuits and Computer Engineering and a minor in Government. <br><br>
+  summary: >
+    I'm an aspiring inventor who seeks to learn something new every day. 
+    I graduated the University of Texas at Austin Spring of 2016 with a bachelors in Integrated Circuits and Computer Engineering and a minor in Government. <br><br>
 
 
-    #My interests include robotics, cyber-security, internet of things technology, defense, consulting, app development, and event organizing. 
+    My interests include robotics, cyber-security, internet of things technology, defense, consulting, app development, and event organizing. 
     #However, the list of all my passions extends much further.<br><br>
 
-    #My dream job is to obtain a position where I can create new things to help better all the individuals around me. 
-    #If you're interested in someone with my skill-set, or would like to discuss something tech. related feel free to reach out.<br><br> 
-    #I'd love to talk.
+    My dream job is to obtain a position where I can create new things to help better all the individuals around me. 
+    If you're interested in someone with my skill-set, or would like to discuss something tech. related feel free to reach out.<br><br> 
+    I'd love to talk.
     <br><br>
     
-    #[Download my Resume here](/assets/Resume.pdf)
+    [Download my Resume here](/assets/Resume.pdf)
 
   location:
     address: ""
