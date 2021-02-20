@@ -11,6 +11,8 @@ featured: true
 
 ## 模型的评估与调优
 - [欠拟合过拟合](/collection/DS_notes/underfitting_overfitting/) 
+- [交叉验证](/collection/DS_notes/cross_validation/) 
+
 
 ## 监督学习
 - [SVM支持向量机](/collection/DS_notes/SVM/) 
