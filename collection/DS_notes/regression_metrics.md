@@ -4,7 +4,7 @@ title: '回归问题评估指标'
 date: 01 July 2020
 ---
 ## 均方差MSE
-- $\mathrm{MSE}=\frac{1}{n} \sum_{i=1}^{n}\left(\widehat{y_{i}}-y_{i}\right)^{2}$
+- $$\mathrm{MSE}=\frac{1}{n} \sum_{i=1}^{n}\left(\widehat{y_{i}}-y_{i}\right)^{2}$$
 - 预测值和真实值之间误差的平方和的平均，越低越好
 - 误差之间权重不同：误差大权重大
 
