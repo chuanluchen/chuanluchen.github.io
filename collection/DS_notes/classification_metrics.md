@@ -9,7 +9,7 @@ date: 01 July 2020
 <br><br>
 
 ## Accuracy + Error rate = 1
-- Accuracy $=\frac{T P+T N}{T P+F P+F N+T N}$
+- Accuracy $$=\frac{T P+T N}{T P+F P+F N+T N}$$
 - Error rate = 1 - Accuracy
 
 ## Precision & Recall
