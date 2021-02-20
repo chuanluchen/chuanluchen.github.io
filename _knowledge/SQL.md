@@ -18,7 +18,7 @@ from Person as P Left join Address as A
 on p.PersonId = A.PersonId
 ~~~
 
-### 176. Second Highest Salary👀
+### 176. Second Highest Salary
 - 先查询出最高的工资，然后查询身高小于该值的最高工资
 - 直接使用order...limit 1 offset 无法handle Null和并列第一的情况
 ~~~sql
@@ -45,7 +45,7 @@ on a.ManagerId = b.Id
 and a.Salary > b.Salary
 ~~~
 
-### 182. Duplicate Emails👀
+### 182. Duplicate Emails
 - 找重复字段，group by, + having count > 1
 ~~~sql
 select Email 
@@ -660,7 +660,7 @@ and a.student_id <>  c.student_id
 
 
 ## Medium
-### 177. Nth Highest Salary👀
+### 177. Nth Highest Salary
 - 传入的参数要更改必须要事先SET...;
 - limit xx, offset xx
 - distinct可返回Null
@@ -1296,7 +1296,7 @@ group by sale_date
 order by sale_date
 ~~~
 
-### 1454. Active Users👀
+### 1454. Active Users
 - 使用dense_rank()针对每个id的login_date排名 -> 连续的情形下：login_date - rank值是一样的
 - group by ID，login_date - rank -> 找count>=5的人
 - 注意count日期要用distinct避免重复日期
