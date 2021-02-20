@@ -658,6 +658,42 @@ and b.student_id <>  c.student_id
 and a.student_id <>  c.student_id
 ~~~
 
+### 1729. Find Followers Count
+
+~~~ sql
+select user_id, count(follower_id) as followers_count
+from Followers
+group by user_id
+order by user_id
+~~~
+
+
+### 1731. The Number of Employees Which Report to Each Employee
+
+~~~ sql
+select m.employee_id, m.name, count(e.employee_id) as reports_count, round(avg(e.age),0) as average_age
+from Employees e join Employees m
+on e.reports_to = m.employee_id
+group by m.employee_id
+order by employee_id
+~~~
+
+
+### 1757. Recyclable and Low Fat Products
+
+~~~ sql
+select product_id
+from Products
+where low_fats='Y' and recyclable='Y'
+~~~
+
+### 1741. Find Total Time Spent by Each Employee
+
+~~~ sql
+select event_day as day, emp_id, sum(out_time-in_time) as total_time
+from Employees
+group by day, emp_id
+~~~
 
 ## Medium
 ### 177. Nth Highest Salary
@@ -1454,6 +1490,16 @@ from cte
 where value not in
     (select customer_id from Customers)
 and value < (select max(customer_id) from Customers)
+~~~
+
+### 1747. Leetflex Banned Accounts
+
+~~~sql
+select distinct a.account_id
+from LogInfo a, LogInfo b
+where a.account_id = b.account_id
+and a.ip_address != b.ip_address
+and b.login between a.login and a.logout
 ~~~
 
 ## Hard
