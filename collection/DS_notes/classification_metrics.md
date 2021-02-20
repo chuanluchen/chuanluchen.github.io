@@ -21,14 +21,12 @@ date: 01 July 2020
 ## Sensitivity & Specificity
 - Sensitivity=True positive rate = Recall:  所有真实正例中有多少通过预测找回来了
 - Specificity: 所有反例中有多少通过预测找到
-  - $$\frac{T N}{T N+F P}=\frac{T N}{N}$$
+  - Specificity = $$\frac{T N}{T N+F P}=\frac{T N}{N}$$
   - False positive rate = 1 - specificity
 
 ## F1 score  & Fβ score
-- Fβ值/Fβ score：查准率和查全率哪个更重要, 对precision & recall加权平均
-  - $$F \beta=\frac{\left(1+\beta^{2}\right) \times \text { Precisoin } \times \text { Recall }}{\left(\beta^{2} \times \text { Precision }\right)+\text { Recall }}$$
-- β = 1 -> F1 score: precision和 recall的调和平均
-  - $$F 1=\frac{2 \times \text { Precisoin } \times \text { Recall }}{\text { Precision }+\text { Recall }}$$ 
+- Fβ值/Fβ score：查准率和查全率哪个更重要, 对precision & recall加权平均  $$F \beta=\frac{\left(1+\beta^{2}\right) \times \text { Precisoin } \times \text { Recall }}{\left(\beta^{2} \times \text { Precision }\right)+\text { Recall }}$$
+- β = 1 -> F1 score: precision和 recall的调和平均 $$F 1=\frac{2 \times \text { Precisoin } \times \text { Recall }}{\text { Precision }+\text { Recall }}$$ 
 
 ## ROC & AUC
 - ROC curve：在不同threshold[1 ->0]下，true positive rate（sensitivity） vs. false positive rate(1- specificity) 的曲线
