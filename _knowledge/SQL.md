@@ -682,6 +682,7 @@ END
 - 一个分数的名次：就是表中>=这个分数的数量
 - 对自己的表：找>=当前分数的分数，count之
 - window funciton: dense_rank()
+
 ~~~sql
 select s.Score,
     (select count(distinct t.Score) 
@@ -699,6 +700,7 @@ order by Score desc
 
 ### 180. Consecutive Numbers
 - 自连接3遍：找数字一致，id连续的
+
 ~~~sql
 select distinct a.Num as ConsecutiveNums
 from Logs a 
