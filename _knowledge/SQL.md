@@ -1485,7 +1485,7 @@ with temp as
      where Role='client' and Banned='Yes'
     )
  and Driver_id not in
-     (select Driver_Id from Users 
+     (select Users_Id from Users 
      where Role='driver' and Banned='Yes'
     )
  and Request_at between '2013-10-01' and '2013-10-03'
