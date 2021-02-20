@@ -9,7 +9,7 @@ date: 01 July 2020
 - 误差之间权重不同：误差大权重大
 
 ## 平均绝对误差 MAE
-- 公式：$$\mathrm{MAE}=\frac{1}{n} \sum_{i=1}^{n}\left|y_{i}-\hat{y}_{i}\right|$$ 
+- 公式：$\mathrm{MAE}=\frac{1}{n} \sum^{n}\left|y_{i}-\hat{y}_{i}\right|$
 - 预测值和真实值之间误差的绝对值的平均， 越低越好
 - 误差权重一致
 
