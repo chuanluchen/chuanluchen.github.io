@@ -17,11 +17,11 @@ screenshot: /assets/img/projects/code/code.jpg
   - [136-Single Number](/collection/leetcodes/136_SingleNumber/) 
   - [389-Find The Difference](/collection/leetcodes/389_FindTheDifference/) 
   - [268-Missing Number](/collection/leetcodes/268_MissingNumber/) 
+  - [89-Gray Code](/collection/leetcodes/89_GrayCode/) 
 - 与 
   - [231-Power Of Two](/collection/leetcodes/231_PowerOfTwo/) 
   - [191-Number Of 1 Bits](/collection/leetcodes/191_NumberOf1Bits/) 
   - [190-Reverse Bits](/collection/leetcodes/190_ReverseBits/) 
-  - [89-Gray Code](/collection/leetcodes/89_GrayCode/) 
   
 ### 数学题
 - 数位反转
