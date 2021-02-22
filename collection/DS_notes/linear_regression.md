@@ -27,7 +27,7 @@ date: 01 July 2020
 
 ### 方法2：使用梯度下降法找到全局最低点
 $$
-\boldsymbol{\theta}^{t}=\boldsymbol{\theta}^{t-1}-\alpha L^{\prime}\left(\theta^{t-1}\right)
+{\theta}^{t}={\theta}^{t-1}-\alpha L^{\prime}\left(\theta^{t-1}\right)
 $$
 - 梯度下降：损失函数针对参数迭代求导 -> 得到梯度方向，沿着负梯度的方向做迭代，直到最低点
 - 学习率问题：迭代过程中学习率决定迭代步子的大小：α过大->找不到最低点，甚至无法收敛； α太小，收敛太慢
