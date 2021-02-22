@@ -7,6 +7,7 @@ screenshot: /assets/img/projects/code/SQL.jpg
 
 - [Easy](#Easy)
 - [Medium](#Medium)
+- [Hard](#Hard)
 {:toc}
 
 ## Easy
@@ -656,6 +657,24 @@ and  a.student_name <> c.student_name
 and a.student_id <>  b.student_id
 and b.student_id <>  c.student_id
 and a.student_id <>  c.student_id
+~~~
+
+### 1683. Invalid Tweets
+- char_length: return charater length of a string
+
+~~~ sql
+select tweet_id
+from Tweets
+where char_length(content) >15
+~~~
+
+### 1693. Daily Leads and Partners
+~~~sql
+select date_id, make_name,
+count(distinct lead_id) as unique_leads,
+count(distinct partner_id) as unique_partners
+from DailySales
+group by date_id, make_name
 ~~~
 
 ### 1729. Find Followers Count
@@ -1490,6 +1509,51 @@ from cte
 where value not in
     (select customer_id from Customers)
 and value < (select max(customer_id) from Customers)
+~~~
+
+
+
+### 1699. Number of Calls Between Two Persons
+
+~~~sql
+with temp as (
+    select 
+    case when from_id < to_id then from_id else to_id end as person1,
+    case when from_id < to_id then to_id else from_id end as person2,
+    duration
+    from Calls
+)
+
+select person1, person2, count(*) as call_count, sum(duration) as total_duration
+from temp
+group by person1,person2
+~~~
+
+### 1709. Biggest Window Between Visits
+- lead function找window
+
+~~~ sql
+with temp as (
+select
+user_id,
+abs(datediff(visit_date, 
+             ifnull( lead(visit_date) over(partition by user_id order by visit_date), '2021-1-1'))) as visit_window
+from UserVisits 
+)
+
+select user_id, max(visit_window) as biggest_window
+from temp
+group by user_id
+order by user_id
+~~~
+
+### 1715. Count Apples and Oranges
+
+~~~ sql
+select sum(b.apple_count + ifnull(c.apple_count,0)) as apple_count,
+sum(b.orange_count + ifnull(c.orange_count,0)) as orange_count
+from Boxes b left join Chests c
+on b.chest_id = c.chest_id
 ~~~
 
 ### 1747. Leetflex Banned Accounts
