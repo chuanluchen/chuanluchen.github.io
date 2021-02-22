@@ -15,6 +15,9 @@ featured: true
 - [回归问题评估指标](/collection/DS_notes/regression_metrics/)
 - [分类问题评估指标](/collection/DS_notes/classification_metrics/)  
 
+## 特征工程
+- [特征工程](/collection/DS_notes/feature_engineering/)
+- [特征缩放](/collection/DS_notes/scaling/)
 
 ## 监督学习
 - [SVM支持向量机](/collection/DS_notes/SVM/) 
