@@ -21,6 +21,7 @@ featured: true
 - [特征稀疏性](/collection/DS_notes/sparse_features/)
 
 ## 监督学习
+- [线性回归](/collection/DS_notes/linear_regression/) 
 - [SVM支持向量机](/collection/DS_notes/SVM/) 
 - [Naive Bayes朴素贝叶斯](/collection/DS_notes/Naive_Bayes/) 
 - [Decision Tree决策树](/collection/DS_notes/Decision_Tree/) 
