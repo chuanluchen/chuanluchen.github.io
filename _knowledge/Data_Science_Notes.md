@@ -18,6 +18,7 @@ featured: true
 ## 特征工程
 - [特征工程](/collection/DS_notes/feature_engineering/)
 - [特征缩放](/collection/DS_notes/scaling/)
+- [特征稀疏性](/collection/DS_notes/sparse_features/)
 
 ## 监督学习
 - [SVM支持向量机](/collection/DS_notes/SVM/) 
