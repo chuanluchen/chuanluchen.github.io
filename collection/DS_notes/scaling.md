@@ -27,6 +27,8 @@ date: 01 July 2020
 - 根据百分位信息对数据进行缩放，保留数据排序信息，不受极值影响
 
 ## 标准化与归一化：常被误用
-- 标准化【通常指z-score normalization】：将原数据映射到均值为0，标准差为1的分布上
-- 归一化【通常指min-max normalization】：将变量转换到一定范围[0,1] or [-1,1]
+- 标准化 Standardization
+ -【通常指z-score normalization】：将原数据映射到均值为0，标准差为1的分布上
+- 归一化 Normalization
+ -【通常指min-max normalization】：将变量转换到一定范围[0,1] or [-1,1]
 
