@@ -23,7 +23,7 @@ hide_image: false
 
 表1 美国电影发行数量2000-2009（单位：部)<sup id="a1">[1](#f1)</sup>
 
-<img src="/assets/img/blog/indiewood/chart1.jpg" />
+<img src="/assets/img/blog/indiewood/chart1.jpg" width ='80%'/>
 <br><br>
 
 
@@ -57,7 +57,7 @@ hide_image: false
 
 表2  好莱坞大制片厂旗下的附属公司
 
-<img src="/assets/img/blog/indiewood/chart2.jpg" />
+<img src="/assets/img/blog/indiewood/chart2.jpg" width ='80%' />
 <br><br>
 
 独立附属公司是好莱坞下属的一个相对独立的实体。这些独立附属公司通常由有着多年独立电影制片发行经验的权力人物来掌管，如米拉麦克斯在1993年至2005年间由其创始人温斯坦兄弟（Bob Weinstein and Harvey Weinstein）经营，焦点电影由开创好机器（Good Machine）的詹姆斯·萨默斯（James Schamus）掌权。
