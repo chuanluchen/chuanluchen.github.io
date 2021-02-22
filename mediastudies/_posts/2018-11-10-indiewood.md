@@ -126,25 +126,15 @@ hide_image: false
 ## Notes
 
 <b id="f1">1</b> 数据来源于MPAA出具的《2009年美国电影市场报告》 [↩](#a1)<br>
-
 <b id="f2">2</b> King G. 2009. Indiewood, USA: Where Hollywood Meets Independent Cinema. London; New York: I.B. Tauris. 1.[↩](#a2)<br>
-
 <b id="f3">3</b> 余荽. 2008. 美国电影的新阶段. 电影世界. 3:52.[↩](#a3)<br>
-
 <b id="f4">4</b> 海盗王. 2008. 独立坞产品生产备忘录小电影走向成功. 电影世界, 6:54-59.[↩](#a4)<br>
-
 <b id="f5">5</b> King G. 2009. Indiewood, USA: Where Hollywood Meets Independent Cinema. London; New York: I.B. Tauris.1.[↩](#a5)<br>
-
 <b id="f6">6</b> Connell R. 2005. Globalization, Imperialism and Masculinities. Handbook of studies on men and masculinities. US: Sage Publications. 71-128.Gans P. Popular Culture and High Culture: An Analysis and Evaluation of Taste. Basic Books. 150.[↩](#a6)<br>
-
 <b id="f7">7</b> 林怡伶. 1996. 复制或原真？主流与非主流流行音乐之事实与迷思. 中外文学, 25(2):11.[↩](#a7)<br>
-
 <b id="f8">8</b> 周黎明. 2005. 好莱坞启示录. 上海：复旦大学出版社. 60.[↩](#a8)<br>
-
 <b id="f9">9</b> 理查德•麦特白. 2005. 好莱坞电影—1891年以来的美国电影工业发展史. 吴着 等, 译. 北京:华夏出版社. 204.[↩](#a9)<br>
-
 <b id="f10">10</b> Mottram J, 2006. Sundance Kids: How the Mavericks Took Back Hollywood. New York: Faber and Faber.178.[↩](#a10)<br>
-
 <b id="f11">11</b> King G. 2009. Indiewood, USA: Where Hollywood Meets Independent Cinema. London; New York: I.B. Tauris. 1.[↩](#a11)<br>
 
 ## References
