@@ -658,6 +658,33 @@ and a.student_id <>  b.student_id
 and b.student_id <>  c.student_id
 and a.student_id <>  c.student_id
 ~~~
+### 1661. Average Time of Process per Machine
+
+~~~sql
+select machine_id,
+round(sum(if(activity_type ='start', -timestamp, timestamp))/ count(distinct process_id) ,3) as processing_time
+from Activity
+group by machine_id
+~~~
+
+### 1667. Fix Names in a Table
+
+~~~ sql
+select user_id, 
+concat(upper(substring(name, 1, 1)),lower(substring(name, 2))) as name
+from Users
+order by user_id
+~~~
+
+### 1677. Product's Worth Over Invoices
+
+~~~sql
+select p.name, sum(i.rest) as rest, sum(i.paid) as paid, sum(i.canceled) as canceled, sum(i.refunded) as refunded
+from Product p join Invoice i
+on p.product_id = i.product_id
+group by i.product_id
+order by p.name
+~~~
 
 ### 1683. Invalid Tweets
 - char_length: return charater length of a string
