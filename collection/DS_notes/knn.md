@@ -15,10 +15,6 @@ date: 01 July 2020
 - 用近距离的neighbor的分类来预测当前点的类别
 - 对于给定K,和当前observation x: KNN从训练集中寻找最接近x的K个样本，由他们投票决定x的分类
 
-<br>
-<img src="/assets/img/knowledge/logistic_regression/logistic_regression.jpg"  width='70%'/>
-<br><br>
-
 ## 操作事项
 - 特征需要实现standardize / scale
 - 尝试不同的距离/相似性算法：默认使用欧式距离
