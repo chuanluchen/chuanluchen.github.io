@@ -20,7 +20,7 @@ date: 01 July 2020
 ### K-means algorithm【聚类中心不一定在数据集中】
 - 初始化：划分K个集群，任意选取K个质心
 - 迭代直至收敛
-  - 重分配【把点分配给中心点】：将每一个数据点分配到距离（L2距离函数）最近的中心，即生成K个新集群
+  	- 重分配【把点分配给中心点】：将每一个数据点分配到距离（L2距离函数）最近的中心，即生成K个新集群
 	- 重拟合【寻找新的中心点】：根据新的集群分配，重新计算cluster中心（质心：cluster内数据的算数平均值）
 	- 重复迭代，直到结果收敛：不再出现新的质心
 
@@ -30,7 +30,7 @@ date: 01 July 2020
 
 ### 选取K值
 -  Elbow方法
-  - 最小化损失函数：Total within sum-of-squares 每个集群中点到质心的距离平方和
+  	- 最小化损失函数：Total within sum-of-squares 每个集群中点到质心的距离平方和
 	- 选取不同的K值，并将不同K值所对应的损失函数画成折线
 	- 找knee bend: 某个K值之前总平方和急速减少，但在这个K值之后减少的幅度大大降低 -> 该K值为最大集群数
 - Silhouette Coefficient轮廓系数
@@ -58,7 +58,7 @@ date: 01 July 2020
 ### 用距离定义相似性
 - 两个点之间的距离：常用欧式距离
 - 两个集群之间的距离
-  - Complete linkage: maximum 
+	- Complete linkage: maximum 
 	- Single linkage: minimum
 	- Average linkage: mean
 	- Ward: Minimize within cluster variance将两个cluster融合成一个的距离差平方和【准确率最高】
