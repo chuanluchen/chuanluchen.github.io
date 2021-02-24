@@ -22,6 +22,7 @@ featured: true
 
 ## 监督学习
 - [线性回归](/collection/DS_notes/linear_regression/) 
+  - [正则化](/collection/DS_notes/regularization/)  
 - [SVM支持向量机](/collection/DS_notes/SVM/) 
 - [Naive Bayes朴素贝叶斯](/collection/DS_notes/Naive_Bayes/) 
 - [Decision Tree决策树](/collection/DS_notes/Decision_Tree/) 
