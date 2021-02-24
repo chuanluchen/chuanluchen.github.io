@@ -23,7 +23,7 @@ date: 01 July 2020
 
 ## 正则化关键
 - 随着惩罚系数增加，通过小幅度增加偏差，实现方差大幅度下降
-- 正则化之前要进行standardize
+- 正则化之前要进行standardize/scale
 
 
 
