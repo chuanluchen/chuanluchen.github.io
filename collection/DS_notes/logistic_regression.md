@@ -8,7 +8,7 @@ date: 01 July 2020
 - Logistic Regression名字叫回归，实际是分类算法。**将线性拟合结果通过一个激活函数【最常见sigmoid函数】映射为一个(0,1)的概率值**，从而完成对事件发生概率的预测 
 - Logistic regression相当于单层神经网络
 <br>
-<img src="/assets/img/knowledge/logistic_regression/logistic_regression.jpg"  width='80%'/>
+<img src="/assets/img/knowledge/logistic_regression/logistic_regression.jpg"  width='70%'/>
 <br><br>
 
 - 优
@@ -43,7 +43,7 @@ date: 01 July 2020
 - softmax函数将原始概率分布进行e的指数次方变换并进行归一化，视作每个类别的概率 -> 使得所有类别的概率之和为1
 - Softma使用交叉熵损失函数
 <br>
-<img src="/assets/img/knowledge/logistic_regression/logistic_regression3.jpg"  width='80%'/>
+<img src="/assets/img/knowledge/logistic_regression/logistic_regression3.jpg"  width='70%'/>
 <br><br>
 
 ### 多分类logistic regression vs. softmax
