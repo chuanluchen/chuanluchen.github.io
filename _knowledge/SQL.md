@@ -658,6 +658,16 @@ and a.student_id <>  b.student_id
 and b.student_id <>  c.student_id
 and a.student_id <>  c.student_id
 ~~~
+
+### 1633. Percentage of Users Attended a Contest
+
+~~~sql
+select r.contest_id as contest_id, round(count(distinct r.user_id) / t.total_user*100,2) as percentage
+from Register r, (select count(distinct user_id) as total_user from Users) t
+group by r.contest_id
+order by percentage desc, contest_id
+~~~
+
 ### 1661. Average Time of Process per Machine
 
 ~~~sql
