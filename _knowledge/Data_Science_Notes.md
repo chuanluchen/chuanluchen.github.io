@@ -35,7 +35,9 @@ featured: true
     - [XGBoost](/collection/DS_notes/XGBoost/) 
     - [LightGBM](/collection/DS_notes/LightGBM/) 
     - [CatBoost](/collection/DS_notes/CatBoost/) 
-      
+
+## 无监督学习
+- [聚类分析 vs, 降维](/collection/DS_notes/unsupervised/) 
   
 ## Text Analysis
 - [BERT模型关键词提取](/collection/DS_notes/KeywordsExtraction/) 
