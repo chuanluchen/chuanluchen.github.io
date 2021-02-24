@@ -38,6 +38,7 @@ featured: true
 
 ## 无监督学习
 - [聚类分析 vs. 降维](/collection/DS_notes/unsupervised/) 
+- [聚类算法](/collection/DS_notes/clustering/) 
   
 ## Text Analysis
 - [BERT模型关键词提取](/collection/DS_notes/KeywordsExtraction/) 
