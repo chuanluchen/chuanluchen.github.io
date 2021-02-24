@@ -31,3 +31,20 @@ date: 01 July 2020
 - 加入交互项 Interaction
 - 加入非线性：polynomial feature
 - 正则化 regularization: L1, L2, elastic net
+
+## 应对多分类问题
+- 本质上Logistic regression只能完成二分类
+- 处理多分类思路有两种
+	- one vs. one：每两个分类之间确定一个决策边界，取概率最大者作为自己的类别
+	- one vs. rest：对于是此类/不是此类确定n个决策边界，取概率最大者作为自己的类别
+### Softmax
+- softmax是Logistic Regression在多分类的推广，各个类别之间互斥
+- softmax函数将原始概率分布进行e的指数次方变换并进行归一化，视作每个类别的概率 -> 使得所有类别的概率之和为1
+- Softma使用交叉熵损失函数
+<br>
+<img src="/assets/img/knowledge/logistic_regression/logistic_regression3.jpg"  width='80%'/>
+<br><br>
+
+### 多分类logistic regression vs. softmax
+- 类别之间互斥用softmax
+- 类别之间有相交用multinomial logistic regression
