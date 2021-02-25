@@ -32,7 +32,7 @@ $$\text {估计总体的标准差}=\sqrt{\frac{\sum(x-\mu)^{2}}{n-1}}$$
 ## 	样本平均值概率分布
 - 样本平均值概率
 <br>
-<img src="/assets/img/knowledge/statistics/mean_distrition.jpg"  width='50%'/>
+<img src="/assets/img/knowledge/statistics/mean_distribution.jpg"  width='50%'/>
 <br><br>		
 - 判断样本是否属于总体
   - 有68%的样本平均值会在总体平均值一个标准误差的范围之内
