@@ -44,3 +44,6 @@ featured: true
 ## Text Analysis
 - [BERT模型关键词提取](/collection/DS_notes/KeywordsExtraction/) 
 
+## 统计知识
+- [大数定理](/collection/DS_notes/law_of_large_numbers/) 
+- [中心极限定理](/collection/DS_notes/central_limit_theorem/) 
