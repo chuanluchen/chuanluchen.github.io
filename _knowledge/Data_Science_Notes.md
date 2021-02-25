@@ -48,3 +48,4 @@ featured: true
 - [大数定理](/collection/DS_notes/law_of_large_numbers/) 
 - [中心极限定理](/collection/DS_notes/central_limit_theorem/) 
 - [置信水平与置信区间](/collection/DS_notes/confidence_interval/) 
+- [辛普森悖论](/collection/DS_notes/simpson_paradox/) 
