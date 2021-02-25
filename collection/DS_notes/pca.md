@@ -27,11 +27,11 @@ date: 01 July 2020
 - 假设有m条n维数据
 1. 每行放一个特征：将原始数据按列组成n行m列矩阵X
 2. 零均值化：将X的每一行(一行一个字段)进行零均值化（每个值-行均值）-> 减去均值后的样本矩阵为DataAdjust(n * m)
-3. 求出协方差矩阵C= 1/m XX<sup>T</sup> 【对角线上是方差，非对角线上是协方差】
+3. 求出协方差矩阵$$C=\frac{1}{m} X X^{T}$$ 【对角线上是方差，非对角线上是协方差】
 4. 求出协方差矩阵的特征值及对应的特征向量
 5. 将特征向量按对应特征值大小从上到下排列成矩阵，取前K行组成特征向量矩阵P【EigenVectors(k * n)】 
 6. 将样本点投影到选取的特征向量上【特征向量矩阵 X样本矩阵 】, Y=PX即为降维到K维后的数据
-		FinalData(k * m)  = EigenVectors(k * n) X DataAdjust(n * m)
+		$$FinalData(k \times m)  = EigenVectors(k \times n) \times  DataAdjust(n \times m)$$
 
 ## 优劣
 - 优：很好解决线性相关
