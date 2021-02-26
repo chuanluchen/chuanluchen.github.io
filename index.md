@@ -22,7 +22,7 @@ title: Welcome
 * [所见所想]{:.heading.flip-title} --- 站在数据科学与多个学科领域的交叉点，有很多方向值得探索。
 * [知识图谱]{:.heading.flip-title} --- 文科小白进入数据科学的知识版图。
 * [关于陈传露]{:.heading.flip-title} --- 走过的路，见过的人，担过的事。
-* [关于张硕奇]{:.heading.flip-title} --- 横跨三大洲的足迹。
+* [关于张硕奇]{:.heading.flip-title} --- 横跨三大洲的工作经历。
  
 {:.related-posts.faded}
 
