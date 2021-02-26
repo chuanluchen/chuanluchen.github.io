@@ -17,9 +17,16 @@ right_column:
  - languages
  - skills
  - interests
-basics:
-  name: "陈传露" 
-  label: "Programmer"
-  picture: "/assets/icons/icon.png"
+resume:[
+  basics:
+    name: "陈传露" 
+    label: "Programmer"
+    picture: "/assets/icons/icon.png"
+  ,
+  basics:
+    name: "陈传露" 
+    label: "Programmer"
+    picture: "/assets/icons/icon.png"  
+  ]  
 
 ---
