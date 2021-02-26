@@ -1,6 +1,6 @@
 ---
 layout: resume
-title: 张硕奇
+title: 关于张硕奇
 description: >
   <i>""</i>
 hide_description: true
