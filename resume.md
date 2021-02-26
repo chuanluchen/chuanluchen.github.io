@@ -17,10 +17,11 @@ right_column:
  - languages
  - skills
  - interests
+
 resume:
   basics:
-    name: ["陈传露"，"张傻傻"] 
-    label: "Programmer"
-    picture: "/assets/icons/icon.png"    
-
+    name: "Richard Hendricks" 
+    label: "Programmer" 
+    picture: "/assets/icons/icon.png" 
+    # ...
 ---
