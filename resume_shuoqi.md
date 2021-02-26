@@ -107,7 +107,6 @@ resume:
       studyType: "管理培训生"
       startDate: "2015-09-01"
       endDate: "2017-01-01"
-
     - institution: "中国科学技术大学  信息学院"
       area: "自动化"
       studyType: "工学学士"
