@@ -17,13 +17,9 @@ right_column:
  - languages
  - skills
  - interests
-resume:
-  - basics:
-      name: "陈传露" 
-      label: "Programmer"=
-      picture: "/assets/icons/icon.png"
-  - basics:
-      name: "张大大" 
-      label: "Data Science"
-      picture: "/assets/icons/icon.png"
+basics:
+  name: "陈传露" 
+  label: "Programmer"
+  picture: "/assets/icons/icon.png"
+
 ---
