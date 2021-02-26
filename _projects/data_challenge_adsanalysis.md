@@ -44,5 +44,5 @@ featured: false
 - 查看系数和p-value,以判断趋势是显著上升、显著下降还是持平。
 
 ## 完整项目
-<iFrame seamless frameborder="0" src='assets/img/projects/DataScience/20_Ads_Analysis.html' width="100%" height="800vh" scrolling="yes"> </iFrame>
+<iFrame seamless frameborder="0" src='/assets/img/projects/DataScience/20_Ads_Analysis.html' width="100%" height="600vh" scrolling="yes"> </iFrame>
 
