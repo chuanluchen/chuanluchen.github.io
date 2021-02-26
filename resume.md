@@ -17,12 +17,12 @@ right_column:
  - languages
  - skills
  - interests
-resume1:
+resume:
   basics:
     name: "陈传露" 
     label: "Programmer" 
     picture: "/assets/icons/icon.png"
-resume2:
+resume:
   basics:  
     name: "张大大" 
     label: "Data Science" 
