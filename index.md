@@ -28,7 +28,7 @@ title: Welcome
 
 [数据故事]: projects/
 [所见所想]: blog/
-[关于陈传露]:/resume
-[关于张硕奇]:/resume2
+[关于陈传露]:/resume_chuanlu
+[关于张硕奇]:/resume_shuoqi
 [知识图谱]: knowledge/
 
