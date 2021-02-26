@@ -75,8 +75,7 @@ resume:
         Project cost controller of the first CBTC metro project of Hitachi Rail in North America<br>
         Bid controller of all tenders in North America and South America<br>
         Core team of the Ansaldo/Hitachi integration initiative, reported to the C-suites<br>
-        Core team of the company strategic initiatives, focusing on internal process improvement and change management<br>
-        独立纪录电影《飞鱼秀》 制片人
+        Core team of the company strategic initiatives, focusing on internal process improvement and change management
   #    highlights:
   #      - "负责用户行为和市场需求研究，主导影片市场调研的招标和框架设计，对接乙方开展定性挖掘(5城市12组座谈)和定量问卷调查（8城市1200问卷），用于锁定目标观众群，验证影片定位和测试片名接受度；"
   #      - "协助制片人进行日常剧组管理，参与指定和维护影片拍摄排期及预算计划；"   
@@ -93,33 +92,28 @@ resume:
   #    highlights:
   #      - "Awarded 'Teacher of the Month'"
   education:
-    - institution: "匹兹堡大学  计算机与信息学院"
+    - institution: "卡耐基梅隆大学  Heinz学院"
       area: "数据科学"
       studyType: "工学硕士"
-      startDate: "2019-01-01"
-      endDate: "2021-01-01"
+      startDate: "2019-08-01"
+      endDate: "2021-08-01"
   #    gpa: "4.0"
   #    courses:
   #      - "DB1101 - Basic SQL"
   #      - "CS2011 - Java Introduction"
 
-    - institution: "纽约大学  电影学院"
-      area: "电影研究"
-      studyType: "文学硕士"
-      startDate: "2015-09-01"
-      endDate: "2017-01-01"
+    - institution: "Finmeccanica  FHINK Master Programme"
+      area: "商业管理"
+      studyType: "管理培训生"
+      startDate: "2012-10-01"
+      endDate: "2013-07-31"
 
-    - institution: "清华大学  新闻与传播学院"
-      area: "影视传播研究"
-      studyType: "文学硕士"
-      startDate: "2008-09-01"
-      endDate: "2011-07-01"
-
-    - institution: "复旦大学  新闻学院"
-      area: "新闻学"
-      studyType: "文学学士"
+    - institution: "中国科学技术大学  信息学院"
+      area: "自动化"
+      studyType: "工学学士"
       startDate: "2004-09-01"
       endDate: "2008-07-01"
+      
   #awards:
   #  - title: "Digital Compression Pioneer Award"
   #    date: "2014-11-01"
