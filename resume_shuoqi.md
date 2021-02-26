@@ -45,17 +45,17 @@ resume:
   #    region: "Pennsylvania"
     profiles:
       - network: "Github"
-        username: "ChuanluChen"
-        url: "https://github.com/chuanluchen"
+        username: "ShuoqiZhang"
+        url: "https://github.com/shuoqiz"
       - network: "LinkedIn"
-        username: "ChuanluChen"
-        url: "https://www.linkedin.com/in/chuanluchen"
+        username: "ShuoqiZhang"
+        url: "https://www.linkedin.com/in/shuoqizhang"
   work:
-    - company: "乐视影业"
-      position: "数据经理"
+    - company: "Hitachi Rail STS - USA"
+      position: "Senior Project/Bid Controller"
       #website: "https://piedpiper.com"
-      startDate: "2014-12-01"
-      endDate: "2015-04-01"
+      startDate: "2018-10-01"
+      endDate: "present"
   #    summary: >
   #      服务于《太平轮(下)·彼岸》(2015)，《九层妖塔》(2015)等电影项目，通过定性研究和定量调研，对市场策略团队提供决策支持。
   #    highlights:
