@@ -33,10 +33,10 @@ resume:
       <br><br>
       在我眼中，一个好的数据科学家，应该懂统计，会代码，有良好的商业意识，并具备优秀的沟通能力。这也是我努力的方向。
       <br><br>
-      我喜欢接触和学习新东西，更享受解决问题的过程。
+      不上班也不上课的时候，我喜欢烘焙和撸铁，并且我还是ACE认证的私教。
       <br><br>
 
-      [<strong>* 更多细节，请下载我的简历 *</strong>](/assets/Resume_CHEN,Chuanlu.pdf)
+  #    [<strong>* 更多细节，请下载我的简历 *</strong>](/assets/Resume_CHEN,Chuanlu.pdf)
   #  location:
   #    address: "5645 Hempstead Rd APT 9"
   #    postalCode: "PA 15217"
