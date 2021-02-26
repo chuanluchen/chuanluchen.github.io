@@ -72,8 +72,11 @@ resume:
       startDate: "2012-12-01"
       endDate: "2016-09-30"
       summary: >
-        电影《无问西东》  制片人助理/商业分析<br>
-        独立纪录电影《飞鱼秀》  制片人
+        Project cost controller of the first CBTC metro project of Hitachi Rail in North America<br>
+        Bid controller of all tenders in North America and South America<br>
+        Core team of the Ansaldo/Hitachi integration initiative, reported to the C-suites<br>
+        Core team of the company strategic initiatives, focusing on internal process improvement and change management<br>
+        独立纪录电影《飞鱼秀》 制片人
   #    highlights:
   #      - "负责用户行为和市场需求研究，主导影片市场调研的招标和框架设计，对接乙方开展定性挖掘(5城市12组座谈)和定量问卷调查（8城市1200问卷），用于锁定目标观众群，验证影片定位和测试片名接受度；"
   #      - "协助制片人进行日常剧组管理，参与指定和维护影片拍摄排期及预算计划；"   
