@@ -1,7 +1,7 @@
 ---
 layout: project
 title: '如何评估在线广告？'
-date: 14 January 2021
+date: 24 January 2021
 image:  
   path: /assets/img/projects/DataScience/ads_analysis_cover.jpg
 caption: Data Challenge：广告分析
