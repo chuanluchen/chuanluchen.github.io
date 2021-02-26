@@ -22,8 +22,7 @@ resume:
     name: "陈传露" 
     label: "Programmer" 
     picture: "/assets/icons/icon.png"
-resume:
-  basics:
+  
     name: "张大大" 
     label: "Data Science" 
     picture: "/assets/icons/icon.png"
