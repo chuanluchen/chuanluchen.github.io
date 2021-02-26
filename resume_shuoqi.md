@@ -22,7 +22,7 @@ resume:
   basics:
     name: "张硕奇"
     label: "数据科学家"
-    #picture: "https://placehold.it/240x240"
+    picture: "assets/img/setting/avatar_zhangshuoqi.jpg"
     email: "chuanlu.chen@gmail.com"
     #phone: "(912) 555-4321"
     website: "https://chuanluchen.github.io/"
