@@ -55,7 +55,7 @@ resume:
       position: "Senior Project/Bid Controller"
       #website: "https://piedpiper.com"
       startDate: "2018-10-01"
-      endDate: "present"
+      endDate: "2021-12-31"
   #    summary: >
   #      服务于《太平轮(下)·彼岸》(2015)，《九层妖塔》(2015)等电影项目，通过定性研究和定量调研，对市场策略团队提供决策支持。
   #    highlights:
