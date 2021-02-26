@@ -19,7 +19,11 @@ right_column:
  - interests
 resume:
   basics:
-    name: "Richard Hendricks" 
+    name: "陈传露" 
+    label: "Programmer" 
+    picture: "/assets/icons/icon.png"
+  basics:
+    name: "张大大" 
     label: "Programmer" 
     picture: "/assets/icons/icon.png"
 ---
