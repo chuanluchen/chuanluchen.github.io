@@ -61,11 +61,16 @@ resume:
   #    highlights:
   #      - "对社交网络进行持续数据追踪，监测观众口碑趋势，评估物料投放效果，分析竞品表现；"
   #      - "主持焦点小组访谈，参与组织观众试映会，撰写可视化研究报告，向宣发团队提出不限于片名、故事内核、影片调性、物料方向、宣传侧重的操作性建议。"
-    - company: "文津时代文化创意（北京）股份有限公司"
-      position: "影视部总经理助理"
+    - company: "Hitachi Rail STS - USA"
+      position: "Performance Excellence - Senior Lean Transformation Engineer"
       #website: "https://piedpiper.com"
-      startDate: "2011-07-01"
-      endDate: "2014-10-01"
+      startDate: "2016-10-01"
+      endDate: "2018-09-30"
+    - company: "Hitachi Rail STS - Italy"
+      position: "Corporate Strategy - Process Engineer"
+      #website: "https://piedpiper.com"
+      startDate: "2012-12-01"
+      endDate: "2016-09-30"
       summary: >
         电影《无问西东》  制片人助理/商业分析<br>
         独立纪录电影《飞鱼秀》  制片人
