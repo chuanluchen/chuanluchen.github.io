@@ -22,18 +22,18 @@ resume:
   basics:
     name: "张硕奇"
     label: "数据科学家"
-    picture: "assets/img/setting/avatar_zhangshuoqi.jpg"
-    email: "chuanlu.chen@gmail.com"
-    #phone: "(912) 555-4321"
+    #picture: "https://placehold.it/240x240"
+    email: "shuoqiz@andrew.cmu.com"
+    #phone: "135-2043-0064"
     website: "https://chuanluchen.github.io/"
     summary: >
-      我叫陈传露，目前是一名电影研究者 + 数据科学家。
+      我叫张硕奇，目前就职于Hitachi Rail，同时也是卡耐基梅隆大学Heinz学院Business Intelligence and Data Analytics项目在读研究生。
       <br><br>
-      曾经我是一位电影人，受过清华大学和纽约大学的学术训练，也有过5年电影制作、市场研究的工作经验。最近的两年，我个人对人工智能技术、数据科学技术产生了极大兴趣。同时， 我意识到这些技术的应用将为我所在的行业带来新的机会。于是，我投入到了这片全新领域的探索。
+      八年工作中，我的足迹跨越三大洲————从斯德哥尔摩到罗马，到北京，到热那亚，到匹兹堡，再回到上海。旅居意大利期间，我在公司总部企业战略部门工作。来到美国后，我的工作重心转移到项目控制以及投标成本估算和风险控制。多年的工作经验，无论是在总部还是在一线项目执行，在培养了我对于商业的理解的同时，也让我看到了传统行业中对于数据采集和使用的局限性。这两年系统性地接受数据科学的教育之后，我看到了机器学习，数据挖掘，和人工智能改变传统行业的机会。
       <br><br>
-      我相信系统化的数据科学训练，加之多年影视行业制作与研究经历，将我塑造成为懂业务又懂技术的传媒领域数据科学家。
+      在我眼中，一个好的数据科学家，应该懂统计，会代码，有良好的商业意识，并具备优秀的沟通能力。这也是我努力的方向。
       <br><br>
-      我擅长逻辑归纳与理性思考，享受顺畅敲打代码的乐趣，并坚持每天学点儿新东西。
+      我喜欢接触和学习新东西，更享受解决问题的过程。
       <br><br>
 
       [<strong>* 更多细节，请下载我的简历 *</strong>](/assets/Resume_CHEN,Chuanlu.pdf)
@@ -45,30 +45,37 @@ resume:
   #    region: "Pennsylvania"
     profiles:
       - network: "Github"
-        username: "ChuanluChen"
-        url: "https://github.com/chuanluchen"
+        username: "ShuoqiZhang"
+        url: "https://github.com/shuoqiz"
       - network: "LinkedIn"
-        username: "ChuanluChen"
-        url: "https://www.linkedin.com/in/chuanluchen"
+        username: "ShuoqiZhang"
+        url: "https://www.linkedin.com/in/shuoqizhang"
   work:
-    - company: "乐视影业"
-      position: "数据经理"
+    - company: "Hitachi Rail STS - USA"
+      position: "Senior Project/Bid Controller"
       #website: "https://piedpiper.com"
-      startDate: "2014-12-01"
-      endDate: "2015-04-01"
+      startDate: "2018-10-01"
+      endDate: "present"
   #    summary: >
   #      服务于《太平轮(下)·彼岸》(2015)，《九层妖塔》(2015)等电影项目，通过定性研究和定量调研，对市场策略团队提供决策支持。
   #    highlights:
   #      - "对社交网络进行持续数据追踪，监测观众口碑趋势，评估物料投放效果，分析竞品表现；"
   #      - "主持焦点小组访谈，参与组织观众试映会，撰写可视化研究报告，向宣发团队提出不限于片名、故事内核、影片调性、物料方向、宣传侧重的操作性建议。"
-    - company: "文津时代文化创意（北京）股份有限公司"
-      position: "影视部总经理助理"
+    - company: "Hitachi Rail STS - USA"
+      position: "Performance Excellence - Senior Lean Transformation Engineer"
       #website: "https://piedpiper.com"
-      startDate: "2011-07-01"
-      endDate: "2014-10-01"
+      startDate: "2018-09-30"
+      endDate: "2016-10-01"
+    - company: "Hitachi Rail STS - Italy"
+      position: "Corporate Strategy - Process Engineer"
+      #website: "https://piedpiper.com"
+      startDate: "2012-12-01"
+      endDate: "2016-09-30"
       summary: >
-        电影《无问西东》  制片人助理/商业分析<br>
-        独立纪录电影《飞鱼秀》  制片人
+        Project cost controller of the first CBTC metro project of Hitachi Rail in North America<br>
+        Bid controller of all tenders in North America and South America<br>
+        Core team of the Ansaldo/Hitachi integration initiative, reported to the C-suites<br>
+        Core team of the company strategic initiatives, focusing on internal process improvement and change management
   #    highlights:
   #      - "负责用户行为和市场需求研究，主导影片市场调研的招标和框架设计，对接乙方开展定性挖掘(5城市12组座谈)和定量问卷调查（8城市1200问卷），用于锁定目标观众群，验证影片定位和测试片名接受度；"
   #      - "协助制片人进行日常剧组管理，参与指定和维护影片拍摄排期及预算计划；"   
@@ -85,33 +92,28 @@ resume:
   #    highlights:
   #      - "Awarded 'Teacher of the Month'"
   education:
-    - institution: "匹兹堡大学  计算机与信息学院"
+    - institution: "卡耐基梅隆大学  Heinz学院"
       area: "数据科学"
       studyType: "工学硕士"
-      startDate: "2019-01-01"
-      endDate: "2021-01-01"
+      startDate: "2019-08-01"
+      endDate: "2021-08-01"
   #    gpa: "4.0"
   #    courses:
   #      - "DB1101 - Basic SQL"
   #      - "CS2011 - Java Introduction"
 
-    - institution: "纽约大学  电影学院"
-      area: "电影研究"
-      studyType: "文学硕士"
+    - institution: "Finmeccanica FHINK Master Programme"
+      area: "商业管理"
+      studyType: "管理培训生"
       startDate: "2015-09-01"
       endDate: "2017-01-01"
 
-    - institution: "清华大学  新闻与传播学院"
-      area: "影视传播研究"
-      studyType: "文学硕士"
-      startDate: "2008-09-01"
-      endDate: "2011-07-01"
-
-    - institution: "复旦大学  新闻学院"
-      area: "新闻学"
-      studyType: "文学学士"
+    - institution: "中国科学技术大学  信息学院"
+      area: "自动化"
+      studyType: "工学学士"
       startDate: "2004-09-01"
       endDate: "2008-07-01"
+
   #awards:
   #  - title: "Digital Compression Pioneer Award"
   #    date: "2014-11-01"
