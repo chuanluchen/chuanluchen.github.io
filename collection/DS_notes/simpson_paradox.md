@@ -6,7 +6,7 @@ date: 01 July 2020
 ---
 ## 经典案例
 <br>
-<img src="/assets/img/knowledge/statistics/simpson.jpg"  width='70%'/>
+<img src="/assets/img/knowledge/statistics/simpon.jpg"  width='70%'/>
 <br><br>
 - 通过性别研究大学录取率
 - 从分组角度看，男生录取率高；从整体看，女生录取率高 -> 仿佛得到两个相悖的结论
