@@ -215,7 +215,7 @@ for i in range(len(feat_original)):
 <br><br>
 
 ### 3.4 PDP解读
-- y轴值越大，feature约重要
+- y轴值越大，feature越重要
 - y值的涵义：对指定变量做改变，会对结果带来多大的变化
 		
 ### 3.5 优劣
