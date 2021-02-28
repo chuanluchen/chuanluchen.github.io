@@ -570,8 +570,10 @@ where mail regexp '^[a-zA-Z]+[a-zA-Z0-9\\_\\.\\-]*@leetcode\\.com$'
 ### 1527. Patients With a Condition
 - %字符串模糊匹配
 ~~~sql
-select * from Patients
-where conditions like '%DIAB1%'
+select  *
+from patients
+where conditions like 'DIAB1%' 
+or conditions like '% DIAB1%'
 ~~~
 
 ### 1543. Fix Product Name Format
