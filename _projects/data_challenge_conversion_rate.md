@@ -6,6 +6,7 @@ image:
   path: /assets/img/projects/DataScience/conversion_rate_cover.jpg
 caption: Data Challenge：转化率预测及提升建议
 hide_image: false
+show_collection: Data to Action
 featured: false
 ---
 
