@@ -1,7 +1,7 @@
 ---
 layout: project
 title: '如何科学地调价？'
-date: 13 January 2021
+date: 04 March 2021
 image:  
   path: /assets/img/projects/DataScience/pricing_test_cover.jpg
 caption: Data to Action：价格AB Test
@@ -9,7 +9,7 @@ hide_image: false
 featured: false
 ---
 
-## 商业问题
+## 总结
 **商业诉求：提价是否合理？**
 - 背景：你的公司在出售一款$39的软件，老板希望测试一下价格从$39提升到$59是否可行？
 - 任务：
