@@ -6,5 +6,5 @@ show_collection: knowledge
 description: >
   The Learning Path Towards Data Science
 permalink: /knowledge/
-order: 3
+order: 5
 ---
