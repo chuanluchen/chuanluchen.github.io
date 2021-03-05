@@ -261,6 +261,10 @@ collections:
   datatoaction:
     permalink:         /datatoaction/:path/
     output:            true
+  
+  visualization:
+    permalink:         /visualization/:path/
+    output:            true
 
   knowledge:
     permalink:         /knowledge/:path/
