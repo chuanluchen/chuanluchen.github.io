@@ -257,6 +257,10 @@ collections:
   projects:
     permalink:         /projects/:path/
     output:            true
+  
+  datatoaction:
+    permalink:         /datatoaction/:path/
+    output:            true
 
   knowledge:
     permalink:         /knowledge/:path/
