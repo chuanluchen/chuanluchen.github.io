@@ -5,7 +5,7 @@ description: >
   <i>""</i>
 hide_description: true
 menu: true
-order: 5
+order: 7
 left_column:
  - work
  - volunteer
