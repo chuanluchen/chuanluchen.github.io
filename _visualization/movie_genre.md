@@ -6,7 +6,7 @@ image:
   path: /assets/img/projects/dataviz/movie_genre_corr.jpg
 caption: 可视化：Chord图探索共同出现的电影类型
 description: >
-  数据来自于公开数据集。[数据来源](https://openflights.org/data.html)
+  数据来自于作者独家数据集。[详细项目内容](https://chuanluchen.github.io/projects/movie_profitability_predictor/)
 hide_image: true
 ---
 <iFrame seamless frameborder="0" 
