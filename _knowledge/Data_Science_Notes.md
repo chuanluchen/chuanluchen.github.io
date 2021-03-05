@@ -2,7 +2,7 @@
 layout: project
 title: 'Data Science知识笔记'
 date: 01 March 2021
-screenshot: /assets/img/knowledge/knowledge_cover.png
+screenshot: /assets/img/knowledge/knowledge_cover.jpg
 featured: true
 ---
 ## 机器学习基本问题
