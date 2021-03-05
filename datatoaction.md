@@ -1,5 +1,5 @@
 ---
-layout: datatoaction
+layout: projects
 title: 30分钟的商业对策
 show_collection: datatoaction
 description: >
