@@ -23,7 +23,7 @@ featured: true
 </iFrame>
 <br>
 <br><br>
-<img src="/assets/img/projects/hollywood_netwok/degreelist.jpg"/>
+<img src="/assets/img/projects/hollywood_netwok/degreelist.jpg" width='60%'/>
 <br><br>
 
 点度中心性评估的是一个节点所拥有的直接连接的数量，也就是边的数量，又称为“度”。在社会网络中，一个人的连接的数量越多，点度中心性就越高，其社会关系越多。
@@ -35,7 +35,7 @@ featured: true
 </iFrame>
 <br>
 <br><br>
-<img src="/assets/img/projects/hollywood_netwok/eigenlist.jpg"/>
+<img src="/assets/img/projects/hollywood_netwok/eigenlist.jpg" width='60%'/>
 <br><br>
 特征向量中心性不仅评估直接连接的数量，还考虑相连节点的重要性。其隐含的假设就是，与你相连的人越重要，你就越重要。
 在上面的网络图中，我们发现罗伯特·德尼罗不负众望地再次登顶。而后面几位的排序有了些许变化，这意味着音乐家詹姆斯·牛顿·霍华德，制片人斯科特·鲁丁，“硬汉”布鲁斯·威利斯，音乐家马克·伊夏，相比其他几位，跟更加重量级的任务合作过。
@@ -46,7 +46,7 @@ featured: true
 </iFrame>
 <br>
 <br><br>
-<img src="/assets/img/projects/hollywood_netwok/betweennesslist.jpg"/>
+<img src="/assets/img/projects/hollywood_netwok/betweennesslist.jpg" width='60%'/>
 <br><br>
 任何两点之间都存在一条最短路径。当一个节点更多地出现其它成员的最短路径之上，那么该节点的中介中心性就越高。中介中心性的现实意义是，当一个社会网络中存在多个群落的时候，中介中心性高的点更适合充当不同群落之间沟通的桥梁。
 在以上的网络图中，我们看到来自印度的作曲家拉赫曼具有最高的中介中心性，他成功地沟通了好莱坞团队和印度制作团。紫色代表的美国主创人员和蓝绿色代表的英国主创人员相对均匀嵌入在好莱坞网络中。而威廉·莎士比亚作为最成功的剧作家，因其作品数次被翻拍，成功地成为了多个群落的桥梁。值得一提的是，我们在这个网络图中我们看到了成龙和李连杰，他们成为了好莱坞沟通中国制作团队的桥梁。
@@ -57,7 +57,7 @@ featured: true
 </iFrame>
 <br>
 <br><br>
-<img src="/assets/img/projects/hollywood_netwok/closenesslist.jpg"/>
+<img src="/assets/img/projects/hollywood_netwok/closenesslist.jpg" width='60%'/>
 <br><br>
 
 接近中心性计算的一个点到其它所有点的距离之和。如果一个节点到图中其它节点的距离都很小，那么它具有很高的接近中心性。在一个复杂的社会网络中，接近中心性高的人物扮演的是“社会活动家”的角色。
