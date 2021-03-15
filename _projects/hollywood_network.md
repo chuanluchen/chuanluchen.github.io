@@ -19,10 +19,8 @@ featured: true
 
 ## 点度中心性：谁拥有最多的合作者
 <iFrame seamless frameborder="0"
-  src='/assets/img/projects/hollywood_netwok/degree_importance.html'  width="100%" height="800vh" scrolling="no">
+  src='/assets/img/projects/hollywood_netwok/degree_importance.html'  width="120%" height="600vh" scrolling="yes">
 </iFrame>
-<br>
-<br><br>
 <img src="/assets/img/projects/hollywood_netwok/degreelist.jpg" width='60%'/>
 <br><br>
 
