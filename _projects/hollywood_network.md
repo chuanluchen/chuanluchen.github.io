@@ -29,10 +29,8 @@ featured: true
 
 ## 特征向量中心性：谁跟重量级人物合作
 <iFrame seamless frameborder="0"
-  src='/assets/img/projects/hollywood_netwok/eigencentrality_importance.html'  width="100%" scrolling="yes">
+  src='/assets/img/projects/hollywood_netwok/eigencentrality_importance.html'  width="120%" height="600vh" scrolling="yes">
 </iFrame>
-<br>
-<br><br>
 <img src="/assets/img/projects/hollywood_netwok/eigenlist.jpg" width='60%'/>
 <br><br>
 特征向量中心性不仅评估直接连接的数量，还考虑相连节点的重要性。其隐含的假设就是，与你相连的人越重要，你就越重要。
@@ -40,10 +38,8 @@ featured: true
 
 ## 中介中心性：谁是连接不同合作群落的桥梁
 <iFrame seamless frameborder="0"
-  src='/assets/img/projects/hollywood_netwok/betweencentrality_importance.html'  width="100%" height="800vh" scrolling="no">
+  src='/assets/img/projects/hollywood_netwok/betweencentrality_importance.html'  width="120%" height="600vh" scrolling="yes">
 </iFrame>
-<br>
-<br><br>
 <img src="/assets/img/projects/hollywood_netwok/betweennesslist.jpg" width='60%'/>
 <br><br>
 任何两点之间都存在一条最短路径。当一个节点更多地出现其它成员的最短路径之上，那么该节点的中介中心性就越高。中介中心性的现实意义是，当一个社会网络中存在多个群落的时候，中介中心性高的点更适合充当不同群落之间沟通的桥梁。
@@ -51,10 +47,8 @@ featured: true
 
 ## 接近中心性
 <iFrame seamless frameborder="0"
-  src='/assets/img/projects/hollywood_netwok/closenesscentrality_importance.html'  width="100%" height="800vh" scrolling="no">
+  src='/assets/img/projects/hollywood_netwok/closenesscentrality_importance.html'  width="120%" height="600vh" scrolling="yes">
 </iFrame>
-<br>
-<br><br>
 <img src="/assets/img/projects/hollywood_netwok/closenesslist.jpg" width='60%'/>
 <br><br>
 
