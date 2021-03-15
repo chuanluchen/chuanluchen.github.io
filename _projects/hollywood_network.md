@@ -19,7 +19,7 @@ featured: true
 
 ## 点度中心性：谁拥有最多的合作者
 <iFrame seamless frameborder="0"
-  src='/assets/img/projects/hollywood_netwok/degree_importance.html'  width="120%" height="600vh" scrolling="yes">
+  src='/assets/img/projects/hollywood_netwok/degree_importance.html'  width="120%" height="800vh" scrolling="yes">
 </iFrame>
 <img src="/assets/img/projects/hollywood_netwok/degreelist.jpg" width='60%'/>
 <br><br>
@@ -29,7 +29,7 @@ featured: true
 
 ## 特征向量中心性：谁跟重量级人物合作
 <iFrame seamless frameborder="0"
-  src='/assets/img/projects/hollywood_netwok/eigencentrality_importance.html'  width="120%" height="600vh" scrolling="yes">
+  src='/assets/img/projects/hollywood_netwok/eigencentrality_importance.html'  width="120%" height="800vh" scrolling="yes">
 </iFrame>
 <img src="/assets/img/projects/hollywood_netwok/eigenlist.jpg" width='60%'/>
 <br><br>
@@ -38,7 +38,7 @@ featured: true
 
 ## 中介中心性：谁是连接不同合作群落的桥梁
 <iFrame seamless frameborder="0"
-  src='/assets/img/projects/hollywood_netwok/betweennesscentrality_importance.html'  width="120%" height="600vh" scrolling="yes">
+  src='/assets/img/projects/hollywood_netwok/betweennesscentrality_importance.html'  width="120%" height="800vh" scrolling="yes">
 </iFrame>
 <img src="/assets/img/projects/hollywood_netwok/betweennesslist.jpg" width='60%'/>
 <br><br>
@@ -47,7 +47,7 @@ featured: true
 
 ## 接近中心性
 <iFrame seamless frameborder="0"
-  src='/assets/img/projects/hollywood_netwok/closenesscentrality_importance.html'  width="120%" height="600vh" scrolling="yes">
+  src='/assets/img/projects/hollywood_netwok/closenesscentrality_importance.html'  width="120%" height="800vh" scrolling="yes">
 </iFrame>
 <img src="/assets/img/projects/hollywood_netwok/closenesslist.jpg" width='60%'/>
 <br><br>
