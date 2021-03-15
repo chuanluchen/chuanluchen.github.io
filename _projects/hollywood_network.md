@@ -31,7 +31,7 @@ featured: true
 
 ## 特征向量中心性：谁跟重量级人物合作
 <iFrame seamless frameborder="0"
-  src='/assets/img/projects/hollywood_netwok/eigencentrality_importance.html'  width="100%" height="800vh" scrolling="no">
+  src='/assets/img/projects/hollywood_netwok/eigencentrality_importance.html'  width="100%" scrolling="yes">
 </iFrame>
 <br>
 <br><br>
