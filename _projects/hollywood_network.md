@@ -38,7 +38,7 @@ featured: true
 
 ## 中介中心性：谁是连接不同合作群落的桥梁
 <iFrame seamless frameborder="0"
-  src='/assets/img/projects/hollywood_netwok/betweencentrality_importance.html'  width="120%" height="600vh" scrolling="yes">
+  src='/assets/img/projects/hollywood_netwok/betweennesscentrality_importance.html'  width="120%" height="600vh" scrolling="yes">
 </iFrame>
 <img src="/assets/img/projects/hollywood_netwok/betweennesslist.jpg" width='60%'/>
 <br><br>
