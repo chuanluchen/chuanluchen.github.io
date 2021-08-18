@@ -5,7 +5,7 @@ date: 12 Aug 2021
 image:  
   path: /assets/img/projects/Cellphone_NLP/iPhone_Galaxy_cover_pic.jpeg
 
-caption: Onlien Reviews+NLP+Real-world Dataset
+caption: Online Reviews+NLP+Real-world Dataset
 hide_image: false
 featured: true
 ---
