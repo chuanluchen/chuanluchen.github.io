@@ -1,7 +1,7 @@
 ---
 layout: project
 title: '下一个赚钱的电影项目在哪里？'
-date: 12 Jul 2020
+date: 20 Aug 2021
 image:  
   path: /assets/img/projects/movie_profitability/cinema2.jpg
 links:
