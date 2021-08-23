@@ -12,6 +12,17 @@ featured: true
 <img src="/assets/img/projects/Cellphone_NLP/iPhone_Galaxy_cover_pic.jpeg"/>
 <br><br>
 
+A quick summary:
+
+Consumer insight could add significant value to a company, especially during the period of a new product release. 
+
+Traditional ways such as focus group and interview could only reach a small sample. Also, such exercise may take a long time.
+
+NLP techniques could be adopted to analyze customer feedback and could generate actionable insight. To review the product release of iPhone 8 and Samsung Galaxy S8, here I applied the most common NLP techniques to analyze the customer insight.
+
+The analysis demonstrated the value of applying NLP techniques on a real-world problem: we can provide customer insight around some key events such as the battery swelling and release of iOS 11.0.2.
+
+
 ### **I. Background and Objectives**
 
 To understand their customers more deeply is always a direction companies are heading to and are investing heavily. Traditional survey-based study and focus group could provide valuable insight. But the content of reviews or posts of consumers on internet could serve as additional source for companies to dive into.
