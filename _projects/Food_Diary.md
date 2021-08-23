@@ -13,9 +13,13 @@ featured: true
 <br><br>
 
 A quick summary:
+
 Encouraging client to keep tracking a food diary is an important pilar of a weight management program; and fitness personal trainers should anticipate the risk of a client to quit food diary and take actions accordingly.
+
 However, this is achieved through subjective judgement and personal experience. Normally personal trainer will provide bunch of standard suggestions to the client, but we don’t know which one works.
+
 Here I trained a model to predict whether a client will stick to food diary for a long time based on one week of his or her food log and explored the impact of different factors impacting the result.
+
 Based on the analysis, I summarized the importance of those different factors and recommended three key area to focus on: setting proper Protein target, setting proper Sugar target, and ensuring enough Calorie’s intake comparing to the Calories target. 
 
 ### **I. Background and Objectives**
